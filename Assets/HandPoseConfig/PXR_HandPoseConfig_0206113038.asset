@@ -21,7 +21,7 @@ MonoBehaviour:
       fingerConfigs:
         flexionConfigs:
           min: 90
-          max: 180
+          max: 120
           width: 10
         curlConfigs:
           min: 45
@@ -106,6 +106,6 @@ MonoBehaviour:
     trackAxis: 0
     spaceType: 0
     trackTarget: 1
-    angleThreshold: 35
+    angleThreshold: 90
     thresholdWidth: 10
     holdDuration: 0.022
