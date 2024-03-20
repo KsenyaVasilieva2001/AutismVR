@@ -20,16 +20,16 @@ MonoBehaviour:
       abduction: 0
       fingerConfigs:
         flexionConfigs:
-          min: 90
-          max: 120
-          width: 10
+          min: 155
+          max: 180
+          width: 40
         curlConfigs:
           min: 45
-          max: 180
-          width: 20
+          max: 90
+          width: 40
         abductionConfigs:
           mid: 13
-          width: 6
+          width: 14.3
     index:
       handFinger: 1
       flexion: 1
@@ -39,11 +39,11 @@ MonoBehaviour:
         flexionConfigs:
           min: 144
           max: 180
-          width: 10
+          width: 50
         curlConfigs:
           min: 107
           max: 180
-          width: 25
+          width: 50
         abductionConfigs:
           mid: 10
           width: 6
@@ -56,11 +56,11 @@ MonoBehaviour:
         flexionConfigs:
           min: 90
           max: 126
-          width: 10
+          width: 50
         curlConfigs:
           min: 0
           max: 73
-          width: 20
+          width: 50
         abductionConfigs:
           mid: 10
           width: 6
@@ -73,11 +73,11 @@ MonoBehaviour:
         flexionConfigs:
           min: 90
           max: 126
-          width: 10
+          width: 50
         curlConfigs:
           min: 0
           max: 73
-          width: 20
+          width: 50
         abductionConfigs:
           mid: 10
           width: 6
@@ -90,22 +90,22 @@ MonoBehaviour:
         flexionConfigs:
           min: 90
           max: 126
-          width: 10
+          width: 50
         curlConfigs:
           min: 0
           max: 73
-          width: 20
+          width: 50
         abductionConfigs:
           mid: 10
           width: 6
-    holdDuration: 0.09
+    holdDuration: 2
   bonesRecognizer:
     Bones: []
-    holdDuration: 0.022
+    holdDuration: 2
   transRecognizer:
     trackAxis: 0
     spaceType: 0
     trackTarget: 1
     angleThreshold: 90
-    thresholdWidth: 10
-    holdDuration: 0.022
+    thresholdWidth: 45
+    holdDuration: 2
