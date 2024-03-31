@@ -63,3 +63,263 @@
 [2024-03-20 19:40:20.794] [PSS] [error] [7260|10164]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x20f1a66fc90
 [2024-03-20 19:40:20.794] [PSS] [debug] [7260|10164]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x20f19cadd70
 [2024-03-20 19:40:20.794] [PSS] [error] [7260|10164]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x20f19cadd70
+[2024-03-21 11:58:28.947] [PSS] [info] ***********  Log Begin **********
+[2024-03-21 11:58:28.947] [PSS] [info] process id= 23360
+[2024-03-21 11:58:28.947] [PSS] [debug] [23360|36876]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x1e2e9db95d0, this= 0x1e2e9e7d840
+[2024-03-21 11:58:28.947] [PSS] [debug] [23360|36876]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= Undefined, this= 0x1e2e9e7d840
+[2024-03-21 11:58:28.947] [PSS] [debug] [23360|36876]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x1e2e9e7d840
+[2024-03-21 11:58:28.947] [PSS] [error] [23360|1572]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x1e2e9e7d840
+[2024-03-21 11:58:28.947] [PSS] [debug] [23360|1572]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1e2e9e7d840
+[2024-03-21 11:58:28.948] [PSS] [debug] [23360|1572]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x1e2c7691e30
+[2024-03-21 11:58:28.948] [PSS] [info] [23360|1572]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1e2c7691e30
+[2024-03-21 11:58:28.948] [PSS] [debug] [23360|1572]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x1e2c7691e40, this= 0x1e2406d59f0
+[2024-03-21 11:58:30.955] [PSS] [error] [23360|25176]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x1e2c7691e30
+[2024-03-21 11:58:30.956] [PSS] [debug] [23360|25176]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x1e2e9e7d840
+[2024-03-21 11:58:30.956] [PSS] [error] [23360|25176]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x1e2e9e7d840
+[2024-03-29 17:49:32.649] [PSS] [info] ***********  Log Begin **********
+[2024-03-29 17:49:32.649] [PSS] [info] process id= 46280
+[2024-03-29 17:49:32.649] [PSS] [debug] [46280|15220]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x2393b673ff0, this= 0x2383661fc60
+[2024-03-29 17:49:32.650] [PSS] [debug] [46280|15220]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= Undefined, this= 0x2383661fc60
+[2024-03-29 17:49:32.650] [PSS] [debug] [46280|15220]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x2383661fc60
+[2024-03-29 17:49:32.650] [PSS] [error] [46280|46408]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x2383661fc60
+[2024-03-29 17:49:32.650] [PSS] [debug] [46280|46408]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x2383661fc60
+[2024-03-29 17:49:32.651] [PSS] [debug] [46280|46408]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x2390c97af90
+[2024-03-29 17:49:32.651] [PSS] [info] [46280|46408]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x2390c97af90
+[2024-03-29 17:49:32.651] [PSS] [debug] [46280|46408]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x2390c97afa0, this= 0x2393b79bc10
+[2024-03-29 17:49:34.659] [PSS] [error] [46280|12604]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x2390c97af90
+[2024-03-29 17:49:34.659] [PSS] [debug] [46280|12604]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x2383661fc60
+[2024-03-29 17:49:34.659] [PSS] [error] [46280|12604]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x2383661fc60
+[2024-03-29 23:21:45.788] [PSS] [info] ***********  Log Begin **********
+[2024-03-29 23:21:45.788] [PSS] [info] process id= 5304
+[2024-03-29 23:21:45.788] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x1aa9a2010a0, this= 0x1aa14292030
+[2024-03-29 23:21:45.788] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= Undefined, this= 0x1aa14292030
+[2024-03-29 23:21:45.788] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x1aa14292030
+[2024-03-29 23:21:45.788] [PSS] [error] [5304|16024]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x1aa14292030
+[2024-03-29 23:21:45.788] [PSS] [debug] [5304|16024]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1aa14292030
+[2024-03-29 23:21:45.789] [PSS] [debug] [5304|16024]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x1ab401a14c0
+[2024-03-29 23:21:45.789] [PSS] [info] [5304|16024]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1ab401a14c0
+[2024-03-29 23:21:45.789] [PSS] [debug] [5304|16024]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x1ab401a14d0, this= 0x1aa9a2e6d50
+[2024-03-29 23:21:47.795] [PSS] [error] [5304|18012]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x1ab401a14c0
+[2024-03-29 23:21:47.795] [PSS] [debug] [5304|18012]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x1aa14292030
+[2024-03-29 23:21:47.795] [PSS] [error] [5304|18012]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x1aa14292030
+[2024-03-29 23:25:28.277] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x1aa1a895e30, this= 0x1abcd0c1520
+[2024-03-29 23:25:28.278] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:30 ~StreamingDriverInterfaceImpl: called, this= 0x1aa14292030
+[2024-03-29 23:25:28.279] [PSS] [debug] [5304|15032]transport_client_tcp2.cpp:71 Stop: called, this= 0x1ab401a14c0
+[2024-03-29 23:25:28.281] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1abcd0c1520
+[2024-03-29 23:25:28.281] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x1abcd0c1520
+[2024-03-29 23:25:28.282] [PSS] [error] [5304|16172]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x1abcd0c1520
+[2024-03-29 23:25:28.282] [PSS] [debug] [5304|16172]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1abcd0c1520
+[2024-03-29 23:25:28.283] [PSS] [debug] [5304|16172]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x1ab4019e5c0
+[2024-03-29 23:25:28.283] [PSS] [info] [5304|16172]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1ab4019e5c0
+[2024-03-29 23:25:28.283] [PSS] [debug] [5304|16172]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x1ab4019e5d0, this= 0x1aa1377e490
+[2024-03-29 23:25:30.289] [PSS] [error] [5304|13940]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x1ab4019e5c0
+[2024-03-29 23:25:30.289] [PSS] [debug] [5304|13940]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x1abcd0c1520
+[2024-03-29 23:25:30.289] [PSS] [error] [5304|13940]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x1abcd0c1520
+[2024-03-29 23:26:34.544] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x1aa1aaabee0, this= 0x1abc3a55c50
+[2024-03-29 23:26:34.544] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:30 ~StreamingDriverInterfaceImpl: called, this= 0x1abcd0c1520
+[2024-03-29 23:26:34.544] [PSS] [debug] [5304|15032]transport_client_tcp2.cpp:71 Stop: called, this= 0x1ab4019e5c0
+[2024-03-29 23:26:34.545] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1abc3a55c50
+[2024-03-29 23:26:34.545] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x1abc3a55c50
+[2024-03-29 23:26:34.545] [PSS] [error] [5304|9996]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x1abc3a55c50
+[2024-03-29 23:26:34.545] [PSS] [debug] [5304|9996]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1abc3a55c50
+[2024-03-29 23:26:34.546] [PSS] [debug] [5304|9996]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x1ab401a0030
+[2024-03-29 23:26:34.546] [PSS] [info] [5304|9996]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1ab401a0030
+[2024-03-29 23:26:34.546] [PSS] [debug] [5304|9996]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x1ab401a0040, this= 0x1abc3f6e150
+[2024-03-29 23:26:36.551] [PSS] [error] [5304|19684]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x1ab401a0030
+[2024-03-29 23:26:36.551] [PSS] [debug] [5304|19684]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x1abc3a55c50
+[2024-03-29 23:26:36.551] [PSS] [error] [5304|19684]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x1abc3a55c50
+[2024-03-29 23:27:44.318] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x1aa104e8ce0, this= 0x1aa10fce0e0
+[2024-03-29 23:27:44.318] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:30 ~StreamingDriverInterfaceImpl: called, this= 0x1abc3a55c50
+[2024-03-29 23:27:44.318] [PSS] [debug] [5304|15032]transport_client_tcp2.cpp:71 Stop: called, this= 0x1ab401a0030
+[2024-03-29 23:27:44.320] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1aa10fce0e0
+[2024-03-29 23:27:44.320] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x1aa10fce0e0
+[2024-03-29 23:27:44.320] [PSS] [error] [5304|7504]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x1aa10fce0e0
+[2024-03-29 23:27:44.321] [PSS] [debug] [5304|7504]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1aa10fce0e0
+[2024-03-29 23:27:44.321] [PSS] [debug] [5304|7504]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x1ab4019ee90
+[2024-03-29 23:27:44.321] [PSS] [info] [5304|7504]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1ab4019ee90
+[2024-03-29 23:27:44.321] [PSS] [debug] [5304|7504]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x1ab4019eea0, this= 0x1aa10914550
+[2024-03-29 23:27:46.326] [PSS] [error] [5304|2004]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x1ab4019ee90
+[2024-03-29 23:27:46.326] [PSS] [debug] [5304|2004]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x1aa10fce0e0
+[2024-03-29 23:27:46.326] [PSS] [error] [5304|2004]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x1aa10fce0e0
+[2024-03-29 23:33:40.673] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x1aa104e9a50, this= 0x1abca7d5070
+[2024-03-29 23:33:40.673] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:30 ~StreamingDriverInterfaceImpl: called, this= 0x1aa10fce0e0
+[2024-03-29 23:33:40.673] [PSS] [debug] [5304|15032]transport_client_tcp2.cpp:71 Stop: called, this= 0x1ab4019ee90
+[2024-03-29 23:33:40.674] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1abca7d5070
+[2024-03-29 23:33:40.674] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x1abca7d5070
+[2024-03-29 23:33:40.674] [PSS] [error] [5304|20260]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x1abca7d5070
+[2024-03-29 23:33:40.674] [PSS] [debug] [5304|20260]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1abca7d5070
+[2024-03-29 23:33:40.675] [PSS] [debug] [5304|20260]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x1aa19b3d420
+[2024-03-29 23:33:40.675] [PSS] [info] [5304|20260]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1aa19b3d420
+[2024-03-29 23:33:40.675] [PSS] [debug] [5304|20260]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x1aa19b3d430, this= 0x1ab3fa76720
+[2024-03-29 23:33:42.684] [PSS] [error] [5304|15920]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x1aa19b3d420
+[2024-03-29 23:33:42.684] [PSS] [debug] [5304|15920]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x1abca7d5070
+[2024-03-29 23:33:42.684] [PSS] [error] [5304|15920]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x1abca7d5070
+[2024-03-29 23:34:34.472] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x1ab48196ef0, this= 0x1abcd69e7f0
+[2024-03-29 23:34:34.472] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:30 ~StreamingDriverInterfaceImpl: called, this= 0x1abca7d5070
+[2024-03-29 23:34:34.473] [PSS] [debug] [5304|15032]transport_client_tcp2.cpp:71 Stop: called, this= 0x1aa19b3d420
+[2024-03-29 23:34:34.473] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1abcd69e7f0
+[2024-03-29 23:34:34.473] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x1abcd69e7f0
+[2024-03-29 23:34:34.473] [PSS] [error] [5304|11116]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x1abcd69e7f0
+[2024-03-29 23:34:34.473] [PSS] [debug] [5304|11116]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1abcd69e7f0
+[2024-03-29 23:34:34.473] [PSS] [debug] [5304|11116]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x1ab401a14c0
+[2024-03-29 23:34:34.474] [PSS] [info] [5304|11116]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1ab401a14c0
+[2024-03-29 23:34:34.474] [PSS] [debug] [5304|11116]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x1ab401a14d0, this= 0x1abcc9b51e0
+[2024-03-29 23:34:36.487] [PSS] [error] [5304|15212]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x1ab401a14c0
+[2024-03-29 23:34:36.487] [PSS] [debug] [5304|15212]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x1abcd69e7f0
+[2024-03-29 23:34:36.487] [PSS] [error] [5304|15212]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x1abcd69e7f0
+[2024-03-29 23:35:58.906] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x1ab40293be0, this= 0x1abca7d5070
+[2024-03-29 23:35:58.906] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:30 ~StreamingDriverInterfaceImpl: called, this= 0x1abcd69e7f0
+[2024-03-29 23:35:58.906] [PSS] [debug] [5304|15032]transport_client_tcp2.cpp:71 Stop: called, this= 0x1ab401a14c0
+[2024-03-29 23:35:58.907] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1abca7d5070
+[2024-03-29 23:35:58.907] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x1abca7d5070
+[2024-03-29 23:35:58.907] [PSS] [error] [5304|6156]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x1abca7d5070
+[2024-03-29 23:35:58.907] [PSS] [debug] [5304|6156]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1abca7d5070
+[2024-03-29 23:35:58.908] [PSS] [debug] [5304|6156]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x1abcca0f540
+[2024-03-29 23:35:58.908] [PSS] [info] [5304|6156]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1abcca0f540
+[2024-03-29 23:35:58.908] [PSS] [debug] [5304|6156]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x1abcca0f550, this= 0x1aa9a74a320
+[2024-03-29 23:36:00.920] [PSS] [error] [5304|15344]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x1abcca0f540
+[2024-03-29 23:36:00.921] [PSS] [debug] [5304|15344]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x1abca7d5070
+[2024-03-29 23:36:00.921] [PSS] [error] [5304|15344]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x1abca7d5070
+[2024-03-29 23:36:32.806] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x1ab4088d630, this= 0x1ac4c1cc040
+[2024-03-29 23:36:32.806] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:30 ~StreamingDriverInterfaceImpl: called, this= 0x1abca7d5070
+[2024-03-29 23:36:32.806] [PSS] [debug] [5304|15032]transport_client_tcp2.cpp:71 Stop: called, this= 0x1abcca0f540
+[2024-03-29 23:36:32.807] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1ac4c1cc040
+[2024-03-29 23:36:32.807] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x1ac4c1cc040
+[2024-03-29 23:36:32.807] [PSS] [error] [5304|14936]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x1ac4c1cc040
+[2024-03-29 23:36:32.807] [PSS] [debug] [5304|14936]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1ac4c1cc040
+[2024-03-29 23:36:32.807] [PSS] [debug] [5304|14936]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x1ab3f932680
+[2024-03-29 23:36:32.807] [PSS] [info] [5304|14936]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1ab3f932680
+[2024-03-29 23:36:32.807] [PSS] [debug] [5304|14936]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x1ab3f932690, this= 0x1ab3fa76d40
+[2024-03-29 23:36:34.815] [PSS] [error] [5304|8996]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x1ab3f932680
+[2024-03-29 23:36:34.815] [PSS] [debug] [5304|8996]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x1ac4c1cc040
+[2024-03-29 23:36:34.815] [PSS] [error] [5304|8996]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x1ac4c1cc040
+[2024-03-29 23:37:11.171] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x1aa12824b50, this= 0x1abca7d5070
+[2024-03-29 23:37:11.171] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:30 ~StreamingDriverInterfaceImpl: called, this= 0x1ac4c1cc040
+[2024-03-29 23:37:11.171] [PSS] [debug] [5304|15032]transport_client_tcp2.cpp:71 Stop: called, this= 0x1ab3f932680
+[2024-03-29 23:37:11.172] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1abca7d5070
+[2024-03-29 23:37:11.172] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x1abca7d5070
+[2024-03-29 23:37:11.172] [PSS] [error] [5304|4060]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x1abca7d5070
+[2024-03-29 23:37:11.172] [PSS] [debug] [5304|4060]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1abca7d5070
+[2024-03-29 23:37:11.173] [PSS] [debug] [5304|4060]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x1aa9a9de9d0
+[2024-03-29 23:37:11.173] [PSS] [info] [5304|4060]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1aa9a9de9d0
+[2024-03-29 23:37:11.173] [PSS] [debug] [5304|4060]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x1aa9a9de9e0, this= 0x1abc37bbe60
+[2024-03-29 23:37:13.181] [PSS] [error] [5304|7640]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x1aa9a9de9d0
+[2024-03-29 23:37:13.181] [PSS] [debug] [5304|7640]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x1abca7d5070
+[2024-03-29 23:37:13.181] [PSS] [error] [5304|7640]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x1abca7d5070
+[2024-03-29 23:57:54.754] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x1ab47c0ad20, this= 0x1ac4c1cc040
+[2024-03-29 23:57:54.754] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:30 ~StreamingDriverInterfaceImpl: called, this= 0x1abca7d5070
+[2024-03-29 23:57:54.754] [PSS] [debug] [5304|15032]transport_client_tcp2.cpp:71 Stop: called, this= 0x1aa9a9de9d0
+[2024-03-29 23:57:54.756] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1ac4c1cc040
+[2024-03-29 23:57:54.756] [PSS] [debug] [5304|15032]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x1ac4c1cc040
+[2024-03-29 23:57:54.757] [PSS] [error] [5304|20184]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x1ac4c1cc040
+[2024-03-29 23:57:54.757] [PSS] [debug] [5304|20184]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1ac4c1cc040
+[2024-03-29 23:57:54.757] [PSS] [debug] [5304|20184]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x1aa1c684940
+[2024-03-29 23:57:54.757] [PSS] [info] [5304|20184]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1aa1c684940
+[2024-03-29 23:57:54.757] [PSS] [debug] [5304|20184]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x1aa1c684950, this= 0x1abc419a840
+[2024-03-29 23:57:56.761] [PSS] [error] [5304|6580]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x1aa1c684940
+[2024-03-29 23:57:56.761] [PSS] [debug] [5304|6580]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x1ac4c1cc040
+[2024-03-29 23:57:56.761] [PSS] [error] [5304|6580]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x1ac4c1cc040
+[2024-03-30 00:00:19.347] [PSS] [info] ***********  Log Begin **********
+[2024-03-30 00:00:19.347] [PSS] [info] process id= 16904
+[2024-03-30 00:00:19.347] [PSS] [debug] [16904|2828]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x1cdc61c6720, this= 0x1cdc5c3a820
+[2024-03-30 00:00:19.347] [PSS] [debug] [16904|2828]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= Undefined, this= 0x1cdc5c3a820
+[2024-03-30 00:00:19.347] [PSS] [debug] [16904|2828]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x1cdc5c3a820
+[2024-03-30 00:00:19.348] [PSS] [error] [16904|17852]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x1cdc5c3a820
+[2024-03-30 00:00:19.349] [PSS] [debug] [16904|17852]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1cdc5c3a820
+[2024-03-30 00:00:19.349] [PSS] [debug] [16904|17852]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x1cd1b4337b0
+[2024-03-30 00:00:19.349] [PSS] [info] [16904|17852]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1cd1b4337b0
+[2024-03-30 00:00:19.349] [PSS] [debug] [16904|17852]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x1cd1b4337c0, this= 0x1cdbf5ea090
+[2024-03-30 00:00:21.359] [PSS] [error] [16904|12832]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x1cd1b4337b0
+[2024-03-30 00:00:21.360] [PSS] [debug] [16904|12832]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x1cdc5c3a820
+[2024-03-30 00:00:21.360] [PSS] [error] [16904|12832]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x1cdc5c3a820
+[2024-03-30 00:00:50.904] [PSS] [debug] [16904|2828]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x1cd1b494f40, this= 0x1cdc5c38410
+[2024-03-30 00:00:50.904] [PSS] [debug] [16904|2828]streaming_driver_interface_impl.cpp:30 ~StreamingDriverInterfaceImpl: called, this= 0x1cdc5c3a820
+[2024-03-30 00:00:50.904] [PSS] [debug] [16904|2828]transport_client_tcp2.cpp:71 Stop: called, this= 0x1cd1b4337b0
+[2024-03-30 00:00:50.905] [PSS] [debug] [16904|2828]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1cdc5c38410
+[2024-03-30 00:00:50.905] [PSS] [debug] [16904|2828]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x1cdc5c38410
+[2024-03-30 00:00:50.905] [PSS] [error] [16904|17688]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x1cdc5c38410
+[2024-03-30 00:00:50.905] [PSS] [debug] [16904|17688]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1cdc5c38410
+[2024-03-30 00:00:50.905] [PSS] [debug] [16904|17688]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x1cd1b434370
+[2024-03-30 00:00:50.906] [PSS] [info] [16904|17688]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1cd1b434370
+[2024-03-30 00:00:50.906] [PSS] [debug] [16904|17688]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x1cd1b434380, this= 0x1ca24e818f0
+[2024-03-30 00:00:52.912] [PSS] [error] [16904|20248]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x1cd1b434370
+[2024-03-30 00:00:52.912] [PSS] [debug] [16904|20248]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x1cdc5c38410
+[2024-03-30 00:00:52.912] [PSS] [error] [16904|20248]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x1cdc5c38410
+[2024-03-30 00:01:20.290] [PSS] [debug] [16904|2828]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x1cdbf1fedc0, this= 0x1cdc5c3cc30
+[2024-03-30 00:01:20.290] [PSS] [debug] [16904|2828]streaming_driver_interface_impl.cpp:30 ~StreamingDriverInterfaceImpl: called, this= 0x1cdc5c38410
+[2024-03-30 00:01:20.290] [PSS] [debug] [16904|2828]transport_client_tcp2.cpp:71 Stop: called, this= 0x1cd1b434370
+[2024-03-30 00:01:20.291] [PSS] [debug] [16904|2828]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1cdc5c3cc30
+[2024-03-30 00:01:20.291] [PSS] [debug] [16904|2828]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x1cdc5c3cc30
+[2024-03-30 00:01:20.291] [PSS] [error] [16904|16980]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x1cdc5c3cc30
+[2024-03-30 00:01:20.291] [PSS] [debug] [16904|16980]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1cdc5c3cc30
+[2024-03-30 00:01:20.291] [PSS] [debug] [16904|16980]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x1cd1b434f30
+[2024-03-30 00:01:20.291] [PSS] [info] [16904|16980]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1cd1b434f30
+[2024-03-30 00:01:20.291] [PSS] [debug] [16904|16980]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x1cd1b434f40, this= 0x1cd1ac9c1d0
+[2024-03-30 00:01:22.301] [PSS] [error] [16904|14012]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x1cd1b434f30
+[2024-03-30 00:01:22.302] [PSS] [debug] [16904|14012]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x1cdc5c3cc30
+[2024-03-30 00:01:22.302] [PSS] [error] [16904|14012]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x1cdc5c3cc30
+[2024-03-30 00:07:04.878] [PSS] [debug] [16904|2828]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x1ca2d1e8990, this= 0x1cdc5c317e0
+[2024-03-30 00:07:04.878] [PSS] [debug] [16904|2828]streaming_driver_interface_impl.cpp:30 ~StreamingDriverInterfaceImpl: called, this= 0x1cdc5c3cc30
+[2024-03-30 00:07:04.878] [PSS] [debug] [16904|2828]transport_client_tcp2.cpp:71 Stop: called, this= 0x1cd1b434f30
+[2024-03-30 00:07:04.879] [PSS] [debug] [16904|2828]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1cdc5c317e0
+[2024-03-30 00:07:04.879] [PSS] [debug] [16904|2828]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x1cdc5c317e0
+[2024-03-30 00:07:04.879] [PSS] [error] [16904|17708]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x1cdc5c317e0
+[2024-03-30 00:07:04.879] [PSS] [debug] [16904|17708]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1cdc5c317e0
+[2024-03-30 00:07:04.879] [PSS] [debug] [16904|17708]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x1cd1b4337b0
+[2024-03-30 00:07:04.879] [PSS] [info] [16904|17708]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1cd1b4337b0
+[2024-03-30 00:07:04.879] [PSS] [debug] [16904|17708]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x1cd1b4337c0, this= 0x1cd1a272640
+[2024-03-30 00:07:06.887] [PSS] [error] [16904|9492]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x1cd1b4337b0
+[2024-03-30 00:07:06.887] [PSS] [debug] [16904|9492]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x1cdc5c317e0
+[2024-03-30 00:07:06.887] [PSS] [error] [16904|9492]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x1cdc5c317e0
+[2024-03-30 16:11:54.865] [PSS] [info] ***********  Log Begin **********
+[2024-03-30 16:11:54.865] [PSS] [info] process id= 19600
+[2024-03-30 16:11:54.866] [PSS] [debug] [19600|17328]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x129af67eb60, this= 0x129a74bec50
+[2024-03-30 16:11:54.866] [PSS] [debug] [19600|17328]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= Undefined, this= 0x129a74bec50
+[2024-03-30 16:11:54.866] [PSS] [debug] [19600|17328]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x129a74bec50
+[2024-03-30 16:11:54.866] [PSS] [error] [19600|4820]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x129a74bec50
+[2024-03-30 16:11:54.866] [PSS] [debug] [19600|4820]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x129a74bec50
+[2024-03-30 16:11:54.866] [PSS] [debug] [19600|4820]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x12ad9f1aa10
+[2024-03-30 16:11:54.866] [PSS] [info] [19600|4820]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x12ad9f1aa10
+[2024-03-30 16:11:54.866] [PSS] [debug] [19600|4820]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x12ad9f1aa20, this= 0x129b2199220
+[2024-03-30 16:11:56.874] [PSS] [error] [19600|22244]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x12ad9f1aa10
+[2024-03-30 16:11:56.874] [PSS] [debug] [19600|22244]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x129a74bec50
+[2024-03-30 16:11:56.874] [PSS] [error] [19600|22244]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x129a74bec50
+[2024-03-30 16:16:58.594] [PSS] [info] ***********  Log Begin **********
+[2024-03-30 16:16:58.594] [PSS] [info] process id= 9368
+[2024-03-30 16:16:58.594] [PSS] [debug] [9368|9588]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x2007d999e50, this= 0x2007e3f1940
+[2024-03-30 16:16:58.594] [PSS] [debug] [9368|9588]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= Undefined, this= 0x2007e3f1940
+[2024-03-30 16:16:58.594] [PSS] [debug] [9368|9588]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x2007e3f1940
+[2024-03-30 16:16:58.594] [PSS] [error] [9368|10096]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x2007e3f1940
+[2024-03-30 16:16:58.594] [PSS] [debug] [9368|10096]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x2007e3f1940
+[2024-03-30 16:16:58.594] [PSS] [debug] [9368|10096]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x200533e1f10
+[2024-03-30 16:16:58.594] [PSS] [info] [9368|10096]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x200533e1f10
+[2024-03-30 16:16:58.594] [PSS] [debug] [9368|10096]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x200533e1f20, this= 0x200535ee8e0
+[2024-03-30 16:17:00.598] [PSS] [error] [9368|7980]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x200533e1f10
+[2024-03-30 16:17:00.598] [PSS] [debug] [9368|7980]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x2007e3f1940
+[2024-03-30 16:17:00.598] [PSS] [error] [9368|7980]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x2007e3f1940
+[2024-03-30 16:18:22.643] [PSS] [debug] [9368|9588]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x200a6ad41f0, this= 0x1ffae3ef7d0
+[2024-03-30 16:18:22.643] [PSS] [debug] [9368|9588]streaming_driver_interface_impl.cpp:30 ~StreamingDriverInterfaceImpl: called, this= 0x2007e3f1940
+[2024-03-30 16:18:22.643] [PSS] [debug] [9368|9588]transport_client_tcp2.cpp:71 Stop: called, this= 0x200533e1f10
+[2024-03-30 16:18:22.645] [PSS] [debug] [9368|9588]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= FloorLevel, this= 0x1ffae3ef7d0
+[2024-03-30 16:18:22.645] [PSS] [debug] [9368|9588]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x1ffae3ef7d0
+[2024-03-30 16:18:22.646] [PSS] [error] [9368|18292]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x1ffae3ef7d0
+[2024-03-30 16:18:22.646] [PSS] [debug] [9368|18292]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1ffae3ef7d0
+[2024-03-30 16:18:22.647] [PSS] [debug] [9368|18292]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x200533e2dc0
+[2024-03-30 16:18:22.647] [PSS] [info] [9368|18292]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x200533e2dc0
+[2024-03-30 16:18:22.647] [PSS] [debug] [9368|18292]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x200533e2dd0, this= 0x20055623dd0
+[2024-03-30 16:18:25.009] [PSS] [error] [9368|6852]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x200533e2dc0
+[2024-03-30 16:18:25.009] [PSS] [debug] [9368|6852]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x1ffae3ef7d0
+[2024-03-30 16:18:25.009] [PSS] [error] [9368|6852]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x1ffae3ef7d0
+[2024-03-30 23:20:42.142] [PSS] [info] ***********  Log Begin **********
+[2024-03-30 23:20:42.142] [PSS] [info] process id= 1504
+[2024-03-30 23:20:42.142] [PSS] [debug] [1504|1336]streaming_driver_interface_impl.cpp:25 StreamingDriverInterfaceImpl: callback= 0x1fe46a9ba50, this= 0x1fd212c7c50
+[2024-03-30 23:20:42.142] [PSS] [debug] [1504|1336]streaming_driver_interface_impl.cpp:95 SetTrackingOrigin: tracking origin= Undefined, this= 0x1fd212c7c50
+[2024-03-30 23:20:42.142] [PSS] [debug] [1504|1336]streaming_driver_interface_impl.cpp:39 ConnectToService: try to connect to service, this= 0x1fd212c7c50
+[2024-03-30 23:20:42.142] [PSS] [error] [1504|12608]streaming_driver_interface_impl.cpp:572 InvokeSetTrackingOrigin: "invalid media session", !media_session_, this= 0x1fd212c7c50
+[2024-03-30 23:20:42.142] [PSS] [debug] [1504|12608]streaming_driver_interface_impl.cpp:469 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1fd212c7c50
+[2024-03-30 23:20:42.142] [PSS] [debug] [1504|12608]transport_client_tcp2.cpp:34 Start: buffer size(send\recv): 1048576\1048576, this= 0x1fe417256b0
+[2024-03-30 23:20:42.143] [PSS] [info] [1504|12608]transport_client_tcp2.cpp:58 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1fe417256b0
+[2024-03-30 23:20:42.143] [PSS] [debug] [1504|12608]transport_data_receiver_raw.cpp:34 UpdateConfig: enable_channel= 1, enable_packet= 1, sink= 0x1fe417256c0, this= 0x1fd99ef0d70
+[2024-03-30 23:20:44.149] [PSS] [error] [1504|10736]transport_client_tcp2.cpp:106 HandleConnect: connected error= Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение, this= 0x1fe417256b0
+[2024-03-30 23:20:44.150] [PSS] [debug] [1504|10736]streaming_driver_interface_impl.cpp:248 NotifyConnectResult: network connect to service result= 10061, this= 0x1fd212c7c50
+[2024-03-30 23:20:44.150] [PSS] [error] [1504|10736]streaming_driver_interface_impl.cpp:250 NotifyConnectResult: connect to service network error= 10061, this= 0x1fd212c7c50

@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/DesktopScene/LevelMenuScene.unity
     guid: 14045fdee6af49d4e97db8f64f730ae6
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MainScenes/MainScene.unity
     guid: c145e5d51c001cf4e82bf40616d8e9ef
   - enabled: 0
@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/RoomConnetctionScenes/WaitingRoomScene.unity
     guid: db6ba0a0dd4d1664986d5bc2314e2c71
-  - enabled: 1
+  - enabled: 0
     path: Assets/Samples/XR Interaction Toolkit/2.3.0/Hands Interaction Demo/Runtime/HandsDemoScene.unity
     guid: 3ff35cecbcc52cc42945cf531638a60a
   m_configObjects:

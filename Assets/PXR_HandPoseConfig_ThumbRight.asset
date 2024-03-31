@@ -10,40 +10,40 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0fea894361bde054fbfc4de741aa3483, type: 3}
-  m_Name: PXR_HandPoseConfig_0206113038
+  m_Name: PXR_HandPoseConfig_ThumbRight
   m_EditorClassIdentifier: 
   shapesRecognizer:
     thumb:
       handFinger: 0
-      flexion: 0
+      flexion: 1
       curl: 0
       abduction: 0
       fingerConfigs:
         flexionConfigs:
           min: 155
           max: 180
-          width: 40
+          width: 10
         curlConfigs:
           min: 45
-          max: 90
-          width: 40
+          max: 180
+          width: 20
         abductionConfigs:
           mid: 13
-          width: 14.3
+          width: 6
     index:
       handFinger: 1
-      flexion: 1
-      curl: 1
+      flexion: 2
+      curl: 2
       abduction: 0
       fingerConfigs:
         flexionConfigs:
-          min: 144
-          max: 180
-          width: 50
+          min: 90
+          max: 126
+          width: 10
         curlConfigs:
-          min: 107
-          max: 180
-          width: 50
+          min: 0
+          max: 73
+          width: 20
         abductionConfigs:
           mid: 10
           width: 6
@@ -56,11 +56,11 @@ MonoBehaviour:
         flexionConfigs:
           min: 90
           max: 126
-          width: 50
+          width: 25.1
         curlConfigs:
           min: 0
           max: 73
-          width: 50
+          width: 20
         abductionConfigs:
           mid: 10
           width: 6
@@ -73,11 +73,11 @@ MonoBehaviour:
         flexionConfigs:
           min: 90
           max: 126
-          width: 50
+          width: 10
         curlConfigs:
           min: 0
           max: 73
-          width: 50
+          width: 20
         abductionConfigs:
           mid: 10
           width: 6
@@ -90,22 +90,22 @@ MonoBehaviour:
         flexionConfigs:
           min: 90
           max: 126
-          width: 50
+          width: 10
         curlConfigs:
           min: 0
           max: 73
-          width: 50
+          width: 20
         abductionConfigs:
           mid: 10
           width: 6
-    holdDuration: 2
+    holdDuration: 0.09
   bonesRecognizer:
     Bones: []
-    holdDuration: 2
+    holdDuration: 0.022
   transRecognizer:
-    trackAxis: 0
+    trackAxis: 1
     spaceType: 0
-    trackTarget: 1
-    angleThreshold: 90
-    thresholdWidth: 45
-    holdDuration: 2
+    trackTarget: 2
+    angleThreshold: 35
+    thresholdWidth: 10
+    holdDuration: 0.022

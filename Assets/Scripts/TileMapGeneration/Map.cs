@@ -11,6 +11,7 @@ namespace TileMapGeneration
         public Tile[,] tileMatrix;
         public GameObject startTile; //где инстанциируется игрок
 
+        //еще записать места, где можно спавнить объекты для квеста
         public Vector3 startMapPos;
         //TODO: переместить эту переменную в другой класс - выбирается рандомный тайл с дорогой 
         public int size_x;

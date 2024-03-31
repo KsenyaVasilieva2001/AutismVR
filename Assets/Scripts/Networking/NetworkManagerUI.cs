@@ -11,13 +11,13 @@ namespace Networking
     public class NetworkManagerUI : MonoBehaviour
     {
        // [SerializeField] private TMP_Text message;
-        private UnityTransport unityTransport;
+        private UnityTransport _unityTransport;
         [SerializeField] private string lobbyServerScene = "LevelMenuScene";
         [SerializeField] private string lobbyClientScene = "WaitingRoomScene";
 
         public void Start()
         { 
-            unityTransport = NetworkManager.Singleton.GetComponent<UnityTransport>();
+            _unityTransport = NetworkManager.Singleton.GetComponent<UnityTransport>();
         }
 
         public void StartServer()

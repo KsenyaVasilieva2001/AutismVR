@@ -1,55 +1,51 @@
+using Unity.XR.PXR;
 using UnityEngine;
 
 namespace VR
 {
+    //переименовать в movement controller или что то такое
     public class HandPoseEventsSystem: MonoBehaviour
     {
         [SerializeField]
         private CharacterController characterController;
 
-        [SerializeField] private float speed = 0.5f;
+        [SerializeField] private float speed = 0.1f;
         [SerializeField]
         private Transform fingerPoint;
+        //[SerializeField]
+       // private Transform handRight;
         [SerializeField]
-        private Transform startPoint;
+        private Transform handLeft;
+        [SerializeField]
+        private PXR_Hand handRight;
+        public float gravity = -9.81f;
+        //определить какая рука сефчас работает
 
-        private Vector3 hitPoint;
-
-        //нужно находить направление луча контроллера 
-        // а можно сделать через включение компонента Dynamic Move Provider - прочитатть про него
-        void Start()
+        public void ThumbUpForwardMove()
         {
-            /*
-        var cubeRenderer = sphere.GetComponent<Renderer>();
-        cubeRenderer.material.SetColor("_Color", Color.red);
-        Debug.Log(rayInteractor.rayOriginTransform.transform.position);
-        */
+            var direction = handRight.handJoints[(int) HandJoint.JointThumbTip].right;
+            direction *= speed;
+            direction.y -= gravity;
+            characterController.Move(direction * Time.deltaTime);
+        }
+        
+        public void ThumbUpMove()
+        {
+            var direction = handRight.handJoints[(int) HandJoint.JointThumbTip].forward;
+            characterController.Move(direction * speed * Time.deltaTime);
+        }
+        
+        public void FistMove()
+        {
+            Debug.Log("Fist Move!");
+            var direction = handRight.handJoints[(int) HandJoint.JointPalm].forward;
+            characterController.Move(direction * speed * Time.deltaTime);
         }
 
-        private void Update()
+        public void GrabMove()
         {
-            /*
-        RaycastHit hit;
-        if (rayInteractor.TryGetCurrent3DRaycastHit(out hit))
-        {
-            //var cubeRenderer = sphere.GetComponent<Renderer>();
-           // cubeRenderer.material.SetColor("_Color", Color.red);
-            hitPoint = hit.point; // the coordinate that the ray hits
-            */
             
         }
-    
        
-        public void Move()
-        {
-            /*
-        Vector3 direction = hitPoint - rayInteractor.rayOriginTransform.transform.position;
-       Vector3 direction = Vector3.forward;
-       Vector3 direction = rayInteractor.rayOriginTransform.transform.position - endPoint.position;
-      Vector3 direction = endPoint.position - startPoint.position; //это работает
-      */
-            characterController.Move(fingerPoint.forward * speed * Time.deltaTime);
-        }
-        //добавить несколько методов Move, под разные жесты
     }
 }
