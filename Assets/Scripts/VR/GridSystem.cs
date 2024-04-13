@@ -10,11 +10,7 @@ namespace VR
         public Grid grid;
         [SerializeField] private float cellSize;
         public List<Zone> zones;
-
-        public void InstantiateZone()
-        {
-            // instantiate collider
-        }
+        
         
         //OnCollisionEnter : GetXY Set Value
         private void Awake()
@@ -24,7 +20,17 @@ namespace VR
 
         private void Start()
         {
-            grid = new Grid(terrain, cellSize, zones); //выбирать подмассивы клеток
+            grid = new Grid(terrain, cellSize, zones);
+            InstantiateZones();
         }
+        
+        private void InstantiateZones()
+        {
+            foreach (Zone zone in zones)
+            {
+                zone.InstantiateCollider(cellSize);
+            }
+        }
+        
     }
 }

@@ -6,7 +6,6 @@ namespace VR
 {
     public class PathTracker : MonoBehaviour
     {
-        private const string PlayerPrefsPath = "Path";
         [SerializeField] private Transform trackingTransform;
         [SerializeField] private LineRenderer lineRenderer;
         private List<Vector3> _positionList;
@@ -14,6 +13,7 @@ namespace VR
         private float _timeIntervalMax = .2f; //отслеживаем позицию 5 раз в секунду, а не 60 как fps
         private float _minDistance = .5f;
         private float y_offset = 50f;
+        private float pathLength;
         
 
         void Awake()
@@ -57,6 +57,7 @@ namespace VR
             lineRenderer.SetPositions(_positionList.ToArray());
         }
 
+        /*
         void Save()
         {
             SavePath savePath = new SavePath
@@ -76,12 +77,12 @@ namespace VR
             _positionList = savePath._positionList;
             UpdateVisual();
         }
+        */
 
-        float GetPathLength()
+        public float GetPathLength()
         {
             Vector3[] positionArray = new Vector3[lineRenderer.positionCount];
             lineRenderer.GetPositions(positionArray);
-            float pathLength = 0f;
             for (int i = 0; i < positionArray.Length - 1; i++)
             {
                 pathLength += Vector3.Distance(positionArray[i+1],positionArray[i]);
@@ -89,11 +90,19 @@ namespace VR
 
             return pathLength;
         }
+
+        public List<Vector3> GetPositionList()
+        {
+            return _positionList;
+        }
+
+        /*
         private class SavePath
         {
             public List<Vector3> _positionList;
             public double pathLength;
         }
+        */
         
     }
 }
