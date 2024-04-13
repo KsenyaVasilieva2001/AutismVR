@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScenes/MainScene.unity
     guid: c145e5d51c001cf4e82bf40616d8e9ef
   - enabled: 0
-    path: Assets/Scenes/RoomConnetctionScenes/StarClientScene.unity
+    path: Assets/Scenes/RoomConnetctionScenes/StartClientScene.unity
     guid: 9ba2aa57fb5e7994796f009ab36063df
   - enabled: 0
     path: Assets/Scenes/RoomConnetctionScenes/WaitingRoomScene.unity

@@ -51,17 +51,105 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6220351701513414843, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: config
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ec998ffa3c16c94e990902ef18345de, type: 2}
+    - target: {fileID: 6220351701513414843, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: trackAxis
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220351701513414843, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: thumb.curl
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220351701513414843, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: trackTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220351701513414843, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: thumb.flexion
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220351701513414843, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: thumb.fingerConfigs.curlConfigs.max
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220351701513414843, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: thumb.fingerConfigs.flexionConfigs.max
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220351701513414843, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: thumb.fingerConfigs.flexionConfigs.min
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220351701513414843, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: middle.fingerConfigs.flexionConfigs.width
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 6382282909242415931, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
       propertyPath: config
       value: 
       objectReference: {fileID: 11400000, guid: 3ec998ffa3c16c94e990902ef18345de, type: 2}
     - target: {fileID: 6382282909242415931, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: handPoseEnd.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382282909242415931, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: handPoseStart.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382282909242415931, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: handPoseEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382282909242415931, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: handPoseStart.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382282909242415931, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: handPoseEnd.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382282909242415931, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
       propertyPath: handPoseUpdate.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6382282909242415931, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: handPoseEnd.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EndMove
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382282909242415931, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: handPoseStart.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382282909242415931, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: handPoseStart.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartMove
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382282909242415931, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
       propertyPath: handPoseUpdate.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: FistMove
+      value: Move
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382282909242415931, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: handPoseEnd.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: VR.MovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382282909242415931, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: handPoseStart.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: VR.MovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382282909242415931, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: handPoseUpdate.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: VR.HandTrackingMovementController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382282909242415931, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: handPoseEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6382282909242415931, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
+      propertyPath: handPoseStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7198572723781605186, guid: 240c08727a0035f4aa36ec8c656981ed, type: 3}
       propertyPath: m_Name

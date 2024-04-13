@@ -34,7 +34,6 @@ namespace Networking
             {
                 Destroy(Singleton.gameObject);
             }
-
             SetSceneState(SceneStates.Init);
             Singleton = this;
             DontDestroyOnLoad(this);
@@ -108,7 +107,6 @@ namespace Networking
             {
                 NetworkManager.Singleton.SceneManager.OnLoadComplete -= OnLoadComplete;
             }
-
             OnClientLoadedScene = null;
             SetSceneState(SceneStates.Init);
             if (NetworkManager.Singleton.IsClient)

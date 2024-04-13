@@ -9,35 +9,18 @@ namespace Networking
         [SerializeField] private Transform root;
         [SerializeField] private Transform leftHand;
         [SerializeField] private Transform rightHand;
-
         public Renderer[] meshToDisable;
         
         void Start () {
-            if (Instance == null) { // Экземпляр менеджера был найден
-                Instance = this; // Задаем ссылку на экземпляр объекта
-            } else if(Instance == this){ // Экземпляр объекта уже существует на сцене
-                Destroy(gameObject); // Удаляем объект
+            if (Instance == null) { 
+                Instance = this; 
+            } else if(Instance == this){ 
+                Destroy(gameObject); 
             }
-            // Теперь нам нужно указать, чтобы объект не уничтожался
-            // при переходе на другую сцену игры
             DontDestroyOnLoad(gameObject);
-
-            // И запускаем собственно инициализатор
             Init();
         }
-        /*
-        public override void OnNetworkSpawn()
-        {
-            base.OnNetworkSpawn();
-            if (IsOwner)
-            {
-                foreach (var item in meshToDisable)
-                {
-                    item.enabled = false;
-                }
-            }
-        }
-        */
+       
 
         private void Init()
         {
