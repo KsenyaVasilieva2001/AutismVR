@@ -9,15 +9,12 @@ namespace VR
     {
         private const string PlayerPrefsPath = "Path";
         private static Dictionary<Zone, int> zones;
-        private PathTracker _tracker;
-        private GridSystem _gridSystem;
-        //ключ знчение
-
+        [SerializeField] private PathTracker _tracker;
+        [SerializeField] private GridSystem _gridSystem;
+        [SerializeField] private Timer _timer;
+        
         void Start()
         {
-            _tracker = GetComponent<PathTracker>();
-            _gridSystem = GetComponent<GridSystem>();
-
             zones = _gridSystem.zones.ToDictionary(x => x, x => 0);
         }
 
@@ -45,8 +42,18 @@ namespace VR
         {
             return GetVisitedZones().Count;
         }
+
+        public double GetMoveTime()
+        {
+            return Math.Round(_timer.timerMoveStart, 2);
+        }
+
+        public double GetStateTime()
+        {
+            return Math.Round(_timer.total - _timer.timerStart - _timer.timerMoveStart, 2);
+        }
         
-        void Save()
+        public void Save()
         {
             ReportData reportData = new ReportData
             {
@@ -55,8 +62,8 @@ namespace VR
                 pathLength = _tracker.GetPathLength(),
                 visitedZones = GetVisitedZones(),
                 visitedZonesCount = GetVisitedZonesCount(),
-                
-                
+                stateTime = GetStateTime(),
+                moveTime = GetMoveTime()
             };
             string json = JsonUtility.ToJson(reportData);
             PlayerPrefs.SetString(PlayerPrefsPath, json);
@@ -80,8 +87,8 @@ namespace VR
             public List<Zone> visitedZones;
             public int visitedZonesCount;
             
-            public float stateTime;
-            public float moveTime;
+            public double stateTime;
+            public double moveTime;
             
         }
     }

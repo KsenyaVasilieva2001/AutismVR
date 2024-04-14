@@ -17,37 +17,14 @@ namespace VR
 
         private TextMesh[,] text_arr;
         private float lineWidth = 10f;
-
-        private List<Zone> _zones;
-
-
-
+        
         public Grid(Terrain terrain, float cellSize, List<Zone> zones)
         {
             terrainTransform = terrain.transform;
             width = (int) Math.Ceiling(terrain.terrainData.size.x);
             height = (int) Math.Ceiling(terrain.terrainData.size.z);
-            
             grid_arr = new int[width, height];
-            text_arr = new TextMesh[width, height];
             cellSize = cellSize;
-            _zones = zones;
-            
-            for (int x = 0; x < grid_arr.GetLength(0); x++)
-            {
-                for (int y = 0; y < grid_arr.GetLength(1); y++)
-                {
-                    text_arr[x, y] = Utils.CreateText(grid_arr[x, y].ToString(),
-                        null,
-                        GetPosition(x, y) + new Vector3(cellSize, cellSize) *.5f,
-                        50,
-                        Color.white,
-                        TextAnchor.MiddleCenter);
-                }
-            }
-            Debug.DrawLine(GetPosition(0, height), GetPosition(width, height), Color.white, 100f);
-            Debug.DrawLine(GetPosition(width, 0), GetPosition(width, height), Color.white, 100f);
-            
         }
 
         private Vector3 GetPosition(int x, int y)

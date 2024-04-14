@@ -87,6 +87,7 @@ namespace Networking
         }
         */
 
+        /*
         public void SwitchScene(string sceneName)
         {
             Debug.Log("Switch Scene is called");
@@ -99,7 +100,14 @@ namespace Networking
             {
                 SceneManager.LoadSceneAsync(sceneName);
             }
+        }*/
+
+        public void SwitchScene(string sceneName)
+        {
+            SceneManager.LoadScene(sceneName);
         }
+
+
 
         private void LoadStartMenu()
         {

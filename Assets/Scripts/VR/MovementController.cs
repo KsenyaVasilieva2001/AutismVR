@@ -18,7 +18,7 @@ namespace VR
         private Vector3 _startLocalPosition;
         [SerializeField] float intensity = 10.0f; 
         [SerializeField] float amplitude = 5.0f;
-        
+        [SerializeField] private Timer _timer;
         private void Start()
         {
             _camera = FindObjectOfType<Camera>();
@@ -31,10 +31,10 @@ namespace VR
         {
             if (_isMoving)
             {
-              //CameraMove();
-               //если пересек клетку update value в grid
+                _timer.PlayTimer();
+                //CameraMove();
+                //если пересек клетку update value в grid
             }
-            
         }
 
         

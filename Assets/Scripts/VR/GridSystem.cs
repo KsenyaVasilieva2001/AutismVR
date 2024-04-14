@@ -16,12 +16,12 @@ namespace VR
         private void Awake()
         {
             terrain = FindObjectOfType<Terrain>();
+            InstantiateZones();
         }
 
         private void Start()
         {
             grid = new Grid(terrain, cellSize, zones);
-            InstantiateZones();
         }
         
         private void InstantiateZones()

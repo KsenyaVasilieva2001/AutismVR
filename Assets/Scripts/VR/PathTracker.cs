@@ -43,7 +43,6 @@ namespace VR
                     UpdateVisual();
                 }
             }
-            Debug.Log(GetPathLength());
         }
 
         void UpdateVisual()
