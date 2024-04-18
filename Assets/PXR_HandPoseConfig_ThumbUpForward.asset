@@ -98,7 +98,7 @@ MonoBehaviour:
         abductionConfigs:
           mid: 10
           width: 6
-    holdDuration: 0.09
+    holdDuration: 0.02
   bonesRecognizer:
     Bones: []
     holdDuration: 0.022

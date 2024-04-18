@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using Newtonsoft.Json;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace VR
@@ -16,6 +19,15 @@ namespace VR
         void Start()
         {
             zones = _gridSystem.zones.ToDictionary(x => x, x => 0);
+            
+            //УБРАТЬ ЭТО С СТАРТА ПОТОМ
+            
+          //  SaveToTextFile(Settings.REPORT_FILE_NAME);
+            
+            /*
+            string savedData = LoadTextFile(path);
+            Debug.Log(savedData);
+            */
         }
 
         public static void UpdateVisitedZones(Zone zone)
@@ -53,22 +65,41 @@ namespace VR
             return Math.Round(_timer.total - _timer.timerStart - _timer.timerMoveStart, 2);
         }
         
-        public void Save()
+        public void SaveToJsonFile()
+        {
+            string json = JsonUtility.ToJson(GetReportData());
+            PlayerPrefs.SetString(PlayerPrefsPath, json);
+            
+        }
+
+        public ReportData GetReportData()
         {
             ReportData reportData = new ReportData
             {
+                
                 zones = zones,
-                _positionList = _tracker.GetPositionList(),
-                pathLength = _tracker.GetPathLength(),
-                visitedZones = GetVisitedZones(),
+            //    _positionList = _tracker.GetPositionList(),
+                pathLength = _tracker.GetPathLength(),visitedZones = GetVisitedZones(),
                 visitedZonesCount = GetVisitedZonesCount(),
                 stateTime = GetStateTime(),
                 moveTime = GetMoveTime()
             };
-            string json = JsonUtility.ToJson(reportData);
-            PlayerPrefs.SetString(PlayerPrefsPath, json);
-            
+
+            return reportData;
         }
+        
+        public void SaveToTextFile()
+        {
+            var ReportData = GetReportData();
+            string template = ": {0.Path}\nЗона: {0.Zone}";
+            string path = Settings.FILE_PATH + "/" + Settings.REPORT_FILE_NAME;
+            if (!File.Exists(path))
+            {
+                File.WriteAllText(path,JsonConvert.SerializeObject(GetReportData()));
+            }
+        }
+
+        
 
         void Load()
         {
@@ -77,19 +108,26 @@ namespace VR
             //_positionList = reportData._positionList;
             //UpdateVisual();
         }
-        
-        private class ReportData
+
+        public class ReportData
         {
-            public List<Vector3> _positionList;
+           // public List<Vector3> _positionList;
+            [JsonProperty("Длина пути")]
             public double pathLength;
 
+            [JsonProperty("Зоны")]
             public Dictionary<Zone, int> zones;
+            
+            [JsonProperty("Посещенные зоны")]
             public List<Zone> visitedZones;
+            
+            [JsonProperty("Количество посещенных зон")]
             public int visitedZonesCount;
             
+            [JsonProperty("Время покоя")]
             public double stateTime;
-            public double moveTime;
-            
+
+            [JsonProperty("Время движения")] public double moveTime;
         }
     }
 }

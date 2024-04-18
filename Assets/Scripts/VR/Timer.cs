@@ -11,6 +11,9 @@ namespace VR
         public float timerStart;
         public float timerMoveStart;
 
+        public float timeQuestStart;
+        public float timeQuestEnd = 0;
+
         private void Start()
         {
             timerStart = total;
@@ -30,9 +33,16 @@ namespace VR
             //  timerText.text = Mathf.Round(timerStart).ToString("F2");
         }
 
-        public void PlayTimer()
+        public void PlayMoveTimer()
         {
             timerMoveStart += Time.deltaTime;
         }
+
+        public void PlayQuestTimer()
+        {
+            timeQuestStart += Time.deltaTime;
+        }
+        
+        //объединить в метод PlayTimer()
     }
 }

@@ -1370,11 +1370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c537c0f4a7021c34bb1b767f3eebe3b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   xrPlayer: {fileID: 0}
-  scale: 2
-  intensity: 10
-  amplitude: 5
   _timer: {fileID: 0}
 --- !u!54 &94695019
 Rigidbody:
@@ -2703,11 +2699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c537c0f4a7021c34bb1b767f3eebe3b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   xrPlayer: {fileID: 0}
-  scale: 2
-  intensity: 10
-  amplitude: 5
   _timer: {fileID: 0}
 --- !u!54 &1882026011
 Rigidbody:
@@ -3316,11 +3308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97d2735c4f3a4e849b30ae873b909518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   xrPlayer: {fileID: 0}
-  scale: 4
-  intensity: 10
-  amplitude: 5
   _timer: {fileID: 0}
 --- !u!1 &7799846913967710848
 GameObject:

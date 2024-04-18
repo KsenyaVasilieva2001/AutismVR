@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Networking;
@@ -14,7 +15,7 @@ namespace VR
     {
         [SerializeField] private Timer _timer;
         [SerializeField] private ReportDataCalculator _reportDataCalculator;
-        public int levelId = 1;
+        private int LevelId;
         [SerializeField] private Terrain location;
         
         private Vector3 spawnCenter;
@@ -22,70 +23,97 @@ namespace VR
         private float radiusZ;
         
         [SerializeField] private List<GameObject> items;
-        private List<Vector3> itemsPosition; //сделать несколько наборов
-        [SerializeField] private GameObject box;
+        [SerializeField] private CameraController camera;
+        [SerializeField] private GameObject helper;
+        [SerializeField] private HelperMoveController helperMoveController;
+        [SerializeField] private HelperGrabController _helperGrabController;
+        private List<Vector3> itemsPosition;
+
+        private int pickUpCount;
+        //сделать несколько наборов
+
+        public int GetLevelId()
+        {
+            return LevelId;
+        }
 
         private void Start()
         {
-            if (levelId == 1)
+            Debug.Log(LevelId);
+        }
+
+        private void Awake()
+        {
+            LevelId = 0;
+            switch (LevelId)
             {
-                InitLevel();   
+                case 0:
+                    break;
+                case 1:
+                    InitLevel();
+                    break;
             }
         }
 
         private void Update()
         {
-            PassLevel1();
+            switch (LevelId)
+            {
+                case 0:
+                    PassLevel0();
+                    break;
+                case 1:
+                    PassLevel1();
+                    break;
+            }
         }
 
         private void InitLevel()
         {
+          //  Instantiate(helper, new Vector3(50, 1.92f, 15), Quaternion.identity);
             InitSpawnParams();
             SpawnItems(items);
         }
 
         private void SpawnItems(List<GameObject> items)
         {
+            itemsPosition = new List<Vector3>();
             foreach (var item in items)
             {
                 bool isSpawn = false;
                 while (!isSpawn)
                 {
-                    var pos = GetRandomSpawnPoint() + new Vector3(0, item.transform.localScale.y,0);
-                    Collider[] hitColliders = Physics.OverlapBox(pos, item.transform.localScale, Quaternion.identity);
-                    if (hitColliders == null)
+                    var localScale = item.transform.localScale; 
+                    var pos = GetRandomSpawnPoint() + new Vector3(0, localScale.y,0);
+                    //var pos = GetRandomSpawnPoint();
+                    var colliders = Physics.OverlapBox(pos, localScale / 2, Quaternion.identity).ToList();
+                    colliders.Remove(GetComponent<TerrainCollider>());
+                    if (colliders.All(obj => obj.GetComponent<Zone>()))
                     {
                         Instantiate(item, pos, Quaternion.identity);
-                        itemsPosition.Add(pos);
+                        itemsPosition.Add(new Vector3(pos.x, 0, pos.z));
                         isSpawn = true;
-                    }
-                    else
-                    {
-                        if(hitColliders.All(obj => obj.GetComponent<Zone>()))
-                        {
-                            Instantiate(item, pos, Quaternion.identity);
-                            itemsPosition.Add(pos);
-                            isSpawn = true;
-                        }
                     }
                 }
             }
         }
+        
+
 
         private Vector3 GetRandomSpawnPoint()
         {
             Vector3 spawnPos = new Vector3(Random.Range((spawnCenter.x - radiusX), (spawnCenter.x + radiusX)),
-                spawnCenter.y,
+                0,
                 Random.Range((spawnCenter.z - radiusZ), (spawnCenter.z + radiusZ))
             );
-            Debug.Log(spawnPos);
             return spawnPos;
         }
 
         private void InitSpawnParams()
         {
-            var sizeX = location.terrainData.size.x;
-            var sizeZ = location.terrainData.size.z;
+            var terrainData = location.terrainData;
+            var sizeX = terrainData.size.x;
+            var sizeZ = terrainData.size.z;
             spawnCenter = new Vector3(sizeX / 2, 0, sizeZ / 2);
             radiusX = .75f * sizeX / 2;
             radiusZ = .75f * sizeZ / 2;
@@ -96,19 +124,40 @@ namespace VR
             return itemsPosition;
         }
 
-        void PassLevel1()
+        void PassLevel0()
         {
             if (_timer.timerStart == 0)
             {
-                SceneManager.LoadScene("WaitingRoomScene");
-                _reportDataCalculator.Save();
+                _reportDataCalculator.SaveToTextFile();
+                camera.TakeScreenshot();
+                Debug.Log("Pass!");
+                SceneManager.LoadScene("MainScene");
+              //  LevelId++;
             }
         }
 
-        void PassLevel2()
+        void PassLevel1()
         {
-            
+         //   Debug.Log(items.Count(p => p.GetComponent<Pickable>().IsPicked()));
+         
+         /*
+            if (items.All(p => p.GetComponent<Pickable>().IsPicked()))
+            {
+                //проигрывание анимации и чего то там
+                //задержка
+                SceneManager.LoadScene("TestingScene");
+         //       LevelId++;
+            }
+            */
+         
+         if (_timer.timerStart == 0)
+         {
+             _reportDataCalculator.SaveToTextFile();
+             camera.TakeScreenshot();
+             Debug.Log("Pass!");
+             SceneManager.LoadScene("TestingScene");
+             //  LevelId++;
+         }
         }
-        //менять переменную level 1 level 2, addcomponent  
     }
 }

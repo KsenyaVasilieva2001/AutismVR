@@ -1,57 +1,53 @@
 ﻿using System;
+using System.Collections;
+using Unity.XR.PXR;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 namespace VR
 {
     public class MovementController : MonoBehaviour
     {
-        [SerializeField] private float speed = 5f;
+        private float speed = 3.5f;
+        private float teleportDelay = 0.5f;
         [SerializeField] private Transform xrPlayer;
         private Camera _camera;
         private bool _isMoving = false;
 
         private Vector3 _destination;
-        [SerializeField] private float scale = 4f;
+        private float scale = 2f;
         
-        private Vector3 _nextSwayVector;
-        private Vector3 _nextSwayPosition;
-        private Vector3 _startLocalPosition;
-        [SerializeField] float intensity = 10.0f; 
-        [SerializeField] float amplitude = 5.0f;
         [SerializeField] private Timer _timer;
+        
+        private float bobbingSpeed = 5f; // Скорость покачивания
+        private float bobbingAmount = 0.005f; // Амплитуда покачивания
+        private float bobTimer;
+
+        private GameObject heldObject;
         private void Start()
         {
-            _camera = FindObjectOfType<Camera>();
-           
-           _nextSwayVector = xrPlayer.up * amplitude;
-           _nextSwayPosition = xrPlayer.localPosition + _nextSwayVector;
-           _startLocalPosition = xrPlayer.localPosition;
+            _camera = Camera.main;
+            _timer = FindObjectOfType<Timer>();
         }
         private void Update()
         {
-            if (_isMoving)
+        
+            if (IsMove())
             {
-                _timer.PlayTimer();
-                //CameraMove();
-                //если пересек клетку update value в grid
+                _timer.PlayMoveTimer();
+                CameraMove();
             }
         }
 
         
         private void CameraMove()
         {
-            /*
-            var sin = cameraHeight * Mathf.Sin(cameraSpeed);
-            xrPlayer.position = Vector3.up * sin;
-            */
-            
-            xrPlayer.localPosition = Vector3.MoveTowards(xrPlayer.localPosition, _nextSwayPosition, intensity * Time.deltaTime);
-            if (Vector3.SqrMagnitude(xrPlayer.localPosition - _nextSwayPosition) < 0.01f)
-            {
-                _nextSwayVector = -_nextSwayVector;
+            bobTimer += Time.deltaTime * bobbingSpeed;
+            float bob = Mathf.Sin(bobTimer) * bobbingAmount;
 
-                _nextSwayPosition = _startLocalPosition + _nextSwayVector;
-            }
+            Vector3 newPosition = xrPlayer.position;
+            newPosition.y += bob;
+            xrPlayer.position = newPosition;
         }
         
         public void StartMove()
@@ -78,7 +74,7 @@ namespace VR
         }
         public void ThumbLeftMove()
         {
-            var direction = transform.InverseTransformVector(-_camera.transform.right);
+            var direction = -transform.InverseTransformVector(-_camera.transform.right);
             direction.y = 0;
             direction = direction.normalized;
             xrPlayer.Translate(direction * speed * Time.deltaTime, Space.World);
@@ -86,7 +82,7 @@ namespace VR
         
         public void ThumbRightMove()
         {
-            var direction = transform.InverseTransformVector(_camera.transform.right);
+            var direction = -transform.InverseTransformVector(_camera.transform.right);
             direction.y = 0;
             direction = direction.normalized;
             xrPlayer.Translate(direction * speed * Time.deltaTime, Space.World);
@@ -99,35 +95,43 @@ namespace VR
             direction = direction.normalized;
             xrPlayer.Translate(direction * speed * Time.deltaTime, Space.World);
         }
+    
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.GetComponent<XRGrabInteractable>() && heldObject == null)
+            {
+                heldObject = other.gameObject;
+            }
+        }
         
-        
-        private void OnCollisionEnter(Collision other)
+        private void OnTriggerStay(Collider other)
         {
             if (other.gameObject.CompareTag("Finger"))
             {
-                _destination = other.contacts[0].point;
-                StartMove();
+                if (heldObject == null)
+                {
+                    Vector3 collisionPoint = other.ClosestPoint(transform.position);
+                    Vector3 dir = (collisionPoint - xrPlayer.position).normalized;
+                    dir.y = 0;
+                    StartCoroutine(TeleportToPoint(dir));
+                }
             }
         }
 
-        private void OnCollisionStay(Collision other)
+        private void OnTriggerExit(Collider other)
         {
-            if (other.gameObject.CompareTag("Finger"))
-            { 
-                var dir = -(other.contacts[0].point - _destination);
-                var position = xrPlayer.position;
-                var pos = position + dir * scale;
-                pos.y = 0;
-               /* position = Vector3.Lerp(position, pos, Time.deltaTime * speed);
-                xrPlayer.position = position;
-                */
-               xrPlayer.Translate(pos * scale * speed * Time.deltaTime, Space.World);
+            if (other.gameObject == heldObject)
+            {
+                heldObject = null;
+                // Здесь можно добавить логику освобождения объекта, например, сброс родительского объекта или разрешение движения
             }
         }
 
-        private void OnCollisionExit(Collision other)
+        private IEnumerator TeleportToPoint(Vector3 destination)
         {
-            EndMove();
+            yield return new WaitForSeconds(teleportDelay);
+            xrPlayer.Translate(destination * speed * Time.deltaTime, Space.World);
         }
+        
     }
 }
