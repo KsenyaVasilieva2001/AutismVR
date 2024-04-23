@@ -35,21 +35,25 @@ namespace Networking
 
         public void StartGame()
         {
+            /*
             if (NetworkManager.Singleton.StartServer())
             {
                 SceneTransitionHandler.Singleton.RegisterCallback();
                 SceneTransitionHandler.Singleton.SwitchScene(lobbyServerScene);
             }
+            */
         }
 
         public void JoinGame()
         {
+            /*
             if (NetworkManager.Singleton.StartClient())
             {
                 Debug.Log("Client is started");
                 SceneTransitionHandler.Singleton.RegisterCallback();
                 SceneTransitionHandler.Singleton.SwitchScene(lobbyClientScene);
             }
+            */
         }
 
         public void LeaveRoom()

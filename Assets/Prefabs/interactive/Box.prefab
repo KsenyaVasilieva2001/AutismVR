@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 805335256513864234}
   - component: {fileID: 5527856404408823495}
   - component: {fileID: 9089413839548859060}
+  - component: {fileID: 6208096103760912496}
   m_Layer: 0
   m_Name: Box
-  m_TagString: Untagged
+  m_TagString: TargetBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 28974926260811920}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.027, y: 0.14, z: 33.783276}
-  m_LocalScale: {x: 13.772482, y: 13.772482, z: 13.772482}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 8, y: 8, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 879337802874487900}
@@ -48,9 +49,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f71b246bcff84f608752467e8750ef09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCollider: {fileID: 0}
-  levelNum: 1
+  targetCollider: {fileID: 7401162225808192739, guid: 52ff3c8f0530fc044935f469fef0668e, type: 3}
+  levelManager: {fileID: 1567797131490006988, guid: 0f985e6890327634b806f2ebfc86312b, type: 3}
+  isPicked: 1
   _helperGrabController: {fileID: 4458698247408469955, guid: efd105a93527fe14cb9ebb13df2fe785, type: 3}
+  rb: {fileID: 9089413839548859060}
 --- !u!54 &9089413839548859060
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -66,7 +69,21 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
+--- !u!64 &6208096103760912496
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28974926260811920}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9009893830714642796, guid: b0643ef5551150742b763d5f22f7790a, type: 3}
 --- !u!1 &2078993858309709497
 GameObject:
   m_ObjectHideFlags: 0
@@ -79,6 +96,7 @@ GameObject:
   - component: {fileID: 1783716836322868161}
   - component: {fileID: 1962344179287801564}
   - component: {fileID: 2363130680132463701}
+  - component: {fileID: 6052165723909176050}
   m_Layer: 0
   m_Name: box
   m_TagString: Untagged
@@ -160,11 +178,24 @@ MeshCollider:
   m_GameObject: {fileID: 2078993858309709497}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 9009893830714642796, guid: b0643ef5551150742b763d5f22f7790a, type: 3}
+--- !u!65 &6052165723909176050
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078993858309709497}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07871726, y: 0.021423426, z: 0.07871726}
+  m_Center: {x: 0, y: 0.010711713, z: 0}
 --- !u!1 &5149995918862821392
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,12 +350,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7605313971570322938, guid: 040e675fe3329fa4ea00b1c510fe8aa9, type: 3}
+      propertyPath: m_Size.y
+      value: 0.050022505
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605313971570322938, guid: 040e675fe3329fa4ea00b1c510fe8aa9, type: 3}
       propertyPath: m_Size.z
       value: 0.07296696
       objectReference: {fileID: 0}
     - target: {fileID: 7605313971570322938, guid: 040e675fe3329fa4ea00b1c510fe8aa9, type: 3}
+      propertyPath: m_Center.x
+      value: -0.000000070780516
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605313971570322938, guid: 040e675fe3329fa4ea00b1c510fe8aa9, type: 3}
+      propertyPath: m_Center.y
+      value: 0.026093673
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605313971570322938, guid: 040e675fe3329fa4ea00b1c510fe8aa9, type: 3}
       propertyPath: m_Center.z
-      value: 0.00002368176
+      value: 0.00002368167
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 040e675fe3329fa4ea00b1c510fe8aa9, type: 3}

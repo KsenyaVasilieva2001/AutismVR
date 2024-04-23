@@ -44,6 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5bc75912293426dbebc9dfa3e651ede, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _tracker: {fileID: 0}
-  _gridSystem: {fileID: 0}
-  _timer: {fileID: 0}
+  tracker: {fileID: 0}
+  gridSystem: {fileID: 0}
+  timer: {fileID: 0}

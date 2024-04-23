@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8875111696870753443}
   - component: {fileID: 8875111696870753440}
   - component: {fileID: 5823780663966107771}
+  - component: {fileID: 8544335063008217269}
   m_Layer: 0
   m_Name: Cube (Coral)
   m_TagString: Untagged
@@ -265,8 +266,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetCollider: {fileID: 7605313971570322938, guid: 040e675fe3329fa4ea00b1c510fe8aa9, type: 3}
-  levelNum: 1
+  levelManager: {fileID: 1567797131490006988, guid: 0f985e6890327634b806f2ebfc86312b, type: 3}
+  isPicked: 0
   _helperGrabController: {fileID: 4458698247408469955, guid: efd105a93527fe14cb9ebb13df2fe785, type: 3}
+  rb: {fileID: 8875111696870753443}
+--- !u!114 &8544335063008217269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8875111696870753441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a1302d0d134fa8a2a5b3bf4aec3c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PermittedDisplacementAxes: 7
+  m_ConstrainedAxisDisplacementMode: 1
+  m_TwoHandedRotationMode: 2
+  m_AllowTwoHandedScaling: 1
+  m_ThresholdMoveRatioForScale: 0.1
+  m_ClampScaling: 1
+  m_MinimumScaleRatio: 0.25
+  m_MaximumScaleRatio: 2
+  m_ScaleMultiplier: 0.25
 --- !u!1001 &7401162224953115724
 PrefabInstance:
   m_ObjectHideFlags: 0

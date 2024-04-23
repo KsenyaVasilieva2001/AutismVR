@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Linq;
+using HelperSystem;
+using LevelSystem;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 
@@ -7,39 +11,43 @@ namespace VR
     public class Pickable : MonoBehaviour
     {
         [SerializeField] private Collider targetCollider;
-        [SerializeField] private int levelNum;
+
+        [SerializeField] private LevelManager levelManager;
+
+        //public TextMeshProUGUI text;
             // [SerializeField] private Transform attachTo;
-        private bool isPicked;
+        public bool IsPicked;
 
         [SerializeField] private HelperGrabController _helperGrabController;
         public Rigidbody rb;
         public Rigidbody Rb => rb;
         
-        //set сделать проперти если не null
         //то, куда нужно положить объект
         private void Awake()
         {
-            rb = GetComponent<Rigidbody>();
+            levelManager = FindObjectOfType<LevelManager>();
+            //text = GameObject.FindWithTag("Text").GetComponent<TextMeshProUGUI>();
         }
-        
-        public int GetLevelNum()
-        {
-            return levelNum;
-        }
+   
         private void OnTriggerEnter(Collider other)
         {
-            if (other == targetCollider)
+            Debug.Log(targetCollider.name);
+           // if (other == targetCollider)
+           if (other.name == "Box_bottom" && !CompareTag("TargetBox")) ;
             {
-                if (targetCollider.bounds.Contains(targetCollider.ClosestPoint(transform.position)))
+                // if (targetCollider.bounds.Contains(targetCollider.ClosestPoint(transform.position)))
                 {
-                    Debug.Log("BUN!");
-                    transform.parent = targetCollider.gameObject.transform;
+                    transform.SetParent(targetCollider.gameObject.transform);
                     BeingPick();
-                    if (levelNum == 1)
+                    Debug.Log("OI JAEGERRRR");
+                   //text.text = "JAEGERRRRR";
+                    var levelFindObjects = levelManager.GetLevels().Where(
+                        level => level.name.Equals("LevelFindObjects")).ToList()[0];
+                    if (levelManager.GetLevelId() == levelFindObjects.GetLevelIndex())
                     {
-                        //подписка на событие!
-                        _helperGrabController.Pick(_helperGrabController.itemsToPick[0]);
+                        _helperGrabController.Pick(_helperGrabController.GetItemsToPick()[0]);
                     }
+                    Debug.Log(IsPicked);
                 };
             }
         }
@@ -50,11 +58,7 @@ namespace VR
             rb.angularVelocity = Vector3.zero;
             transform.localPosition = Vector3.zero;
             transform.localEulerAngles = Vector3.zero;
-            isPicked = true;
-        }
-        public bool IsPicked()
-        {
-            return isPicked;
+            IsPicked = true;
         }
     }
 }
