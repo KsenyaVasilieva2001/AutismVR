@@ -8,7 +8,7 @@ public class ReportData
 
     public bool IsReference;
 
-    [JsonProperty("Зоны")]
+    [JsonProperty("Зо")]
     public Dictionary<Zone, int> Zones;
             
     [JsonProperty("Посещенные зоны")]

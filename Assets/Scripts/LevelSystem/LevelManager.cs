@@ -31,11 +31,12 @@ namespace LevelSystem
             */
             //Этот блок для проверки - не удалять!
             
-            
+            /*
             for (int i = 1; i < levels.Count; i++)
             {
                 levels[i].IsLocked = true;
             }
+            */
             ChangeLevel(0);
         }
 
@@ -48,7 +49,7 @@ namespace LevelSystem
                     Debug.Log("Why i am here");
                     if (_currentLevel.LevelIndex == 0)
                     {
-                        levels.ForEach(level => level.IsLocked = false);
+                         levels.ForEach(level => level.IsLocked = false);
                     }
 
                     levels[_levelId].IsPassed = true;
@@ -88,7 +89,7 @@ namespace LevelSystem
         public void LoadLevel()
         {
             StartCoroutine(LoadSceneAsync("MainScene"));
-            SceneManager.LoadScene("MainScene");
+            SceneManager.LoadScene("MainScene"); //А ЭТО ЗАЧЕМ
         }
         
         private IEnumerator LoadSceneAsync(string sceneName)

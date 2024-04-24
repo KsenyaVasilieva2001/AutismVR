@@ -1,9 +1,9 @@
-using Unity.Netcode;
+//using Unity.Netcode;
 using UnityEngine;
 
 namespace Networking
 {
-    public class NetworkPlayerController : NetworkBehaviour
+    public class NetworkPlayerController : MonoBehaviour
     {
         public static NetworkPlayerController Instance = null;
         [SerializeField] private Transform root;
@@ -12,19 +12,19 @@ namespace Networking
         public Renderer[] meshToDisable;
         
         void Start () {
-            if (Instance == null) { 
-                Instance = this; 
-            } else if(Instance == this){ 
-                Destroy(gameObject); 
-            }
-            DontDestroyOnLoad(gameObject);
-            Init();
+            //if (Instance == null) { 
+            //    Instance = this; 
+            //} else if(Instance == this){ 
+            //    Destroy(gameObject); 
+            //}
+            //DontDestroyOnLoad(gameObject);
+            //Init();
         }
        
 
         private void Init()
         {
-            if (IsOwner)
+            //if (IsOwner)
             {
                 root.position = RigReference.Singleton.root.position;
                 root.rotation = RigReference.Singleton.root.rotation;

@@ -1,6 +1,6 @@
 ﻿using System;
-using Unity.Netcode;
-using Unity.Networking.Transport;
+//using Unity.Netcode;
+//using Unity.Networking.Transport;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Networking;
@@ -8,11 +8,11 @@ using UnityEngine.Networking;
 
 namespace Networking
 {
-    public class NetworkAppManager : NetworkManager
+    public class NetworkAppManager : MonoBehaviour
     {
         void Update()
         {
-            if (!Singleton.NetworkConfig.PlayerPrefab)
+            //if (!Singleton.NetworkConfig.PlayerPrefab)
             {
                 SpawnPlayer();
             }
@@ -39,9 +39,9 @@ namespace Networking
 
         private void SpawnPlayer()
         {
-            var instance = Instantiate(NetworkManager.Singleton.NetworkConfig.PlayerPrefab); 
-            var instanceNetworkObject = instance.GetComponent<NetworkObject>();
-            instanceNetworkObject.Spawn();
+            //var instance = Instantiate(NetworkManager.Singleton.NetworkConfig.PlayerPrefab); 
+            //var instanceNetworkObject = instance.GetComponent<NetworkObject>();
+            //instanceNetworkObject.Spawn();
         }
     }
 }

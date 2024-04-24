@@ -4,6 +4,7 @@ using System.Linq;
 using HelperSystem;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using VR;
 using Random = UnityEngine.Random;
 
@@ -34,7 +35,13 @@ namespace LevelSystem
 
         public override void Init()
         {
-            GameObject.FindObjectOfType<PoseDetection>().enabled = false;
+            if (SceneManager.GetActiveScene().name != "MenuScene 2")
+            {
+                location = FindObjectOfType<Terrain>();
+            }
+
+            FindObjectOfType<GridSystem>().enabled = false;
+            FindObjectOfType<PoseDetection>().enabled = false;
             OnItemSetSelected(0);
            //text = GameObject.FindWithTag("TextPro").GetComponent<TextMeshProUGUI>();
             helper.GetComponent<HelperMoveController>().enabled = true;

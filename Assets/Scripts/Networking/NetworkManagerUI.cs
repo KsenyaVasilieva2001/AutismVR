@@ -1,7 +1,7 @@
 using System;
 using TMPro;
-using Unity.Netcode;
-using Unity.Netcode.Transports.UTP;
+//using Unity.Netcode;
+//using Unity.Netcode.Transports.UTP;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -11,24 +11,24 @@ namespace Networking
     public class NetworkManagerUI : MonoBehaviour
     {
        // [SerializeField] private TMP_Text message;
-        private UnityTransport _unityTransport;
+        //private UnityTransport _unityTransport;
         [SerializeField] private string lobbyServerScene = "LevelMenuScene";
         [SerializeField] private string lobbyClientScene = "WaitingRoomScene";
 
         public void Start()
         { 
-            _unityTransport = NetworkManager.Singleton.GetComponent<UnityTransport>();
+            //_unityTransport = NetworkManager.Singleton.GetComponent<UnityTransport>();
         }
 
         public void StartServer()
         {
-            NetworkManager.Singleton.StartServer();
+            //NetworkManager.Singleton.StartServer();
             StartGame();
         }
 
         public void StartClient()
         {
-            NetworkManager.Singleton.StartClient();
+            //NetworkManager.Singleton.StartClient();
             JoinGame();
             // SceneManager.LoadScene("WaitingRoomVRScene", LoadSceneMode.Single);
         }

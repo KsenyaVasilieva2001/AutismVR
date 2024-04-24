@@ -73,7 +73,7 @@ namespace DataSystem
         
         void Start()
         {
-            if (SceneManager.GetActiveScene().name != "MenuScene")
+            if (SceneManager.GetActiveScene().name != "MenuScene 2")//исправить название
             {
                 _zones = gridSystem.zones.ToDictionary(x => x, x => 0);
             }
