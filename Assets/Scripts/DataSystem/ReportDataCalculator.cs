@@ -7,6 +7,7 @@ using System.Xml.Serialization;
 using Newtonsoft.Json;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
 using VR;
 using Timer = VR.Timer;
@@ -27,27 +28,17 @@ namespace DataSystem
         private List<double> _weights;
         private int Result { get; set; }
         public bool IsRated { get; set; }
-        
-        
+        public Dictionary<Criteria, int> СriteriaScore; //то какой балл присвоили критерию
+
+
         public List<Criteria> LoadCriteriaXML()
-        { 
-            XmlSerializer serializer = new XmlSerializer(typeof(Criteria));
-            StringReader reader = new StringReader(Resources.Load<TextAsset>("Criteria.xml").text);
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(CriteriaList), new XmlRootAttribute("criterias"));
+            var xmlFile = (TextAsset)Resources.Load("Criteria", typeof(TextAsset));
+            StringReader reader = new StringReader(xmlFile.text);
             CriteriaList criteriaList = (CriteriaList)serializer.Deserialize(reader);
             reader.Close();
             return criteriaList.Criteria.ToList();
-            /*
-            
-            // Теперь вы можете использовать данные из criteria
-            Debug.Log("Name: " + criteriaList.;
-            Debug.Log("Description: " + criteria.Description);
-
-            foreach (Score score in criteria.Scores)
-            {
-                Debug.Log("Score Value: " + score.Value);
-                Debug.Log("Score Description: " + score.Description);
-            }
-            */
         }
         
         //XmlDocument doc = new XmlDocument();
@@ -74,12 +65,19 @@ namespace DataSystem
                 Instance = this;
                 DontDestroyOnLoad(gameObject);
             }
+            
+            gridSystem = FindObjectOfType<GridSystem>();
+            timer = FindObjectOfType<Timer>();
+            tracker = FindObjectOfType<PathTracker>();
         }
         
         void Start()
         {
-            _zones = gridSystem.zones.ToDictionary(x => x, x => 0);
-            
+            if (SceneManager.GetActiveScene().name != "MenuScene")
+            {
+                _zones = gridSystem.zones.ToDictionary(x => x, x => 0);
+            }
+
             //УБРАТЬ ЭТО С СТАРТА ПОТОМ
             
           //  SaveToTextFile(Settings.REPORT_FILE_NAME);

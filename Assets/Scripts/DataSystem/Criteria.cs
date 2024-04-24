@@ -9,13 +9,49 @@ namespace DataSystem
     [XmlRoot("criterias")]
     public class CriteriaList
     {
+        [XmlElement("criteria")]
+        public Criteria[] Criteria { get; set; }
+    }
+
+    [System.Serializable]
+    public class Criteria
+    {
+        [XmlElement("name")]
+        public string Name { get; set; }
+
+        [XmlElement("rated")]
+        public bool IsRated { get; set; }
+
+        [XmlElement("param")]
+        public string[] ParamsName { get; set; }
+
+        [XmlArray("scores")]
+        [XmlArrayItem("score")]
+        public CriteriaScore[] CriteriaScores { get; set; }
+    }
+
+    [System.Serializable]
+    public class CriteriaScore
+    {
+        [XmlElement("description")]
+        public string Description { get; set; }
+
+        [XmlElement("value")]
+        public int ScoreValue { get; set; }
+    }
+    
+    
+    /*
+    [System.Serializable]
+    [XmlRoot("criterias")]
+    public class CriteriaList
+    {
         [XmlArrayItem("criteria")]
         public Criteria[] Criteria { get; set; }
     }
     
     
     [System.Serializable]
-    [XmlRoot("criteria")]
     public class Criteria
     {
         [XmlElement("name")] public string Name { get; set; }
@@ -38,6 +74,7 @@ namespace DataSystem
 
         [XmlElement("score")] public int ScoreValue { get; set; }
     }
+    */
     
 }
 
