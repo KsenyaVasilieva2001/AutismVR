@@ -29,6 +29,7 @@ namespace VR
             //text = GameObject.FindWithTag("Text").GetComponent<TextMeshProUGUI>();
         }
    
+        /*
         private void OnTriggerEnter(Collider other)
         {
             Debug.Log(targetCollider.name);
@@ -50,7 +51,7 @@ namespace VR
                     Debug.Log(IsPicked);
                 };
             }
-        }
+        }*/
 
         public void BeingPick()
         {

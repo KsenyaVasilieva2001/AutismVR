@@ -18,15 +18,17 @@ namespace LevelSystem
         private int _levelId;
         private Level _currentLevel;
         private int _passCount;
+        private bool _sceneIsLoaded;
         
         
         
         private void Awake()
         {
             //Этот блок для проверки - не удалять!
-            _levelId = 1;
+            /*_levelId = 1;
             _currentLevel = levels[_levelId];
             _currentLevel.Init();
+            */
             //Этот блок для проверки - не удалять!
             
             
@@ -39,9 +41,8 @@ namespace LevelSystem
 
         private void Update()
         {
-            if (SceneManager.GetActiveScene().name != "MenuScene")
+            if (SceneManager.GetActiveScene().name != "MenuScene" && _sceneIsLoaded)
             {
-                Debug.Log(_currentLevel.name);
                 if (_currentLevel.Pass())
                 {
                     Debug.Log("Why i am here");
@@ -87,9 +88,7 @@ namespace LevelSystem
         public void LoadLevel()
         {
             StartCoroutine(LoadSceneAsync("MainScene"));
-            //SceneManager.LoadScene("MainScene");
-           // _currentLevel = levels[_levelId];
-            //_currentLevel.Init();
+            SceneManager.LoadScene("MainScene");
         }
         
         private IEnumerator LoadSceneAsync(string sceneName)
@@ -103,7 +102,9 @@ namespace LevelSystem
             }
             _currentLevel = levels[_levelId];
             _currentLevel.Init();
+            _sceneIsLoaded = true;
             Debug.Log("Scene '" + sceneName + "' fully loaded.");
+            Debug.Log(_currentLevel);
         }
         public void LoadLevelRoom(int levelId)
         {
