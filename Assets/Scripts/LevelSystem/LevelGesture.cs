@@ -37,7 +37,7 @@ namespace LevelSystem
             currentGestureIndex = 0;
             isResponding = false;
             player.GetComponentInChildren<MovementController>().enabled = false;
-            Vector3 helperInitPos = new Vector3(45, 2, 20);
+            Vector3 helperInitPos = new Vector3(50, 2, 22);
             Instantiate(helper, helperInitPos, Quaternion.identity);
             Instantiate(cubeDetector, helperInitPos + new Vector3(5,0,5), Quaternion.identity);
             GameObject.FindWithTag("MovementSystem").SetActive(false);
@@ -118,6 +118,7 @@ namespace LevelSystem
             if (poses[currentGestureIndex].name.Equals(currentPoseName))
             {
                 cubeDetector.GetComponent<Renderer>().sharedMaterial.color = Color.green;
+                helper.GetComponent<Renderer>().sharedMaterial.color = Color.green;
                 currentGestureIndex++;
                 poseIsPassed = true;
                 if (currentGestureIndex < poses.Count)

@@ -13,8 +13,10 @@ public class DemoLevelManager : NetworkBehaviour
 
     void Start()
     {
+        //instructorCamera = Camera.main; 
         if (IsServerInitialized)
         {
+            //удалить все что связано с VR 
             instructorCamera.gameObject.SetActive(true);
             loadWaitingRoom.gameObject.SetActive(true);
         }

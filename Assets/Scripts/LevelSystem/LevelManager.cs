@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using DataSystem;
+using FishNet;
+using FishNet.Managing.Scened;
 using Networking;
 using UI;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using SceneManager = UnityEngine.SceneManagement.SceneManager;
 
 namespace LevelSystem
 {
@@ -15,6 +17,7 @@ namespace LevelSystem
         [SerializeField] private List<Level> levels;
         [SerializeField] private UIManager uiManager;
         [SerializeField] private FileManager fileManager;
+        [SerializeField] private DemoLevelManager demoLevelManager;
         private int _levelId;
         private Level _currentLevel;
         private int _passCount;
@@ -22,27 +25,33 @@ namespace LevelSystem
         
         
         
+        
         private void Awake()
         {
             //Этот блок для проверки - не удалять!
-            /*_levelId = 1;
+            
+            /*
+            _levelId = 0;
             _currentLevel = levels[_levelId];
             _currentLevel.Init();
             */
+            
             //Этот блок для проверки - не удалять!
             
-            /*
+           
             for (int i = 1; i < levels.Count; i++)
             {
                 levels[i].IsLocked = true;
             }
-            */
+            
+            
             ChangeLevel(0);
         }
 
         private void Update()
         {
-            if (SceneManager.GetActiveScene().name != "MenuScene" && _sceneIsLoaded)
+            //тут если что то не заработает вернуть на !=
+            if (SceneManager.GetActiveScene().name == "MenuScene" && _sceneIsLoaded)
             {
                 if (_currentLevel.Pass())
                 {
@@ -54,10 +63,12 @@ namespace LevelSystem
 
                     levels[_levelId].IsPassed = true;
 
-                    _currentLevel.LoadWaitingRoomScene();
+                    //_currentLevel.LoadWaitingRoomScene();
+                    demoLevelManager.LoadWaitingRoom();
+                    
                 }
 
-                ;
+                
             }
 
             if (AllIsPassed())
@@ -88,8 +99,14 @@ namespace LevelSystem
         }
         public void LoadLevel()
         {
-            StartCoroutine(LoadSceneAsync("MainScene"));
-            SceneManager.LoadScene("MainScene"); //А ЭТО ЗАЧЕМ
+          //  StartCoroutine(LoadSceneAsync("MainScene"));
+          //  SceneManager.LoadScene("MainScene"); //А ЭТО ЗАЧЕМ
+          
+          uiManager.ui.SetActive(false);
+          LoadLevelScene();
+          _currentLevel = levels[_levelId];
+         // _currentLevel.Init();
+          _sceneIsLoaded = true;
         }
         
         private IEnumerator LoadSceneAsync(string sceneName)
@@ -107,10 +124,7 @@ namespace LevelSystem
             Debug.Log("Scene '" + sceneName + "' fully loaded.");
             Debug.Log(_currentLevel);
         }
-        public void LoadLevelRoom(int levelId)
-        {
-            
-        }
+       
         
         public void ChangeLevel(int change)
         {
@@ -119,6 +133,14 @@ namespace LevelSystem
             else if (_levelId > levels.Count - 1) _levelId = 0;
             
             if(uiManager != null) uiManager.DisplayLevel(levels[_levelId]);
+        }
+        
+
+        public void LoadLevelScene()
+        {
+            SceneLoadData sld = new SceneLoadData("MainScene");
+            sld.ReplaceScenes = ReplaceOption.All;
+            InstanceFinder.SceneManager.LoadGlobalScenes(sld);
         }
     }
 }

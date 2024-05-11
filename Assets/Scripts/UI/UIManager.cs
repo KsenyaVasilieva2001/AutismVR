@@ -14,6 +14,7 @@ namespace UI
 {
     public class UIManager : MonoBehaviour {
         
+        public GameObject ui;
         [SerializeField] private TextMeshProUGUI levelDescription;
         [SerializeField] private Image levelImage;
         [SerializeField] private TextMeshProUGUI levelTitle;

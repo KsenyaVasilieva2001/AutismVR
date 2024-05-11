@@ -1149,1675 +1149,1831 @@ extern void EyeTrackingState_ToString_m2AD60ACA1567008895C29FF5E4257DB620C041FD 
 extern void EyeTrackingDataGetInfo_SetVersion_m6B5EBD3774D9D9A646D2A98630FDC901D6D209D6 (void);
 // 0x00000248 System.String Unity.XR.PXR.EyeTrackingDataGetInfo::ToString()
 extern void EyeTrackingDataGetInfo_ToString_mD1D326DD7C712CA8CC2C6E2875917FB1E4853D95 (void);
-// 0x00000249 System.Void Unity.XR.PXR.PerEyeData::SetVersion(System.Int32)
+// 0x00000249 System.String Unity.XR.PXR.PxrPose::ToString()
+extern void PxrPose_ToString_m56AECB0515509056513D5C79F7E283C82BA2186B (void);
+// 0x0000024A System.Void Unity.XR.PXR.PerEyeData::SetVersion(System.Int32)
 extern void PerEyeData_SetVersion_mAEE3E3ED674ABDDB9837534B487AA754B1413E9C (void);
-// 0x0000024A System.String Unity.XR.PXR.PerEyeData::ToString()
+// 0x0000024B System.String Unity.XR.PXR.PerEyeData::ToString()
 extern void PerEyeData_ToString_mFAC778B00DA8D40E5380AD5E5EC1DE7B30EC15E8 (void);
-// 0x0000024B System.Void Unity.XR.PXR.EyeTrackingData::SetVersion(System.Int32)
+// 0x0000024C System.Void Unity.XR.PXR.EyeTrackingData::SetVersion(System.Int32)
 extern void EyeTrackingData_SetVersion_m8B8172A6534979F56C88D0782416CED9D58D36DE (void);
-// 0x0000024C System.String Unity.XR.PXR.EyeTrackingData::ToString()
+// 0x0000024D System.String Unity.XR.PXR.EyeTrackingData::ToString()
 extern void EyeTrackingData_ToString_m7F366E235B0DE0918783121E519E40386D8C9D4E (void);
-// 0x0000024D System.String Unity.XR.PXR.EyePupilInfo::ToString()
+// 0x0000024E System.String Unity.XR.PXR.EyePupilInfo::ToString()
 extern void EyePupilInfo_ToString_mA4928B7567ECCED18C192B8D0FE2CEEF550C365F (void);
-// 0x0000024E System.Void Unity.XR.PXR.FaceTrackingStartInfo::SetVersion(System.Int32)
+// 0x0000024F System.Void Unity.XR.PXR.FaceTrackingStartInfo::SetVersion(System.Int32)
 extern void FaceTrackingStartInfo_SetVersion_m64D94392915CA7068814AAF14F3A5C307B508471 (void);
-// 0x0000024F System.String Unity.XR.PXR.FaceTrackingStartInfo::ToString()
+// 0x00000250 System.String Unity.XR.PXR.FaceTrackingStartInfo::ToString()
 extern void FaceTrackingStartInfo_ToString_m9A88D9F9B8379AF23213B7B3C24AD4B3F003101C (void);
-// 0x00000250 System.Void Unity.XR.PXR.FaceTrackingStopInfo::SetVersion(System.Int32)
+// 0x00000251 System.Void Unity.XR.PXR.FaceTrackingStopInfo::SetVersion(System.Int32)
 extern void FaceTrackingStopInfo_SetVersion_m7A6B9B0C4C2A0B5003E09325EB2E72D3D9929A25 (void);
-// 0x00000251 System.String Unity.XR.PXR.FaceTrackingStopInfo::ToString()
+// 0x00000252 System.String Unity.XR.PXR.FaceTrackingStopInfo::ToString()
 extern void FaceTrackingStopInfo_ToString_mE0C4348A4F1913DCE98F5A86F8AFB2A5756D7D3F (void);
-// 0x00000252 System.Void Unity.XR.PXR.FaceTrackingState::SetVersion(System.Int32)
+// 0x00000253 System.Void Unity.XR.PXR.FaceTrackingState::SetVersion(System.Int32)
 extern void FaceTrackingState_SetVersion_mDBBE3B0B24F4BF74BF8A9885B48E6D86F76E3BE8 (void);
-// 0x00000253 System.String Unity.XR.PXR.FaceTrackingState::ToString()
+// 0x00000254 System.String Unity.XR.PXR.FaceTrackingState::ToString()
 extern void FaceTrackingState_ToString_mCBF6961F82A068C82C9BF307EB9396A19AD12186 (void);
-// 0x00000254 System.Void Unity.XR.PXR.FaceTrackingDataGetInfo::SetVersion(System.Int32)
+// 0x00000255 System.Void Unity.XR.PXR.FaceTrackingDataGetInfo::SetVersion(System.Int32)
 extern void FaceTrackingDataGetInfo_SetVersion_m8245C719CB44DCDA768B8F91DF3AC31CC2AD8DD8 (void);
-// 0x00000255 System.String Unity.XR.PXR.FaceTrackingDataGetInfo::ToString()
+// 0x00000256 System.String Unity.XR.PXR.FaceTrackingDataGetInfo::ToString()
 extern void FaceTrackingDataGetInfo_ToString_m445FFFB222534EC49C8F9793D2F5D7A2827B063D (void);
-// 0x00000256 System.Void Unity.XR.PXR.FaceTrackingData::SetVersion(System.Int32)
+// 0x00000257 System.Void Unity.XR.PXR.FaceTrackingData::SetVersion(System.Int32)
 extern void FaceTrackingData_SetVersion_m96E3A6E95E8B9B553CD7C69D4E1E5769FAC48DA8 (void);
-// 0x00000257 System.String Unity.XR.PXR.FaceTrackingData::ToString()
+// 0x00000258 System.String Unity.XR.PXR.FaceTrackingData::ToString()
 extern void FaceTrackingData_ToString_m4DA56C409BCB2087944EB74466D959680E40DA3A (void);
-// 0x00000258 System.Int32 Unity.XR.PXR.PXR_MotionTracking::WantEyeTrackingService()
+// 0x00000259 System.Int32 Unity.XR.PXR.PXR_MotionTracking::WantEyeTrackingService()
 extern void PXR_MotionTracking_WantEyeTrackingService_mEEC6A58DD877890DE5DAD94687442920D9A9ECDF (void);
-// 0x00000259 System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetEyeTrackingSupported(System.Boolean&,System.Int32&,Unity.XR.PXR.EyeTrackingMode&)
+// 0x0000025A System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetEyeTrackingSupported(System.Boolean&,System.Int32&,Unity.XR.PXR.EyeTrackingMode&)
 extern void PXR_MotionTracking_GetEyeTrackingSupported_mE10A505B88C0CFF6830A262F15E65C191EAB63A2 (void);
-// 0x0000025A System.Int32 Unity.XR.PXR.PXR_MotionTracking::StartEyeTracking(Unity.XR.PXR.EyeTrackingStartInfo&)
+// 0x0000025B System.Int32 Unity.XR.PXR.PXR_MotionTracking::StartEyeTracking(Unity.XR.PXR.EyeTrackingStartInfo&)
 extern void PXR_MotionTracking_StartEyeTracking_m6094AE9E0C9AA0799744B68DA2596D0FC1CA5084 (void);
-// 0x0000025B System.Int32 Unity.XR.PXR.PXR_MotionTracking::StopEyeTracking(Unity.XR.PXR.EyeTrackingStopInfo&)
+// 0x0000025C System.Int32 Unity.XR.PXR.PXR_MotionTracking::StopEyeTracking(Unity.XR.PXR.EyeTrackingStopInfo&)
 extern void PXR_MotionTracking_StopEyeTracking_mDB76A446E739C9B4500D0AC77914D873A6FECEC6 (void);
-// 0x0000025C System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetEyeTrackingState(System.Boolean&,Unity.XR.PXR.EyeTrackingState&)
+// 0x0000025D System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetEyeTrackingState(System.Boolean&,Unity.XR.PXR.EyeTrackingState&)
 extern void PXR_MotionTracking_GetEyeTrackingState_m58A59C677DFE2F96510D78501EBBF998DED5598C (void);
-// 0x0000025D System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetEyeTrackingData(Unity.XR.PXR.EyeTrackingDataGetInfo&,Unity.XR.PXR.EyeTrackingData&)
+// 0x0000025E System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetEyeTrackingData(Unity.XR.PXR.EyeTrackingDataGetInfo&,Unity.XR.PXR.EyeTrackingData&)
 extern void PXR_MotionTracking_GetEyeTrackingData_m9F981D275280C7A4792C22D035EAB94C639DC342 (void);
-// 0x0000025E System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetEyeOpenness(System.Single&,System.Single&)
+// 0x0000025F System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetEyeOpenness(System.Single&,System.Single&)
 extern void PXR_MotionTracking_GetEyeOpenness_m18F4B9443380D90343C450DF3D65BD99B70928B7 (void);
-// 0x0000025F System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetEyePupilInfo(Unity.XR.PXR.EyePupilInfo&)
+// 0x00000260 System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetEyePupilInfo(Unity.XR.PXR.EyePupilInfo&)
 extern void PXR_MotionTracking_GetEyePupilInfo_mE8989F91A190823FF89D2708437C26A70A064957 (void);
-// 0x00000260 System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetPerEyePose(System.Int64&,Unity.XR.PXR.Posef&,Unity.XR.PXR.Posef&)
+// 0x00000261 System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetPerEyePose(System.Int64&,Unity.XR.PXR.Posef&,Unity.XR.PXR.Posef&)
 extern void PXR_MotionTracking_GetPerEyePose_mFE212347F2536463A03CA8D5A2C84C099C238F89 (void);
-// 0x00000261 System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetEyeBlink(System.Int64&,System.Boolean&,System.Boolean&)
+// 0x00000262 System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetEyeBlink(System.Int64&,System.Boolean&,System.Boolean&)
 extern void PXR_MotionTracking_GetEyeBlink_m96204F74F8B0B86F00504771F27BEBDA54181C0C (void);
-// 0x00000262 System.Int32 Unity.XR.PXR.PXR_MotionTracking::WantFaceTrackingService()
+// 0x00000263 System.Int32 Unity.XR.PXR.PXR_MotionTracking::WantFaceTrackingService()
 extern void PXR_MotionTracking_WantFaceTrackingService_mD2707F0FA9F15230E2CA22053E4AAED649D079A3 (void);
-// 0x00000263 System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetFaceTrackingSupported(System.Boolean&,System.Int32&,Unity.XR.PXR.FaceTrackingSupportedMode&)
+// 0x00000264 System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetFaceTrackingSupported(System.Boolean&,System.Int32&,Unity.XR.PXR.FaceTrackingSupportedMode&)
 extern void PXR_MotionTracking_GetFaceTrackingSupported_m48180DE2866281106412EEA3FE97810407602124 (void);
-// 0x00000264 System.Int32 Unity.XR.PXR.PXR_MotionTracking::StartFaceTracking(Unity.XR.PXR.FaceTrackingStartInfo&)
+// 0x00000265 System.Int32 Unity.XR.PXR.PXR_MotionTracking::StartFaceTracking(Unity.XR.PXR.FaceTrackingStartInfo&)
 extern void PXR_MotionTracking_StartFaceTracking_m5C3355FFF01A2ECF9E9D852879CAA34F7F48BA5D (void);
-// 0x00000265 System.Int32 Unity.XR.PXR.PXR_MotionTracking::StopFaceTracking(Unity.XR.PXR.FaceTrackingStopInfo&)
+// 0x00000266 System.Int32 Unity.XR.PXR.PXR_MotionTracking::StopFaceTracking(Unity.XR.PXR.FaceTrackingStopInfo&)
 extern void PXR_MotionTracking_StopFaceTracking_mC8220261C6E56B208BDD7B1AC0246AE6FBE1A716 (void);
-// 0x00000266 System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetFaceTrackingState(System.Boolean&,Unity.XR.PXR.FaceTrackingState&)
+// 0x00000267 System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetFaceTrackingState(System.Boolean&,Unity.XR.PXR.FaceTrackingState&)
 extern void PXR_MotionTracking_GetFaceTrackingState_mBEF0A8ECCF6BD1EEBB5EEDA10997CDFB5974AD40 (void);
-// 0x00000267 System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetFaceTrackingData(Unity.XR.PXR.FaceTrackingDataGetInfo&,Unity.XR.PXR.FaceTrackingData&)
+// 0x00000268 System.Int32 Unity.XR.PXR.PXR_MotionTracking::GetFaceTrackingData(Unity.XR.PXR.FaceTrackingDataGetInfo&,Unity.XR.PXR.FaceTrackingData&)
 extern void PXR_MotionTracking_GetFaceTrackingData_m43EE95D157EF5A3CB722C8EC5564F5396E1ECA7E (void);
-// 0x00000268 System.Void Unity.XR.PXR.PXR_MotionTracking::.ctor()
+// 0x00000269 System.Void Unity.XR.PXR.PXR_MotionTracking::.ctor()
 extern void PXR_MotionTracking__ctor_m561475F5658713B72998E7C061AA7E3FC1F290C4 (void);
-// 0x00000269 System.Int32 Unity.XR.PXR.PXR_OverLay::CompareTo(Unity.XR.PXR.PXR_OverLay)
+// 0x0000026A System.Int32 Unity.XR.PXR.PXR_OverLay::CompareTo(Unity.XR.PXR.PXR_OverLay)
 extern void PXR_OverLay_CompareTo_mD14DC6F3FDE8BF32108F4CCBEE241BB6EBDC0983 (void);
-// 0x0000026A System.Void Unity.XR.PXR.PXR_OverLay::Awake()
+// 0x0000026B System.Void Unity.XR.PXR.PXR_OverLay::Awake()
 extern void PXR_OverLay_Awake_mFFE2740FE73824C3F076E9F77E64840FDC8C3B43 (void);
-// 0x0000026B System.Void Unity.XR.PXR.PXR_OverLay::Start()
+// 0x0000026C System.Void Unity.XR.PXR.PXR_OverLay::Start()
 extern void PXR_OverLay_Start_mE03DF8A2DA9E0C6898C4A70DBBAD97BFD64FAA32 (void);
-// 0x0000026C System.Void Unity.XR.PXR.PXR_OverLay::RefreshCamera(UnityEngine.Camera,UnityEngine.Camera)
+// 0x0000026D System.Void Unity.XR.PXR.PXR_OverLay::RefreshCamera(UnityEngine.Camera,UnityEngine.Camera)
 extern void PXR_OverLay_RefreshCamera_mBF5CF73FA163F0C594926C56AB097E8786701C87 (void);
-// 0x0000026D System.Void Unity.XR.PXR.PXR_OverLay::InitializeBuffer()
+// 0x0000026E System.Void Unity.XR.PXR.PXR_OverLay::InitializeBuffer()
 extern void PXR_OverLay_InitializeBuffer_m13A71F6AA6A139D224A17C059AA7CB373DCF7AC6 (void);
-// 0x0000026E System.Void Unity.XR.PXR.PXR_OverLay::CreateExternalSurface(Unity.XR.PXR.PXR_OverLay)
+// 0x0000026F System.Void Unity.XR.PXR.PXR_OverLay::CreateExternalSurface(Unity.XR.PXR.PXR_OverLay)
 extern void PXR_OverLay_CreateExternalSurface_mBC77FEAF504FF429B9114C0F39050AC73E9E1B88 (void);
-// 0x0000026F System.Void Unity.XR.PXR.PXR_OverLay::UpdateCoords()
+// 0x00000270 System.Void Unity.XR.PXR.PXR_OverLay::UpdateCoords()
 extern void PXR_OverLay_UpdateCoords_mC0FEE1A9F5A862B1EE6B523CA4F7D706CA6FB7FF (void);
-// 0x00000270 System.Boolean Unity.XR.PXR.PXR_OverLay::CreateTexture()
+// 0x00000271 System.Boolean Unity.XR.PXR.PXR_OverLay::CreateTexture()
 extern void PXR_OverLay_CreateTexture_mAF9E577364CDEB78548775E23CD3A7F27B1DF3F7 (void);
-// 0x00000271 System.Boolean Unity.XR.PXR.PXR_OverLay::CopyRT()
+// 0x00000272 System.Boolean Unity.XR.PXR.PXR_OverLay::CopyRT()
 extern void PXR_OverLay_CopyRT_m057C0FB26CD3C0F2FBCC3245269DE866B0CB0DD0 (void);
-// 0x00000272 System.Void Unity.XR.PXR.PXR_OverLay::SetTexture(UnityEngine.Texture,System.Boolean)
+// 0x00000273 System.Void Unity.XR.PXR.PXR_OverLay::SetTexture(UnityEngine.Texture,System.Boolean)
 extern void PXR_OverLay_SetTexture_m8BCBB2D314B7D9FB3F3427E06872B1323C6E5BC9 (void);
-// 0x00000273 System.Void Unity.XR.PXR.PXR_OverLay::FreePtr()
+// 0x00000274 System.Void Unity.XR.PXR.PXR_OverLay::FreePtr()
 extern void PXR_OverLay_FreePtr_m1526E4842E4B16F77AF16F660EB184D2BCDC839A (void);
-// 0x00000274 System.Void Unity.XR.PXR.PXR_OverLay::OnDestroy()
+// 0x00000275 System.Void Unity.XR.PXR.PXR_OverLay::OnDestroy()
 extern void PXR_OverLay_OnDestroy_m71986FDA580A404AAB056FEFF59E17D3D42671AD (void);
-// 0x00000275 System.Void Unity.XR.PXR.PXR_OverLay::DestroyLayer()
+// 0x00000276 System.Void Unity.XR.PXR.PXR_OverLay::DestroyLayer()
 extern void PXR_OverLay_DestroyLayer_mBB2FC7E188382A86246780E6B13197B98B209DCC (void);
-// 0x00000276 System.Void Unity.XR.PXR.PXR_OverLay::ClearTexture()
+// 0x00000277 System.Void Unity.XR.PXR.PXR_OverLay::ClearTexture()
 extern void PXR_OverLay_ClearTexture_m6E6A11E5061633401D99F41817ED81C3DFDCC05B (void);
-// 0x00000277 System.Void Unity.XR.PXR.PXR_OverLay::SetLayerColorScaleAndOffset(UnityEngine.Vector4,UnityEngine.Vector4)
+// 0x00000278 System.Void Unity.XR.PXR.PXR_OverLay::SetLayerColorScaleAndOffset(UnityEngine.Vector4,UnityEngine.Vector4)
 extern void PXR_OverLay_SetLayerColorScaleAndOffset_mBE3ADA4E067B43103F1B0572F09D7662968B25E7 (void);
-// 0x00000278 System.Void Unity.XR.PXR.PXR_OverLay::SetEACOffsetPosAndRot(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector4,UnityEngine.Vector4)
+// 0x00000279 System.Void Unity.XR.PXR.PXR_OverLay::SetEACOffsetPosAndRot(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector4,UnityEngine.Vector4)
 extern void PXR_OverLay_SetEACOffsetPosAndRot_m1105700787044EACABD179E4403C3FA3DEB00E21 (void);
-// 0x00000279 System.Void Unity.XR.PXR.PXR_OverLay::SetEACFactor(System.Single)
+// 0x0000027A System.Void Unity.XR.PXR.PXR_OverLay::SetEACFactor(System.Single)
 extern void PXR_OverLay_SetEACFactor_mDE5EE95489860F7A420A83D8B31CCC96058A2754 (void);
-// 0x0000027A UnityEngine.Vector4 Unity.XR.PXR.PXR_OverLay::GetLayerColorScale()
+// 0x0000027B UnityEngine.Vector4 Unity.XR.PXR.PXR_OverLay::GetLayerColorScale()
 extern void PXR_OverLay_GetLayerColorScale_m378D12C17E042C8B5A55246E07E719B78229F10C (void);
-// 0x0000027B UnityEngine.Vector4 Unity.XR.PXR.PXR_OverLay::GetLayerColorOffset()
+// 0x0000027C UnityEngine.Vector4 Unity.XR.PXR.PXR_OverLay::GetLayerColorOffset()
 extern void PXR_OverLay_GetLayerColorOffset_m93B075FE21B83EB83AA87238BFD5AA9425771E24 (void);
-// 0x0000027C Unity.XR.PXR.PxrRecti Unity.XR.PXR.PXR_OverLay::getPxrRectiLeft(System.Boolean)
+// 0x0000027D Unity.XR.PXR.PxrRecti Unity.XR.PXR.PXR_OverLay::getPxrRectiLeft(System.Boolean)
 extern void PXR_OverLay_getPxrRectiLeft_m0782EB874E96F3CD32E4816379B4699FCF353976 (void);
-// 0x0000027D System.Void Unity.XR.PXR.PXR_OverLay::.ctor()
+// 0x0000027E System.UInt32 Unity.XR.PXR.PXR_OverLay::getHDRFlags()
+extern void PXR_OverLay_getHDRFlags_m04FC9134612CE447FEC4DF37275DCA5280A15D49 (void);
+// 0x0000027F System.Void Unity.XR.PXR.PXR_OverLay::.ctor()
 extern void PXR_OverLay__ctor_m54E8D58071E6B0EDD8E7DC94178626427F8723C6 (void);
-// 0x0000027E System.Void Unity.XR.PXR.PXR_OverLay::.cctor()
+// 0x00000280 System.Void Unity.XR.PXR.PXR_OverLay::.cctor()
 extern void PXR_OverLay__cctor_m43F2836BD8B5C708A7783443EBA95C2B26D0338C (void);
-// 0x0000027F System.Void Unity.XR.PXR.PXR_OverLay/ExternalAndroidSurfaceObjectCreated::.ctor(System.Object,System.IntPtr)
+// 0x00000281 System.Void Unity.XR.PXR.PXR_OverLay/ExternalAndroidSurfaceObjectCreated::.ctor(System.Object,System.IntPtr)
 extern void ExternalAndroidSurfaceObjectCreated__ctor_mDE0F32D99A3E8C227CEEF70B9462482A9C7D2F11 (void);
-// 0x00000280 System.Void Unity.XR.PXR.PXR_OverLay/ExternalAndroidSurfaceObjectCreated::Invoke()
+// 0x00000282 System.Void Unity.XR.PXR.PXR_OverLay/ExternalAndroidSurfaceObjectCreated::Invoke()
 extern void ExternalAndroidSurfaceObjectCreated_Invoke_m3B610076A1D81FDCE1A08ED9883D088484565A45 (void);
-// 0x00000281 System.IAsyncResult Unity.XR.PXR.PXR_OverLay/ExternalAndroidSurfaceObjectCreated::BeginInvoke(System.AsyncCallback,System.Object)
+// 0x00000283 System.IAsyncResult Unity.XR.PXR.PXR_OverLay/ExternalAndroidSurfaceObjectCreated::BeginInvoke(System.AsyncCallback,System.Object)
 extern void ExternalAndroidSurfaceObjectCreated_BeginInvoke_mABB6D27120633016654BC9F1CB0CBEB31FBF7622 (void);
-// 0x00000282 System.Void Unity.XR.PXR.PXR_OverLay/ExternalAndroidSurfaceObjectCreated::EndInvoke(System.IAsyncResult)
+// 0x00000284 System.Void Unity.XR.PXR.PXR_OverLay/ExternalAndroidSurfaceObjectCreated::EndInvoke(System.IAsyncResult)
 extern void ExternalAndroidSurfaceObjectCreated_EndInvoke_mB4B2D27A9A1CFD0011F2D4B0B89DAA78C2823BC5 (void);
-// 0x00000283 System.Void Unity.XR.PXR.PXR_ScreenFade::Awake()
+// 0x00000285 System.Void Unity.XR.PXR.PXR_ScreenFade::Awake()
 extern void PXR_ScreenFade_Awake_m760D26EE598E822BCD168C1FF4E16B6A7A22B0A7 (void);
-// 0x00000284 System.Void Unity.XR.PXR.PXR_ScreenFade::OnEnable()
+// 0x00000286 System.Void Unity.XR.PXR.PXR_ScreenFade::OnEnable()
 extern void PXR_ScreenFade_OnEnable_m67A001BF0C7405E3C64571608C9788D865BE9293 (void);
-// 0x00000285 System.Void Unity.XR.PXR.PXR_ScreenFade::OnDestroy()
+// 0x00000287 System.Void Unity.XR.PXR.PXR_ScreenFade::OnDestroy()
 extern void PXR_ScreenFade_OnDestroy_mCAF70F0CC2FB7E94E97035B7ECC12F0F8E117913 (void);
-// 0x00000286 System.Void Unity.XR.PXR.PXR_ScreenFade::CreateFadeMesh()
+// 0x00000288 System.Void Unity.XR.PXR.PXR_ScreenFade::CreateFadeMesh()
 extern void PXR_ScreenFade_CreateFadeMesh_mF358D3B4960F41F7801046B2465C9AA469B56C01 (void);
-// 0x00000287 System.Void Unity.XR.PXR.PXR_ScreenFade::SetCurrentAlpha(System.Single)
+// 0x00000289 System.Void Unity.XR.PXR.PXR_ScreenFade::SetCurrentAlpha(System.Single)
 extern void PXR_ScreenFade_SetCurrentAlpha_mB75DE9A60C27E8E575B3DE80580AD84177AA2DAB (void);
-// 0x00000288 System.Collections.IEnumerator Unity.XR.PXR.PXR_ScreenFade::ScreenFade()
+// 0x0000028A System.Collections.IEnumerator Unity.XR.PXR.PXR_ScreenFade::ScreenFade()
 extern void PXR_ScreenFade_ScreenFade_mFDA3C933D4227F6600E07DA0D17DB8C9836AFAC1 (void);
-// 0x00000289 System.Void Unity.XR.PXR.PXR_ScreenFade::SetAlpha()
+// 0x0000028B System.Void Unity.XR.PXR.PXR_ScreenFade::SetAlpha()
 extern void PXR_ScreenFade_SetAlpha_mFB17ABEA2095FAE6ED21F50E22D1CD6DBF2CABDB (void);
-// 0x0000028A System.Void Unity.XR.PXR.PXR_ScreenFade::CreateModel()
+// 0x0000028C System.Void Unity.XR.PXR.PXR_ScreenFade::CreateModel()
 extern void PXR_ScreenFade_CreateModel_m0395C8D543111D7DBF4B42A536526D7FBF2C5233 (void);
-// 0x0000028B System.Void Unity.XR.PXR.PXR_ScreenFade::CreateMakePos(System.Int32)
+// 0x0000028D System.Void Unity.XR.PXR.PXR_ScreenFade::CreateMakePos(System.Int32)
 extern void PXR_ScreenFade_CreateMakePos_m45AB4F38DC273F4A4CA003D876BC6FB7D89D1F9A (void);
-// 0x0000028C System.Void Unity.XR.PXR.PXR_ScreenFade::OtherMakePos(System.Int32)
+// 0x0000028E System.Void Unity.XR.PXR.PXR_ScreenFade::OtherMakePos(System.Int32)
 extern void PXR_ScreenFade_OtherMakePos_m3154146CE61F47C3DE4DB833E08E3C61D84DAD43 (void);
-// 0x0000028D System.Void Unity.XR.PXR.PXR_ScreenFade::DestoryGradientMesh()
+// 0x0000028F System.Void Unity.XR.PXR.PXR_ScreenFade::DestoryGradientMesh()
 extern void PXR_ScreenFade_DestoryGradientMesh_m8A305B17B8CC36F83363C72982C90601E3D994C9 (void);
-// 0x0000028E System.Void Unity.XR.PXR.PXR_ScreenFade::.ctor()
+// 0x00000290 System.Void Unity.XR.PXR.PXR_ScreenFade::.ctor()
 extern void PXR_ScreenFade__ctor_m7069B06190C92686938F188D9BE750865B7A376B (void);
-// 0x0000028F System.Void Unity.XR.PXR.PXR_ScreenFade/<ScreenFade>d__17::.ctor(System.Int32)
+// 0x00000291 System.Void Unity.XR.PXR.PXR_ScreenFade/<ScreenFade>d__17::.ctor(System.Int32)
 extern void U3CScreenFadeU3Ed__17__ctor_mD4F9B8B3652E955AFD1B39CD94478A64B174CA26 (void);
-// 0x00000290 System.Void Unity.XR.PXR.PXR_ScreenFade/<ScreenFade>d__17::System.IDisposable.Dispose()
+// 0x00000292 System.Void Unity.XR.PXR.PXR_ScreenFade/<ScreenFade>d__17::System.IDisposable.Dispose()
 extern void U3CScreenFadeU3Ed__17_System_IDisposable_Dispose_mA2445386386345DB110D369365C7CCAFD4AC5745 (void);
-// 0x00000291 System.Boolean Unity.XR.PXR.PXR_ScreenFade/<ScreenFade>d__17::MoveNext()
+// 0x00000293 System.Boolean Unity.XR.PXR.PXR_ScreenFade/<ScreenFade>d__17::MoveNext()
 extern void U3CScreenFadeU3Ed__17_MoveNext_m691AF02882445CEDDB5FCD9AC3AF0096B05DE814 (void);
-// 0x00000292 System.Object Unity.XR.PXR.PXR_ScreenFade/<ScreenFade>d__17::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000294 System.Object Unity.XR.PXR.PXR_ScreenFade/<ScreenFade>d__17::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CScreenFadeU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m53288758DCAD23362070000B725BE3EC77E23CC4 (void);
-// 0x00000293 System.Void Unity.XR.PXR.PXR_ScreenFade/<ScreenFade>d__17::System.Collections.IEnumerator.Reset()
+// 0x00000295 System.Void Unity.XR.PXR.PXR_ScreenFade/<ScreenFade>d__17::System.Collections.IEnumerator.Reset()
 extern void U3CScreenFadeU3Ed__17_System_Collections_IEnumerator_Reset_mEBC2A9A136368E6AC8299C7D4A618584C90CE96D (void);
-// 0x00000294 System.Object Unity.XR.PXR.PXR_ScreenFade/<ScreenFade>d__17::System.Collections.IEnumerator.get_Current()
+// 0x00000296 System.Object Unity.XR.PXR.PXR_ScreenFade/<ScreenFade>d__17::System.Collections.IEnumerator.get_Current()
 extern void U3CScreenFadeU3Ed__17_System_Collections_IEnumerator_get_Current_m3471F89F304D4DD17B52852661E7C6D8A1242A56 (void);
-// 0x00000295 System.Void Unity.XR.PXR.InputDeviceChangedCallBack::.ctor(System.Object,System.IntPtr)
+// 0x00000297 System.Void Unity.XR.PXR.InputDeviceChangedCallBack::.ctor(System.Object,System.IntPtr)
 extern void InputDeviceChangedCallBack__ctor_mD7AFC18B45A1B987A4BC6AC7EAFA84640FBCB49E (void);
-// 0x00000296 System.Void Unity.XR.PXR.InputDeviceChangedCallBack::Invoke(System.Int32)
+// 0x00000298 System.Void Unity.XR.PXR.InputDeviceChangedCallBack::Invoke(System.Int32)
 extern void InputDeviceChangedCallBack_Invoke_mC432F01872D686D01667ED5BE8B44F4CDF11B9DF (void);
-// 0x00000297 System.IAsyncResult Unity.XR.PXR.InputDeviceChangedCallBack::BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
+// 0x00000299 System.IAsyncResult Unity.XR.PXR.InputDeviceChangedCallBack::BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
 extern void InputDeviceChangedCallBack_BeginInvoke_m76F9AB83D063EF04B5A876391FC0C63C391E689E (void);
-// 0x00000298 System.Void Unity.XR.PXR.InputDeviceChangedCallBack::EndInvoke(System.IAsyncResult)
+// 0x0000029A System.Void Unity.XR.PXR.InputDeviceChangedCallBack::EndInvoke(System.IAsyncResult)
 extern void InputDeviceChangedCallBack_EndInvoke_m8823B5B4DE57B48C68890F8FADF03B038DFEF276 (void);
-// 0x00000299 System.Void Unity.XR.PXR.SeethroughStateChangedCallBack::.ctor(System.Object,System.IntPtr)
+// 0x0000029B System.Void Unity.XR.PXR.SeethroughStateChangedCallBack::.ctor(System.Object,System.IntPtr)
 extern void SeethroughStateChangedCallBack__ctor_m75A3A4E44587FB427141A7BABFCA28D1D1BD1A76 (void);
-// 0x0000029A System.Void Unity.XR.PXR.SeethroughStateChangedCallBack::Invoke(System.Int32)
+// 0x0000029C System.Void Unity.XR.PXR.SeethroughStateChangedCallBack::Invoke(System.Int32)
 extern void SeethroughStateChangedCallBack_Invoke_mDBE52F7EDBF13F2E19EC48F671406ED904FE78A1 (void);
-// 0x0000029B System.IAsyncResult Unity.XR.PXR.SeethroughStateChangedCallBack::BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
+// 0x0000029D System.IAsyncResult Unity.XR.PXR.SeethroughStateChangedCallBack::BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
 extern void SeethroughStateChangedCallBack_BeginInvoke_mDBFA556A0DB8B4635173B734F475C342530A85BD (void);
-// 0x0000029C System.Void Unity.XR.PXR.SeethroughStateChangedCallBack::EndInvoke(System.IAsyncResult)
+// 0x0000029E System.Void Unity.XR.PXR.SeethroughStateChangedCallBack::EndInvoke(System.IAsyncResult)
 extern void SeethroughStateChangedCallBack_EndInvoke_m62ADAAE47019506E5AC08E4EF592F3133017A17E (void);
-// 0x0000029D System.Void Unity.XR.PXR.FitnessBandNumberOfConnectionsCallBack::.ctor(System.Object,System.IntPtr)
+// 0x0000029F System.Void Unity.XR.PXR.FitnessBandNumberOfConnectionsCallBack::.ctor(System.Object,System.IntPtr)
 extern void FitnessBandNumberOfConnectionsCallBack__ctor_m4759F3827A0411986554BE4E7F01058635BC6AF5 (void);
-// 0x0000029E System.Void Unity.XR.PXR.FitnessBandNumberOfConnectionsCallBack::Invoke(System.Int32,System.Int32)
+// 0x000002A0 System.Void Unity.XR.PXR.FitnessBandNumberOfConnectionsCallBack::Invoke(System.Int32,System.Int32)
 extern void FitnessBandNumberOfConnectionsCallBack_Invoke_m4B6743E022B900C0551A1C413F35943186885FBD (void);
-// 0x0000029F System.IAsyncResult Unity.XR.PXR.FitnessBandNumberOfConnectionsCallBack::BeginInvoke(System.Int32,System.Int32,System.AsyncCallback,System.Object)
+// 0x000002A1 System.IAsyncResult Unity.XR.PXR.FitnessBandNumberOfConnectionsCallBack::BeginInvoke(System.Int32,System.Int32,System.AsyncCallback,System.Object)
 extern void FitnessBandNumberOfConnectionsCallBack_BeginInvoke_m26982F4BD637777157B4ED5A62F9D6E6577518C8 (void);
-// 0x000002A0 System.Void Unity.XR.PXR.FitnessBandNumberOfConnectionsCallBack::EndInvoke(System.IAsyncResult)
+// 0x000002A2 System.Void Unity.XR.PXR.FitnessBandNumberOfConnectionsCallBack::EndInvoke(System.IAsyncResult)
 extern void FitnessBandNumberOfConnectionsCallBack_EndInvoke_m3AD3CCEF25D1E856D3613951193326DAF627EAD8 (void);
-// 0x000002A1 System.Void Unity.XR.PXR.FitnessBandAbnormalCalibrationDataCallBack::.ctor(System.Object,System.IntPtr)
+// 0x000002A3 System.Void Unity.XR.PXR.FitnessBandAbnormalCalibrationDataCallBack::.ctor(System.Object,System.IntPtr)
 extern void FitnessBandAbnormalCalibrationDataCallBack__ctor_mEB4D08E311382224EE2CD459F652E5C009769B31 (void);
-// 0x000002A2 System.Void Unity.XR.PXR.FitnessBandAbnormalCalibrationDataCallBack::Invoke(System.Int32,System.Int32)
+// 0x000002A4 System.Void Unity.XR.PXR.FitnessBandAbnormalCalibrationDataCallBack::Invoke(System.Int32,System.Int32)
 extern void FitnessBandAbnormalCalibrationDataCallBack_Invoke_m3B4A3C24827834A6096A5869854E47F6590CB186 (void);
-// 0x000002A3 System.IAsyncResult Unity.XR.PXR.FitnessBandAbnormalCalibrationDataCallBack::BeginInvoke(System.Int32,System.Int32,System.AsyncCallback,System.Object)
+// 0x000002A5 System.IAsyncResult Unity.XR.PXR.FitnessBandAbnormalCalibrationDataCallBack::BeginInvoke(System.Int32,System.Int32,System.AsyncCallback,System.Object)
 extern void FitnessBandAbnormalCalibrationDataCallBack_BeginInvoke_mFE74D0DB8ACEC2178FAC5F927CCC806F4AF8480F (void);
-// 0x000002A4 System.Void Unity.XR.PXR.FitnessBandAbnormalCalibrationDataCallBack::EndInvoke(System.IAsyncResult)
+// 0x000002A6 System.Void Unity.XR.PXR.FitnessBandAbnormalCalibrationDataCallBack::EndInvoke(System.IAsyncResult)
 extern void FitnessBandAbnormalCalibrationDataCallBack_EndInvoke_mC1FAC55EAED247C692CB0D9246CC43B1F1253720 (void);
-// 0x000002A5 System.Void Unity.XR.PXR.FitnessBandElectricQuantityCallBack::.ctor(System.Object,System.IntPtr)
+// 0x000002A7 System.Void Unity.XR.PXR.FitnessBandElectricQuantityCallBack::.ctor(System.Object,System.IntPtr)
 extern void FitnessBandElectricQuantityCallBack__ctor_m8C18F8D1400111E3ED84D3C05112DAFE25C961A0 (void);
-// 0x000002A6 System.Void Unity.XR.PXR.FitnessBandElectricQuantityCallBack::Invoke(System.Int32,System.Int32)
+// 0x000002A8 System.Void Unity.XR.PXR.FitnessBandElectricQuantityCallBack::Invoke(System.Int32,System.Int32)
 extern void FitnessBandElectricQuantityCallBack_Invoke_m5E001920C9C9AEAB0D13D17838BA001FE59DF633 (void);
-// 0x000002A7 System.IAsyncResult Unity.XR.PXR.FitnessBandElectricQuantityCallBack::BeginInvoke(System.Int32,System.Int32,System.AsyncCallback,System.Object)
+// 0x000002A9 System.IAsyncResult Unity.XR.PXR.FitnessBandElectricQuantityCallBack::BeginInvoke(System.Int32,System.Int32,System.AsyncCallback,System.Object)
 extern void FitnessBandElectricQuantityCallBack_BeginInvoke_m7E04B4928647709876E80F60C38F2E9AB62966AC (void);
-// 0x000002A8 System.Void Unity.XR.PXR.FitnessBandElectricQuantityCallBack::EndInvoke(System.IAsyncResult)
+// 0x000002AA System.Void Unity.XR.PXR.FitnessBandElectricQuantityCallBack::EndInvoke(System.IAsyncResult)
 extern void FitnessBandElectricQuantityCallBack_EndInvoke_m657BBF9CA7A4C7FC225CC5E5295B8DDEF69DAE42 (void);
-// 0x000002A9 System.Void Unity.XR.PXR.LoglevelChangedCallBack::.ctor(System.Object,System.IntPtr)
+// 0x000002AB System.Void Unity.XR.PXR.LoglevelChangedCallBack::.ctor(System.Object,System.IntPtr)
 extern void LoglevelChangedCallBack__ctor_mE48B89278FF88EEB18556C67AE686940BFD8BFDA (void);
-// 0x000002AA System.Void Unity.XR.PXR.LoglevelChangedCallBack::Invoke(System.Int32)
+// 0x000002AC System.Void Unity.XR.PXR.LoglevelChangedCallBack::Invoke(System.Int32)
 extern void LoglevelChangedCallBack_Invoke_mC3C0CC75083207175C95FBAFA76FD10C65F004D5 (void);
-// 0x000002AB System.IAsyncResult Unity.XR.PXR.LoglevelChangedCallBack::BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
+// 0x000002AD System.IAsyncResult Unity.XR.PXR.LoglevelChangedCallBack::BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
 extern void LoglevelChangedCallBack_BeginInvoke_m1598516306B94721E15890769EAB44EB257802BF (void);
-// 0x000002AC System.Void Unity.XR.PXR.LoglevelChangedCallBack::EndInvoke(System.IAsyncResult)
+// 0x000002AE System.Void Unity.XR.PXR.LoglevelChangedCallBack::EndInvoke(System.IAsyncResult)
 extern void LoglevelChangedCallBack_EndInvoke_mEA286EC81854C19AC8AE67B048C34C55875968EF (void);
-// 0x000002AD System.String Unity.XR.PXR.PXR_System::GetSDKVersion()
+// 0x000002AF System.String Unity.XR.PXR.PXR_System::GetSDKVersion()
 extern void PXR_System_GetSDKVersion_m6011EB5852FEEC2F2EC2E748CB6765624899F49D (void);
-// 0x000002AE System.Double Unity.XR.PXR.PXR_System::GetPredictedDisplayTime()
+// 0x000002B0 System.Double Unity.XR.PXR.PXR_System::GetPredictedDisplayTime()
 extern void PXR_System_GetPredictedDisplayTime_m9F67991F8D2711883D4F23ED9A55B0D0D6DC071B (void);
-// 0x000002AF System.Boolean Unity.XR.PXR.PXR_System::SetExtraLatencyMode(System.Int32)
+// 0x000002B1 System.Boolean Unity.XR.PXR.PXR_System::SetExtraLatencyMode(System.Int32)
 extern void PXR_System_SetExtraLatencyMode_mC2D022AFB11011DA6E42E462C6E5A15C4BC30CB2 (void);
-// 0x000002B0 System.Int32 Unity.XR.PXR.PXR_System::GetSensorStatus()
+// 0x000002B2 System.Int32 Unity.XR.PXR.PXR_System::GetSensorStatus()
 extern void PXR_System_GetSensorStatus_mB23B068CC516F471F054EF063E9346711F3C2A6C (void);
-// 0x000002B1 System.Void Unity.XR.PXR.PXR_System::SetSystemDisplayFrequency(System.Single)
+// 0x000002B3 System.Void Unity.XR.PXR.PXR_System::SetSystemDisplayFrequency(System.Single)
 extern void PXR_System_SetSystemDisplayFrequency_mBAA1AE7FCAB65D972C9C0E9C1B5A716B54D5FDA7 (void);
-// 0x000002B2 System.Single Unity.XR.PXR.PXR_System::GetSystemDisplayFrequency()
+// 0x000002B4 System.Single Unity.XR.PXR.PXR_System::GetSystemDisplayFrequency()
 extern void PXR_System_GetSystemDisplayFrequency_m5E69F9CAF5965088471E40D2D5CC969E693603EF (void);
-// 0x000002B3 System.Int32 Unity.XR.PXR.PXR_System::GetPredictedMainSensorStateNew(Unity.XR.PXR.PxrSensorState2&,System.Int32&)
+// 0x000002B5 System.Int32 Unity.XR.PXR.PXR_System::GetPredictedMainSensorStateNew(Unity.XR.PXR.PxrSensorState2&,System.Int32&)
 extern void PXR_System_GetPredictedMainSensorStateNew_m1242DDCC44FF36E75A60BB5F1A649861C3409A7F (void);
-// 0x000002B4 System.Int32 Unity.XR.PXR.PXR_System::ContentProtect(System.Int32)
+// 0x000002B6 System.Int32 Unity.XR.PXR.PXR_System::ContentProtect(System.Int32)
 extern void PXR_System_ContentProtect_m88AA4BFF18535A260B60063E4AE7E8CFD31AF1D3 (void);
-// 0x000002B5 System.Void Unity.XR.PXR.PXR_System::EnableFaceTracking(System.Boolean)
+// 0x000002B7 System.Void Unity.XR.PXR.PXR_System::EnableFaceTracking(System.Boolean)
 extern void PXR_System_EnableFaceTracking_mC590F7111B4C1A8237EB9C5CA1DF44C3AF8DC7E8 (void);
-// 0x000002B6 System.Void Unity.XR.PXR.PXR_System::EnableLipSync(System.Boolean)
+// 0x000002B8 System.Void Unity.XR.PXR.PXR_System::EnableLipSync(System.Boolean)
 extern void PXR_System_EnableLipSync_m0F69DE341EDB76767BF21BEF1AD64431AD31E45C (void);
-// 0x000002B7 System.Void Unity.XR.PXR.PXR_System::GetFaceTrackingData(System.Int64,Unity.XR.PXR.GetDataType,Unity.XR.PXR.PxrFaceTrackingInfo&)
+// 0x000002B9 System.Void Unity.XR.PXR.PXR_System::GetFaceTrackingData(System.Int64,Unity.XR.PXR.GetDataType,Unity.XR.PXR.PxrFaceTrackingInfo&)
 extern void PXR_System_GetFaceTrackingData_mAB5C242E5E8B7D4F6B669B9381F4ED0C930293AD (void);
-// 0x000002B8 System.Int32 Unity.XR.PXR.PXR_System::SetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings,Unity.XR.PXR.PxrSettingsLevel)
+// 0x000002BA System.Int32 Unity.XR.PXR.PXR_System::SetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings,Unity.XR.PXR.PxrSettingsLevel)
 extern void PXR_System_SetPerformanceLevels_mD47107206F6F25D30CF88BDC3E91DFE03CF0AB70 (void);
-// 0x000002B9 Unity.XR.PXR.PxrSettingsLevel Unity.XR.PXR.PXR_System::GetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings)
+// 0x000002BB Unity.XR.PXR.PxrSettingsLevel Unity.XR.PXR.PXR_System::GetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings)
 extern void PXR_System_GetPerformanceLevels_mA7A77D4BDD381F25078C07D388B554BEECAD6040 (void);
-// 0x000002BA System.Int32 Unity.XR.PXR.PXR_System::SetEyeFOV(Unity.XR.PXR.EyeType,System.Single,System.Single,System.Single,System.Single)
+// 0x000002BC System.Int32 Unity.XR.PXR.PXR_System::SetEyeFOV(Unity.XR.PXR.EyeType,System.Single,System.Single,System.Single,System.Single)
 extern void PXR_System_SetEyeFOV_m91219AE78F70C1BA5429D2159EEEFDF2B0EACF4A (void);
-// 0x000002BB System.Int32 Unity.XR.PXR.PXR_System::SetFaceTrackingStatus(Unity.XR.PXR.PxrFtLipsyncValue)
+// 0x000002BD System.Int32 Unity.XR.PXR.PXR_System::SetFaceTrackingStatus(Unity.XR.PXR.PxrFtLipsyncValue)
 extern void PXR_System_SetFaceTrackingStatus_m9F42BD9AAD3A2260D8CA3EB1070BD317CC8984FE (void);
-// 0x000002BC System.Void Unity.XR.PXR.PXR_System::SetTrackingOrigin(Unity.XR.PXR.PxrTrackingOrigin)
+// 0x000002BE System.Void Unity.XR.PXR.PXR_System::SetTrackingOrigin(Unity.XR.PXR.PxrTrackingOrigin)
 extern void PXR_System_SetTrackingOrigin_m6919F716DFAE1550E5A14EBCFA7FCF3AE0ED8F15 (void);
-// 0x000002BD System.Void Unity.XR.PXR.PXR_System::GetTrackingOrigin(Unity.XR.PXR.PxrTrackingOrigin&)
+// 0x000002BF System.Void Unity.XR.PXR.PXR_System::GetTrackingOrigin(Unity.XR.PXR.PxrTrackingOrigin&)
 extern void PXR_System_GetTrackingOrigin_mCFBE84802B211B59B6EB4AE14456382EDDFC3A87 (void);
-// 0x000002BE System.Void Unity.XR.PXR.PXR_System::.ctor()
+// 0x000002C0 System.Boolean Unity.XR.PXR.PXR_System::StartBatteryReceiver(System.String)
+extern void PXR_System_StartBatteryReceiver_m9786ACD35748CFE13B817760838872FB343067CD (void);
+// 0x000002C1 System.Boolean Unity.XR.PXR.PXR_System::StopBatteryReceiver()
+extern void PXR_System_StopBatteryReceiver_m3CAD4C568C4B147CD52B209FF9E6C34F30EC5396 (void);
+// 0x000002C2 System.Boolean Unity.XR.PXR.PXR_System::SetCommonBrightness(System.Int32)
+extern void PXR_System_SetCommonBrightness_mA2BCF313D6244EF774EACA77E9B1D009E5F3B656 (void);
+// 0x000002C3 System.Int32 Unity.XR.PXR.PXR_System::GetCommonBrightness()
+extern void PXR_System_GetCommonBrightness_mB0A7E7D2ABF951AAA928DE3A364FFF50C9C96559 (void);
+// 0x000002C4 System.Int32[] Unity.XR.PXR.PXR_System::GetScreenBrightnessLevel()
+extern void PXR_System_GetScreenBrightnessLevel_m7CF3E55ED554D69819AB06B86916609448E182E1 (void);
+// 0x000002C5 System.Void Unity.XR.PXR.PXR_System::SetScreenBrightnessLevel(System.Int32,System.Int32)
+extern void PXR_System_SetScreenBrightnessLevel_mFAF5908CF88497C372BF65F14E073713653E8C21 (void);
+// 0x000002C6 System.Boolean Unity.XR.PXR.PXR_System::StartAudioReceiver(System.String)
+extern void PXR_System_StartAudioReceiver_m03D12E6B63CF17DFCE250D38AA3AA69C9DE3E050 (void);
+// 0x000002C7 System.Boolean Unity.XR.PXR.PXR_System::StopAudioReceiver()
+extern void PXR_System_StopAudioReceiver_m6FBC6FEF3EF5C0989A9E674F7A91C88C6F10E402 (void);
+// 0x000002C8 System.Int32 Unity.XR.PXR.PXR_System::GetMaxVolumeNumber()
+extern void PXR_System_GetMaxVolumeNumber_mD0BD5E5B91EF6BDBE9936FC03458F7BA046F331A (void);
+// 0x000002C9 System.Int32 Unity.XR.PXR.PXR_System::GetCurrentVolumeNumber()
+extern void PXR_System_GetCurrentVolumeNumber_m6FC4C2A4BA93C6D51243FD687EFF6F6CE464D851 (void);
+// 0x000002CA System.Boolean Unity.XR.PXR.PXR_System::VolumeUp()
+extern void PXR_System_VolumeUp_mBDCD39362B19E679644888126CD4D378072B76F2 (void);
+// 0x000002CB System.Boolean Unity.XR.PXR.PXR_System::VolumeDown()
+extern void PXR_System_VolumeDown_m601EECB34E9B77045778B40A27A67B772DDDC9F4 (void);
+// 0x000002CC System.Boolean Unity.XR.PXR.PXR_System::SetVolumeNum(System.Int32)
+extern void PXR_System_SetVolumeNum_mE8A213B853347DCE018811F72CAE8B1D6CCD1946 (void);
+// 0x000002CD System.Void Unity.XR.PXR.PXR_System::.ctor()
 extern void PXR_System__ctor_m5BB2C4B30A7F07FA438EA6CFDE948C64E61519E3 (void);
-// 0x000002BF System.Void Unity.XR.PXR.PXR_HandPose::HandPoseEventCheck()
+// 0x000002CE System.Void Unity.XR.PXR.PXR_HandPose::HandPoseEventCheck()
 extern void PXR_HandPose_HandPoseEventCheck_m262169C81FE81DED5086039E5D643D40ACD3A6EE (void);
-// 0x000002C0 System.Boolean Unity.XR.PXR.PXR_HandPose::HoldCheck(System.Boolean,System.Single,System.Boolean,System.Single&)
+// 0x000002CF System.Boolean Unity.XR.PXR.PXR_HandPose::HoldCheck(System.Boolean,System.Single,System.Boolean,System.Single&)
 extern void PXR_HandPose_HoldCheck_m98B6D83AC4B52D2B1AE0B1989EEEAA7B1C7E0E6A (void);
-// 0x000002C1 System.Void Unity.XR.PXR.PXR_HandPose::Start()
+// 0x000002D0 System.Void Unity.XR.PXR.PXR_HandPose::Start()
 extern void PXR_HandPose_Start_mE784401BEBF8A3249C76A523C1DE7F720F86CE49 (void);
-// 0x000002C2 System.Void Unity.XR.PXR.PXR_HandPose::Update()
+// 0x000002D1 System.Void Unity.XR.PXR.PXR_HandPose::Update()
 extern void PXR_HandPose_Update_m61DD5A6FA2907D172EFA3EFF307B1AFD28D128F0 (void);
-// 0x000002C3 System.Boolean Unity.XR.PXR.PXR_HandPose::ShapesRecognizerCheck(System.Collections.Generic.List`1<UnityEngine.Vector3>,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32)
+// 0x000002D2 System.Boolean Unity.XR.PXR.PXR_HandPose::ShapesRecognizerCheck(System.Collections.Generic.List`1<UnityEngine.Vector3>,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32)
 extern void PXR_HandPose_ShapesRecognizerCheck_m545BB016091EF31B0C1D149107DF0CF85C901636 (void);
-// 0x000002C4 System.Boolean Unity.XR.PXR.PXR_HandPose::FlexionCheck(Unity.XR.PXR.ShapesRecognizer/Finger,UnityEngine.Vector3,UnityEngine.Vector3)
+// 0x000002D3 System.Boolean Unity.XR.PXR.PXR_HandPose::FlexionCheck(Unity.XR.PXR.ShapesRecognizer/Finger,UnityEngine.Vector3,UnityEngine.Vector3)
 extern void PXR_HandPose_FlexionCheck_mB90A2ACBDD2527C52790073D61BD0114A4AEF18F (void);
-// 0x000002C5 System.Boolean Unity.XR.PXR.PXR_HandPose::CurlCheck(Unity.XR.PXR.ShapesRecognizer/Finger)
+// 0x000002D4 System.Boolean Unity.XR.PXR.PXR_HandPose::CurlCheck(Unity.XR.PXR.ShapesRecognizer/Finger)
 extern void PXR_HandPose_CurlCheck_m8FDCBA6D2E595B7DF7CD60D93F86F881E9EAC972 (void);
-// 0x000002C6 System.Boolean Unity.XR.PXR.PXR_HandPose::AbductionCheck(Unity.XR.PXR.ShapesRecognizer/Finger)
+// 0x000002D5 System.Boolean Unity.XR.PXR.PXR_HandPose::AbductionCheck(Unity.XR.PXR.ShapesRecognizer/Finger)
 extern void PXR_HandPose_AbductionCheck_m92C7D1B251F7365B9CC32E37FC419D09606FA360 (void);
-// 0x000002C7 System.Boolean Unity.XR.PXR.PXR_HandPose::AngleCheck(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+// 0x000002D6 System.Boolean Unity.XR.PXR.PXR_HandPose::AngleCheck(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
 extern void PXR_HandPose_AngleCheck_mC683D171C92C227D2AE898AFF9CA3E33E842F484 (void);
-// 0x000002C8 System.Boolean Unity.XR.PXR.PXR_HandPose::AbducCheck(System.Single,System.Single,System.Single)
+// 0x000002D7 System.Boolean Unity.XR.PXR.PXR_HandPose::AbducCheck(System.Single,System.Single,System.Single)
 extern void PXR_HandPose_AbducCheck_m27C2314CF56A9FD01561CF88092406508B85F47B (void);
-// 0x000002C9 System.Boolean Unity.XR.PXR.PXR_HandPose::BonesCheck(Unity.XR.PXR.HandType)
+// 0x000002D8 System.Boolean Unity.XR.PXR.PXR_HandPose::BonesCheck(Unity.XR.PXR.HandType)
 extern void PXR_HandPose_BonesCheck_mFD9C8F0F2D67C5C5F4DBE3D5956E7CDF8C1EF694 (void);
-// 0x000002CA UnityEngine.Vector3 Unity.XR.PXR.PXR_HandPose::GetHandJoint(Unity.XR.PXR.HandType,Unity.XR.PXR.BonesRecognizer/HandBones)
+// 0x000002D9 UnityEngine.Vector3 Unity.XR.PXR.PXR_HandPose::GetHandJoint(Unity.XR.PXR.HandType,Unity.XR.PXR.BonesRecognizer/HandBones)
 extern void PXR_HandPose_GetHandJoint_m34F80124AA2E2ECFEEAFFE6105DC7373C3344F5E (void);
-// 0x000002CB System.Boolean Unity.XR.PXR.PXR_HandPose::TransCheck(Unity.XR.PXR.PXR_HandPose/TrackType,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Boolean)
+// 0x000002DA System.Boolean Unity.XR.PXR.PXR_HandPose::TransCheck(Unity.XR.PXR.PXR_HandPose/TrackType,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Boolean)
 extern void PXR_HandPose_TransCheck_m82429AB01C7E173A805C49DBCE4035FC4610876D (void);
-// 0x000002CC UnityEngine.Vector3 Unity.XR.PXR.PXR_HandPose::GetTrackAxis(Unity.XR.PXR.PXR_HandPose/TrackType,UnityEngine.Quaternion)
+// 0x000002DB UnityEngine.Vector3 Unity.XR.PXR.PXR_HandPose::GetTrackAxis(Unity.XR.PXR.PXR_HandPose/TrackType,UnityEngine.Quaternion)
 extern void PXR_HandPose_GetTrackAxis_mDCDA1C345F8FC0981EC3C543F40A113E10C1EF7B (void);
-// 0x000002CD UnityEngine.Vector3 Unity.XR.PXR.PXR_HandPose::GetProjectedTarget(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
+// 0x000002DC UnityEngine.Vector3 Unity.XR.PXR.PXR_HandPose::GetProjectedTarget(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
 extern void PXR_HandPose_GetProjectedTarget_mD90B9FE78C17A832EB6876A459CE1635A501072B (void);
-// 0x000002CE System.Void Unity.XR.PXR.PXR_HandPose::.ctor()
+// 0x000002DD System.Void Unity.XR.PXR.PXR_HandPose::.ctor()
 extern void PXR_HandPose__ctor_m2DF6E9C75081034BEAF4EE5DCA524EEB26234709 (void);
-// 0x000002CF System.Void Unity.XR.PXR.PXR_HandPose/UpdateEvent::.ctor()
+// 0x000002DE System.Void Unity.XR.PXR.PXR_HandPose/UpdateEvent::.ctor()
 extern void UpdateEvent__ctor_mA76623D82A91C262EB0725EC9BD6B56EC0893E0E (void);
-// 0x000002D0 System.Void Unity.XR.PXR.PXR_HandPoseConfig::.ctor()
+// 0x000002DF System.Void Unity.XR.PXR.PXR_HandPoseConfig::.ctor()
 extern void PXR_HandPoseConfig__ctor_m83817CE5F7B0B53964A00A83810343E3054ED1C1 (void);
-// 0x000002D1 System.Void Unity.XR.PXR.ShapesRecognizer::.ctor()
+// 0x000002E0 System.Void Unity.XR.PXR.ShapesRecognizer::.ctor()
 extern void ShapesRecognizer__ctor_mF653DE4C2294C33BFF9382829792B482A706A722 (void);
-// 0x000002D2 System.Void Unity.XR.PXR.ShapesRecognizer/Finger::.ctor(Unity.XR.PXR.HandFinger)
+// 0x000002E1 System.Void Unity.XR.PXR.ShapesRecognizer/Finger::.ctor(Unity.XR.PXR.HandFinger)
 extern void Finger__ctor_mC6B967E4E0F8B8550E463FFFB2AB7ACE68784044 (void);
-// 0x000002D3 System.Void Unity.XR.PXR.ShapesRecognizer/FingerConfigs::.ctor(Unity.XR.PXR.HandFinger)
+// 0x000002E2 System.Void Unity.XR.PXR.ShapesRecognizer/FingerConfigs::.ctor(Unity.XR.PXR.HandFinger)
 extern void FingerConfigs__ctor_m9549A76B04B199837DF23E51F0137833331ECC9F (void);
-// 0x000002D4 System.Void Unity.XR.PXR.ShapesRecognizer/RangeConfigs::.ctor(System.Single,System.Single,System.Single)
+// 0x000002E3 System.Void Unity.XR.PXR.ShapesRecognizer/RangeConfigs::.ctor(System.Single,System.Single,System.Single)
 extern void RangeConfigs__ctor_mEE31A00B505E2F2B7B439E874EE74FAE12660E12 (void);
-// 0x000002D5 System.Void Unity.XR.PXR.ShapesRecognizer/RangeConfigsAbduction::.ctor(System.Single,System.Single)
+// 0x000002E4 System.Void Unity.XR.PXR.ShapesRecognizer/RangeConfigsAbduction::.ctor(System.Single,System.Single)
 extern void RangeConfigsAbduction__ctor_m0AA319488E1A197494332C3394EA5E92990AD40C (void);
-// 0x000002D6 System.Void Unity.XR.PXR.BonesRecognizer::.ctor()
+// 0x000002E5 System.Void Unity.XR.PXR.BonesRecognizer::.ctor()
 extern void BonesRecognizer__ctor_m0EAE85EE2B392D6DA256E479E390F0F448032541 (void);
-// 0x000002D7 System.Void Unity.XR.PXR.BonesRecognizer/BonesGroup::.ctor()
+// 0x000002E6 System.Void Unity.XR.PXR.BonesRecognizer/BonesGroup::.ctor()
 extern void BonesGroup__ctor_m071087841E9D6385F4E29B4FCBA3AB46364AA1B8 (void);
-// 0x000002D8 System.Void Unity.XR.PXR.TransRecognizer::.ctor()
+// 0x000002E7 System.Void Unity.XR.PXR.TransRecognizer::.ctor()
 extern void TransRecognizer__ctor_m954FAF7FB3B591F880BD1AE8FA2F40F40585775A (void);
-// 0x000002D9 System.Void Unity.XR.PXR.DisplayOnly::.ctor()
+// 0x000002E8 System.Void Unity.XR.PXR.DisplayOnly::.ctor()
 extern void DisplayOnly__ctor_m63D2B3B912D4E9B4DFCBA1619F625E5087CCA27A (void);
-// 0x000002DA System.Void Unity.XR.PXR.LabelAttribute::.ctor(System.String)
+// 0x000002E9 System.Void Unity.XR.PXR.LabelAttribute::.ctor(System.String)
 extern void LabelAttribute__ctor_m1A3DF30606885D4AA2FA39257B425E763127F383 (void);
-// 0x000002DB System.Void Unity.XR.PXR.PXR_HandPoseGenerator::.ctor()
+// 0x000002EA System.Void Unity.XR.PXR.PXR_HandPoseGenerator::.ctor()
 extern void PXR_HandPoseGenerator__ctor_m695B12E35762420240E7F3B25C78DCC4535FA649 (void);
-// 0x000002DC System.Void Unity.XR.PXR.InputLayoutLoader::.cctor()
+// 0x000002EB System.Void Unity.XR.PXR.PXR_HandSubSystem::RegisterDescriptor()
+extern void PXR_HandSubSystem_RegisterDescriptor_m437C57AFFC4FB93C152B493AC331D0925261506B (void);
+// 0x000002EC System.Void Unity.XR.PXR.PXR_HandSubSystem::OnCreate()
+extern void PXR_HandSubSystem_OnCreate_m3597F5CA4C0F29D044B2B50E1025D34942C57470 (void);
+// 0x000002ED System.Void Unity.XR.PXR.PXR_HandSubSystem::OnStart()
+extern void PXR_HandSubSystem_OnStart_m6FACE3BBAFCEE0180099C6C59118ADA7B3D1D607 (void);
+// 0x000002EE System.Void Unity.XR.PXR.PXR_HandSubSystem::OnStop()
+extern void PXR_HandSubSystem_OnStop_m98CE8E44DD08D4F86C89DA0732E9A4EE238FD0FF (void);
+// 0x000002EF System.Void Unity.XR.PXR.PXR_HandSubSystem::OnDestroy()
+extern void PXR_HandSubSystem_OnDestroy_m29876A68EC14EF29DB4755FF3D1C07DA825E7B99 (void);
+// 0x000002F0 System.Void Unity.XR.PXR.PXR_HandSubSystem::.ctor()
+extern void PXR_HandSubSystem__ctor_m21990CAF099BBF12ACD8B5FB0BFD08F5D9DD3C7A (void);
+// 0x000002F1 System.Void Unity.XR.PXR.PXR_HandSubSystem/PXRHandSubsystemProvider::Start()
+extern void PXRHandSubsystemProvider_Start_m56C23CB71A6602D26CCCDCE8558362DC28076D3D (void);
+// 0x000002F2 System.Void Unity.XR.PXR.PXR_HandSubSystem/PXRHandSubsystemProvider::Stop()
+extern void PXRHandSubsystemProvider_Stop_mF3EFE1BA5F8C880D632F24EA9042CBB65039A498 (void);
+// 0x000002F3 System.Void Unity.XR.PXR.PXR_HandSubSystem/PXRHandSubsystemProvider::Destroy()
+extern void PXRHandSubsystemProvider_Destroy_m806C56313DE4B29A805D766759E32DF449002E53 (void);
+// 0x000002F4 System.Void Unity.XR.PXR.PXR_HandSubSystem/PXRHandSubsystemProvider::Initialize()
+extern void PXRHandSubsystemProvider_Initialize_m74DECA890BA80DDEBA5B094C6D962B5B3F4D2048 (void);
+// 0x000002F5 System.Void Unity.XR.PXR.PXR_HandSubSystem/PXRHandSubsystemProvider::GetHandLayout(Unity.Collections.NativeArray`1<System.Boolean>)
+extern void PXRHandSubsystemProvider_GetHandLayout_m31451EB5879E663D30EAE2A1DAECF631422A6AC4 (void);
+// 0x000002F6 UnityEngine.XR.Hands.XRHandSubsystem/UpdateSuccessFlags Unity.XR.PXR.PXR_HandSubSystem/PXRHandSubsystemProvider::TryUpdateHands(UnityEngine.XR.Hands.XRHandSubsystem/UpdateType,UnityEngine.Pose&,Unity.Collections.NativeArray`1<UnityEngine.XR.Hands.XRHandJoint>,UnityEngine.Pose&,Unity.Collections.NativeArray`1<UnityEngine.XR.Hands.XRHandJoint>)
+extern void PXRHandSubsystemProvider_TryUpdateHands_m562A8B4DFC3AA4BAA6798B3803A65F77FC05389B (void);
+// 0x000002F7 System.Void Unity.XR.PXR.PXR_HandSubSystem/PXRHandSubsystemProvider::CreateHands()
+extern void PXRHandSubsystemProvider_CreateHands_mFDAED51B1FB365D2CE0D01EEA070877AAA48A49C (void);
+// 0x000002F8 System.Void Unity.XR.PXR.PXR_HandSubSystem/PXRHandSubsystemProvider::DestroyHands()
+extern void PXRHandSubsystemProvider_DestroyHands_mF8595FC812AD5ABEF47AA7665C1179F5AF2631C7 (void);
+// 0x000002F9 UnityEngine.XR.Hands.XRHandJoint Unity.XR.PXR.PXR_HandSubSystem/PXRHandSubsystemProvider::CreateXRHandJoint(UnityEngine.XR.Hands.Handedness,System.Int32,Unity.XR.PXR.HandJointLocation&)
+extern void PXRHandSubsystemProvider_CreateXRHandJoint_m82CE39B346E4CD2379D3940D11DDBC1ADE032423 (void);
+// 0x000002FA UnityEngine.Pose Unity.XR.PXR.PXR_HandSubSystem/PXRHandSubsystemProvider::PXRPosefToUnityPose(Unity.XR.PXR.Posef&)
+extern void PXRHandSubsystemProvider_PXRPosefToUnityPose_m236A0E33B1C75C5D2FC2036E80E8288E110CEF89 (void);
+// 0x000002FB System.Void Unity.XR.PXR.PXR_HandSubSystem/PXRHandSubsystemProvider::.ctor()
+extern void PXRHandSubsystemProvider__ctor_m436ADFCA4DDF68C74EC9AEC03F156349ED17769D (void);
+// 0x000002FC Unity.XR.PXR.PicoAimHand Unity.XR.PXR.PicoAimHand::get_left()
+extern void PicoAimHand_get_left_mD10BCD85D920B4D10F810A87709A7EA1B7A9439D (void);
+// 0x000002FD System.Void Unity.XR.PXR.PicoAimHand::set_left(Unity.XR.PXR.PicoAimHand)
+extern void PicoAimHand_set_left_m70CA741268C3899235CA93C4ED7DDE107F20241F (void);
+// 0x000002FE Unity.XR.PXR.PicoAimHand Unity.XR.PXR.PicoAimHand::get_right()
+extern void PicoAimHand_get_right_mE9ED19957B8BAE6D0CC26696B75536AC37ECA034 (void);
+// 0x000002FF System.Void Unity.XR.PXR.PicoAimHand::set_right(Unity.XR.PXR.PicoAimHand)
+extern void PicoAimHand_set_right_m55F9D6680F3AA129C2806192290374B7E41D18F2 (void);
+// 0x00000300 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.PicoAimHand::get_indexPressed()
+extern void PicoAimHand_get_indexPressed_mAECAFB7E64B412B83F70CD98CB4A9DFA9E599566 (void);
+// 0x00000301 System.Void Unity.XR.PXR.PicoAimHand::set_indexPressed(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PicoAimHand_set_indexPressed_m043123C303DD2BA89D534D32FF3D7BDD48EE553C (void);
+// 0x00000302 UnityEngine.InputSystem.Controls.IntegerControl Unity.XR.PXR.PicoAimHand::get_aimFlags()
+extern void PicoAimHand_get_aimFlags_m76CB5F51D7D4D3FD655BA0E48B71C84611E98F70 (void);
+// 0x00000303 System.Void Unity.XR.PXR.PicoAimHand::set_aimFlags(UnityEngine.InputSystem.Controls.IntegerControl)
+extern void PicoAimHand_set_aimFlags_m40B6FAE731685EE9B5DF47FA6DF6D26A97883360 (void);
+// 0x00000304 UnityEngine.InputSystem.Controls.AxisControl Unity.XR.PXR.PicoAimHand::get_pinchStrengthIndex()
+extern void PicoAimHand_get_pinchStrengthIndex_m13D28DFE38C8D0189445ADAFB4197C5DB3CEDF8F (void);
+// 0x00000305 System.Void Unity.XR.PXR.PicoAimHand::set_pinchStrengthIndex(UnityEngine.InputSystem.Controls.AxisControl)
+extern void PicoAimHand_set_pinchStrengthIndex_m67E19AEC54FA954BCFA98C74DBCF881E354C3AED (void);
+// 0x00000306 System.Void Unity.XR.PXR.PicoAimHand::FinishSetup()
+extern void PicoAimHand_FinishSetup_m3F2E61C9753E8148644D5666780ECF47BB8A1AA8 (void);
+// 0x00000307 Unity.XR.PXR.PicoAimHand Unity.XR.PXR.PicoAimHand::CreateHand(UnityEngine.XR.InputDeviceCharacteristics)
+extern void PicoAimHand_CreateHand_mF3496DE764112AD64E4C19639C0D8C5E23BDFD1B (void);
+// 0x00000308 System.Void Unity.XR.PXR.PicoAimHand::UpdateHand(System.Boolean,Unity.XR.PXR.HandAimStatus,Unity.XR.PXR.Posef,System.Single)
+extern void PicoAimHand_UpdateHand_mD562198578F39CE9178678047F20093194092150 (void);
+// 0x00000309 System.Void Unity.XR.PXR.PicoAimHand::UpdateHand(Unity.XR.PXR.HandType,System.Boolean)
+extern void PicoAimHand_UpdateHand_m916826A02C28BD9F77D2B8206F21C09E2E53DFA5 (void);
+// 0x0000030A System.Void Unity.XR.PXR.PicoAimHand::RegisterLayout()
+extern void PicoAimHand_RegisterLayout_mF90543A64F427E3E39DEABB0E67DACF956DE9FC7 (void);
+// 0x0000030B System.Void Unity.XR.PXR.PicoAimHand::.ctor()
+extern void PicoAimHand__ctor_m13D4282BFE6B2B46C626BC56698B9743DE089491 (void);
+// 0x0000030C System.Void Unity.XR.PXR.InputLayoutLoader::.cctor()
 extern void InputLayoutLoader__cctor_mE38A9646B504861E263CE70F467A5124E53B4564 (void);
-// 0x000002DD System.Void Unity.XR.PXR.InputLayoutLoader::RegisterInputLayouts()
+// 0x0000030D System.Void Unity.XR.PXR.InputLayoutLoader::RegisterInputLayouts()
 extern void InputLayoutLoader_RegisterInputLayouts_mB5BA679B6BA79A9F48D505ABB8409E7D957A26ED (void);
-// 0x000002DE UnityEngine.XR.XRDisplaySubsystem Unity.XR.PXR.PXR_Loader::get_displaySubsystem()
+// 0x0000030E UnityEngine.XR.XRDisplaySubsystem Unity.XR.PXR.PXR_Loader::get_displaySubsystem()
 extern void PXR_Loader_get_displaySubsystem_m30A10BADE8F305C3C8F9BE87EF844EC7206CF9BF (void);
-// 0x000002DF UnityEngine.XR.XRInputSubsystem Unity.XR.PXR.PXR_Loader::get_inputSubsystem()
+// 0x0000030F UnityEngine.XR.XRInputSubsystem Unity.XR.PXR.PXR_Loader::get_inputSubsystem()
 extern void PXR_Loader_get_inputSubsystem_mA5F8DD002F3754150D62C8E76F9B13840337A6DD (void);
-// 0x000002E0 System.Boolean Unity.XR.PXR.PXR_Loader::Initialize()
+// 0x00000310 System.Boolean Unity.XR.PXR.PXR_Loader::Initialize()
 extern void PXR_Loader_Initialize_m01935C39AD0818CF9A59EA8801F9E196528A8E48 (void);
-// 0x000002E1 System.Boolean Unity.XR.PXR.PXR_Loader::Start()
+// 0x00000311 System.Boolean Unity.XR.PXR.PXR_Loader::Start()
 extern void PXR_Loader_Start_m8C9C9B7976B7E9BEC86404FE44D496E482C312D6 (void);
-// 0x000002E2 System.Boolean Unity.XR.PXR.PXR_Loader::Stop()
+// 0x00000312 System.Boolean Unity.XR.PXR.PXR_Loader::Stop()
 extern void PXR_Loader_Stop_m93BB7CD2C5DB39A473346662947C28FAE4189784 (void);
-// 0x000002E3 System.Boolean Unity.XR.PXR.PXR_Loader::Deinitialize()
+// 0x00000313 System.Boolean Unity.XR.PXR.PXR_Loader::Deinitialize()
 extern void PXR_Loader_Deinitialize_m90602C4FBA15C467524EDE943A93E521781B9125 (void);
-// 0x000002E4 UnityEngine.Quaternion Unity.XR.PXR.PXR_Loader::ConvertRotationWith2Vector(UnityEngine.Vector3,UnityEngine.Vector3)
+// 0x00000314 UnityEngine.Quaternion Unity.XR.PXR.PXR_Loader::ConvertRotationWith2Vector(UnityEngine.Vector3,UnityEngine.Vector3)
 extern void PXR_Loader_ConvertRotationWith2Vector_mDAD87DDA7800E798BB209776C88E47FC09186F0B (void);
-// 0x000002E5 System.Void Unity.XR.PXR.PXR_Loader::InputDeviceChangedFunction(System.Int32)
+// 0x00000315 System.Void Unity.XR.PXR.PXR_Loader::InputDeviceChangedFunction(System.Int32)
 extern void PXR_Loader_InputDeviceChangedFunction_m88319157AC43A8643A3DD83DD83F6337E191767F (void);
-// 0x000002E6 System.Void Unity.XR.PXR.PXR_Loader::SeethroughStateChangedFunction(System.Int32)
+// 0x00000316 System.Void Unity.XR.PXR.PXR_Loader::SeethroughStateChangedFunction(System.Int32)
 extern void PXR_Loader_SeethroughStateChangedFunction_m6105E68F3C584031EE244ACA4796D120E8C4AD56 (void);
-// 0x000002E7 System.Void Unity.XR.PXR.PXR_Loader::FitnessBandNumberOfConnectionsFunction(System.Int32,System.Int32)
+// 0x00000317 System.Void Unity.XR.PXR.PXR_Loader::FitnessBandNumberOfConnectionsFunction(System.Int32,System.Int32)
 extern void PXR_Loader_FitnessBandNumberOfConnectionsFunction_m9E484043BF0A161FF3BAF705A582B1FC8612A562 (void);
-// 0x000002E8 System.Void Unity.XR.PXR.PXR_Loader::FitnessBandElectricQuantityFunction(System.Int32,System.Int32)
+// 0x00000318 System.Void Unity.XR.PXR.PXR_Loader::FitnessBandElectricQuantityFunction(System.Int32,System.Int32)
 extern void PXR_Loader_FitnessBandElectricQuantityFunction_mA11D0DD6492D810FF69F8757DB71A2591F653D79 (void);
-// 0x000002E9 System.Void Unity.XR.PXR.PXR_Loader::FitnessBandAbnormalCalibrationDataFunction(System.Int32,System.Int32)
+// 0x00000319 System.Void Unity.XR.PXR.PXR_Loader::FitnessBandAbnormalCalibrationDataFunction(System.Int32,System.Int32)
 extern void PXR_Loader_FitnessBandAbnormalCalibrationDataFunction_mE56CCB0EC3CE54A02E262B9FE621393F4A71167F (void);
-// 0x000002EA System.Void Unity.XR.PXR.PXR_Loader::LoglevelChangedFunction(System.Int32)
+// 0x0000031A System.Void Unity.XR.PXR.PXR_Loader::LoglevelChangedFunction(System.Int32)
 extern void PXR_Loader_LoglevelChangedFunction_m93848D4D81037B07D6AF8B6169E45E3389C93AB1 (void);
-// 0x000002EB Unity.XR.PXR.PXR_Settings Unity.XR.PXR.PXR_Loader::GetSettings()
+// 0x0000031B Unity.XR.PXR.PXR_Settings Unity.XR.PXR.PXR_Loader::GetSettings()
 extern void PXR_Loader_GetSettings_mB208CD2C59023A82D612B0FD15D8683D7669970C (void);
-// 0x000002EC System.Void Unity.XR.PXR.PXR_Loader::RuntimeLoadPicoPlugin()
+// 0x0000031C System.Void Unity.XR.PXR.PXR_Loader::RuntimeLoadPicoPlugin()
 extern void PXR_Loader_RuntimeLoadPicoPlugin_m03EDC94E7BEDE962C44A7FD4FB477F144DD770A7 (void);
-// 0x000002ED System.Void Unity.XR.PXR.PXR_Loader::.ctor()
+// 0x0000031D System.Void Unity.XR.PXR.PXR_Loader::.ctor()
 extern void PXR_Loader__ctor_m5C29C6B1F3CBB9143B263F4009B60DEA60DE161F (void);
-// 0x000002EE System.Void Unity.XR.PXR.PXR_Loader::.cctor()
+// 0x0000031E System.Void Unity.XR.PXR.PXR_Loader::.cctor()
 extern void PXR_Loader__cctor_m960DE941D1975583433F47ACD136CA61F8E8467B (void);
-// 0x000002EF System.Void Unity.XR.PXR.PXR_Loader/ConvertRotationWith2VectorDelegate::.ctor(System.Object,System.IntPtr)
+// 0x0000031F System.Void Unity.XR.PXR.PXR_Loader/ConvertRotationWith2VectorDelegate::.ctor(System.Object,System.IntPtr)
 extern void ConvertRotationWith2VectorDelegate__ctor_mB87DF2D7FAA5E4865F32AF5D8BD1CA11E2AE25C6 (void);
-// 0x000002F0 UnityEngine.Quaternion Unity.XR.PXR.PXR_Loader/ConvertRotationWith2VectorDelegate::Invoke(UnityEngine.Vector3,UnityEngine.Vector3)
+// 0x00000320 UnityEngine.Quaternion Unity.XR.PXR.PXR_Loader/ConvertRotationWith2VectorDelegate::Invoke(UnityEngine.Vector3,UnityEngine.Vector3)
 extern void ConvertRotationWith2VectorDelegate_Invoke_m1A3FAC8D73CFE846E512D4568C6CCFFE6ED3AF12 (void);
-// 0x000002F1 System.IAsyncResult Unity.XR.PXR.PXR_Loader/ConvertRotationWith2VectorDelegate::BeginInvoke(UnityEngine.Vector3,UnityEngine.Vector3,System.AsyncCallback,System.Object)
+// 0x00000321 System.IAsyncResult Unity.XR.PXR.PXR_Loader/ConvertRotationWith2VectorDelegate::BeginInvoke(UnityEngine.Vector3,UnityEngine.Vector3,System.AsyncCallback,System.Object)
 extern void ConvertRotationWith2VectorDelegate_BeginInvoke_m10D8C2D458C93CB44AE5ECC0E1463EDE2A34B967 (void);
-// 0x000002F2 UnityEngine.Quaternion Unity.XR.PXR.PXR_Loader/ConvertRotationWith2VectorDelegate::EndInvoke(System.IAsyncResult)
+// 0x00000322 UnityEngine.Quaternion Unity.XR.PXR.PXR_Loader/ConvertRotationWith2VectorDelegate::EndInvoke(System.IAsyncResult)
 extern void ConvertRotationWith2VectorDelegate_EndInvoke_mC5F3D303A33B1D4581E86EDCB7B79D7B4CD5A53B (void);
-// 0x000002F3 Unity.XR.PXR.PXR_Manager Unity.XR.PXR.PXR_Manager::get_Instance()
+// 0x00000323 Unity.XR.PXR.PXR_Manager Unity.XR.PXR.PXR_Manager::get_Instance()
 extern void PXR_Manager_get_Instance_mE41C1A44EE33D5CBD7DE5631B350844F6117FF93 (void);
-// 0x000002F4 System.Void Unity.XR.PXR.PXR_Manager::add_AnchorEntityCreated(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityCreated>)
+// 0x00000324 System.Void Unity.XR.PXR.PXR_Manager::add_AnchorEntityCreated(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityCreated>)
 extern void PXR_Manager_add_AnchorEntityCreated_m246265AB0586197F94586689ACB9637030763828 (void);
-// 0x000002F5 System.Void Unity.XR.PXR.PXR_Manager::remove_AnchorEntityCreated(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityCreated>)
+// 0x00000325 System.Void Unity.XR.PXR.PXR_Manager::remove_AnchorEntityCreated(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityCreated>)
 extern void PXR_Manager_remove_AnchorEntityCreated_m06B6BAEB244764BEA43C253D3095E89E7219F381 (void);
-// 0x000002F6 System.Void Unity.XR.PXR.PXR_Manager::add_SpatialTrackingStateUpdate(System.Action`1<Unity.XR.PXR.PxrEventSpatialTrackingStateUpdate>)
+// 0x00000326 System.Void Unity.XR.PXR.PXR_Manager::add_SpatialTrackingStateUpdate(System.Action`1<Unity.XR.PXR.PxrEventSpatialTrackingStateUpdate>)
 extern void PXR_Manager_add_SpatialTrackingStateUpdate_mB137DE6CC20280D562E6D9AEB6F2BE395CFCD4D8 (void);
-// 0x000002F7 System.Void Unity.XR.PXR.PXR_Manager::remove_SpatialTrackingStateUpdate(System.Action`1<Unity.XR.PXR.PxrEventSpatialTrackingStateUpdate>)
+// 0x00000327 System.Void Unity.XR.PXR.PXR_Manager::remove_SpatialTrackingStateUpdate(System.Action`1<Unity.XR.PXR.PxrEventSpatialTrackingStateUpdate>)
 extern void PXR_Manager_remove_SpatialTrackingStateUpdate_m924A86284C7B204E623331B171DB7F72C6510EFD (void);
-// 0x000002F8 System.Void Unity.XR.PXR.PXR_Manager::add_AnchorEntityPersisted(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityPersisted>)
+// 0x00000328 System.Void Unity.XR.PXR.PXR_Manager::add_AnchorEntityPersisted(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityPersisted>)
 extern void PXR_Manager_add_AnchorEntityPersisted_m9AA254004E9FBEDB97C1BF731E8A9D5170C942B7 (void);
-// 0x000002F9 System.Void Unity.XR.PXR.PXR_Manager::remove_AnchorEntityPersisted(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityPersisted>)
+// 0x00000329 System.Void Unity.XR.PXR.PXR_Manager::remove_AnchorEntityPersisted(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityPersisted>)
 extern void PXR_Manager_remove_AnchorEntityPersisted_mAF282691C9271D9A54ADD4A935D1BD58DCDED495 (void);
-// 0x000002FA System.Void Unity.XR.PXR.PXR_Manager::add_AnchorEntityUnPersisted(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityUnPersisted>)
+// 0x0000032A System.Void Unity.XR.PXR.PXR_Manager::add_AnchorEntityUnPersisted(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityUnPersisted>)
 extern void PXR_Manager_add_AnchorEntityUnPersisted_m3A37A9846DEB01C860E7B95EA60977F31BA024FB (void);
-// 0x000002FB System.Void Unity.XR.PXR.PXR_Manager::remove_AnchorEntityUnPersisted(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityUnPersisted>)
+// 0x0000032B System.Void Unity.XR.PXR.PXR_Manager::remove_AnchorEntityUnPersisted(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityUnPersisted>)
 extern void PXR_Manager_remove_AnchorEntityUnPersisted_mCE155732BCBA1294FE74E8FB027B8C3B15801A1C (void);
-// 0x000002FC System.Void Unity.XR.PXR.PXR_Manager::add_AnchorEntityCleared(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityCleared>)
+// 0x0000032C System.Void Unity.XR.PXR.PXR_Manager::add_AnchorEntityCleared(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityCleared>)
 extern void PXR_Manager_add_AnchorEntityCleared_m3880431322F54B8FF1B00D4894DDA1F446EDAC9C (void);
-// 0x000002FD System.Void Unity.XR.PXR.PXR_Manager::remove_AnchorEntityCleared(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityCleared>)
+// 0x0000032D System.Void Unity.XR.PXR.PXR_Manager::remove_AnchorEntityCleared(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityCleared>)
 extern void PXR_Manager_remove_AnchorEntityCleared_m5D64A78746264A3431B48696F406F6540E729C72 (void);
-// 0x000002FE System.Void Unity.XR.PXR.PXR_Manager::add_AnchorEntityLoaded(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityLoaded>)
+// 0x0000032E System.Void Unity.XR.PXR.PXR_Manager::add_AnchorEntityLoaded(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityLoaded>)
 extern void PXR_Manager_add_AnchorEntityLoaded_m941B25300A64D7D7A7EF91872A4830FEACFE7C92 (void);
-// 0x000002FF System.Void Unity.XR.PXR.PXR_Manager::remove_AnchorEntityLoaded(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityLoaded>)
+// 0x0000032F System.Void Unity.XR.PXR.PXR_Manager::remove_AnchorEntityLoaded(System.Action`1<Unity.XR.PXR.PxrEventAnchorEntityLoaded>)
 extern void PXR_Manager_remove_AnchorEntityLoaded_mD8612629C530BCA6D5D9ED0C3E0F84F5B5C156DD (void);
-// 0x00000300 System.Void Unity.XR.PXR.PXR_Manager::add_SpatialSceneCaptured(System.Action`1<Unity.XR.PXR.PxrEventSpatialSceneCaptured>)
+// 0x00000330 System.Void Unity.XR.PXR.PXR_Manager::add_SpatialSceneCaptured(System.Action`1<Unity.XR.PXR.PxrEventSpatialSceneCaptured>)
 extern void PXR_Manager_add_SpatialSceneCaptured_m8B865C5BF229F1597AD3197233929B91EA3C4D4B (void);
-// 0x00000301 System.Void Unity.XR.PXR.PXR_Manager::remove_SpatialSceneCaptured(System.Action`1<Unity.XR.PXR.PxrEventSpatialSceneCaptured>)
+// 0x00000331 System.Void Unity.XR.PXR.PXR_Manager::remove_SpatialSceneCaptured(System.Action`1<Unity.XR.PXR.PxrEventSpatialSceneCaptured>)
 extern void PXR_Manager_remove_SpatialSceneCaptured_mFF92C8D9CA56972BE222F942AC52DC4878BE00F2 (void);
-// 0x00000302 System.Void Unity.XR.PXR.PXR_Manager::add_SemiAutoCandidatesUpdate(System.Action`1<Unity.XR.PXR.PxrEventSemiAutoCandidatesUpdate>)
+// 0x00000332 System.Void Unity.XR.PXR.PXR_Manager::add_SemiAutoCandidatesUpdate(System.Action`1<Unity.XR.PXR.PxrEventSemiAutoCandidatesUpdate>)
 extern void PXR_Manager_add_SemiAutoCandidatesUpdate_m416397126B4C5F812C43CC0955399F069C4DE897 (void);
-// 0x00000303 System.Void Unity.XR.PXR.PXR_Manager::remove_SemiAutoCandidatesUpdate(System.Action`1<Unity.XR.PXR.PxrEventSemiAutoCandidatesUpdate>)
+// 0x00000333 System.Void Unity.XR.PXR.PXR_Manager::remove_SemiAutoCandidatesUpdate(System.Action`1<Unity.XR.PXR.PxrEventSemiAutoCandidatesUpdate>)
 extern void PXR_Manager_remove_SemiAutoCandidatesUpdate_m558BB64EB7CFD943A0B2230A2CDAA6C3D1C21A70 (void);
-// 0x00000304 System.Void Unity.XR.PXR.PXR_Manager::add_SpatialAnchorSaveResult(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorSaveResult>)
+// 0x00000334 System.Void Unity.XR.PXR.PXR_Manager::add_SpatialAnchorSaveResult(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorSaveResult>)
 extern void PXR_Manager_add_SpatialAnchorSaveResult_mB8AF0F0F62BCE059243B78D43A360AE7ABF9E757 (void);
-// 0x00000305 System.Void Unity.XR.PXR.PXR_Manager::remove_SpatialAnchorSaveResult(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorSaveResult>)
+// 0x00000335 System.Void Unity.XR.PXR.PXR_Manager::remove_SpatialAnchorSaveResult(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorSaveResult>)
 extern void PXR_Manager_remove_SpatialAnchorSaveResult_mEFC3B1AC8451FBE960FAF0428A11212778486D47 (void);
-// 0x00000306 System.Void Unity.XR.PXR.PXR_Manager::add_SpatialAnchorDeleteResult(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorDeleteResult>)
+// 0x00000336 System.Void Unity.XR.PXR.PXR_Manager::add_SpatialAnchorDeleteResult(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorDeleteResult>)
 extern void PXR_Manager_add_SpatialAnchorDeleteResult_mB5AD6574BA08887B264482EAAC5E06EB3A79C8D5 (void);
-// 0x00000307 System.Void Unity.XR.PXR.PXR_Manager::remove_SpatialAnchorDeleteResult(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorDeleteResult>)
+// 0x00000337 System.Void Unity.XR.PXR.PXR_Manager::remove_SpatialAnchorDeleteResult(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorDeleteResult>)
 extern void PXR_Manager_remove_SpatialAnchorDeleteResult_m54E9660B241C1E1A334401DF222BE3D85FB281EE (void);
-// 0x00000308 System.Void Unity.XR.PXR.PXR_Manager::add_SpatialAnchorLoadResults(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorLoadResults>)
+// 0x00000338 System.Void Unity.XR.PXR.PXR_Manager::add_SpatialAnchorLoadResults(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorLoadResults>)
 extern void PXR_Manager_add_SpatialAnchorLoadResults_m2C6CFD52E09BACB676694508B9DD6CDE768B85CC (void);
-// 0x00000309 System.Void Unity.XR.PXR.PXR_Manager::remove_SpatialAnchorLoadResults(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorLoadResults>)
+// 0x00000339 System.Void Unity.XR.PXR.PXR_Manager::remove_SpatialAnchorLoadResults(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorLoadResults>)
 extern void PXR_Manager_remove_SpatialAnchorLoadResults_m0E951DDC4FDC963B4D008E83776DAF3D6C399F11 (void);
-// 0x0000030A System.Void Unity.XR.PXR.PXR_Manager::add_SpatialAnchorLoadResultsAvailable(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorLoadResultsAvailable>)
+// 0x0000033A System.Void Unity.XR.PXR.PXR_Manager::add_SpatialAnchorLoadResultsAvailable(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorLoadResultsAvailable>)
 extern void PXR_Manager_add_SpatialAnchorLoadResultsAvailable_m6B74A61DFD50E5BE96259911E4AC1AD38675D6D7 (void);
-// 0x0000030B System.Void Unity.XR.PXR.PXR_Manager::remove_SpatialAnchorLoadResultsAvailable(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorLoadResultsAvailable>)
+// 0x0000033B System.Void Unity.XR.PXR.PXR_Manager::remove_SpatialAnchorLoadResultsAvailable(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorLoadResultsAvailable>)
 extern void PXR_Manager_remove_SpatialAnchorLoadResultsAvailable_m689573DC04C6E48F4A83F46176A73F5AD9E5875D (void);
-// 0x0000030C System.Void Unity.XR.PXR.PXR_Manager::add_SpatialAnchorLoadResultsComplete(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorLoadResultsComplete>)
+// 0x0000033C System.Void Unity.XR.PXR.PXR_Manager::add_SpatialAnchorLoadResultsComplete(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorLoadResultsComplete>)
 extern void PXR_Manager_add_SpatialAnchorLoadResultsComplete_mD28C8AE756763E4D71508D3287B6E3317991CA39 (void);
-// 0x0000030D System.Void Unity.XR.PXR.PXR_Manager::remove_SpatialAnchorLoadResultsComplete(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorLoadResultsComplete>)
+// 0x0000033D System.Void Unity.XR.PXR.PXR_Manager::remove_SpatialAnchorLoadResultsComplete(System.Action`1<Unity.XR.PXR.PxrEventSpatialAnchorLoadResultsComplete>)
 extern void PXR_Manager_remove_SpatialAnchorLoadResultsComplete_mAD1C23D813765FB7034BB77545B1CF4E87CBB096 (void);
-// 0x0000030E System.Void Unity.XR.PXR.PXR_Manager::add_RoomSceneLoadResultsComplete(System.Action`1<Unity.XR.PXR.PxrEventRoomSceneLoadResultsComplete>)
+// 0x0000033E System.Void Unity.XR.PXR.PXR_Manager::add_RoomSceneLoadResultsComplete(System.Action`1<Unity.XR.PXR.PxrEventRoomSceneLoadResultsComplete>)
 extern void PXR_Manager_add_RoomSceneLoadResultsComplete_m63565244E89D8FAD4D15669CB48B1DA89828E6F9 (void);
-// 0x0000030F System.Void Unity.XR.PXR.PXR_Manager::remove_RoomSceneLoadResultsComplete(System.Action`1<Unity.XR.PXR.PxrEventRoomSceneLoadResultsComplete>)
+// 0x0000033F System.Void Unity.XR.PXR.PXR_Manager::remove_RoomSceneLoadResultsComplete(System.Action`1<Unity.XR.PXR.PxrEventRoomSceneLoadResultsComplete>)
 extern void PXR_Manager_remove_RoomSceneLoadResultsComplete_mE3426A82D9A70DC7D09EB8A45F8708DD348BA1EE (void);
-// 0x00000310 System.Void Unity.XR.PXR.PXR_Manager::add_RoomSceneDataSaveResult(System.Action`1<Unity.XR.PXR.PxrEventRoomSceneDataSaveResult>)
+// 0x00000340 System.Void Unity.XR.PXR.PXR_Manager::add_RoomSceneDataSaveResult(System.Action`1<Unity.XR.PXR.PxrEventRoomSceneDataSaveResult>)
 extern void PXR_Manager_add_RoomSceneDataSaveResult_m5500D5D5C94B8734B92A9FE43299EB8725A5F2AC (void);
-// 0x00000311 System.Void Unity.XR.PXR.PXR_Manager::remove_RoomSceneDataSaveResult(System.Action`1<Unity.XR.PXR.PxrEventRoomSceneDataSaveResult>)
+// 0x00000341 System.Void Unity.XR.PXR.PXR_Manager::remove_RoomSceneDataSaveResult(System.Action`1<Unity.XR.PXR.PxrEventRoomSceneDataSaveResult>)
 extern void PXR_Manager_remove_RoomSceneDataSaveResult_m2BDC5A449C01153819332F7EA73F2F8EA0E0960A (void);
-// 0x00000312 System.Void Unity.XR.PXR.PXR_Manager::add_RoomSceneDataDeleteResult(System.Action`1<Unity.XR.PXR.PxrEventRoomSceneDataDeleteResult>)
+// 0x00000342 System.Void Unity.XR.PXR.PXR_Manager::add_RoomSceneDataDeleteResult(System.Action`1<Unity.XR.PXR.PxrEventRoomSceneDataDeleteResult>)
 extern void PXR_Manager_add_RoomSceneDataDeleteResult_m3995BBAB54E9F06B29A329A92DC2D0D8FCC29E26 (void);
-// 0x00000313 System.Void Unity.XR.PXR.PXR_Manager::remove_RoomSceneDataDeleteResult(System.Action`1<Unity.XR.PXR.PxrEventRoomSceneDataDeleteResult>)
+// 0x00000343 System.Void Unity.XR.PXR.PXR_Manager::remove_RoomSceneDataDeleteResult(System.Action`1<Unity.XR.PXR.PxrEventRoomSceneDataDeleteResult>)
 extern void PXR_Manager_remove_RoomSceneDataDeleteResult_m54E06D93FF2FA20C3CE6F5062E7CBC10E760EFB5 (void);
-// 0x00000314 System.Void Unity.XR.PXR.PXR_Manager::add_RoomSceneDataUpdateResult(System.Action`1<Unity.XR.PXR.PxrEventRoomSceneDataUpdateResult>)
+// 0x00000344 System.Void Unity.XR.PXR.PXR_Manager::add_RoomSceneDataUpdateResult(System.Action`1<Unity.XR.PXR.PxrEventRoomSceneDataUpdateResult>)
 extern void PXR_Manager_add_RoomSceneDataUpdateResult_mE59BD642E57727C2DCD92B295D31187E9498DF3E (void);
-// 0x00000315 System.Void Unity.XR.PXR.PXR_Manager::remove_RoomSceneDataUpdateResult(System.Action`1<Unity.XR.PXR.PxrEventRoomSceneDataUpdateResult>)
+// 0x00000345 System.Void Unity.XR.PXR.PXR_Manager::remove_RoomSceneDataUpdateResult(System.Action`1<Unity.XR.PXR.PxrEventRoomSceneDataUpdateResult>)
 extern void PXR_Manager_remove_RoomSceneDataUpdateResult_m15DA94B9FD291FF666AE50511903DED4A802E06F (void);
-// 0x00000316 System.Void Unity.XR.PXR.PXR_Manager::add_SemiAutoRoomCaptureCandidatesUpdate(System.Action`1<Unity.XR.PXR.PxrSemiAutoRoomCaptureCandidatesUpdate>)
+// 0x00000346 System.Void Unity.XR.PXR.PXR_Manager::add_SemiAutoRoomCaptureCandidatesUpdate(System.Action`1<Unity.XR.PXR.PxrSemiAutoRoomCaptureCandidatesUpdate>)
 extern void PXR_Manager_add_SemiAutoRoomCaptureCandidatesUpdate_mC4F3AE793BD9A096E2F9706FDDB690462F41EC6B (void);
-// 0x00000317 System.Void Unity.XR.PXR.PXR_Manager::remove_SemiAutoRoomCaptureCandidatesUpdate(System.Action`1<Unity.XR.PXR.PxrSemiAutoRoomCaptureCandidatesUpdate>)
+// 0x00000347 System.Void Unity.XR.PXR.PXR_Manager::remove_SemiAutoRoomCaptureCandidatesUpdate(System.Action`1<Unity.XR.PXR.PxrSemiAutoRoomCaptureCandidatesUpdate>)
 extern void PXR_Manager_remove_SemiAutoRoomCaptureCandidatesUpdate_m9C4EFCD9834E804B6A7762E20C65DA4FEB8D1743 (void);
-// 0x00000318 System.Void Unity.XR.PXR.PXR_Manager::add_SpatialTrackingStateInfo(System.Action`1<Unity.XR.PXR.PxrEventSpatialTrackingStateInfo>)
+// 0x00000348 System.Void Unity.XR.PXR.PXR_Manager::add_SpatialTrackingStateInfo(System.Action`1<Unity.XR.PXR.PxrEventSpatialTrackingStateInfo>)
 extern void PXR_Manager_add_SpatialTrackingStateInfo_m33F29F69628702007E70E6DBB2F097E46D784B10 (void);
-// 0x00000319 System.Void Unity.XR.PXR.PXR_Manager::remove_SpatialTrackingStateInfo(System.Action`1<Unity.XR.PXR.PxrEventSpatialTrackingStateInfo>)
+// 0x00000349 System.Void Unity.XR.PXR.PXR_Manager::remove_SpatialTrackingStateInfo(System.Action`1<Unity.XR.PXR.PxrEventSpatialTrackingStateInfo>)
 extern void PXR_Manager_remove_SpatialTrackingStateInfo_m8043A3A62643C94994ADA992027087360FDB0813 (void);
-// 0x0000031A System.Void Unity.XR.PXR.PXR_Manager::Awake()
+// 0x0000034A System.Void Unity.XR.PXR.PXR_Manager::Awake()
 extern void PXR_Manager_Awake_m22706D0B1B9D0989B7C817FE3BC1394B47A70DC0 (void);
-// 0x0000031B System.Collections.IEnumerator Unity.XR.PXR.PXR_Manager::SetFoveationLevel()
+// 0x0000034B System.Collections.IEnumerator Unity.XR.PXR.PXR_Manager::SetFoveationLevel()
 extern void PXR_Manager_SetFoveationLevel_m5EE6C12DCF3D3A6707C199D0D3FE26D7C60085DB (void);
-// 0x0000031C System.Void Unity.XR.PXR.PXR_Manager::OnApplicationPause(System.Boolean)
+// 0x0000034C System.Void Unity.XR.PXR.PXR_Manager::OnApplicationPause(System.Boolean)
 extern void PXR_Manager_OnApplicationPause_mF63DF90729C955462725304A02237E5C2886D653 (void);
-// 0x0000031D System.Void Unity.XR.PXR.PXR_Manager::OnApplicationQuit()
+// 0x0000034D System.Void Unity.XR.PXR.PXR_Manager::OnApplicationQuit()
 extern void PXR_Manager_OnApplicationQuit_m9BADB2BF42BF3B24AA8F3635AD9ADFE2DA4C51D3 (void);
-// 0x0000031E System.Collections.IEnumerator Unity.XR.PXR.PXR_Manager::StartXR()
+// 0x0000034E System.Collections.IEnumerator Unity.XR.PXR.PXR_Manager::StartXR()
 extern void PXR_Manager_StartXR_m8E4A1EA84893A84EBE5C342AAD74159DF4C38EA3 (void);
-// 0x0000031F System.Void Unity.XR.PXR.PXR_Manager::StopXR()
+// 0x0000034F System.Void Unity.XR.PXR.PXR_Manager::StopXR()
 extern void PXR_Manager_StopXR_m716EE6104DCA0DC0A42CD3BBC3904232F7ECD1D8 (void);
-// 0x00000320 System.Void Unity.XR.PXR.PXR_Manager::Start()
+// 0x00000350 System.Void Unity.XR.PXR.PXR_Manager::Start()
 extern void PXR_Manager_Start_mA0FB1CC4DADC348DC9979D1207824C11A1B1699D (void);
-// 0x00000321 System.Void Unity.XR.PXR.PXR_Manager::Update()
+// 0x00000351 System.Void Unity.XR.PXR.PXR_Manager::Update()
 extern void PXR_Manager_Update_mFA85F609F98F9A850A743D539E4CE9D9C7F2D0EB (void);
-// 0x00000322 System.Void Unity.XR.PXR.PXR_Manager::UpdateAdaptiveResolution()
+// 0x00000352 System.Void Unity.XR.PXR.PXR_Manager::UpdateAdaptiveResolution()
 extern void PXR_Manager_UpdateAdaptiveResolution_mFE13FA1630B2D2854832079816AED7E6A4722496 (void);
-// 0x00000323 System.Void Unity.XR.PXR.PXR_Manager::OnEnable()
+// 0x00000353 System.Void Unity.XR.PXR.PXR_Manager::OnEnable()
 extern void PXR_Manager_OnEnable_m08DFCEAE855E0356F9590356B30CEE111CEC11B7 (void);
-// 0x00000324 System.Void Unity.XR.PXR.PXR_Manager::LateUpdate()
+// 0x00000354 System.Void Unity.XR.PXR.PXR_Manager::LateUpdate()
 extern void PXR_Manager_LateUpdate_mBCF4E408BC97E93C9ED99E67F0F358913559996E (void);
-// 0x00000325 System.Void Unity.XR.PXR.PXR_Manager::PollEvent()
+// 0x00000355 System.Void Unity.XR.PXR.PXR_Manager::PollEvent()
 extern void PXR_Manager_PollEvent_mBFC0CCDBA334D6B3F9D8A39B59E11BE6330DED49 (void);
-// 0x00000326 System.Void Unity.XR.PXR.PXR_Manager::SetSpaceWarp(System.Boolean)
+// 0x00000356 System.Void Unity.XR.PXR.PXR_Manager::SetSpaceWarp(System.Boolean)
 extern void PXR_Manager_SetSpaceWarp_m4ACE64E251A77C364D8ECE12409E338464D49F1A (void);
-// 0x00000327 System.Void Unity.XR.PXR.PXR_Manager::OnDisable()
+// 0x00000357 System.Void Unity.XR.PXR.PXR_Manager::OnDisable()
 extern void PXR_Manager_OnDisable_m7768EBB241029EEBEC86DDC3EBF5C7782CC76DC5 (void);
-// 0x00000328 System.Void Unity.XR.PXR.PXR_Manager::LoglevelChangedCallback(System.Int32)
+// 0x00000358 System.Void Unity.XR.PXR.PXR_Manager::LoglevelChangedCallback(System.Int32)
 extern void PXR_Manager_LoglevelChangedCallback_mCFB549A0C0B4F8C75254FB2C70B004939F6B6E90 (void);
-// 0x00000329 UnityEngine.Camera[] Unity.XR.PXR.PXR_Manager::GetEyeCamera()
+// 0x00000359 UnityEngine.Camera[] Unity.XR.PXR.PXR_Manager::GetEyeCamera()
 extern void PXR_Manager_GetEyeCamera_m3BBC6BE141112F0F3D55240F6EE48655AA58FA6A (void);
-// 0x0000032A System.Void Unity.XR.PXR.PXR_Manager::MRCInitialize()
+// 0x0000035A System.Void Unity.XR.PXR.PXR_Manager::MRCInitialize()
 extern void PXR_Manager_MRCInitialize_mF1A92C13CD1EF2DED448017B247A9A81370E57EF (void);
-// 0x0000032B System.Void Unity.XR.PXR.PXR_Manager::BeginRendering(UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
-extern void PXR_Manager_BeginRendering_m3675A2730D6CBEC8146131A1A82CBC6BC4F20972 (void);
-// 0x0000032C System.Void Unity.XR.PXR.PXR_Manager::EndRendering(UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
-extern void PXR_Manager_EndRendering_m86D410CB5F202C35901C1DF546BFBC279AD99956 (void);
-// 0x0000032D System.Void Unity.XR.PXR.PXR_Manager::OnPreRenderCallBack(UnityEngine.Camera)
-extern void PXR_Manager_OnPreRenderCallBack_m836BF032F56CFB9FF785D7C85E4CE743F087F8C5 (void);
-// 0x0000032E System.Void Unity.XR.PXR.PXR_Manager::OnPostRenderCallBack(UnityEngine.Camera)
-extern void PXR_Manager_OnPostRenderCallBack_mDED6054F939136E034C540A0FC923EADC317E7EA (void);
-// 0x0000032F System.Void Unity.XR.PXR.PXR_Manager::UpdateMRCCam()
+// 0x0000035B System.Void Unity.XR.PXR.PXR_Manager::CreateMRCOverlay()
+extern void PXR_Manager_CreateMRCOverlay_m24DC65B159654971F9C7E327341797E21A3C3008 (void);
+// 0x0000035C System.Void Unity.XR.PXR.PXR_Manager::CopyAndSubmitMRCLayer()
+extern void PXR_Manager_CopyAndSubmitMRCLayer_m0D61BF2FF9C918D6167566C025BA58F44D9F91D2 (void);
+// 0x0000035D System.Void Unity.XR.PXR.PXR_Manager::UpdateMRCCam()
 extern void PXR_Manager_UpdateMRCCam_m8F248784C749A9EE0D06014B219C49C32711F6A8 (void);
-// 0x00000330 System.Void Unity.XR.PXR.PXR_Manager::CreateMRCCam()
+// 0x0000035E System.Void Unity.XR.PXR.PXR_Manager::CreateMRCCam()
 extern void PXR_Manager_CreateMRCCam_mD36CDAF112C76ABCE59B8C005CF4BB11C976B2BA (void);
-// 0x00000331 System.Void Unity.XR.PXR.PXR_Manager::InitBackgroungCam(UnityEngine.Camera)
+// 0x0000035F System.Void Unity.XR.PXR.PXR_Manager::InitBackgroungCam(UnityEngine.Camera)
 extern void PXR_Manager_InitBackgroungCam_m8F0DFDE61935D585F4D773F87B1D1DCBC70A82E9 (void);
-// 0x00000332 System.Void Unity.XR.PXR.PXR_Manager::InitForegroundCam(UnityEngine.Camera)
+// 0x00000360 System.Void Unity.XR.PXR.PXR_Manager::InitForegroundCam(UnityEngine.Camera)
 extern void PXR_Manager_InitForegroundCam_mEB13975493B788BA1747161D2D99993C21951EB9 (void);
-// 0x00000333 System.Void Unity.XR.PXR.PXR_Manager::CalibrationMRCCam()
+// 0x00000361 System.Void Unity.XR.PXR.PXR_Manager::CalibrationMRCCamCallback()
+extern void PXR_Manager_CalibrationMRCCamCallback_m4A644C7300746E73AD7F82750C56395B9846177A (void);
+// 0x00000362 System.Void Unity.XR.PXR.PXR_Manager::CalibrationMRCCam()
 extern void PXR_Manager_CalibrationMRCCam_m85224BD3AE217F5A815E1088E316755D7A7F7EEB (void);
-// 0x00000334 UnityEngine.Vector3 Unity.XR.PXR.PXR_Manager::UPxr_ToVector3(System.Single[])
+// 0x00000363 UnityEngine.Vector3 Unity.XR.PXR.PXR_Manager::UPxr_ToVector3(System.Single[])
 extern void PXR_Manager_UPxr_ToVector3_m8469051FDEEB7B383B4B4DF25565F7FFFA2E6F2C (void);
-// 0x00000335 UnityEngine.Vector3 Unity.XR.PXR.PXR_Manager::UPxr_ToRotation(System.Single[])
+// 0x00000364 UnityEngine.Vector3 Unity.XR.PXR.PXR_Manager::UPxr_ToRotation(System.Single[])
 extern void PXR_Manager_UPxr_ToRotation_mE33CAFD1946EC3A07E9D288DAE399EB2F9D3536D (void);
-// 0x00000336 System.Void Unity.XR.PXR.PXR_Manager::Pxr_GetHeight()
+// 0x00000365 System.Void Unity.XR.PXR.PXR_Manager::Pxr_GetHeight()
 extern void PXR_Manager_Pxr_GetHeight_m5EDA15FAD2B6D228FCE2DDE807B80F417E3330A1 (void);
-// 0x00000337 System.Void Unity.XR.PXR.PXR_Manager::.ctor()
+// 0x00000366 System.Void Unity.XR.PXR.PXR_Manager::.ctor()
 extern void PXR_Manager__ctor_mE906500FB8F9F3CB8853FFC827F8E8405F8F727E (void);
-// 0x00000338 System.Void Unity.XR.PXR.PXR_Manager/<SetFoveationLevel>d__109::.ctor(System.Int32)
-extern void U3CSetFoveationLevelU3Ed__109__ctor_m38585965C858B3EA7564B40417553508671CBB81 (void);
-// 0x00000339 System.Void Unity.XR.PXR.PXR_Manager/<SetFoveationLevel>d__109::System.IDisposable.Dispose()
-extern void U3CSetFoveationLevelU3Ed__109_System_IDisposable_Dispose_m7EBEDA6A162D33BC8CFA958915387F02E9C2D193 (void);
-// 0x0000033A System.Boolean Unity.XR.PXR.PXR_Manager/<SetFoveationLevel>d__109::MoveNext()
-extern void U3CSetFoveationLevelU3Ed__109_MoveNext_m581E11644C28F485D4854B5C73BC15DFBD93990E (void);
-// 0x0000033B System.Object Unity.XR.PXR.PXR_Manager/<SetFoveationLevel>d__109::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CSetFoveationLevelU3Ed__109_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF70919C15DC1E4E55DBBB1CE4431C3444639ED38 (void);
-// 0x0000033C System.Void Unity.XR.PXR.PXR_Manager/<SetFoveationLevel>d__109::System.Collections.IEnumerator.Reset()
-extern void U3CSetFoveationLevelU3Ed__109_System_Collections_IEnumerator_Reset_m08A7AAE743B28E4D002EDDB2FA3B3815712261DE (void);
-// 0x0000033D System.Object Unity.XR.PXR.PXR_Manager/<SetFoveationLevel>d__109::System.Collections.IEnumerator.get_Current()
-extern void U3CSetFoveationLevelU3Ed__109_System_Collections_IEnumerator_get_Current_mF7BAE4ACF937DC860783D400A0330C8AF1983CF1 (void);
-// 0x0000033E System.Void Unity.XR.PXR.PXR_Manager/<StartXR>d__112::.ctor(System.Int32)
-extern void U3CStartXRU3Ed__112__ctor_m38E3AA01E470EE1D315975935FD7E1A0711E2DB7 (void);
-// 0x0000033F System.Void Unity.XR.PXR.PXR_Manager/<StartXR>d__112::System.IDisposable.Dispose()
-extern void U3CStartXRU3Ed__112_System_IDisposable_Dispose_mDC05BE29A8AD2A5B1E1FD791132513CF57773A1A (void);
-// 0x00000340 System.Boolean Unity.XR.PXR.PXR_Manager/<StartXR>d__112::MoveNext()
-extern void U3CStartXRU3Ed__112_MoveNext_m03C30E56C4688BB4551B773F7C1E6B937DAEE733 (void);
-// 0x00000341 System.Object Unity.XR.PXR.PXR_Manager/<StartXR>d__112::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CStartXRU3Ed__112_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7E3FB482621033E60395A2CC1BEF5FF46027338E (void);
-// 0x00000342 System.Void Unity.XR.PXR.PXR_Manager/<StartXR>d__112::System.Collections.IEnumerator.Reset()
-extern void U3CStartXRU3Ed__112_System_Collections_IEnumerator_Reset_m7466D8FACAFDFC935E0C220E6DCCD56E7FD21BE0 (void);
-// 0x00000343 System.Object Unity.XR.PXR.PXR_Manager/<StartXR>d__112::System.Collections.IEnumerator.get_Current()
-extern void U3CStartXRU3Ed__112_System_Collections_IEnumerator_get_Current_m4ADD9DCD081229BAB222A6DBD88C004D03A4C376 (void);
-// 0x00000344 System.Void Unity.XR.PXR.PXR_OverlayManager::OnEnable()
+// 0x00000367 System.Void Unity.XR.PXR.PXR_Manager/<SetFoveationLevel>d__111::.ctor(System.Int32)
+extern void U3CSetFoveationLevelU3Ed__111__ctor_m33C6DC9FB2CEEEC7DBA3E649BDFCF4D84B8690F5 (void);
+// 0x00000368 System.Void Unity.XR.PXR.PXR_Manager/<SetFoveationLevel>d__111::System.IDisposable.Dispose()
+extern void U3CSetFoveationLevelU3Ed__111_System_IDisposable_Dispose_m83F335405F37B56BAC2B41F915228703D86ABCF7 (void);
+// 0x00000369 System.Boolean Unity.XR.PXR.PXR_Manager/<SetFoveationLevel>d__111::MoveNext()
+extern void U3CSetFoveationLevelU3Ed__111_MoveNext_mDD1CD5FD3B4473A04A17CE054D6D79C3BF7659D6 (void);
+// 0x0000036A System.Object Unity.XR.PXR.PXR_Manager/<SetFoveationLevel>d__111::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CSetFoveationLevelU3Ed__111_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m91E03184953462DD48144597DF61A13A1E29E996 (void);
+// 0x0000036B System.Void Unity.XR.PXR.PXR_Manager/<SetFoveationLevel>d__111::System.Collections.IEnumerator.Reset()
+extern void U3CSetFoveationLevelU3Ed__111_System_Collections_IEnumerator_Reset_m5A0F27CCE7F90FF5F5EC3056731031060FBB2625 (void);
+// 0x0000036C System.Object Unity.XR.PXR.PXR_Manager/<SetFoveationLevel>d__111::System.Collections.IEnumerator.get_Current()
+extern void U3CSetFoveationLevelU3Ed__111_System_Collections_IEnumerator_get_Current_m5382ABF2BC2F196FAA979182E90CB733EA6ACFCB (void);
+// 0x0000036D System.Void Unity.XR.PXR.PXR_Manager/<StartXR>d__114::.ctor(System.Int32)
+extern void U3CStartXRU3Ed__114__ctor_m8A33194E6724F1EA19AD12777F5F9845C05DB295 (void);
+// 0x0000036E System.Void Unity.XR.PXR.PXR_Manager/<StartXR>d__114::System.IDisposable.Dispose()
+extern void U3CStartXRU3Ed__114_System_IDisposable_Dispose_m11E03B94479E96EA7B19F0F83FA98F3EF385A8F1 (void);
+// 0x0000036F System.Boolean Unity.XR.PXR.PXR_Manager/<StartXR>d__114::MoveNext()
+extern void U3CStartXRU3Ed__114_MoveNext_m4B41EE2EC7E2F0D3495D40A0A7EC06BC5081E146 (void);
+// 0x00000370 System.Object Unity.XR.PXR.PXR_Manager/<StartXR>d__114::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CStartXRU3Ed__114_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m774C3BB4D8156F1CDEE578965E2D16E36EE55CB7 (void);
+// 0x00000371 System.Void Unity.XR.PXR.PXR_Manager/<StartXR>d__114::System.Collections.IEnumerator.Reset()
+extern void U3CStartXRU3Ed__114_System_Collections_IEnumerator_Reset_mD7369F512A182BA77D159654A1E73495900F8940 (void);
+// 0x00000372 System.Object Unity.XR.PXR.PXR_Manager/<StartXR>d__114::System.Collections.IEnumerator.get_Current()
+extern void U3CStartXRU3Ed__114_System_Collections_IEnumerator_get_Current_m855249890D097DED94AFB5C373BF0C814F4C353F (void);
+// 0x00000373 System.Void Unity.XR.PXR.PXR_OverlayManager::OnEnable()
 extern void PXR_OverlayManager_OnEnable_m00AB224CEC26B31C55A9AC7585A40CB73A796E43 (void);
-// 0x00000345 System.Void Unity.XR.PXR.PXR_OverlayManager::OnDisable()
+// 0x00000374 System.Void Unity.XR.PXR.PXR_OverlayManager::OnDisable()
 extern void PXR_OverlayManager_OnDisable_mCC7D4460FDE1A079C7E49B67C362157ADF3AE1EA (void);
-// 0x00000346 System.Void Unity.XR.PXR.PXR_OverlayManager::Start()
+// 0x00000375 System.Void Unity.XR.PXR.PXR_OverlayManager::Start()
 extern void PXR_OverlayManager_Start_mA3223BD526874B20EA80B6EB0B24BB893A13EAC5 (void);
-// 0x00000347 System.Void Unity.XR.PXR.PXR_OverlayManager::BeginRendering(UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
+// 0x00000376 System.Void Unity.XR.PXR.PXR_OverlayManager::BeginRendering(UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
 extern void PXR_OverlayManager_BeginRendering_mC578A431FA26D31F2A1C59114EDD2603CA5198D1 (void);
-// 0x00000348 System.Void Unity.XR.PXR.PXR_OverlayManager::EndRendering(UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
+// 0x00000377 System.Void Unity.XR.PXR.PXR_OverlayManager::EndRendering(UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[])
 extern void PXR_OverlayManager_EndRendering_mCED8A4A6B8A26847D6B386FABF5F708C3056190C (void);
-// 0x00000349 System.Void Unity.XR.PXR.PXR_OverlayManager::OnPreRenderCallBack(UnityEngine.Camera)
+// 0x00000378 System.Void Unity.XR.PXR.PXR_OverlayManager::OnPreRenderCallBack(UnityEngine.Camera)
 extern void PXR_OverlayManager_OnPreRenderCallBack_m014F381B193ADBAD6E4E502AA746AA605FFABC44 (void);
-// 0x0000034A System.Void Unity.XR.PXR.PXR_OverlayManager::OnPostRenderCallBack(UnityEngine.Camera)
+// 0x00000379 System.Void Unity.XR.PXR.PXR_OverlayManager::OnPostRenderCallBack(UnityEngine.Camera)
 extern void PXR_OverlayManager_OnPostRenderCallBack_mF1BD29CA765472F66B255447896C4DE507EDFF37 (void);
-// 0x0000034B System.Void Unity.XR.PXR.PXR_OverlayManager::.ctor()
+// 0x0000037A System.Void Unity.XR.PXR.PXR_OverlayManager::.ctor()
 extern void PXR_OverlayManager__ctor_m3F54032AA04BCFC1A747D4DDDBF2DEC7D18EC45D (void);
-// 0x0000034C System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_EnablePassthroughStyle(System.Boolean)
+// 0x0000037B System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_EnablePassthroughStyle(System.Boolean)
 extern void PXR_Plugin_Pxr_EnablePassthroughStyle_m4236F9128B227AF388819285ADAC7AED42C305AF (void);
-// 0x0000034D System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetPassthroughStyle(Unity.XR.PXR.PxrLayerEffect,System.Single,System.Single)
+// 0x0000037C System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetPassthroughStyle(Unity.XR.PXR.PxrLayerEffect,System.Single,System.Single)
 extern void PXR_Plugin_Pxr_SetPassthroughStyle_m1FAD72D9DC81BF0761D237E37C3AD37314472BEC (void);
-// 0x0000034E System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetPassthroughLUT(System.Byte[]&,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000037D System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetPassthroughLUT(System.Byte[]&,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void PXR_Plugin_Pxr_SetPassthroughLUT_m5BB9191DE1F9EE62D404CD66A2EA048DA289A0D9 (void);
-// 0x0000034F Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_CreateAnchorEntity(Unity.XR.PXR.PxrAnchorEntityCreateInfo&,System.UInt64&)
+// 0x0000037E Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_CreateAnchorEntity(Unity.XR.PXR.PxrAnchorEntityCreateInfo&,System.UInt64&)
 extern void PXR_Plugin_Pxr_CreateAnchorEntity_mFC65046CF14F9FD1514B5F9CC290CA6E3D1C0654 (void);
-// 0x00000350 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_DestroyAnchorEntity(Unity.XR.PXR.PxrAnchorEntityDestroyInfo&)
+// 0x0000037F Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_DestroyAnchorEntity(Unity.XR.PXR.PxrAnchorEntityDestroyInfo&)
 extern void PXR_Plugin_Pxr_DestroyAnchorEntity_m2F311C1C226931BE1F691297B740284418AED25C (void);
-// 0x00000351 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_GetAnchorPose(System.UInt64,Unity.XR.PXR.PxrTrackingOrigin,Unity.XR.PXR.PxrPosef&)
+// 0x00000380 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_GetAnchorPose(System.UInt64,Unity.XR.PXR.PxrTrackingOrigin,Unity.XR.PXR.PxrPosef&)
 extern void PXR_Plugin_Pxr_GetAnchorPose_m8AECC0CA1A53EA47602A90B24F0D871BB829ABA9 (void);
-// 0x00000352 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_GetAnchorEntityUuid(System.UInt64,Unity.XR.PXR.PxrUuid&)
+// 0x00000381 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_GetAnchorEntityUuid(System.UInt64,Unity.XR.PXR.PxrUuid&)
 extern void PXR_Plugin_Pxr_GetAnchorEntityUuid_m4975B3B8D2205AE261A2D048774D3FE275470550 (void);
-// 0x00000353 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_GetAnchorComponentFlags(System.UInt64,System.UInt64&)
+// 0x00000382 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_GetAnchorComponentFlags(System.UInt64,System.UInt64&)
 extern void PXR_Plugin_Pxr_GetAnchorComponentFlags_m75E472C621289E62C56BB78A7C71F694CE212D9F (void);
-// 0x00000354 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_GetAnchorSceneLabel(System.UInt64,Unity.XR.PXR.PxrSceneLabel&)
+// 0x00000383 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_GetAnchorSceneLabel(System.UInt64,Unity.XR.PXR.PxrSceneLabel&)
 extern void PXR_Plugin_Pxr_GetAnchorSceneLabel_m24A24BAC000957C6808479DB8548DFD0D6DA5F08 (void);
-// 0x00000355 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_GetAnchorPlaneBoundaryInfo(System.UInt64,Unity.XR.PXR.PxrAnchorPlaneBoundaryInfo&)
+// 0x00000384 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_GetAnchorPlaneBoundaryInfo(System.UInt64,Unity.XR.PXR.PxrAnchorPlaneBoundaryInfo&)
 extern void PXR_Plugin_Pxr_GetAnchorPlaneBoundaryInfo_mB746A0842C98B24734003711414C911166485DAD (void);
-// 0x00000356 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_GetAnchorPlanePolygonInfo(System.UInt64,Unity.XR.PXR.PxrAnchorPlanePolygonInfo&)
+// 0x00000385 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_GetAnchorPlanePolygonInfo(System.UInt64,Unity.XR.PXR.PxrAnchorPlanePolygonInfo&)
 extern void PXR_Plugin_Pxr_GetAnchorPlanePolygonInfo_m98DAA49D165DC498083EFF51FA64F22180423255 (void);
-// 0x00000357 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_GetAnchorBoxInfo(System.UInt64,Unity.XR.PXR.PxrAnchorVolumeInfo&)
+// 0x00000386 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_GetAnchorBoxInfo(System.UInt64,Unity.XR.PXR.PxrAnchorVolumeInfo&)
 extern void PXR_Plugin_Pxr_GetAnchorBoxInfo_m3A97F88FCAE9213DEF7CFD0A07BDEE1CB56226CA (void);
-// 0x00000358 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_PersistAnchorEntity(Unity.XR.PXR.PxrAnchorEntityPersistInfo&,System.UInt64&)
+// 0x00000387 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_PersistAnchorEntity(Unity.XR.PXR.PxrAnchorEntityPersistInfo&,System.UInt64&)
 extern void PXR_Plugin_Pxr_PersistAnchorEntity_m602719E50E143DF08AD1C66651EB6E567F5511FF (void);
-// 0x00000359 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_UnpersistAnchorEntity(Unity.XR.PXR.PxrAnchorEntityUnPersistInfo&,System.UInt64&)
+// 0x00000388 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_UnpersistAnchorEntity(Unity.XR.PXR.PxrAnchorEntityUnPersistInfo&,System.UInt64&)
 extern void PXR_Plugin_Pxr_UnpersistAnchorEntity_m14DF6464008C44A6EAD5E52711C0B88B78459CD3 (void);
-// 0x0000035A Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_ClearPersistedAnchorEntity(Unity.XR.PXR.PxrAnchorEntityClearInfo&,System.UInt64&)
+// 0x00000389 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_ClearPersistedAnchorEntity(Unity.XR.PXR.PxrAnchorEntityClearInfo&,System.UInt64&)
 extern void PXR_Plugin_Pxr_ClearPersistedAnchorEntity_mF1DB25EE0D42ECBC9822E69A0E145ADF19AC90CD (void);
-// 0x0000035B Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_LoadAnchorEntity(Unity.XR.PXR.PxrAnchorEntityLoadInfo&,System.UInt64&)
+// 0x0000038A Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_LoadAnchorEntity(Unity.XR.PXR.PxrAnchorEntityLoadInfo&,System.UInt64&)
 extern void PXR_Plugin_Pxr_LoadAnchorEntity_mD19D81417E73C227309C7586CAB755245D6E0715 (void);
-// 0x0000035C Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_GetAnchorEntityLoadResults(System.UInt64,Unity.XR.PXR.PxrAnchorEntityLoadResults&)
+// 0x0000038B Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_GetAnchorEntityLoadResults(System.UInt64,Unity.XR.PXR.PxrAnchorEntityLoadResults&)
 extern void PXR_Plugin_Pxr_GetAnchorEntityLoadResults_m8D3E489E2C3283495DFC3E84FCEBB69F3EBAE67E (void);
-// 0x0000035D Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_StartSpatialSceneCapture(System.UInt64&)
+// 0x0000038C Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin::Pxr_StartSpatialSceneCapture(System.UInt64&)
 extern void PXR_Plugin_Pxr_StartSpatialSceneCapture_mA73CEA327B52A155E2037C4DC33C2DF63B1CC9E3 (void);
-// 0x0000035E System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartHumanOcclusion()
+// 0x0000038D System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartHumanOcclusion()
 extern void PXR_Plugin_Pxr_StartHumanOcclusion_mBB531137C25379C04CD545625B4E104E74478576 (void);
-// 0x0000035F System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_AcquireMeshingInfo(System.IntPtr,System.IntPtr,System.UInt32&,System.IntPtr,System.UInt32&,System.Boolean&)
+// 0x0000038E System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_AcquireMeshingInfo(System.IntPtr,System.IntPtr,System.UInt32&,System.IntPtr,System.UInt32&,System.Boolean&)
 extern void PXR_Plugin_Pxr_AcquireMeshingInfo_mCAFB87B4F234344C52AD89E39D40966DA3756D80 (void);
-// 0x00000360 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StopHumanOcclusion()
+// 0x0000038F System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StopHumanOcclusion()
 extern void PXR_Plugin_Pxr_StopHumanOcclusion_mBDF6DA6EA6309D64F107B0ADF1471CDE6EE80145 (void);
-// 0x00000361 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CreateSpatialAnchor(Unity.XR.PXR.PxrSpatialAnchorCreateInfo&,System.UInt64&)
+// 0x00000390 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CreateSpatialAnchor(Unity.XR.PXR.PxrSpatialAnchorCreateInfo&,System.UInt64&)
 extern void PXR_Plugin_Pxr_CreateSpatialAnchor_m8C4AE06ED9CD922A8AC8D0AC7A72E105A1C346C9 (void);
-// 0x00000362 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_DestroySpatialAnchor(System.UInt64)
+// 0x00000391 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_DestroySpatialAnchor(System.UInt64)
 extern void PXR_Plugin_Pxr_DestroySpatialAnchor_m14D880AB0A6E62FB0FA48AF8DDC2CA749EC86C84 (void);
-// 0x00000363 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SaveSpatialAnchor(Unity.XR.PXR.PxrSpatialAnchorSaveInfo&,System.UInt64&)
+// 0x00000392 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SaveSpatialAnchor(Unity.XR.PXR.PxrSpatialAnchorSaveInfo&,System.UInt64&)
 extern void PXR_Plugin_Pxr_SaveSpatialAnchor_m1A0318C8652858EC336279ABAE9691AC6B4FD3FD (void);
-// 0x00000364 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_DeleteSpatialAnchor(Unity.XR.PXR.PxrSpatialAnchorDeleteInfo&,System.UInt64&)
+// 0x00000393 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_DeleteSpatialAnchor(Unity.XR.PXR.PxrSpatialAnchorDeleteInfo&,System.UInt64&)
 extern void PXR_Plugin_Pxr_DeleteSpatialAnchor_m1BF8866DA67C140341FF245203E623EA7B59EB07 (void);
-// 0x00000365 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_LoadSpatialAnchorById(Unity.XR.PXR.PxrSpatialInstanceLoadByIdInfo&,System.UInt64&)
+// 0x00000394 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_LoadSpatialAnchorById(Unity.XR.PXR.PxrSpatialInstanceLoadByIdInfo&,System.UInt64&)
 extern void PXR_Plugin_Pxr_LoadSpatialAnchorById_m7BEA40D6AC3CF39DCD6A9BA85D245F9E0DA65510 (void);
-// 0x00000366 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetSpatialAnchorLoadResults(System.UInt64,Unity.XR.PXR.PxrSpatialAnchorLoadResults&)
+// 0x00000395 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetSpatialAnchorLoadResults(System.UInt64,Unity.XR.PXR.PxrSpatialAnchorLoadResults&)
 extern void PXR_Plugin_Pxr_GetSpatialAnchorLoadResults_m2DF610D7636558F62A4600E37AD974E6A88AF281 (void);
-// 0x00000367 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetSpatialAnchorPose(System.UInt64,System.Double,Unity.XR.PXR.PxrReferenceType,Unity.XR.PXR.PxrPosef&)
+// 0x00000396 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetSpatialAnchorPose(System.UInt64,System.Double,Unity.XR.PXR.PxrReferenceType,Unity.XR.PXR.PxrPosef&)
 extern void PXR_Plugin_Pxr_GetSpatialAnchorPose_m80B91E9DBFE67DC78971BDDDC71D84057284105C (void);
-// 0x00000368 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetSpatialAnchorUuid(System.UInt64,Unity.XR.PXR.PxrSpatialInstanceUuid&)
+// 0x00000397 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetSpatialAnchorUuid(System.UInt64,Unity.XR.PXR.PxrSpatialInstanceUuid&)
 extern void PXR_Plugin_Pxr_GetSpatialAnchorUuid_m36038C5815CEA40246C4185099C210CB937B0629 (void);
-// 0x00000369 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_PollEventFromXRPlugin(System.Int32&,System.IntPtr[])
+// 0x00000398 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_PollEventFromXRPlugin(System.Int32&,System.IntPtr[])
 extern void PXR_Plugin_Pxr_PollEventFromXRPlugin_mF24715F9B1425F3DFC4BF6704E205FCDB101C590 (void);
-// 0x0000036A System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CreateRoomSceneData(Unity.XR.PXR.PxrSpatialInstanceUuid,System.IntPtr,System.Int32,System.UInt64&)
+// 0x00000399 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CreateRoomSceneData(Unity.XR.PXR.PxrSpatialInstanceUuid,System.IntPtr,System.Int32,System.UInt64&)
 extern void PXR_Plugin_Pxr_CreateRoomSceneData_m592E6230CB051D683F30B4F28AFD375BA2233A82 (void);
-// 0x0000036B System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_DestroyRoomSceneData(System.UInt64)
+// 0x0000039A System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_DestroyRoomSceneData(System.UInt64)
 extern void PXR_Plugin_Pxr_DestroyRoomSceneData_m4ED2544EA07DDB0D65A4500B6BD68263FA12B8DC (void);
-// 0x0000036C System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SaveRoomSceneData(Unity.XR.PXR.PxrRoomSceneDataSaveInfo&,System.UInt64&)
+// 0x0000039B System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SaveRoomSceneData(Unity.XR.PXR.PxrRoomSceneDataSaveInfo&,System.UInt64&)
 extern void PXR_Plugin_Pxr_SaveRoomSceneData_m150B1C4B79DFCDE0205153546EB75FF8DB904037 (void);
-// 0x0000036D System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_DeleteRoomSceneData(Unity.XR.PXR.PxrRoomSceneDataDeleteInfo&,System.UInt64&)
+// 0x0000039C System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_DeleteRoomSceneData(Unity.XR.PXR.PxrRoomSceneDataDeleteInfo&,System.UInt64&)
 extern void PXR_Plugin_Pxr_DeleteRoomSceneData_mAF12CAF097D2E8202DD31B8D35F20F3045D3BF4B (void);
-// 0x0000036E System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_LoadRoomScene(Unity.XR.PXR.PxrRoomSceneLoadInfo&,System.UInt64&)
+// 0x0000039D System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_LoadRoomScene(Unity.XR.PXR.PxrRoomSceneLoadInfo&,System.UInt64&)
 extern void PXR_Plugin_Pxr_LoadRoomScene_mC55B4D1A605BEF5F1652C8561E3AFEEFE34265D5 (void);
-// 0x0000036F System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetRoomSceneLoadResults(System.UInt64,Unity.XR.PXR.PxrRoomSceneLoadResults&)
+// 0x0000039E System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetRoomSceneLoadResults(System.UInt64,Unity.XR.PXR.PxrRoomSceneLoadResults&)
 extern void PXR_Plugin_Pxr_GetRoomSceneLoadResults_mDAF184A15062A13DE6773A5CCB43756D97B33648 (void);
-// 0x00000370 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartRoomCapture()
+// 0x0000039F System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartRoomCapture()
 extern void PXR_Plugin_Pxr_StartRoomCapture_mB77BEF12C40F4A0A78C0936CA63FBDA3A7BE0A51 (void);
-// 0x00000371 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraStart()
+// 0x000003A0 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraStart()
 extern void PXR_Plugin_Pxr_CameraStart_m3D2201F160F4B9EAFA21791F4E278618808BE163 (void);
-// 0x00000372 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraStop()
+// 0x000003A1 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraStop()
 extern void PXR_Plugin_Pxr_CameraStop_mB6A08C1704AEF2E06FDCD341CDAD398F73615F9C (void);
-// 0x00000373 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraDestroy()
+// 0x000003A2 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraDestroy()
 extern void PXR_Plugin_Pxr_CameraDestroy_mBE352EAB44CD225C726315F4102DC02B4440264D (void);
-// 0x00000374 System.IntPtr Unity.XR.PXR.PXR_Plugin::Pxr_CameraGetRenderEventFunc()
+// 0x000003A3 System.IntPtr Unity.XR.PXR.PXR_Plugin::Pxr_CameraGetRenderEventFunc()
 extern void PXR_Plugin_Pxr_CameraGetRenderEventFunc_m8CDC970B6DA95AA2788E0F2526408B723F2D9353 (void);
-// 0x00000375 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_CameraSetRenderEventPending()
+// 0x000003A4 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_CameraSetRenderEventPending()
 extern void PXR_Plugin_Pxr_CameraSetRenderEventPending_m8EE1DBE0709C5CD7E09874D0ADE4AC19F14926B4 (void);
-// 0x00000376 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_CameraWaitForRenderEvent()
+// 0x000003A5 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_CameraWaitForRenderEvent()
 extern void PXR_Plugin_Pxr_CameraWaitForRenderEvent_mFEAE919CDCC633D58C154C048C58D606C1B86673 (void);
-// 0x00000377 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraUpdateFrame(System.Int32)
+// 0x000003A6 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraUpdateFrame(System.Int32)
 extern void PXR_Plugin_Pxr_CameraUpdateFrame_m586CCC2EB473C6AAC84094CBF130FE802D929B7B (void);
-// 0x00000378 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraCreateTexturesMainThread()
+// 0x000003A7 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraCreateTexturesMainThread()
 extern void PXR_Plugin_Pxr_CameraCreateTexturesMainThread_m21E33B2262FFF396C293CE4DE5B4344DF5C0E680 (void);
-// 0x00000379 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraDeleteTexturesMainThread()
+// 0x000003A8 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraDeleteTexturesMainThread()
 extern void PXR_Plugin_Pxr_CameraDeleteTexturesMainThread_mB269C1752BF2EC6CFE039DBC8758CA5E6CC525AC (void);
-// 0x0000037A System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraUpdateTexturesMainThread()
+// 0x000003A9 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraUpdateTexturesMainThread()
 extern void PXR_Plugin_Pxr_CameraUpdateTexturesMainThread_mE1F6203B8C93DFE38DD0E9029D0275E513658C6D (void);
-// 0x0000037B System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_SetFoveationLevelEnable(System.Int32)
+// 0x000003AA System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_SetFoveationLevelEnable(System.Int32)
 extern void PXR_Plugin_Pxr_SetFoveationLevelEnable_m0A77223DB0BA63AA8D48BFA8F1A1B0A9E941971A (void);
-// 0x0000037C System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_SetEyeFoveationLevelEnable(System.Int32)
+// 0x000003AB System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_SetEyeFoveationLevelEnable(System.Int32)
 extern void PXR_Plugin_Pxr_SetEyeFoveationLevelEnable_m7CD78AAA04FE9185057505CC1D70B03E2043B898 (void);
-// 0x0000037D System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetFFRSubsampled(System.Boolean)
+// 0x000003AC System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetFFRSubsampled(System.Boolean)
 extern void PXR_Plugin_Pxr_SetFFRSubsampled_m5BC754B5561C7CD9DCCFE10C6025A28ED4478A22 (void);
-// 0x0000037E System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_LoadPlugin()
+// 0x000003AD System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_LoadPlugin()
 extern void PXR_Plugin_Pxr_LoadPlugin_m190AA1387981964AAD293035DB29BCC3A9A4C268 (void);
-// 0x0000037F System.Void Unity.XR.PXR.PXR_Plugin::Pxr_UnloadPlugin()
+// 0x000003AE System.Void Unity.XR.PXR.PXR_Plugin::Pxr_UnloadPlugin()
 extern void PXR_Plugin_Pxr_UnloadPlugin_m3B73EBAA1EF9F5DF6B7E5775952F82AD491EFE73 (void);
-// 0x00000380 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetHomeKey()
+// 0x000003AF System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetHomeKey()
 extern void PXR_Plugin_Pxr_GetHomeKey_m3691EC50E6CF3A35509B2A4E40A75DAAC358A4DB (void);
-// 0x00000381 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_InitHomeKey()
+// 0x000003B0 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_InitHomeKey()
 extern void PXR_Plugin_Pxr_InitHomeKey_mF197CC6BECC410D9B604E7A63A007911DFDC58F1 (void);
-// 0x00000382 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetMRCEnable()
+// 0x000003B1 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetMRCEnable()
 extern void PXR_Plugin_Pxr_GetMRCEnable_m1AAE1CF7644EFCCE7FFDB770E32906A79F9831BC (void);
-// 0x00000383 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetUserDefinedSettings(Unity.XR.PXR.UserDefinedSettings)
+// 0x000003B2 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetUserDefinedSettings(Unity.XR.PXR.UserDefinedSettings)
 extern void PXR_Plugin_Pxr_SetUserDefinedSettings_mA7F71EEF301CB1278AAF8216C6D31782A1FD0817 (void);
-// 0x00000384 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_Construct(Unity.XR.PXR.PXR_Loader/ConvertRotationWith2VectorDelegate)
+// 0x000003B3 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_Construct(Unity.XR.PXR.PXR_Loader/ConvertRotationWith2VectorDelegate)
 extern void PXR_Plugin_Pxr_Construct_mBE0DAB9BE755666A0DE8E5753D2E6384153E3807 (void);
-// 0x00000385 System.Single Unity.XR.PXR.PXR_Plugin::Pxr_RefreshRateChanged()
+// 0x000003B4 System.Single Unity.XR.PXR.PXR_Plugin::Pxr_RefreshRateChanged()
 extern void PXR_Plugin_Pxr_RefreshRateChanged_mA9BFB4F9977A85C54AFD7043475A6E6DE3CCF6B8 (void);
-// 0x00000386 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetFocusState()
+// 0x000003B5 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetFocusState()
 extern void PXR_Plugin_Pxr_GetFocusState_mA1E721A4ACFD6757B96E564F14E8A4EF3BDDD5EE (void);
-// 0x00000387 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_IsSensorReady()
+// 0x000003B6 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_IsSensorReady()
 extern void PXR_Plugin_Pxr_IsSensorReady_mBDA15AC09C5805A736FDCFF195DC9FB26A32C127 (void);
-// 0x00000388 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetSensorStatus()
+// 0x000003B7 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetSensorStatus()
 extern void PXR_Plugin_Pxr_GetSensorStatus_m8DA4A44583464FAE8A046F37F2B1363D7DED1BFF (void);
-// 0x00000389 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_GetLayerImagePtr(System.Int32,Unity.XR.PXR.EyeType,System.Int32,System.IntPtr&)
+// 0x000003B8 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_GetLayerImagePtr(System.Int32,Unity.XR.PXR.EyeType,System.Int32,System.IntPtr&)
 extern void PXR_Plugin_Pxr_GetLayerImagePtr_m8290668DCFEB75CF550BD150FD4B31995B832B11 (void);
-// 0x0000038A System.Void Unity.XR.PXR.PXR_Plugin::Pxr_CreateLayerParam(Unity.XR.PXR.PxrLayerParam)
+// 0x000003B9 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_CreateLayerParam(Unity.XR.PXR.PxrLayerParam)
 extern void PXR_Plugin_Pxr_CreateLayerParam_mE0BCF72BCF8FC4654CBCCF168FC4EA021D209B31 (void);
-// 0x0000038B System.Void Unity.XR.PXR.PXR_Plugin::Pxr_DestroyLayerByRender(System.Int32)
+// 0x000003BA System.Void Unity.XR.PXR.PXR_Plugin::Pxr_DestroyLayerByRender(System.Int32)
 extern void PXR_Plugin_Pxr_DestroyLayerByRender_mBD630E9E5E51BF35874B3CB3838E78E492D970DA (void);
-// 0x0000038C System.Void Unity.XR.PXR.PXR_Plugin::Pxr_EnableEyeTracking(System.Boolean)
+// 0x000003BB System.Void Unity.XR.PXR.PXR_Plugin::Pxr_EnableEyeTracking(System.Boolean)
 extern void PXR_Plugin_Pxr_EnableEyeTracking_mC672F8A4F4929BF2DEFC6E84668C97A8529389A8 (void);
-// 0x0000038D System.Void Unity.XR.PXR.PXR_Plugin::Pxr_EnableFaceTracking(System.Boolean)
+// 0x000003BC System.Void Unity.XR.PXR.PXR_Plugin::Pxr_EnableFaceTracking(System.Boolean)
 extern void PXR_Plugin_Pxr_EnableFaceTracking_mA7AD6405F4F0BF0DFE03EF982BE99D7EC7D31F41 (void);
-// 0x0000038E System.Void Unity.XR.PXR.PXR_Plugin::Pxr_EnableLipsync(System.Boolean)
+// 0x000003BD System.Void Unity.XR.PXR.PXR_Plugin::Pxr_EnableLipsync(System.Boolean)
 extern void PXR_Plugin_Pxr_EnableLipsync_m408E95C1F68133DDC560367A6806BA82ABD85C2B (void);
-// 0x0000038F System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetInputDeviceChangedCallBack(Unity.XR.PXR.InputDeviceChangedCallBack)
+// 0x000003BE System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetInputDeviceChangedCallBack(Unity.XR.PXR.InputDeviceChangedCallBack)
 extern void PXR_Plugin_Pxr_SetInputDeviceChangedCallBack_m3EE0E431605E6E176EF3636D1FAA02A1BFA689B9 (void);
-// 0x00000390 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetSeethroughStateChangedCallBack(Unity.XR.PXR.SeethroughStateChangedCallBack)
+// 0x000003BF System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetSeethroughStateChangedCallBack(Unity.XR.PXR.SeethroughStateChangedCallBack)
 extern void PXR_Plugin_Pxr_SetSeethroughStateChangedCallBack_m8034C1D46FA194A69A6CFBB80E0018AE515B5497 (void);
-// 0x00000391 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetFitnessBandNumberOfConnectionsCallBack(Unity.XR.PXR.FitnessBandNumberOfConnectionsCallBack)
+// 0x000003C0 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetFitnessBandNumberOfConnectionsCallBack(Unity.XR.PXR.FitnessBandNumberOfConnectionsCallBack)
 extern void PXR_Plugin_Pxr_SetFitnessBandNumberOfConnectionsCallBack_m24565660BAD2A7CF93924BB638EE539D0B50C124 (void);
-// 0x00000392 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetFitnessBandElectricQuantityCallBack(Unity.XR.PXR.FitnessBandElectricQuantityCallBack)
+// 0x000003C1 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetFitnessBandElectricQuantityCallBack(Unity.XR.PXR.FitnessBandElectricQuantityCallBack)
 extern void PXR_Plugin_Pxr_SetFitnessBandElectricQuantityCallBack_m57BB5CF58608C0A1001B0A69B7C4DF8F0DFBDC6A (void);
-// 0x00000393 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetFitnessBandAbnormalCalibrationDataCallBack(Unity.XR.PXR.FitnessBandAbnormalCalibrationDataCallBack)
+// 0x000003C2 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetFitnessBandAbnormalCalibrationDataCallBack(Unity.XR.PXR.FitnessBandAbnormalCalibrationDataCallBack)
 extern void PXR_Plugin_Pxr_SetFitnessBandAbnormalCalibrationDataCallBack_m11060D81B73901FB138F42A76A808CF9393EA313 (void);
-// 0x00000394 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetLoglevelChangedCallBack(Unity.XR.PXR.LoglevelChangedCallBack)
+// 0x000003C3 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetLoglevelChangedCallBack(Unity.XR.PXR.LoglevelChangedCallBack)
 extern void PXR_Plugin_Pxr_SetLoglevelChangedCallBack_m2E8C52C1AA2EB82DF967C613256716F28326B7C4 (void);
-// 0x00000395 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_EnablePremultipliedAlpha(System.Boolean)
+// 0x000003C4 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_EnablePremultipliedAlpha(System.Boolean)
 extern void PXR_Plugin_Pxr_EnablePremultipliedAlpha_m453D0BDF0AB8371E506341597CFE712517169E93 (void);
-// 0x00000396 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetGraphicOption(Unity.XR.PXR.GraphicsAPI)
+// 0x000003C5 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetGraphicOption(Unity.XR.PXR.GraphicsAPI)
 extern void PXR_Plugin_Pxr_SetGraphicOption_m2645045531728401924B15C20F28FFC64CC606E8 (void);
-// 0x00000397 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CreateLayer(System.IntPtr)
+// 0x000003C6 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CreateLayer(System.IntPtr)
 extern void PXR_Plugin_Pxr_CreateLayer_m13E483C5CC882640B8BB3A9E72A1C88861ACC87A (void);
-// 0x00000398 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetLayerNextImageIndex(System.Int32,System.Int32&)
+// 0x000003C7 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetLayerNextImageIndex(System.Int32,System.Int32&)
 extern void PXR_Plugin_Pxr_GetLayerNextImageIndex_m04C6E9A37E9C9F09E908B29C1CCD92690E4EF1BF (void);
-// 0x00000399 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetLayerImageCount(System.Int32,Unity.XR.PXR.EyeType,System.UInt32&)
+// 0x000003C8 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetLayerImageCount(System.Int32,Unity.XR.PXR.EyeType,System.UInt32&)
 extern void PXR_Plugin_Pxr_GetLayerImageCount_m364B5C7D39635C5857D24B07FCBF1180A31F0A86 (void);
-// 0x0000039A System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetLayerImage(System.Int32,Unity.XR.PXR.EyeType,System.Int32,System.UInt64&)
+// 0x000003C9 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetLayerImage(System.Int32,Unity.XR.PXR.EyeType,System.Int32,System.UInt64&)
 extern void PXR_Plugin_Pxr_GetLayerImage_m2FCCA5334C19BCF7722CAA249110C386BCB1F4FA (void);
-// 0x0000039B System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetConfigIntArray(Unity.XR.PXR.ConfigType,System.Int32[],System.Int32)
+// 0x000003CA System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetConfigIntArray(Unity.XR.PXR.ConfigType,System.Int32[],System.Int32)
 extern void PXR_Plugin_Pxr_SetConfigIntArray_mA9E4129E6E94709C01BC87A275B02BA0124CA729 (void);
-// 0x0000039C System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetConfigFloatArray(Unity.XR.PXR.ConfigType,System.Single[],System.Int32)
+// 0x000003CB System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetConfigFloatArray(Unity.XR.PXR.ConfigType,System.Single[],System.Int32)
 extern void PXR_Plugin_Pxr_SetConfigFloatArray_m2818080A7728B74C74369984B8BEAFF52C26F60E (void);
-// 0x0000039D System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetLayerAndroidSurface(System.Int32,Unity.XR.PXR.EyeType,System.IntPtr&)
+// 0x000003CC System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetLayerAndroidSurface(System.Int32,Unity.XR.PXR.EyeType,System.IntPtr&)
 extern void PXR_Plugin_Pxr_GetLayerAndroidSurface_m57599ADB1D1BB3ECA52F7AC7368C80E0A8DEC885 (void);
-// 0x0000039E System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_DestroyLayer(System.Int32)
+// 0x000003CD System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_DestroyLayer(System.Int32)
 extern void PXR_Plugin_Pxr_DestroyLayer_m928D01E89F2A4D43F3A1BC1C1D2D6F32612FD714 (void);
-// 0x0000039F System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayer(System.IntPtr)
+// 0x000003CE System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayer(System.IntPtr)
 extern void PXR_Plugin_Pxr_SubmitLayer_m303E03C20440235A8FE187692C4EA62EE891BA85 (void);
-// 0x000003A0 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerQuad(Unity.XR.PXR.PxrLayerQuad)
+// 0x000003CF System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerQuad(Unity.XR.PXR.PxrLayerQuad)
 extern void PXR_Plugin_Pxr_SubmitLayerQuad_mFAF54480EBD44E1A15CB0637B3F51F93824B7551 (void);
-// 0x000003A1 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerQuad2(Unity.XR.PXR.PxrLayerQuad2)
+// 0x000003D0 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerQuad2(Unity.XR.PXR.PxrLayerQuad2)
 extern void PXR_Plugin_Pxr_SubmitLayerQuad2_m3994DF3A403848A98FC6B3B5E53D684180F18F58 (void);
-// 0x000003A2 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerCylinder(Unity.XR.PXR.PxrLayerCylinder)
+// 0x000003D1 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetLayerNextImageIndexByRender(System.Int32,System.Int32&)
+extern void PXR_Plugin_Pxr_GetLayerNextImageIndexByRender_mB5EB9CB26C074F0E8F827C9E03EB753FEA476F45 (void);
+// 0x000003D2 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerQuadByRender(System.IntPtr)
+extern void PXR_Plugin_Pxr_SubmitLayerQuadByRender_mF13E4898D522D15D73817B8AEC7C06CDC1FD0BDD (void);
+// 0x000003D3 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerQuad2ByRender(System.IntPtr)
+extern void PXR_Plugin_Pxr_SubmitLayerQuad2ByRender_m4051B065AA946E29A687F1DE83E50E3D6F0E7E40 (void);
+// 0x000003D4 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerCylinderByRender(System.IntPtr)
+extern void PXR_Plugin_Pxr_SubmitLayerCylinderByRender_mE2661B343F3E7435B8EB660FBBC954AB8564D959 (void);
+// 0x000003D5 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerCylinder2ByRender(System.IntPtr)
+extern void PXR_Plugin_Pxr_SubmitLayerCylinder2ByRender_m8EA52194DA7032B938556F0AA580609B1FC97CE6 (void);
+// 0x000003D6 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerEquirectByRender(System.IntPtr)
+extern void PXR_Plugin_Pxr_SubmitLayerEquirectByRender_m03CF43DA5019C6478A736922181A1B7D4199B58D (void);
+// 0x000003D7 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerEquirect2ByRender(System.IntPtr)
+extern void PXR_Plugin_Pxr_SubmitLayerEquirect2ByRender_m017840676B7AC0D9D05DE7E599DE8F4688D8E96C (void);
+// 0x000003D8 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerCube2ByRender(System.IntPtr)
+extern void PXR_Plugin_Pxr_SubmitLayerCube2ByRender_m64EEE7A28DEA3EBA154A91A13E081AE661F32FA0 (void);
+// 0x000003D9 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerEac2ByRender(System.IntPtr)
+extern void PXR_Plugin_Pxr_SubmitLayerEac2ByRender_m41591A990E96599C68C8708838C3FD4E6D996B7C (void);
+// 0x000003DA System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerCylinder(Unity.XR.PXR.PxrLayerCylinder)
 extern void PXR_Plugin_Pxr_SubmitLayerCylinder_m6F4870B9FE0C16B7013A7EF27A7EB492CD064759 (void);
-// 0x000003A3 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerCylinder2(Unity.XR.PXR.PxrLayerCylinder2)
+// 0x000003DB System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerCylinder2(Unity.XR.PXR.PxrLayerCylinder2)
 extern void PXR_Plugin_Pxr_SubmitLayerCylinder2_m113A641A9D08477AFCA79EE1BF6CC534FCBABC78 (void);
-// 0x000003A4 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerEquirect(Unity.XR.PXR.PxrLayerEquirect)
+// 0x000003DC System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerEquirect(Unity.XR.PXR.PxrLayerEquirect)
 extern void PXR_Plugin_Pxr_SubmitLayerEquirect_m0125DDA1304E600180918A0E414F4A8DD166C60F (void);
-// 0x000003A5 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerEquirect2(Unity.XR.PXR.PxrLayerEquirect2)
+// 0x000003DD System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerEquirect2(Unity.XR.PXR.PxrLayerEquirect2)
 extern void PXR_Plugin_Pxr_SubmitLayerEquirect2_mCB20D0A776D14D13D0F41C55CDC43A29B8BF799C (void);
-// 0x000003A6 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerCube2(Unity.XR.PXR.PxrLayerCube2)
+// 0x000003DE System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerCube2(Unity.XR.PXR.PxrLayerCube2)
 extern void PXR_Plugin_Pxr_SubmitLayerCube2_mA6AEDEFA4D5843018DD1567FEF65C7907841DE36 (void);
-// 0x000003A7 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerEac2(Unity.XR.PXR.PxrLayerEac2)
+// 0x000003DF System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerEac2(Unity.XR.PXR.PxrLayerEac2)
 extern void PXR_Plugin_Pxr_SubmitLayerEac2_mAF115B4115B69FEE5C804C0259370D51EDAB858F (void);
-// 0x000003A8 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetLayerBlend(System.Boolean,Unity.XR.PXR.PxrLayerBlend)
+// 0x000003E0 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetLayerBlend(System.Boolean,Unity.XR.PXR.PxrLayerBlend)
 extern void PXR_Plugin_Pxr_SetLayerBlend_m4D6D6E9CDF1C7DC99878CA2669BF260515BA97A9 (void);
-// 0x000003A9 Unity.XR.PXR.FoveationLevel Unity.XR.PXR.PXR_Plugin::Pxr_GetFoveationLevel()
+// 0x000003E1 Unity.XR.PXR.FoveationLevel Unity.XR.PXR.PXR_Plugin::Pxr_GetFoveationLevel()
 extern void PXR_Plugin_Pxr_GetFoveationLevel_mBA61A53F8F1913D7929404B2951AB8ED97E9FE11 (void);
-// 0x000003AA System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetFoveationParams(Unity.XR.PXR.FoveationParams)
+// 0x000003E2 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetFoveationParams(Unity.XR.PXR.FoveationParams)
 extern void PXR_Plugin_Pxr_SetFoveationParams_m521498B81F8B002D665D1965A8DB1F713D1899F9 (void);
-// 0x000003AB System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetFrustum(Unity.XR.PXR.EyeType,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+// 0x000003E3 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetFrustum(Unity.XR.PXR.EyeType,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
 extern void PXR_Plugin_Pxr_SetFrustum_m36C13949B5F751938964C6377E39E3BAA830BB85 (void);
-// 0x000003AC System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetFrustum(Unity.XR.PXR.EyeType,System.Single&,System.Single&,System.Single&,System.Single&,System.Single&,System.Single&)
+// 0x000003E4 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetFrustum(Unity.XR.PXR.EyeType,System.Single&,System.Single&,System.Single&,System.Single&,System.Single&,System.Single&)
 extern void PXR_Plugin_Pxr_GetFrustum_m5EED4206E415B04F4957379A1D09A73749BC9527 (void);
-// 0x000003AD System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetConfigFloat(Unity.XR.PXR.ConfigType,System.Single&)
+// 0x000003E5 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetConfigFloat(Unity.XR.PXR.ConfigType,System.Single&)
 extern void PXR_Plugin_Pxr_GetConfigFloat_m6888DBF221E7DF1E5AEB1A0CA22C7819E4EDA0D5 (void);
-// 0x000003AE System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetConfigInt(Unity.XR.PXR.ConfigType,System.Int32&)
+// 0x000003E6 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetConfigInt(Unity.XR.PXR.ConfigType,System.Int32&)
 extern void PXR_Plugin_Pxr_GetConfigInt_m05C4AE0F2049A8BB434B66E97A449277DA00A8B0 (void);
-// 0x000003AF System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetConfigInt(Unity.XR.PXR.ConfigType,System.Int32)
+// 0x000003E7 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetConfigInt(Unity.XR.PXR.ConfigType,System.Int32)
 extern void PXR_Plugin_Pxr_SetConfigInt_m95635EA417070D0C2A24229F9CCEEFBEE809FD6C (void);
-// 0x000003B0 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetConfigString(Unity.XR.PXR.ConfigType,System.String)
+// 0x000003E8 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetConfigString(Unity.XR.PXR.ConfigType,System.String)
 extern void PXR_Plugin_Pxr_SetConfigString_m26EDA4003881BE36EF5505EAB6104B0BABB20951 (void);
-// 0x000003B1 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetConfigUint64(Unity.XR.PXR.ConfigType,System.UInt64)
+// 0x000003E9 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetConfigUint64(Unity.XR.PXR.ConfigType,System.UInt64)
 extern void PXR_Plugin_Pxr_SetConfigUint64_m45EAF1194578F96469B196C0B61BE6CA0B8F003E (void);
-// 0x000003B2 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_ResetSensor(Unity.XR.PXR.ResetSensorOption)
+// 0x000003EA System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_ResetSensor(Unity.XR.PXR.ResetSensorOption)
 extern void PXR_Plugin_Pxr_ResetSensor_mFA37D3E360AD7E493D7654FE3C1E8DC8ADD257F3 (void);
-// 0x000003B3 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetSensorLostCustomMode(System.Boolean)
+// 0x000003EB System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetSensorLostCustomMode(System.Boolean)
 extern void PXR_Plugin_Pxr_SetSensorLostCustomMode_m5879A3D5EC184AAF84D7A48F85DA1395E9894079 (void);
-// 0x000003B4 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetSensorLostCMST(System.Boolean)
+// 0x000003EC System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetSensorLostCMST(System.Boolean)
 extern void PXR_Plugin_Pxr_SetSensorLostCMST_mF4DA9F5E3233C184A3BB8D9B5AF05887E13D81E2 (void);
-// 0x000003B5 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetDisplayRefreshRatesAvailable(System.Int32&,System.IntPtr&)
+// 0x000003ED System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetDisplayRefreshRatesAvailable(System.Int32&,System.IntPtr&)
 extern void PXR_Plugin_Pxr_GetDisplayRefreshRatesAvailable_mE76D6EF3320B50D11C4950E28D503A74AAB86D60 (void);
-// 0x000003B6 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetDisplayRefreshRate(System.Single)
+// 0x000003EE System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetDisplayRefreshRate(System.Single)
 extern void PXR_Plugin_Pxr_SetDisplayRefreshRate_m25B0BA6BA634F68B725BE1B6666417B977C81D67 (void);
-// 0x000003B7 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetPredictedDisplayTime(System.Double&)
+// 0x000003EF System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetPredictedDisplayTime(System.Double&)
 extern void PXR_Plugin_Pxr_GetPredictedDisplayTime_m52D007A2FF0791FB84AB93A05EE5FD5E4305B269 (void);
-// 0x000003B8 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_SetExtraLatencyMode(System.Int32)
+// 0x000003F0 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_SetExtraLatencyMode(System.Int32)
 extern void PXR_Plugin_Pxr_SetExtraLatencyMode_mBBED80DEFD995824C103DAF7ECA80B5553547872 (void);
-// 0x000003B9 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetTrackingMode(System.UInt64&)
+// 0x000003F1 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetTrackingMode(System.UInt64&)
 extern void PXR_Plugin_Pxr_GetTrackingMode_m738A3849315071583F6D66AAC048BBF0CE59AE13 (void);
-// 0x000003BA System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetTrackingOrigin(Unity.XR.PXR.PxrTrackingOrigin)
+// 0x000003F2 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetTrackingOrigin(Unity.XR.PXR.PxrTrackingOrigin)
 extern void PXR_Plugin_Pxr_SetTrackingOrigin_m89C31F45911FC0DA4B2055BB9A28644AF85F80AD (void);
-// 0x000003BB System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetTrackingOrigin(Unity.XR.PXR.PxrTrackingOrigin&)
+// 0x000003F3 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetTrackingOrigin(Unity.XR.PXR.PxrTrackingOrigin&)
 extern void PXR_Plugin_Pxr_GetTrackingOrigin_m74B478CF576563A7F3CDDDE9F261C37B08871AD6 (void);
-// 0x000003BC System.Void Unity.XR.PXR.PXR_Plugin::Pxr_UpdateContentProtectState(System.Int32)
+// 0x000003F4 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_UpdateContentProtectState(System.Int32)
 extern void PXR_Plugin_Pxr_UpdateContentProtectState_m427B648FC5884A60D1ED163128BADE6BF20FBD1A (void);
-// 0x000003BD System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetPredictedMainSensorState2(System.Double,Unity.XR.PXR.PxrSensorState2&,System.Int32&)
+// 0x000003F5 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetPredictedMainSensorState2(System.Double,Unity.XR.PXR.PxrSensorState2&,System.Int32&)
 extern void PXR_Plugin_Pxr_GetPredictedMainSensorState2_mCC47C8CF841500535E77CBF0CDD306A5D1828D83 (void);
-// 0x000003BE System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerOriginOffset(System.Int32,UnityEngine.Vector3)
+// 0x000003F6 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerOriginOffset(System.Int32,UnityEngine.Vector3)
 extern void PXR_Plugin_Pxr_SetControllerOriginOffset_m337DC462C742A68F36F3692EC28E0481836531BD (void);
-// 0x000003BF System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetControllerTrackingState(System.UInt32,System.Double,System.Single[],Unity.XR.PXR.PxrControllerTracking&)
+// 0x000003F7 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetControllerTrackingState(System.UInt32,System.Double,System.Single[],Unity.XR.PXR.PxrControllerTracking&)
 extern void PXR_Plugin_Pxr_GetControllerTrackingState_m3ACF2E353CC01995D108B565D83035FDE7A10CC8 (void);
-// 0x000003C0 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerMainInputHandle(System.UInt32)
+// 0x000003F8 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerMainInputHandle(System.UInt32)
 extern void PXR_Plugin_Pxr_SetControllerMainInputHandle_mFE7DD0CB450AA32DCA7D55A18789E37E48B12EE5 (void);
-// 0x000003C1 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetControllerMainInputHandle(System.Int32&)
+// 0x000003F9 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetControllerMainInputHandle(System.Int32&)
 extern void PXR_Plugin_Pxr_GetControllerMainInputHandle_m757C35B3B20907AA52681C0A80A9C76F88E16A71 (void);
-// 0x000003C2 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerVibration(System.UInt32,System.Single,System.Int32)
+// 0x000003FA System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerVibration(System.UInt32,System.Single,System.Int32)
 extern void PXR_Plugin_Pxr_SetControllerVibration_mCE08C47F3CAFB48F365BBF223CE741A730BF00BB (void);
-// 0x000003C3 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerEnableKey(System.Boolean,Unity.XR.PXR.PxrControllerKeyMap)
+// 0x000003FB System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerEnableKey(System.Boolean,Unity.XR.PXR.PxrControllerKeyMap)
 extern void PXR_Plugin_Pxr_SetControllerEnableKey_m11B45475AF6BF6F6789C4F23DF8212D92DB9470C (void);
-// 0x000003C4 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_ResetController(System.UInt32)
+// 0x000003FC System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_ResetController(System.UInt32)
 extern void PXR_Plugin_Pxr_ResetController_m698ACBA2990698E8297DB3D6F4FB98B14A4747FB (void);
-// 0x000003C5 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetArmModelParameters(Unity.XR.PXR.PxrGazeType,Unity.XR.PXR.PxrArmModelType,System.Single,System.Single,System.Single)
+// 0x000003FD System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetArmModelParameters(Unity.XR.PXR.PxrGazeType,Unity.XR.PXR.PxrArmModelType,System.Single,System.Single,System.Single)
 extern void PXR_Plugin_Pxr_SetArmModelParameters_mBDC7659FD59123799C4C5213C82E0C4AC5ED5C76 (void);
-// 0x000003C6 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetControllerHandness(System.Int32&)
+// 0x000003FE System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetControllerHandness(System.Int32&)
 extern void PXR_Plugin_Pxr_GetControllerHandness_m2B07E7300D9B669A08C02519D473E0BA78B0F597 (void);
-// 0x000003C7 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerVibrationEvent(System.UInt32,System.Int32,System.Single,System.Int32)
+// 0x000003FF System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerVibrationEvent(System.UInt32,System.Int32,System.Single,System.Int32)
 extern void PXR_Plugin_Pxr_SetControllerVibrationEvent_mEFC4688A274E5291B3EB2F89396F51362E26C214 (void);
-// 0x000003C8 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetControllerCapabilities(System.UInt32,Unity.XR.PXR.PxrControllerCapability&)
+// 0x00000400 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetControllerCapabilities(System.UInt32,Unity.XR.PXR.PxrControllerCapability&)
 extern void PXR_Plugin_Pxr_GetControllerCapabilities_mADB86E0BF300E9CBF8F8E4CEFFA98BD301C6DECA (void);
-// 0x000003C9 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StopControllerVCMotor(System.Int32)
+// 0x00000401 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StopControllerVCMotor(System.Int32)
 extern void PXR_Plugin_Pxr_StopControllerVCMotor_m2D12135D3C7E05D28AA691DD20779240708DD904 (void);
-// 0x000003CA System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartControllerVCMotor(System.String,System.Int32)
+// 0x00000402 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartControllerVCMotor(System.String,System.Int32)
 extern void PXR_Plugin_Pxr_StartControllerVCMotor_m6D318D2474707011B2FFDC2EAA7EE49046F75268 (void);
-// 0x000003CB System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerAmp(System.Single)
+// 0x00000403 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerAmp(System.Single)
 extern void PXR_Plugin_Pxr_SetControllerAmp_m3E1DCB8872A11FED56F8B5DA767D145FE9748902 (void);
-// 0x000003CC System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerDelay(System.Int32)
+// 0x00000404 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerDelay(System.Int32)
 extern void PXR_Plugin_Pxr_SetControllerDelay_m96689A8A631021D4AA71FA8352D52CD8FDA520A4 (void);
-// 0x000003CD System.String Unity.XR.PXR.PXR_Plugin::Pxr_GetVibrateDelayTime(System.Int32&)
+// 0x00000405 System.String Unity.XR.PXR.PXR_Plugin::Pxr_GetVibrateDelayTime(System.Int32&)
 extern void PXR_Plugin_Pxr_GetVibrateDelayTime_m0D1FEEFF4EE43CA05792D9B5946A92DE78607297 (void);
-// 0x000003CE System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartVibrateBySharemF(System.Single[],Unity.XR.PXR.AudioClipData&,System.Int32&)
+// 0x00000406 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartVibrateBySharemF(System.Single[],Unity.XR.PXR.AudioClipData&,System.Int32&)
 extern void PXR_Plugin_Pxr_StartVibrateBySharemF_mDD219A6E11AA447509C22E9ABBCDBE3DC398B005 (void);
-// 0x000003CF System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartVibrateByCache(System.Int32)
+// 0x00000407 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartVibrateByCache(System.Int32)
 extern void PXR_Plugin_Pxr_StartVibrateByCache_m88E58D09C2271E774CBD5F6A72C100B6DDBC5721 (void);
-// 0x000003D0 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_ClearVibrateByCache(System.Int32)
+// 0x00000408 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_ClearVibrateByCache(System.Int32)
 extern void PXR_Plugin_Pxr_ClearVibrateByCache_m12912DD3EB29B4AE0B291DCBA3D2E68427313490 (void);
-// 0x000003D1 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartVibrateByPHF(System.String,System.Int32,System.Int32&,Unity.XR.PXR.VibrateInfo&)
+// 0x00000409 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartVibrateByPHF(System.String,System.Int32,System.Int32&,Unity.XR.PXR.VibrateInfo&)
 extern void PXR_Plugin_Pxr_StartVibrateByPHF_mB4E8E1680FFFBFC1029B836B2A0B587BB9FCFC4F (void);
-// 0x000003D2 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_PauseVibrate(System.Int32)
+// 0x0000040A System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_PauseVibrate(System.Int32)
 extern void PXR_Plugin_Pxr_PauseVibrate_mBB844714C3B654E230276306562C278D23685330 (void);
-// 0x000003D3 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_ResumeVibrate(System.Int32)
+// 0x0000040B System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_ResumeVibrate(System.Int32)
 extern void PXR_Plugin_Pxr_ResumeVibrate_m26D6F3A5362DB7064A1E9099856CCA67FE49B743 (void);
-// 0x000003D4 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_UpdateVibrateParams(System.Int32,Unity.XR.PXR.VibrateInfo&)
+// 0x0000040C System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_UpdateVibrateParams(System.Int32,Unity.XR.PXR.VibrateInfo&)
 extern void PXR_Plugin_Pxr_UpdateVibrateParams_mB37FDBECCCD1CE6B8F403C62DA31490D4DD95202 (void);
-// 0x000003D5 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CreateHapticStream(System.String,System.UInt32,Unity.XR.PXR.VibrateInfo&,System.Single,System.Int32&)
+// 0x0000040D System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CreateHapticStream(System.String,System.UInt32,Unity.XR.PXR.VibrateInfo&,System.Single,System.Int32&)
 extern void PXR_Plugin_Pxr_CreateHapticStream_mD4A6B9503F3769B2B8241E3BE9653FA755485977 (void);
-// 0x000003D6 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_WriteHapticStream(System.Int32,Unity.XR.PXR.PxrPhfParamsNum&,System.UInt32)
+// 0x0000040E System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_WriteHapticStream(System.Int32,Unity.XR.PXR.PxrPhfParamsNum&,System.UInt32)
 extern void PXR_Plugin_Pxr_WriteHapticStream_m7E3EC609B473DEAFD6DD535565D8292BC35E734B (void);
-// 0x000003D7 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetPHFHapticSpeed(System.Int32,System.Single)
+// 0x0000040F System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetPHFHapticSpeed(System.Int32,System.Single)
 extern void PXR_Plugin_Pxr_SetPHFHapticSpeed_m42383C5FD20B39AE5E9EB596E3BFCB193A5A8F20 (void);
-// 0x000003D8 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetPHFHapticSpeed(System.Int32,System.Single&)
+// 0x00000410 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetPHFHapticSpeed(System.Int32,System.Single&)
 extern void PXR_Plugin_Pxr_GetPHFHapticSpeed_m24C0832529BD66AE4891CA49D873F212A0A9A457 (void);
-// 0x000003D9 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetCurrentFrameSequence(System.Int32,System.UInt64&)
+// 0x00000411 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetCurrentFrameSequence(System.Int32,System.UInt64&)
 extern void PXR_Plugin_Pxr_GetCurrentFrameSequence_mA02614FFC06BEE45B37F8EE5CE282C2306226289 (void);
-// 0x000003DA System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartPHFHaptic(System.Int32)
+// 0x00000412 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartPHFHaptic(System.Int32)
 extern void PXR_Plugin_Pxr_StartPHFHaptic_mC59C5EB6CB506AE368249435453AACC01A483445 (void);
-// 0x000003DB System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StopPHFHaptic(System.Int32)
+// 0x00000413 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StopPHFHaptic(System.Int32)
 extern void PXR_Plugin_Pxr_StopPHFHaptic_mB89C881F0EF1FE99C2F51D4262FA792DB482390A (void);
-// 0x000003DC System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_RemovePHFHaptic(System.Int32)
+// 0x00000414 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_RemovePHFHaptic(System.Int32)
 extern void PXR_Plugin_Pxr_RemovePHFHaptic_mC0961F8D4589D2A524F3FA7934E036D387127473 (void);
-// 0x000003DD System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetLogInfoActive(System.Boolean)
+// 0x00000415 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetLogInfoActive(System.Boolean)
 extern void PXR_Plugin_Pxr_SetLogInfoActive_mA7C245EE256ED3064C4EA109B8A77B891D152A09 (void);
-// 0x000003DE System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetSeeThroughState()
+// 0x00000416 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetSeeThroughState()
 extern void PXR_Plugin_Pxr_GetSeeThroughState_m2222B13CFCCB857441548863E83637C5A4F661D0 (void);
-// 0x000003DF System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetVideoSeethroughState(System.Boolean)
+// 0x00000417 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetVideoSeethroughState(System.Boolean)
 extern void PXR_Plugin_Pxr_SetVideoSeethroughState_mC0C266D8BE2591189C0B1206E847CAB11CDBB996 (void);
-// 0x000003E0 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_TestNodeIsInBoundary(Unity.XR.PXR.BoundaryTrackingNode,System.Boolean,Unity.XR.PXR.PxrBoundaryTriggerInfo&)
+// 0x00000418 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_TestNodeIsInBoundary(Unity.XR.PXR.BoundaryTrackingNode,System.Boolean,Unity.XR.PXR.PxrBoundaryTriggerInfo&)
 extern void PXR_Plugin_Pxr_TestNodeIsInBoundary_m14C1CACFCA2CA6F07F125D1FE84587533B6E308A (void);
-// 0x000003E1 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_TestPointIsInBoundary(Unity.XR.PXR.PxrVector3f&,System.Boolean,Unity.XR.PXR.PxrBoundaryTriggerInfo&)
+// 0x00000419 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_TestPointIsInBoundary(Unity.XR.PXR.PxrVector3f&,System.Boolean,Unity.XR.PXR.PxrBoundaryTriggerInfo&)
 extern void PXR_Plugin_Pxr_TestPointIsInBoundary_mE80AC909118582E16558C08587AE2CEA81A1E6A8 (void);
-// 0x000003E2 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetBoundaryGeometry(System.Boolean,System.UInt32,System.UInt32&,Unity.XR.PXR.PxrVector3f[])
+// 0x0000041A System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetBoundaryGeometry(System.Boolean,System.UInt32,System.UInt32&,Unity.XR.PXR.PxrVector3f[])
 extern void PXR_Plugin_Pxr_GetBoundaryGeometry_m1088523A1477A2CE561B31FA1C163EEA8A083F9D (void);
-// 0x000003E3 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetBoundaryDimensions(System.Boolean,Unity.XR.PXR.PxrVector3f&)
+// 0x0000041B System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetBoundaryDimensions(System.Boolean,Unity.XR.PXR.PxrVector3f&)
 extern void PXR_Plugin_Pxr_GetBoundaryDimensions_mB1B9E685B1EBEF8FCD486FFC7E808A96FCF090BB (void);
-// 0x000003E4 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetBoundaryConfigured()
+// 0x0000041C System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetBoundaryConfigured()
 extern void PXR_Plugin_Pxr_GetBoundaryConfigured_m30583D9083D94890F3C2B367729F4D9FC9D287B9 (void);
-// 0x000003E5 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetBoundaryEnabled()
+// 0x0000041D System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetBoundaryEnabled()
 extern void PXR_Plugin_Pxr_GetBoundaryEnabled_m8B3A36CDA893EB0F6E2A9E414A9C702924E78A53 (void);
-// 0x000003E6 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetBoundaryVisible(System.Boolean)
+// 0x0000041E System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetBoundaryVisible(System.Boolean)
 extern void PXR_Plugin_Pxr_SetBoundaryVisible_m16F4E05CE322C4D7F65481077E196BC423A702A6 (void);
-// 0x000003E7 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetSeeThroughBackground(System.Boolean)
+// 0x0000041F System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetSeeThroughBackground(System.Boolean)
 extern void PXR_Plugin_Pxr_SetSeeThroughBackground_m5C601D49B60333996872BB228E30EBA38CFD9D8A (void);
-// 0x000003E8 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetBoundaryVisible()
+// 0x00000420 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetBoundaryVisible()
 extern void PXR_Plugin_Pxr_GetBoundaryVisible_m46DAD4C0E6DD01826D1AD7B374A40D80AE51177D (void);
-// 0x000003E9 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_ResetSensorHard()
+// 0x00000421 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_ResetSensorHard()
 extern void PXR_Plugin_Pxr_ResetSensorHard_m4CD0D95E72C6AD3DA359FB7F4351005F232F93BF (void);
-// 0x000003EA System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetTrackingState()
+// 0x00000422 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetTrackingState()
 extern void PXR_Plugin_Pxr_GetTrackingState_m708F01DF79DA673FC55FD151A59C947FB2AAAB04 (void);
-// 0x000003EB System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetGuardianSystemDisable(System.Boolean)
+// 0x00000423 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetGuardianSystemDisable(System.Boolean)
 extern void PXR_Plugin_Pxr_SetGuardianSystemDisable_m5598D07256EE9231B48EF5A13F0D909B5AD9F815 (void);
-// 0x000003EC System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_ResumeGuardianSystemForSTS()
+// 0x00000424 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_ResumeGuardianSystemForSTS()
 extern void PXR_Plugin_Pxr_ResumeGuardianSystemForSTS_mE380FDD95BA9150CE6741CD3E5C138BE6B349C26 (void);
-// 0x000003ED System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_PauseGuardianSystemForSTS()
+// 0x00000425 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_PauseGuardianSystemForSTS()
 extern void PXR_Plugin_Pxr_PauseGuardianSystemForSTS_m450F47365418D8F34DCE186A799FF94B84E3FC09 (void);
-// 0x000003EE System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_ShutdownSdkGuardianSystem()
+// 0x00000426 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_ShutdownSdkGuardianSystem()
 extern void PXR_Plugin_Pxr_ShutdownSdkGuardianSystem_m1E2A44AE5F05390758D4B5C68A5A55750BCFD186 (void);
-// 0x000003EF System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetRoomModeState()
+// 0x00000427 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetRoomModeState()
 extern void PXR_Plugin_Pxr_GetRoomModeState_mCF8534CDFF5BB9E28EBA2DF27062A23CFD72733B (void);
-// 0x000003F0 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_DisableBoundary()
+// 0x00000428 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_DisableBoundary()
 extern void PXR_Plugin_Pxr_DisableBoundary_mBF7107FFB4EA793118A720E5AE7DBE588FA43553 (void);
-// 0x000003F1 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetMrcStatus()
+// 0x00000429 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetMrcStatus()
 extern void PXR_Plugin_Pxr_GetMrcStatus_m305532857587D29D71BF659B0BEC31C5F90440C0 (void);
-// 0x000003F2 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetMrcPose(Unity.XR.PXR.PxrPosef&)
+// 0x0000042A System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetMrcPose(Unity.XR.PXR.PxrPosef&)
 extern void PXR_Plugin_Pxr_GetMrcPose_mE0C1D276D7FD45EEF90BD999DDA7850B2C9E0CB5 (void);
-// 0x000003F3 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetMrcPose(Unity.XR.PXR.PxrPosef&)
+// 0x0000042B System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetMrcPose(Unity.XR.PXR.PxrPosef&)
 extern void PXR_Plugin_Pxr_SetMrcPose_mBB8704B56FAFA247A64D24D3B42AAB6891E78B67 (void);
-// 0x000003F4 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetIsSupportMovingMrc(System.Boolean)
+// 0x0000042C System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetIsSupportMovingMrc(System.Boolean)
 extern void PXR_Plugin_Pxr_SetIsSupportMovingMrc_m56EEFC82507DB22A5180E70B3482D23F1A568127 (void);
-// 0x000003F5 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetTrackingMode(System.Double)
+// 0x0000042D System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetTrackingMode(System.Double)
 extern void PXR_Plugin_Pxr_SetTrackingMode_m48BA2D28C4AB0AEA8941F48A0A784127CE560908 (void);
-// 0x000003F6 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetFaceTrackingData(System.Int64,System.Int32,Unity.XR.PXR.PxrFaceTrackingInfo&)
+// 0x0000042E System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetFaceTrackingData(System.Int64,System.Int32,Unity.XR.PXR.PxrFaceTrackingInfo&)
 extern void PXR_Plugin_Pxr_GetFaceTrackingData_mD46EC715E15B67FCA956BB3EA5FD5E9AC2C0D1BA (void);
-// 0x000003F7 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetSpaceWarp(System.Int32)
+// 0x0000042F System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetSpaceWarp(System.Int32)
 extern void PXR_Plugin_Pxr_SetSpaceWarp_mDFBD8119F0D079B0CB624B764A2FEBADD027AEE1 (void);
-// 0x000003F8 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetAppSpacePosition(System.Single,System.Single,System.Single)
+// 0x00000430 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetAppSpacePosition(System.Single,System.Single,System.Single)
 extern void PXR_Plugin_Pxr_SetAppSpacePosition_m664A8CBEE01B0D37445DE32B43DBECA07DE7A64F (void);
-// 0x000003F9 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetAppSpaceRotation(System.Single,System.Single,System.Single,System.Single)
+// 0x00000431 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetAppSpaceRotation(System.Single,System.Single,System.Single,System.Single)
 extern void PXR_Plugin_Pxr_SetAppSpaceRotation_mC97A1A2BBB2AFB2545158224935E0F4059CEA661 (void);
-// 0x000003FA System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetTrackingStatus(System.String,System.String)
+// 0x00000432 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetTrackingStatus(System.String,System.String)
 extern void PXR_Plugin_Pxr_SetTrackingStatus_m8C83B82CAAA26FEC3269BBFAF6EBF6607A1DFF6D (void);
-// 0x000003FB System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings,Unity.XR.PXR.PxrSettingsLevel)
+// 0x00000433 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings,Unity.XR.PXR.PxrSettingsLevel)
 extern void PXR_Plugin_Pxr_SetPerformanceLevels_m6782E622F575343BE0AFECFE9BEC19F550431F7E (void);
-// 0x000003FC System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings,Unity.XR.PXR.PxrSettingsLevel&)
+// 0x00000434 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings,Unity.XR.PXR.PxrSettingsLevel&)
 extern void PXR_Plugin_Pxr_GetPerformanceLevels_mF762BE0004AAA4BA1437087910B11A077A6C03C1 (void);
-// 0x000003FD System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetBodyTrackingPose(System.Double,Unity.XR.PXR.BodyTrackerResult&)
+// 0x00000435 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetBodyTrackingPose(System.Double,Unity.XR.PXR.BodyTrackerResult&)
 extern void PXR_Plugin_Pxr_GetBodyTrackingPose_m8AF7DEC78C3029B9FFFE222AD77E0B5D3F02800B (void);
-// 0x000003FE System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetBodyTrackingMode(System.Int32)
+// 0x00000436 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetBodyTrackingMode(System.Int32)
 extern void PXR_Plugin_Pxr_SetBodyTrackingMode_m1B40F3F87FA28490CE4A4AD754532FE1607B75FE (void);
-// 0x000003FF System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetFitnessBandConnectState(Unity.XR.PXR.PxrFitnessBandConnectState&)
+// 0x00000437 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetFitnessBandConnectState(Unity.XR.PXR.PxrFitnessBandConnectState&)
 extern void PXR_Plugin_Pxr_GetFitnessBandConnectState_m5D11A8CF84E4AAC8F95D8894A2B3214A346D2BCB (void);
-// 0x00000400 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetFitnessBandBattery(System.Int32,System.Int32&)
+// 0x00000438 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetFitnessBandBattery(System.Int32,System.Int32&)
 extern void PXR_Plugin_Pxr_GetFitnessBandBattery_m55780A11E487207055886A8AC541C2C0FBC9C97F (void);
-// 0x00000401 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetFitnessBandCalibState(System.Int32&)
+// 0x00000439 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetFitnessBandCalibState(System.Int32&)
 extern void PXR_Plugin_Pxr_GetFitnessBandCalibState_mF2511C8E01D462466410E2B60DBAED365E445479 (void);
-// 0x00000402 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_LogSdkApi(System.String)
+// 0x0000043A System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_LogSdkApi(System.String)
 extern void PXR_Plugin_Pxr_LogSdkApi_m6A29B3F8FEF09F0FF0F0C7161FFD38471B98B931 (void);
-// 0x00000403 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetBodyTrackingAlgParam(Unity.XR.PXR.BodyTrackingAlgParamType,Unity.XR.PXR.BodyTrackingAlgParam&)
+// 0x0000043B System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetBodyTrackingAlgParam(Unity.XR.PXR.BodyTrackingAlgParamType,Unity.XR.PXR.BodyTrackingAlgParam&)
 extern void PXR_Plugin_Pxr_SetBodyTrackingAlgParam_mB30F7A3C015A84872DEEDD9338EFC7299D0DB89A (void);
-// 0x00000404 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_UpdateAdaptiveResolution(Unity.XR.PXR.PxrExtent2Di&,Unity.XR.PXR.AdaptiveResolutionPowerSetting)
+// 0x0000043C System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_UpdateAdaptiveResolution(Unity.XR.PXR.PxrExtent2Di&,Unity.XR.PXR.AdaptiveResolutionPowerSetting)
 extern void PXR_Plugin_Pxr_UpdateAdaptiveResolution_m93BB651BBB0D10786BAC131FF123184F4A1D42BD (void);
-// 0x00000405 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetTrackingOrigin(Unity.XR.PXR.PxrTrackingOrigin)
+// 0x0000043D System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetTrackingOrigin(Unity.XR.PXR.PxrTrackingOrigin)
 extern void System_UPxr_SetTrackingOrigin_mBBCE553319C5FCABA6998C44851549F6F315ED98 (void);
-// 0x00000406 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_GetTrackingOrigin(Unity.XR.PXR.PxrTrackingOrigin&)
+// 0x0000043E System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_GetTrackingOrigin(Unity.XR.PXR.PxrTrackingOrigin&)
 extern void System_UPxr_GetTrackingOrigin_mDA4C008E50F280ACC447BDB644309A71AD0B3E84 (void);
-// 0x00000407 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_LoadPICOPlugin()
+// 0x0000043F System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_LoadPICOPlugin()
 extern void System_UPxr_LoadPICOPlugin_mE99BA0018FE5F6C14E925DA543A20DFB6C81CC26 (void);
-// 0x00000408 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_UnloadPICOPlugin()
+// 0x00000440 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_UnloadPICOPlugin()
 extern void System_UPxr_UnloadPICOPlugin_m91492A83DF572B420BEDF696DC741550C4824601 (void);
-// 0x00000409 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_QueryDeviceAbilities(Unity.XR.PXR.PxrDeviceAbilities)
+// 0x00000441 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_QueryDeviceAbilities(Unity.XR.PXR.PxrDeviceAbilities)
 extern void System_UPxr_QueryDeviceAbilities_mE1CC5D9B2B428F69E1205F52E6648C0D8A47D522 (void);
-// 0x0000040A System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_InitializeFocusCallback()
+// 0x00000442 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_InitializeFocusCallback()
 extern void System_UPxr_InitializeFocusCallback_mA25DC1A94F8F83FB66B69BF4750B76C3F5D7296E (void);
-// 0x0000040B System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_DeinitializeFocusCallback()
+// 0x00000443 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_DeinitializeFocusCallback()
 extern void System_UPxr_DeinitializeFocusCallback_mA4CD32B3B2B3CAB55474771FCEAF464EBB258E92 (void);
-// 0x0000040C System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetInputDeviceChangedCallBack(Unity.XR.PXR.InputDeviceChangedCallBack)
+// 0x00000444 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetInputDeviceChangedCallBack(Unity.XR.PXR.InputDeviceChangedCallBack)
 extern void System_UPxr_SetInputDeviceChangedCallBack_m9DBEAFD91884A5D2C41111790C31EA0FC360CC84 (void);
-// 0x0000040D System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetSeethroughStateChangedCallBack(Unity.XR.PXR.SeethroughStateChangedCallBack)
+// 0x00000445 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetSeethroughStateChangedCallBack(Unity.XR.PXR.SeethroughStateChangedCallBack)
 extern void System_UPxr_SetSeethroughStateChangedCallBack_m26B214501B3EFAE90034D0F907948DED21A7E000 (void);
-// 0x0000040E System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetFitnessBandNumberOfConnectionsCallBack(Unity.XR.PXR.FitnessBandNumberOfConnectionsCallBack)
+// 0x00000446 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetFitnessBandNumberOfConnectionsCallBack(Unity.XR.PXR.FitnessBandNumberOfConnectionsCallBack)
 extern void System_UPxr_SetFitnessBandNumberOfConnectionsCallBack_m0C68CA6741AF6BF1507698181101B28294BDA9E2 (void);
-// 0x0000040F System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetFitnessBandAbnormalCalibrationDataCallBack(Unity.XR.PXR.FitnessBandAbnormalCalibrationDataCallBack)
+// 0x00000447 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetFitnessBandAbnormalCalibrationDataCallBack(Unity.XR.PXR.FitnessBandAbnormalCalibrationDataCallBack)
 extern void System_UPxr_SetFitnessBandAbnormalCalibrationDataCallBack_mFA7644D734C4434D1DF35AA546711EAC5895A24B (void);
-// 0x00000410 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetFitnessBandElectricQuantityCallBack(Unity.XR.PXR.FitnessBandElectricQuantityCallBack)
+// 0x00000448 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetFitnessBandElectricQuantityCallBack(Unity.XR.PXR.FitnessBandElectricQuantityCallBack)
 extern void System_UPxr_SetFitnessBandElectricQuantityCallBack_mEAD3CE78A7DB3C3160443B648095E8E68BEC72CA (void);
-// 0x00000411 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetLoglevelChangedCallBack(Unity.XR.PXR.LoglevelChangedCallBack)
+// 0x00000449 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetLoglevelChangedCallBack(Unity.XR.PXR.LoglevelChangedCallBack)
 extern void System_UPxr_SetLoglevelChangedCallBack_m657EC99BD21BD041AC81053B88799C97493CF60E (void);
-// 0x00000412 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_GetFocusState()
+// 0x0000044A System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_GetFocusState()
 extern void System_UPxr_GetFocusState_m9F0FD1163479961995F25BA2158C5CD82CC91830 (void);
-// 0x00000413 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_IsSensorReady()
+// 0x0000044B System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_IsSensorReady()
 extern void System_UPxr_IsSensorReady_m7580E9521052204CACD8754EC2E11B3A2B5A1CFD (void);
-// 0x00000414 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_FocusUpdate()
+// 0x0000044C System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_FocusUpdate()
 extern void System_UPxr_FocusUpdate_mCFD1AB883FA9354B6363B0C8314B1419B23AA65C (void);
-// 0x00000415 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SensorReadyStateUpdate()
+// 0x0000044D System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SensorReadyStateUpdate()
 extern void System_UPxr_SensorReadyStateUpdate_m71A2507D2E3DEFC71D0E4F0B4AF8A0F6D609DE10 (void);
-// 0x00000416 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetSDKVersion()
+// 0x0000044E System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetSDKVersion()
 extern void System_UPxr_GetSDKVersion_m50EB03E7E2EB8DB12F9DA8FC81BB9F3FD3C6076B (void);
-// 0x00000417 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_LogSdkApi(System.String)
+// 0x0000044F System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_LogSdkApi(System.String)
 extern void System_UPxr_LogSdkApi_m3D0A89BDBE4B64F585A1D017F0D1BD836BB593C5 (void);
-// 0x00000418 System.Single Unity.XR.PXR.PXR_Plugin/System::UPxr_GetSystemDisplayFrequency()
+// 0x00000450 System.Single Unity.XR.PXR.PXR_Plugin/System::UPxr_GetSystemDisplayFrequency()
 extern void System_UPxr_GetSystemDisplayFrequency_m8E65BD35D1A17AAA23264EA5930D72B8BF8C0D80 (void);
-// 0x00000419 System.Single Unity.XR.PXR.PXR_Plugin/System::UPxr_GetMrcY()
+// 0x00000451 System.Single Unity.XR.PXR.PXR_Plugin/System::UPxr_GetMrcY()
 extern void System_UPxr_GetMrcY_mE3056658C69A4530944E12B5B5BF22F1EE75DE93 (void);
-// 0x0000041A System.Double Unity.XR.PXR.PXR_Plugin/System::UPxr_GetPredictedDisplayTime()
+// 0x00000452 System.Double Unity.XR.PXR.PXR_Plugin/System::UPxr_GetPredictedDisplayTime()
 extern void System_UPxr_GetPredictedDisplayTime_m595119021AD870A134CF53092A19EFB240E7363C (void);
-// 0x0000041B System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_SetExtraLatencyMode(System.Int32)
+// 0x00000453 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_SetExtraLatencyMode(System.Int32)
 extern void System_UPxr_SetExtraLatencyMode_m7DD1BFC180E078766DDC5F054748A9A623D778CF (void);
-// 0x0000041C System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_UpdateAdaptiveResolution(System.Int32&,Unity.XR.PXR.AdaptiveResolutionPowerSetting)
+// 0x00000454 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_UpdateAdaptiveResolution(System.Int32&,Unity.XR.PXR.AdaptiveResolutionPowerSetting)
 extern void System_UPxr_UpdateAdaptiveResolution_mFD6647264464524BD255769E6E592F7F134BF590 (void);
-// 0x0000041D System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetUserDefinedSettings(Unity.XR.PXR.UserDefinedSettings)
+// 0x00000455 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetUserDefinedSettings(Unity.XR.PXR.UserDefinedSettings)
 extern void System_UPxr_SetUserDefinedSettings_mB75FB54E8E23A3254269AC0DF4A0AFB48CCF2C05 (void);
-// 0x0000041E System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_Construct(Unity.XR.PXR.PXR_Loader/ConvertRotationWith2VectorDelegate)
+// 0x00000456 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_Construct(Unity.XR.PXR.PXR_Loader/ConvertRotationWith2VectorDelegate)
 extern void System_UPxr_Construct_m1F22816F634487E38546C1A7EBF9F9296BDFE832 (void);
-// 0x0000041F System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_GetHomeKey()
+// 0x00000457 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_GetHomeKey()
 extern void System_UPxr_GetHomeKey_m0E6478656C14C02A65B583FB71B32C5C2753D865 (void);
-// 0x00000420 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_InitHomeKey()
+// 0x00000458 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_InitHomeKey()
 extern void System_UPxr_InitHomeKey_m31528E8FB41BB69380FCB7AFDF32A25C3BEA13AA (void);
-// 0x00000421 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_GetMRCEnable()
+// 0x00000459 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_GetMRCEnable()
 extern void System_UPxr_GetMRCEnable_mDC5B089105A880FDBFB1FBCA97ABDE6A3F7C84B7 (void);
-// 0x00000422 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetMRCTextureID(System.UInt64)
+// 0x0000045A System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetMRCTextureID(System.UInt64)
 extern void System_UPxr_SetMRCTextureID_m859393739623EEA268E63D8D622CEFF4801350A1 (void);
-// 0x00000423 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetMRCTextureID2(System.UInt64)
+// 0x0000045B System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetMRCTextureID2(System.UInt64)
 extern void System_UPxr_SetMRCTextureID2_m59E5901F8B1D445C1EA51A126A6B336F56AD606A (void);
-// 0x00000424 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetMrcTextutrWidth(System.UInt64)
+// 0x0000045C System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetMrcTextutrWidth(System.UInt64)
 extern void System_UPxr_SetMrcTextutrWidth_m9920D43EFB6AFFFAF622697B73C9E0B0284F6E67 (void);
-// 0x00000425 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetMrcTextutrHeight(System.UInt64)
+// 0x0000045D System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetMrcTextutrHeight(System.UInt64)
 extern void System_UPxr_SetMrcTextutrHeight_m192A6BC145BB1E68135991006E9C6434D2AEECE9 (void);
-// 0x00000426 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_GetMrcPose(Unity.XR.PXR.PxrPosef&)
+// 0x0000045E System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_GetMrcPose(Unity.XR.PXR.PxrPosef&)
 extern void System_UPxr_GetMrcPose_mDFBCA4351CD049D3879329A4B24367573B8F7E7B (void);
-// 0x00000427 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_SetMrcPose(Unity.XR.PXR.PxrPosef&)
+// 0x0000045F System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_SetMrcPose(Unity.XR.PXR.PxrPosef&)
 extern void System_UPxr_SetMrcPose_m53D7E89C51B447F34C2807D8A063FD523548F33A (void);
-// 0x00000428 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetIsSupportMovingMrc(System.Boolean)
+// 0x00000460 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetIsSupportMovingMrc(System.Boolean)
 extern void System_UPxr_SetIsSupportMovingMrc_m966E08D05CE71000C4AF86814932FA2B093D9DE5 (void);
-// 0x00000429 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_GetMrcStatus()
+// 0x00000461 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_GetMrcStatus()
 extern void System_UPxr_GetMrcStatus_m1C098C2FB896557FB49365723D1FFC36773C7779 (void);
-// 0x0000042A System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_EnableEyeTracking(System.Boolean)
+// 0x00000462 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_EnableEyeTracking(System.Boolean)
 extern void System_UPxr_EnableEyeTracking_mE631459E21AA5C422F14E818F7E6CC7594C52A91 (void);
-// 0x0000042B System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_EnableFaceTracking(System.Boolean)
+// 0x00000463 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_EnableFaceTracking(System.Boolean)
 extern void System_UPxr_EnableFaceTracking_m8DD9B113DD2A814E41EFC0EBA2B61DA7E1F03F05 (void);
-// 0x0000042C System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_EnableLipSync(System.Boolean)
+// 0x00000464 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_EnableLipSync(System.Boolean)
 extern void System_UPxr_EnableLipSync_mF7EC2C9F3D4DB5D0FCF62455115F594222E35A6E (void);
-// 0x0000042D System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetFaceTrackingData(System.Int64,System.Int32,Unity.XR.PXR.PxrFaceTrackingInfo&)
+// 0x00000465 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetFaceTrackingData(System.Int64,System.Int32,Unity.XR.PXR.PxrFaceTrackingInfo&)
 extern void System_UPxr_GetFaceTrackingData_m83187817C0505355C810EF5C14F1FBCBDF067089 (void);
-// 0x0000042E System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetFaceTrackingStatus(Unity.XR.PXR.PxrFtLipsyncValue)
+// 0x00000466 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetFaceTrackingStatus(Unity.XR.PXR.PxrFtLipsyncValue)
 extern void System_UPxr_SetFaceTrackingStatus_m04A3A3E48AFB0A3D1BA4D63DE5792F15705B6ADD (void);
-// 0x0000042F System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetDeviceMode()
+// 0x00000467 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_StopBatteryReceiver()
+extern void System_UPxr_StopBatteryReceiver_mC57A3CC4D6E50F6A963EE313892E86F73DEA81C1 (void);
+// 0x00000468 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_StartBatteryReceiver(System.String)
+extern void System_UPxr_StartBatteryReceiver_m283E2533903639FF2B6B4DFDBE2B45E1C994FF07 (void);
+// 0x00000469 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_InitAudioDevice()
+extern void System_UPxr_InitAudioDevice_mC5924F7770A87063876055EA6944D8A768D5A261 (void);
+// 0x0000046A System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_SetBrightness(System.Int32)
+extern void System_UPxr_SetBrightness_mC29D393E1B86C7A60B13C85B4C9A2FA0560AB9B6 (void);
+// 0x0000046B System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetCurrentBrightness()
+extern void System_UPxr_GetCurrentBrightness_mE848CB39AEBD6D414144BD5A9D3A9DA67C5757F6 (void);
+// 0x0000046C System.Int32[] Unity.XR.PXR.PXR_Plugin/System::UPxr_GetScreenBrightnessLevel()
+extern void System_UPxr_GetScreenBrightnessLevel_mFA5DF92DE639F6E457478008B6A79F2299C9CE45 (void);
+// 0x0000046D System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetScreenBrightnessLevel(System.Int32,System.Int32)
+extern void System_UPxr_SetScreenBrightnessLevel_m417FBC8BA41D4A0544A9D84BC030CE62D67AB57C (void);
+// 0x0000046E System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_StartAudioReceiver(System.String)
+extern void System_UPxr_StartAudioReceiver_mB67F5C0AEF7D0B6C32664098AB0F25AC42A7F003 (void);
+// 0x0000046F System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_StopAudioReceiver()
+extern void System_UPxr_StopAudioReceiver_m23115EB7BAE3D5479DB96D64E1395BF9DBA80F8C (void);
+// 0x00000470 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetMaxVolumeNumber()
+extern void System_UPxr_GetMaxVolumeNumber_m0FAE8EA5889D5DF69EF9240790F1D47B37F8C23D (void);
+// 0x00000471 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetCurrentVolumeNumber()
+extern void System_UPxr_GetCurrentVolumeNumber_m21F49CE07E3B73105A375DA3F2B7550442DCF486 (void);
+// 0x00000472 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_VolumeUp()
+extern void System_UPxr_VolumeUp_mADF045E27D8FD57F514BF6C03EBA577AD070C484 (void);
+// 0x00000473 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_VolumeDown()
+extern void System_UPxr_VolumeDown_mEE043FF7E35F1578954C20DFAA28ED516D85E163 (void);
+// 0x00000474 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_SetVolumeNum(System.Int32)
+extern void System_UPxr_SetVolumeNum_mF0BCB2F1668FEE3FDCFE83517C2CD089B067F831 (void);
+// 0x00000475 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetDeviceMode()
 extern void System_UPxr_GetDeviceMode_mB7438C8C6D2CBAED4CD05DA980CCF5D6F20D7C78 (void);
-// 0x00000430 System.Single Unity.XR.PXR.PXR_Plugin/System::UPxr_GetConfigFloat(Unity.XR.PXR.ConfigType)
+// 0x00000476 System.Single Unity.XR.PXR.PXR_Plugin/System::UPxr_GetConfigFloat(Unity.XR.PXR.ConfigType)
 extern void System_UPxr_GetConfigFloat_mB555532D64ABD5026565381F6893C585D0F7BBDB (void);
-// 0x00000431 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetConfigInt(Unity.XR.PXR.ConfigType)
+// 0x00000477 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetConfigInt(Unity.XR.PXR.ConfigType)
 extern void System_UPxr_GetConfigInt_mA7A7F397C61982657BAB047927316B5EE3B9F2C0 (void);
-// 0x00000432 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetConfigInt(Unity.XR.PXR.ConfigType,System.Int32)
+// 0x00000478 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetConfigInt(Unity.XR.PXR.ConfigType,System.Int32)
 extern void System_UPxr_SetConfigInt_mF17985F91596944E2F6F23A256E4237075B21FFA (void);
-// 0x00000433 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_ContentProtect(System.Int32)
+// 0x00000479 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_ContentProtect(System.Int32)
 extern void System_UPxr_ContentProtect_m439A559938275FE59839F259AB074C494981B98C (void);
-// 0x00000434 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetConfigString(Unity.XR.PXR.ConfigType,System.String)
+// 0x0000047A System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetConfigString(Unity.XR.PXR.ConfigType,System.String)
 extern void System_UPxr_SetConfigString_m89713ACAF92870FDAE326684589EF68A90AC1490 (void);
-// 0x00000435 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetSystemDisplayFrequency(System.Single)
+// 0x0000047B System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetSystemDisplayFrequency(System.Single)
 extern void System_UPxr_SetSystemDisplayFrequency_m447D590976C5BCCF3619091E41118A0E1D845D0E (void);
-// 0x00000436 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings,Unity.XR.PXR.PxrSettingsLevel)
+// 0x0000047C System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings,Unity.XR.PXR.PxrSettingsLevel)
 extern void System_UPxr_SetPerformanceLevels_m021CF2754DE49CDF314F5FB569F3D4C96554096C (void);
-// 0x00000437 Unity.XR.PXR.PxrSettingsLevel Unity.XR.PXR.PXR_Plugin/System::UPxr_GetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings)
+// 0x0000047D Unity.XR.PXR.PxrSettingsLevel Unity.XR.PXR.PXR_Plugin/System::UPxr_GetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings)
 extern void System_UPxr_GetPerformanceLevels_mA529CCC6F11B1CB135A926DF047080B866A5BBD3 (void);
-// 0x00000438 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetDeviceSN()
-extern void System_UPxr_GetDeviceSN_m18DD2B3B8A8E9E70DCE559E0501FB0E9D385BD58 (void);
-// 0x00000439 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_Sleep()
+// 0x0000047E System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_Sleep()
 extern void System_UPxr_Sleep_m2177C71BA6AB445F3CB7DC6E8B95EE0B65C05034 (void);
-// 0x0000043A System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetSecure(System.Boolean)
+// 0x0000047F System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetSecure(System.Boolean)
 extern void System_UPxr_SetSecure_mDE1B999D4775736920490FF97280D0ABC3950249 (void);
-// 0x0000043B System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetColorRes(System.String)
+// 0x00000480 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetColorRes(System.String)
 extern void System_UPxr_GetColorRes_m73159A9BA10679C26AB3D0A5632E59FA001941E4 (void);
-// 0x0000043C System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetConfigInt(System.String)
+// 0x00000481 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetConfigInt(System.String)
 extern void System_UPxr_GetConfigInt_mEB0DE2CC25E25172DDBEFDF35438273CDCC34D0E (void);
-// 0x0000043D System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetConfigString(System.String)
+// 0x00000482 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetConfigString(System.String)
 extern void System_UPxr_GetConfigString_m8D4DC7F184B5363C7D2AF34FE8D3D19FB4DF6E8F (void);
-// 0x0000043E System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetDrawableLocation(System.String)
+// 0x00000483 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetDrawableLocation(System.String)
 extern void System_UPxr_GetDrawableLocation_mEB7E6BA93025B30566D90A762B69A5BE9CA76F24 (void);
-// 0x0000043F System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetTextSize(System.String)
+// 0x00000484 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetTextSize(System.String)
 extern void System_UPxr_GetTextSize_mA03CDC1B6BDA4FB0D24DEF89F434B68192445A5A (void);
-// 0x00000440 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetLangString(System.String)
+// 0x00000485 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetLangString(System.String)
 extern void System_UPxr_GetLangString_m4FA12F024DF7813935B6FA246136E1CFDFB1D0CF (void);
-// 0x00000441 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetStringValue(System.String,System.Int32)
+// 0x00000486 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetStringValue(System.String,System.Int32)
 extern void System_UPxr_GetStringValue_m1F85EE851E45AA1238A76730624E0B0593575429 (void);
-// 0x00000442 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetIntValue(System.String,System.Int32)
+// 0x00000487 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetIntValue(System.String,System.Int32)
 extern void System_UPxr_GetIntValue_mE8E9505A98A3FB85431BBF0E2F3994E61A32BC30 (void);
-// 0x00000443 System.Single Unity.XR.PXR.PXR_Plugin/System::UPxr_GetFloatValue(System.String)
+// 0x00000488 System.Single Unity.XR.PXR.PXR_Plugin/System::UPxr_GetFloatValue(System.String)
 extern void System_UPxr_GetFloatValue_m289708E31584CC8AE1F0B7426552AA27ABA2B6C8 (void);
-// 0x00000444 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetObjectOrArray(System.String,System.Int32)
+// 0x00000489 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetObjectOrArray(System.String,System.Int32)
 extern void System_UPxr_GetObjectOrArray_m7EB5251CDD6745D168C30207884FB6813662F081 (void);
-// 0x00000445 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetCharSpace(System.String)
+// 0x0000048A System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetCharSpace(System.String)
 extern void System_UPxr_GetCharSpace_m87146795FFDFC33268AACAD9C089C219203EDB69 (void);
-// 0x00000446 System.Single Unity.XR.PXR.PXR_Plugin/System::UPxr_RefreshRateChanged()
+// 0x0000048B System.Single Unity.XR.PXR.PXR_Plugin/System::UPxr_RefreshRateChanged()
 extern void System_UPxr_RefreshRateChanged_m8371336BE6F9F442AF0B3B130940646AD95343B7 (void);
-// 0x00000447 System.Single[] Unity.XR.PXR.PXR_Plugin/System::UPxr_GetDisplayFrequenciesAvailable()
+// 0x0000048C System.Single[] Unity.XR.PXR.PXR_Plugin/System::UPxr_GetDisplayFrequenciesAvailable()
 extern void System_UPxr_GetDisplayFrequenciesAvailable_m2C3A57071FD0B1F0A734F40F74B65B5E879698BD (void);
-// 0x00000448 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetSensorStatus()
+// 0x0000048D System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetSensorStatus()
 extern void System_UPxr_GetSensorStatus_m6B7F29A88775DAF71EF17C36CC95C0DFDEE45A08 (void);
-// 0x00000449 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetPredictedMainSensorStateNew(Unity.XR.PXR.PxrSensorState2&,System.Int32&)
+// 0x0000048E System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetPredictedMainSensorStateNew(Unity.XR.PXR.PxrSensorState2&,System.Int32&)
 extern void System_UPxr_GetPredictedMainSensorStateNew_m34153253F83655F28F71DC2FD4A74459A7713261 (void);
-// 0x0000044A System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetAPIVersion()
+// 0x0000048F System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetAPIVersion()
 extern void System_UPxr_GetAPIVersion_m5F403C49AA1755E9775384B7945394DDD2E1779D (void);
-// 0x0000044B System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetLogInfoActive(System.Boolean)
+// 0x00000490 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetLogInfoActive(System.Boolean)
 extern void System_UPxr_SetLogInfoActive_m1C4098419147095EB8D402EAFD7DF04423A1BF9C (void);
-// 0x0000044C System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_OpenFitnessBandCalibrationAPP()
+// 0x00000491 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_OpenFitnessBandCalibrationAPP()
 extern void System_UPxr_OpenFitnessBandCalibrationAPP_m7DAF7A1A6894608A69E116DD29C0CA848582FFB4 (void);
-// 0x0000044D System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_OpenPackage(System.String)
+// 0x00000492 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_OpenPackage(System.String)
 extern void System_UPxr_OpenPackage_mCEF8854167863CC9EA30B5CE5450ACDD1E98C285 (void);
-// 0x0000044E System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_OpenFitnessBandCalibrationPackage(System.String)
+// 0x00000493 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_OpenFitnessBandCalibrationPackage(System.String)
 extern void System_UPxr_OpenFitnessBandCalibrationPackage_mF18DF2F57ED66E91A59B814C3AF457A8531BE36D (void);
-// 0x0000044F System.Void Unity.XR.PXR.PXR_Plugin/System::.cctor()
+// 0x00000494 System.Void Unity.XR.PXR.PXR_Plugin/System::.cctor()
 extern void System__cctor_m34A23E3D415DE29F475635FA961398EAFB2E736F (void);
-// 0x00000450 Unity.XR.PXR.PxrBoundaryTriggerInfo Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_TestNodeIsInBoundary(Unity.XR.PXR.BoundaryTrackingNode,Unity.XR.PXR.BoundaryType)
+// 0x00000495 Unity.XR.PXR.PxrBoundaryTriggerInfo Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_TestNodeIsInBoundary(Unity.XR.PXR.BoundaryTrackingNode,Unity.XR.PXR.BoundaryType)
 extern void Boundary_UPxr_TestNodeIsInBoundary_m70E15C77AC3BD801F45023614B9DE478B0600815 (void);
-// 0x00000451 Unity.XR.PXR.PxrBoundaryTriggerInfo Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_TestPointIsInBoundary(Unity.XR.PXR.PxrVector3f,Unity.XR.PXR.BoundaryType)
+// 0x00000496 Unity.XR.PXR.PxrBoundaryTriggerInfo Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_TestPointIsInBoundary(Unity.XR.PXR.PxrVector3f,Unity.XR.PXR.BoundaryType)
 extern void Boundary_UPxr_TestPointIsInBoundary_m4B5D8A7C8D915501DC050A27A44E92918E384505 (void);
-// 0x00000452 UnityEngine.Vector3[] Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetBoundaryGeometry(Unity.XR.PXR.BoundaryType)
+// 0x00000497 UnityEngine.Vector3[] Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetBoundaryGeometry(Unity.XR.PXR.BoundaryType)
 extern void Boundary_UPxr_GetBoundaryGeometry_m750E83114D570B0A09D4005EC22EEF349D83AC66 (void);
-// 0x00000453 UnityEngine.Vector3 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetBoundaryDimensions(Unity.XR.PXR.BoundaryType)
+// 0x00000498 UnityEngine.Vector3 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetBoundaryDimensions(Unity.XR.PXR.BoundaryType)
 extern void Boundary_UPxr_GetBoundaryDimensions_m811ACA9A9D2859D9417EBAB0E7A4151D8583C71D (void);
-// 0x00000454 System.Void Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_SetBoundaryVisiable(System.Boolean)
+// 0x00000499 System.Void Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_SetBoundaryVisiable(System.Boolean)
 extern void Boundary_UPxr_SetBoundaryVisiable_m3710ADECEA7FA4E50BED11F10793DCECE4511A63 (void);
-// 0x00000455 System.Boolean Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetBoundaryVisiable()
+// 0x0000049A System.Boolean Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetBoundaryVisiable()
 extern void Boundary_UPxr_GetBoundaryVisiable_m6611A4818B32E8BA7CB9503E9585E436CA3D4246 (void);
-// 0x00000456 System.Boolean Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetBoundaryConfigured()
+// 0x0000049B System.Boolean Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetBoundaryConfigured()
 extern void Boundary_UPxr_GetBoundaryConfigured_m71D2BD383B6576BD2F8A2327D978DC11A161F80F (void);
-// 0x00000457 System.Boolean Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetBoundaryEnabled()
+// 0x0000049C System.Boolean Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetBoundaryEnabled()
 extern void Boundary_UPxr_GetBoundaryEnabled_m1A10632EED9706FCC9E9B84D343DBACD34C83D28 (void);
-// 0x00000458 System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_SetSeeThroughBackground(System.Boolean)
+// 0x0000049D System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_SetSeeThroughBackground(System.Boolean)
 extern void Boundary_UPxr_SetSeeThroughBackground_m4778077E1F3E1EA813639A58619783E3CC022971 (void);
-// 0x00000459 System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetSeeThroughState()
+// 0x0000049E System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetSeeThroughState()
 extern void Boundary_UPxr_GetSeeThroughState_m4D7B2125779B1194D76FAD58F54618127791F81E (void);
-// 0x0000045A System.Void Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_SetSeeThroughState(System.Boolean)
+// 0x0000049F System.Void Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_SetSeeThroughState(System.Boolean)
 extern void Boundary_UPxr_SetSeeThroughState_m7CD1A141CC59A5031AE08EB3D9E2BABBF1F4F525 (void);
-// 0x0000045B System.Void Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_ResetSeeThroughSensor()
+// 0x000004A0 System.Void Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_ResetSeeThroughSensor()
 extern void Boundary_UPxr_ResetSeeThroughSensor_mFB4291C8DD51D82E977C7ED28F4566412D90195C (void);
-// 0x0000045C Unity.XR.PXR.PxrTrackingState Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetSeeThroughTrackingState()
+// 0x000004A1 Unity.XR.PXR.PxrTrackingState Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetSeeThroughTrackingState()
 extern void Boundary_UPxr_GetSeeThroughTrackingState_m4F6BE6F292D256D41D247B2A33C252C87758A3BA (void);
-// 0x0000045D System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_SetGuardianSystemDisable(System.Boolean)
+// 0x000004A2 System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_SetGuardianSystemDisable(System.Boolean)
 extern void Boundary_UPxr_SetGuardianSystemDisable_m2E6F8683908119A5CA656628B58C953E2434EC4A (void);
-// 0x0000045E System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_ResumeGuardianSystemForSTS()
+// 0x000004A3 System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_ResumeGuardianSystemForSTS()
 extern void Boundary_UPxr_ResumeGuardianSystemForSTS_m35CF1DA3864745DE0A24C324F74AF95428D48150 (void);
-// 0x0000045F System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_PauseGuardianSystemForSTS()
+// 0x000004A4 System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_PauseGuardianSystemForSTS()
 extern void Boundary_UPxr_PauseGuardianSystemForSTS_m2F88A62ED45D37CEC87F79E4EC1A87410D1C25AD (void);
-// 0x00000460 System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_ShutdownSdkGuardianSystem()
+// 0x000004A5 System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_ShutdownSdkGuardianSystem()
 extern void Boundary_UPxr_ShutdownSdkGuardianSystem_m9AEF2EED29C12800A56230E0EE7BABD0767BD751 (void);
-// 0x00000461 System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetRoomModeState()
+// 0x000004A6 System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetRoomModeState()
 extern void Boundary_UPxr_GetRoomModeState_m8779D557FC1BCFF2E2F5544BB0704988F1D03D4F (void);
-// 0x00000462 System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_DisableBoundary()
+// 0x000004A7 System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_DisableBoundary()
 extern void Boundary_UPxr_DisableBoundary_m14A07EC34B45E2A86A699EE37F2CCE21BC9F018A (void);
-// 0x00000463 System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetFoveationLevel(Unity.XR.PXR.FoveationLevel)
+// 0x000004A8 System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetFoveationLevel(Unity.XR.PXR.FoveationLevel)
 extern void Render_UPxr_SetFoveationLevel_mC58A4D9EF417D06A2381D824C5AA5BD4B8948C5D (void);
-// 0x00000464 System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetEyeFoveationLevel(Unity.XR.PXR.FoveationLevel)
+// 0x000004A9 System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetEyeFoveationLevel(Unity.XR.PXR.FoveationLevel)
 extern void Render_UPxr_SetEyeFoveationLevel_mE8F604A6287D7BB5DA54B0C6A84629044C7CE8F6 (void);
-// 0x00000465 System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetFFRSubsampled(System.Boolean)
+// 0x000004AA System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetFFRSubsampled(System.Boolean)
 extern void Render_UPxr_SetFFRSubsampled_m53789D6E0676590A0B22B1FEADCB0EB38C38BC22 (void);
-// 0x00000466 Unity.XR.PXR.FoveationLevel Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetFoveationLevel()
+// 0x000004AB Unity.XR.PXR.FoveationLevel Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetFoveationLevel()
 extern void Render_UPxr_GetFoveationLevel_mB81E29FB00534E61CEA8ED63E53A413C60C688F7 (void);
-// 0x00000467 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetFoveationParameters(System.Single,System.Single,System.Single,System.Single)
+// 0x000004AC System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetFoveationParameters(System.Single,System.Single,System.Single,System.Single)
 extern void Render_UPxr_SetFoveationParameters_m5D173638D817AA019E8E6F123DA9F1CE7AECB93E (void);
-// 0x00000468 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetFrustum(Unity.XR.PXR.EyeType,System.Single&,System.Single&,System.Single&,System.Single&,System.Single&,System.Single&)
+// 0x000004AD System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetFrustum(Unity.XR.PXR.EyeType,System.Single&,System.Single&,System.Single&,System.Single&,System.Single&,System.Single&)
 extern void Render_UPxr_GetFrustum_m8A8DCBDA156E2748042D6D3FA55D394697CBB890 (void);
-// 0x00000469 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetFrustum(Unity.XR.PXR.EyeType,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+// 0x000004AE System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetFrustum(Unity.XR.PXR.EyeType,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
 extern void Render_UPxr_SetFrustum_m81A874D6DA4A564A37112EDCD276DE7CF761372F (void);
-// 0x0000046A System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetEyeFOV(Unity.XR.PXR.EyeType,System.Single,System.Single,System.Single,System.Single)
+// 0x000004AF System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetEyeFOV(Unity.XR.PXR.EyeType,System.Single,System.Single,System.Single,System.Single)
 extern void Render_UPxr_SetEyeFOV_m6E3A89664CB469C74D5CFFBE252C06DBA70A8EDF (void);
-// 0x0000046B System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_CreateLayer(System.IntPtr)
+// 0x000004B0 System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_CreateLayer(System.IntPtr)
 extern void Render_UPxr_CreateLayer_m55CC8B989AC9D4AE390499EA76A629A83790834F (void);
-// 0x0000046C System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_CreateLayerParam(Unity.XR.PXR.PxrLayerParam)
+// 0x000004B1 System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_CreateLayerParam(Unity.XR.PXR.PxrLayerParam)
 extern void Render_UPxr_CreateLayerParam_mB03EBE418BDBC01F53016D5ABE19275A80D622C4 (void);
-// 0x0000046D System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetLayerNextImageIndex(System.Int32,System.Int32&)
+// 0x000004B2 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetLayerNextImageIndex(System.Int32,System.Int32&)
 extern void Render_UPxr_GetLayerNextImageIndex_m566A9D23940077B4596F3564DAE8A6CDBFE3A50F (void);
-// 0x0000046E System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetLayerImageCount(System.Int32,Unity.XR.PXR.EyeType,System.UInt32&)
+// 0x000004B3 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetLayerImageCount(System.Int32,Unity.XR.PXR.EyeType,System.UInt32&)
 extern void Render_UPxr_GetLayerImageCount_mCB023769563C2DCCA1A521D7D52C93A668422080 (void);
-// 0x0000046F System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetLayerImage(System.Int32,Unity.XR.PXR.EyeType,System.Int32,System.UInt64&)
+// 0x000004B4 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetLayerImage(System.Int32,Unity.XR.PXR.EyeType,System.Int32,System.UInt64&)
 extern void Render_UPxr_GetLayerImage_m0C426150AEFAAB978416F75B00A818FB1266E738 (void);
-// 0x00000470 System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetLayerImagePtr(System.Int32,Unity.XR.PXR.EyeType,System.Int32,System.IntPtr&)
+// 0x000004B5 System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetLayerImagePtr(System.Int32,Unity.XR.PXR.EyeType,System.Int32,System.IntPtr&)
 extern void Render_UPxr_GetLayerImagePtr_m321DCFD81C800D6A615471E75A9398DC048921D2 (void);
-// 0x00000471 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetConfigIntArray(System.Int32[])
+// 0x000004B6 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetConfigIntArray(System.Int32[])
 extern void Render_UPxr_SetConfigIntArray_m5FDC41E450AABCC09555461D0E33DA4F485CEE1D (void);
-// 0x00000472 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetConfigFloatArray(Unity.XR.PXR.ConfigType,System.Single[],System.Int32)
+// 0x000004B7 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetConfigFloatArray(Unity.XR.PXR.ConfigType,System.Single[],System.Int32)
 extern void Render_UPxr_SetConfigFloatArray_m6A0E3A30390773937568C482854A17C4A53C2B1E (void);
-// 0x00000473 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetLayerAndroidSurface(System.Int32,Unity.XR.PXR.EyeType,System.IntPtr&)
+// 0x000004B8 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetLayerAndroidSurface(System.Int32,Unity.XR.PXR.EyeType,System.IntPtr&)
 extern void Render_UPxr_GetLayerAndroidSurface_mCDE79D6F9ED9FC0D8953320D7EFF22A7915E1865 (void);
-// 0x00000474 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_DestroyLayer(System.Int32)
+// 0x000004B9 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_DestroyLayer(System.Int32)
 extern void Render_UPxr_DestroyLayer_mB71E0CC8AA41FA6DDDEFFD4D1BC9A3A4B5C45260 (void);
-// 0x00000475 System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_DestroyLayerByRender(System.Int32)
+// 0x000004BA System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_DestroyLayerByRender(System.Int32)
 extern void Render_UPxr_DestroyLayerByRender_m4FC804929605FE80293611151F587B5CF30DABC8 (void);
-// 0x00000476 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayer(System.IntPtr)
+// 0x000004BB System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayer(System.IntPtr)
 extern void Render_UPxr_SubmitLayer_m79AB5F7C8750F259D6CFCA42549EAB537A3AEA3F (void);
-// 0x00000477 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerQuad(Unity.XR.PXR.PxrLayerQuad)
+// 0x000004BC System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerQuad(Unity.XR.PXR.PxrLayerQuad)
 extern void Render_UPxr_SubmitLayerQuad_mA0D26063D0F3C323F738C40BD9094AE98588E3D3 (void);
-// 0x00000478 System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerQuad2(Unity.XR.PXR.PxrLayerQuad2)
+// 0x000004BD System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerQuad2(Unity.XR.PXR.PxrLayerQuad2)
 extern void Render_UPxr_SubmitLayerQuad2_mAED1DF48B7562F11597A25AEDA9E4583787B7FE7 (void);
-// 0x00000479 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerCylinder(Unity.XR.PXR.PxrLayerCylinder)
+// 0x000004BE System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetLayerNextImageIndexByRender(System.Int32,System.Int32&)
+extern void Render_UPxr_GetLayerNextImageIndexByRender_mFB2C08171D78D6FA190205EDDF9F8153E6878CAC (void);
+// 0x000004BF System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerQuadByRender(System.IntPtr)
+extern void Render_UPxr_SubmitLayerQuadByRender_mBA2EFA11832440DD1D18D16A9875D1B9C4C9F5BD (void);
+// 0x000004C0 System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerQuad2ByRender(System.IntPtr)
+extern void Render_UPxr_SubmitLayerQuad2ByRender_m3C24C44274FA518864780EDA6C7539C9C4549529 (void);
+// 0x000004C1 System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerCylinderByRender(System.IntPtr)
+extern void Render_UPxr_SubmitLayerCylinderByRender_m2B0458B1BD79C735A14876148E414E10B200F1EF (void);
+// 0x000004C2 System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerCylinder2ByRender(System.IntPtr)
+extern void Render_UPxr_SubmitLayerCylinder2ByRender_m9B1B2FB154167C4E8AFC7E226B824D6DEF05E0A5 (void);
+// 0x000004C3 System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerEquirectByRender(System.IntPtr)
+extern void Render_UPxr_SubmitLayerEquirectByRender_mD4E3EC7CD7C5411784584D9BBBF5F14709F31143 (void);
+// 0x000004C4 System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerEquirect2ByRender(System.IntPtr)
+extern void Render_UPxr_SubmitLayerEquirect2ByRender_m708D8FE5C86795A10B9A29E90561B8B62CB06B46 (void);
+// 0x000004C5 System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerCube2ByRender(System.IntPtr)
+extern void Render_UPxr_SubmitLayerCube2ByRender_mA78DE7CBDB2079D05F293269C539D73EBE3CE2A9 (void);
+// 0x000004C6 System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerEac2ByRender(System.IntPtr)
+extern void Render_UPxr_SubmitLayerEac2ByRender_m9A7A001CA3622AB15E501D283796FF8631905AEB (void);
+// 0x000004C7 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerCylinder(Unity.XR.PXR.PxrLayerCylinder)
 extern void Render_UPxr_SubmitLayerCylinder_mA12DCA175B0370A024F2FCBB249EB10421A3D206 (void);
-// 0x0000047A System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerCylinder2(Unity.XR.PXR.PxrLayerCylinder2)
+// 0x000004C8 System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerCylinder2(Unity.XR.PXR.PxrLayerCylinder2)
 extern void Render_UPxr_SubmitLayerCylinder2_m6779FCCD6A2B5D0E699148D1F87605A259C41A56 (void);
-// 0x0000047B System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerEquirect(Unity.XR.PXR.PxrLayerEquirect)
+// 0x000004C9 System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerEquirect(Unity.XR.PXR.PxrLayerEquirect)
 extern void Render_UPxr_SubmitLayerEquirect_m482116A3C65934296BA4110E8D73CA679E95CE46 (void);
-// 0x0000047C System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerEquirect2(Unity.XR.PXR.PxrLayerEquirect2)
+// 0x000004CA System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerEquirect2(Unity.XR.PXR.PxrLayerEquirect2)
 extern void Render_UPxr_SubmitLayerEquirect2_mB28B104C98C2897234E21B38257066EFDC06D378 (void);
-// 0x0000047D System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerCube2(Unity.XR.PXR.PxrLayerCube2)
+// 0x000004CB System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerCube2(Unity.XR.PXR.PxrLayerCube2)
 extern void Render_UPxr_SubmitLayerCube2_mDE12D51913388F3CCC2B5E60FB17F97F8209DBE5 (void);
-// 0x0000047E System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerEac2(Unity.XR.PXR.PxrLayerEac2)
+// 0x000004CC System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerEac2(Unity.XR.PXR.PxrLayerEac2)
 extern void Render_UPxr_SubmitLayerEac2_m5F5C7F4393CE441F34AF8160A2A5F359C628A564 (void);
-// 0x0000047F System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetLayerBlend(System.Boolean,Unity.XR.PXR.PxrLayerBlend)
+// 0x000004CD System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetLayerBlend(System.Boolean,Unity.XR.PXR.PxrLayerBlend)
 extern void Render_UPxr_SetLayerBlend_mBFA4C20176E3AD5E61112AE6D5BAEBC372ADB9A3 (void);
-// 0x00000480 System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetSpaceWarp(System.Boolean)
+// 0x000004CE System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetSpaceWarp(System.Boolean)
 extern void Render_UPxr_SetSpaceWarp_m2402253DE6185A6BE66EE620BAC498D7CDAE5A7A (void);
-// 0x00000481 System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetAppSpacePosition(System.Single,System.Single,System.Single)
+// 0x000004CF System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetAppSpacePosition(System.Single,System.Single,System.Single)
 extern void Render_UPxr_SetAppSpacePosition_mAF46AAC89A44788D3697F5E14700C4A015ED69CD (void);
-// 0x00000482 System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetAppSpaceRotation(System.Single,System.Single,System.Single,System.Single)
+// 0x000004D0 System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetAppSpaceRotation(System.Single,System.Single,System.Single,System.Single)
 extern void Render_UPxr_SetAppSpaceRotation_m3F59282F82630D73C95BACDB38BC876B7CCBD77E (void);
-// 0x00000483 System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_EnablePremultipliedAlpha(System.Boolean)
+// 0x000004D1 System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_EnablePremultipliedAlpha(System.Boolean)
 extern void Render_UPxr_EnablePremultipliedAlpha_m1FCDCD0A14C789216544A0A4117D6EFFD7CEE3EF (void);
-// 0x00000484 System.Int32 Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_ResetSensor(Unity.XR.PXR.ResetSensorOption)
+// 0x000004D2 System.Int32 Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_ResetSensor(Unity.XR.PXR.ResetSensorOption)
 extern void Sensor_UPxr_ResetSensor_m6EE200C9FE97A6741BDBFE64BA924684D6E5E955 (void);
-// 0x00000485 System.Int32 Unity.XR.PXR.PXR_Plugin/Sensor::UPvr_Enable6DofModule(System.Boolean)
+// 0x000004D3 System.Int32 Unity.XR.PXR.PXR_Plugin/Sensor::UPvr_Enable6DofModule(System.Boolean)
 extern void Sensor_UPvr_Enable6DofModule_mDA72F56D6CFC4C9B7110F35C3B6FD84FC74DA0EB (void);
-// 0x00000486 System.Void Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_InitPsensor()
+// 0x000004D4 System.Void Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_InitPsensor()
 extern void Sensor_UPxr_InitPsensor_m24B8A96871B8D03ACF064392C99CD7F1EA2E3E5B (void);
-// 0x00000487 System.Int32 Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_GetPSensorState()
+// 0x000004D5 System.Int32 Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_GetPSensorState()
 extern void Sensor_UPxr_GetPSensorState_m6857EA86E4188B33542FDF7AE5841A244CA319DC (void);
-// 0x00000488 System.Void Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_UnregisterPsensor()
+// 0x000004D6 System.Void Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_UnregisterPsensor()
 extern void Sensor_UPxr_UnregisterPsensor_m86FC2F41B3B12D411B759C27AE73DBFB109EEDB0 (void);
-// 0x00000489 System.Int32 Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_SetSensorLostCustomMode(System.Boolean)
+// 0x000004D7 System.Int32 Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_SetSensorLostCustomMode(System.Boolean)
 extern void Sensor_UPxr_SetSensorLostCustomMode_mEA892FF38CD190EC39455B35D484BB3B62116793 (void);
-// 0x0000048A System.Int32 Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_SetSensorLostCMST(System.Boolean)
+// 0x000004D8 System.Int32 Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_SetSensorLostCMST(System.Boolean)
 extern void Sensor_UPxr_SetSensorLostCMST_m0B3943647EB4926CEADEF7E7C9917432DE928F89 (void);
-// 0x0000048B System.Void Unity.XR.PXR.PXR_Plugin/Sensor::.cctor()
+// 0x000004D9 System.Void Unity.XR.PXR.PXR_Plugin/Sensor::.cctor()
 extern void Sensor__cctor_m18C405B77DE9DF19AC434E7AA781D9671B1D4155 (void);
-// 0x0000048C System.Single[] Unity.XR.PXR.PXR_Plugin/PlatformSetting::UPxr_MRCCalibration(System.String)
+// 0x000004DA System.Single[] Unity.XR.PXR.PXR_Plugin/PlatformSetting::UPxr_MRCCalibration(System.String)
 extern void PlatformSetting_UPxr_MRCCalibration_m286830DE2613A6137421187BCBFECA2231FBC595 (void);
-// 0x0000048D System.Void Unity.XR.PXR.PXR_Plugin/PlatformSetting::.cctor()
+// 0x000004DB System.Void Unity.XR.PXR.PXR_Plugin/PlatformSetting::.cctor()
 extern void PlatformSetting__cctor_m69BD6DB94002D21F1EE745618E1F1DB61BF3B444 (void);
-// 0x0000048E System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerVibration(System.UInt32,System.Single,System.Int32)
+// 0x000004DC System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerVibration(System.UInt32,System.Single,System.Int32)
 extern void Controller_UPxr_SetControllerVibration_m1F7B3A1F57640C40EEBA26F71E0DA3F3DBD25A33 (void);
-// 0x0000048F System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerEnableKey(System.Boolean,Unity.XR.PXR.PxrControllerKeyMap)
+// 0x000004DD System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerEnableKey(System.Boolean,Unity.XR.PXR.PxrControllerKeyMap)
 extern void Controller_UPxr_SetControllerEnableKey_m5E2BF29633CDFF0D3A5DEB2D1CD2D7B2922A2505 (void);
-// 0x00000490 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetBodyTrackingPose(System.Double,Unity.XR.PXR.BodyTrackerResult&)
+// 0x000004DE System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetBodyTrackingPose(System.Double,Unity.XR.PXR.BodyTrackerResult&)
 extern void Controller_UPxr_GetBodyTrackingPose_m305D012E67AC1AD3052EFD218A04823C03B9B295 (void);
-// 0x00000491 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetBodyTrackingMode(System.Int32)
+// 0x000004DF System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetBodyTrackingMode(System.Int32)
 extern void Controller_UPxr_SetBodyTrackingMode_m77F669C1D70A99BE57FF2F6CF16E67F65C9B38E5 (void);
-// 0x00000492 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetFitnessBandConnectState(Unity.XR.PXR.PxrFitnessBandConnectState&)
+// 0x000004E0 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetFitnessBandConnectState(Unity.XR.PXR.PxrFitnessBandConnectState&)
 extern void Controller_UPxr_GetFitnessBandConnectState_m148122C56984C4F3CAC34CF4F319B7B5E357643A (void);
-// 0x00000493 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetFitnessBandBattery(System.Int32,System.Int32&)
+// 0x000004E1 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetFitnessBandBattery(System.Int32,System.Int32&)
 extern void Controller_UPxr_GetFitnessBandBattery_mF5F848DAD0472A2EE4C266066BE273498CB4AEEA (void);
-// 0x00000494 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetFitnessBandCalibState(System.Int32&)
+// 0x000004E2 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetFitnessBandCalibState(System.Int32&)
 extern void Controller_UPxr_GetFitnessBandCalibState_m4514E61A391FAA2775F6F5D8117BD3D8C0269BF5 (void);
-// 0x00000495 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetSwiftMode(System.Int32)
+// 0x000004E3 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetSwiftMode(System.Int32)
 extern void Controller_UPxr_SetSwiftMode_mB72C330D3FDB09B1B43590B49288ABC56391E743 (void);
-// 0x00000496 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetBodyTrackingBoneLength(Unity.XR.PXR.BodyTrackingBoneLength)
+// 0x000004E4 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetBodyTrackingBoneLength(Unity.XR.PXR.BodyTrackingBoneLength)
 extern void Controller_UPxr_SetBodyTrackingBoneLength_m5423B5A18BAC768059DECD98070532A666036965 (void);
-// 0x00000497 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerVibrationEvent(System.UInt32,System.Int32,System.Single,System.Int32)
+// 0x000004E5 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerVibrationEvent(System.UInt32,System.Int32,System.Single,System.Int32)
 extern void Controller_UPxr_SetControllerVibrationEvent_m17B655E87ED5B6D97593795AD3464312E5A330BB (void);
-// 0x00000498 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetControllerType()
+// 0x000004E6 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetControllerType()
 extern void Controller_UPxr_GetControllerType_mF40B952F14A49A996BE5DA1079F03509CE951F0C (void);
-// 0x00000499 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StopControllerVCMotor(System.Int32)
+// 0x000004E7 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StopControllerVCMotor(System.Int32)
 extern void Controller_UPxr_StopControllerVCMotor_m472FF5D012C01469BD129553D583D084396C29C0 (void);
-// 0x0000049A System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StartControllerVCMotor(System.String,System.Int32)
+// 0x000004E8 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StartControllerVCMotor(System.String,System.Int32)
 extern void Controller_UPxr_StartControllerVCMotor_m23968DC9765BCD256634E2ED6ACF93053AEAA802 (void);
-// 0x0000049B System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerAmp(System.Single)
+// 0x000004E9 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerAmp(System.Single)
 extern void Controller_UPxr_SetControllerAmp_m6A1251AE935A7F871C08888BECB28204AAD78E89 (void);
-// 0x0000049C System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerDelay()
+// 0x000004EA System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerDelay()
 extern void Controller_UPxr_SetControllerDelay_m559A3866CA064BE6724AF5C32E0A58E9AF1394DB (void);
-// 0x0000049D System.String Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetVibrateDelayTime(System.Int32&)
+// 0x000004EB System.String Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetVibrateDelayTime(System.Int32&)
 extern void Controller_UPxr_GetVibrateDelayTime_m0EBB3136CD46F2123EA893519CF02FEBCEC9C9D6 (void);
-// 0x0000049E System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StartVibrateBySharem(System.Single[],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32&)
+// 0x000004EC System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StartVibrateBySharem(System.Single[],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32&)
 extern void Controller_UPxr_StartVibrateBySharem_m785D3F8C7969468594E254BDBA44D8B17EDAD97F (void);
-// 0x0000049F System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SaveVibrateByCache(System.Single[],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32&)
+// 0x000004ED System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SaveVibrateByCache(System.Single[],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32&)
 extern void Controller_UPxr_SaveVibrateByCache_m618D7294EFF245B87CEC93526BBFA725D2FAD7F3 (void);
-// 0x000004A0 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StartVibrateByCache(System.Int32)
+// 0x000004EE System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StartVibrateByCache(System.Int32)
 extern void Controller_UPxr_StartVibrateByCache_m2C38E9F4C04444414AADBB49528BB6420DBCD650 (void);
-// 0x000004A1 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_ClearVibrateByCache(System.Int32)
+// 0x000004EF System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_ClearVibrateByCache(System.Int32)
 extern void Controller_UPxr_ClearVibrateByCache_mFD6556E7DDA0C88CABE9EF0DD69601C7B0E3D0E9 (void);
-// 0x000004A2 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StartVibrateByPHF(System.String,System.Int32,System.Int32&,System.Int32,System.Int32,System.Single)
+// 0x000004F0 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StartVibrateByPHF(System.String,System.Int32,System.Int32&,System.Int32,System.Int32,System.Single)
 extern void Controller_UPxr_StartVibrateByPHF_mC6BAACB761622EFB133588E5C43A7EB67BCAA1C0 (void);
-// 0x000004A3 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_PauseVibrate(System.Int32)
+// 0x000004F1 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_PauseVibrate(System.Int32)
 extern void Controller_UPxr_PauseVibrate_m15E9FD90A33BEA7AA3C7262A537412FB22118D5F (void);
-// 0x000004A4 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_ResumeVibrate(System.Int32)
+// 0x000004F2 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_ResumeVibrate(System.Int32)
 extern void Controller_UPxr_ResumeVibrate_m133E55B63F3F014BF5B21D07057509B1679F2BC5 (void);
-// 0x000004A5 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_UpdateVibrateParams(System.Int32,System.Int32,System.Int32,System.Single)
+// 0x000004F3 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_UpdateVibrateParams(System.Int32,System.Int32,System.Int32,System.Single)
 extern void Controller_UPxr_UpdateVibrateParams_m5C52EFD460B7C494A2B8190B8054E131FCA90B2D (void);
-// 0x000004A6 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_CreateHapticStream(System.String,System.UInt32,Unity.XR.PXR.VibrateInfo&,System.Single,System.Int32&)
+// 0x000004F4 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_CreateHapticStream(System.String,System.UInt32,Unity.XR.PXR.VibrateInfo&,System.Single,System.Int32&)
 extern void Controller_UPxr_CreateHapticStream_mA10E7722B3A489AF21DE9F9C6BD25A01AB4603C8 (void);
-// 0x000004A7 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_WriteHapticStream(System.Int32,Unity.XR.PXR.PxrPhfParamsNum&,System.UInt32)
+// 0x000004F5 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_WriteHapticStream(System.Int32,Unity.XR.PXR.PxrPhfParamsNum&,System.UInt32)
 extern void Controller_UPxr_WriteHapticStream_m76D6FEB8CCBBF38DD88620481DD2DB4C692864BB (void);
-// 0x000004A8 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetPHFHapticSpeed(System.Int32,System.Single)
+// 0x000004F6 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetPHFHapticSpeed(System.Int32,System.Single)
 extern void Controller_UPxr_SetPHFHapticSpeed_m0EF3C0F98EC9FFD3DEDAA38B30197B28ACDA75BC (void);
-// 0x000004A9 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetPHFHapticSpeed(System.Int32,System.Single&)
+// 0x000004F7 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetPHFHapticSpeed(System.Int32,System.Single&)
 extern void Controller_UPxr_GetPHFHapticSpeed_mAE9311D32523431E3B9142438B426983F19044BA (void);
-// 0x000004AA System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetCurrentFrameSequence(System.Int32,System.UInt64&)
+// 0x000004F8 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetCurrentFrameSequence(System.Int32,System.UInt64&)
 extern void Controller_UPxr_GetCurrentFrameSequence_m092E77ABB9CABE05ACEB245A596451918C8D56E9 (void);
-// 0x000004AB System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StartPHFHaptic(System.Int32)
+// 0x000004F9 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StartPHFHaptic(System.Int32)
 extern void Controller_UPxr_StartPHFHaptic_mB42D769BEA41B595FB3C1CF64692B023EF0AB160 (void);
-// 0x000004AC System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StopPHFHaptic(System.Int32)
+// 0x000004FA System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StopPHFHaptic(System.Int32)
 extern void Controller_UPxr_StopPHFHaptic_m8F76963F47ABD6361F800239A5ED8C3A9591F533 (void);
-// 0x000004AD System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_RemovePHFHaptic(System.Int32)
+// 0x000004FB System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_RemovePHFHaptic(System.Int32)
 extern void Controller_UPxr_RemovePHFHaptic_m3A7385D492B3B732160D1909A49AE66026A57DDB (void);
-// 0x000004AE System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerMainInputHandle(System.UInt32)
+// 0x000004FC System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerMainInputHandle(System.UInt32)
 extern void Controller_UPxr_SetControllerMainInputHandle_mD3730C98A86C32855D2D719456D5A024C25278BF (void);
-// 0x000004AF Unity.XR.PXR.PXR_Input/Controller Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetControllerMainInputHandle()
+// 0x000004FD Unity.XR.PXR.PXR_Input/Controller Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetControllerMainInputHandle()
 extern void Controller_UPxr_GetControllerMainInputHandle_m5AE965CC6BFBEBC8BD3CB2DD8E5F75F6D0465BD4 (void);
-// 0x000004B0 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetControllerTrackingState(System.UInt32,System.Double,System.Single[],Unity.XR.PXR.PxrControllerTracking&)
+// 0x000004FE System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetControllerTrackingState(System.UInt32,System.Double,System.Single[],Unity.XR.PXR.PxrControllerTracking&)
 extern void Controller_UPxr_GetControllerTrackingState_mF7995E3160A40C8D363A1B91AB0858F6E8A83B4B (void);
-// 0x000004B1 System.Void Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerOriginOffset(System.Int32,UnityEngine.Vector3)
+// 0x000004FF System.Void Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerOriginOffset(System.Int32,UnityEngine.Vector3)
 extern void Controller_UPxr_SetControllerOriginOffset_mAF0DB95817ED9570527418A9379F6574124E1F0D (void);
-// 0x000004B2 System.Void Unity.XR.PXR.PXR_Plugin/Controller::UPxr_ResetController()
+// 0x00000500 System.Void Unity.XR.PXR.PXR_Plugin/Controller::UPxr_ResetController()
 extern void Controller_UPxr_ResetController_mDF365EF38EBEA423BBAD7660BFC2DD79AD91FADC (void);
-// 0x000004B3 System.Void Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetArmModelParameters(Unity.XR.PXR.PxrGazeType,Unity.XR.PXR.PxrArmModelType,System.Single,System.Single,System.Single)
+// 0x00000501 System.Void Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetArmModelParameters(Unity.XR.PXR.PxrGazeType,Unity.XR.PXR.PxrArmModelType,System.Single,System.Single,System.Single)
 extern void Controller_UPxr_SetArmModelParameters_mF62B9A7413E726BD33D82C189B24562523FBDE22 (void);
-// 0x000004B4 System.Void Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetControllerHandness(System.Int32&)
+// 0x00000502 System.Void Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetControllerHandness(System.Int32&)
 extern void Controller_UPxr_GetControllerHandness_mD722BD072D982D96C614F14D39234B90FC4482E6 (void);
-// 0x000004B5 System.Int32 Unity.XR.PXR.PXR_Plugin/HandTracking::Pxr_GetHandTrackerSettingState(System.Boolean&)
+// 0x00000503 System.Int32 Unity.XR.PXR.PXR_Plugin/HandTracking::Pxr_GetHandTrackerSettingState(System.Boolean&)
 extern void HandTracking_Pxr_GetHandTrackerSettingState_m15A10FEC05390518398EE445302F435DD73E4B93 (void);
-// 0x000004B6 System.Int32 Unity.XR.PXR.PXR_Plugin/HandTracking::Pxr_GetHandTrackerActiveInputType(Unity.XR.PXR.ActiveInputDevice&)
+// 0x00000504 System.Int32 Unity.XR.PXR.PXR_Plugin/HandTracking::Pxr_GetHandTrackerActiveInputType(Unity.XR.PXR.ActiveInputDevice&)
 extern void HandTracking_Pxr_GetHandTrackerActiveInputType_m265BFE8AD18CE5F0D7E8A3BAAC616EA5CE87309A (void);
-// 0x000004B7 System.Int32 Unity.XR.PXR.PXR_Plugin/HandTracking::Pxr_GetHandTrackerAimState(Unity.XR.PXR.HandType,Unity.XR.PXR.HandAimState&)
+// 0x00000505 System.Int32 Unity.XR.PXR.PXR_Plugin/HandTracking::Pxr_GetHandTrackerAimState(Unity.XR.PXR.HandType,Unity.XR.PXR.HandAimState&)
 extern void HandTracking_Pxr_GetHandTrackerAimState_m10BA78679F8BAF99676806701AE6F7C4CF9AD864 (void);
-// 0x000004B8 System.Int32 Unity.XR.PXR.PXR_Plugin/HandTracking::Pxr_GetHandTrackerJointLocations(Unity.XR.PXR.HandType,Unity.XR.PXR.HandJointLocations&)
+// 0x00000506 System.Int32 Unity.XR.PXR.PXR_Plugin/HandTracking::Pxr_GetHandTrackerJointLocations(Unity.XR.PXR.HandType,Unity.XR.PXR.HandJointLocations&)
 extern void HandTracking_Pxr_GetHandTrackerJointLocations_mB794ED705B9D020BE3AA5C231B838851EA29CA3E (void);
-// 0x000004B9 System.Boolean Unity.XR.PXR.PXR_Plugin/HandTracking::UPxr_GetHandTrackerSettingState()
+// 0x00000507 System.Boolean Unity.XR.PXR.PXR_Plugin/HandTracking::UPxr_GetHandTrackerSettingState()
 extern void HandTracking_UPxr_GetHandTrackerSettingState_m93389774B7D7BC169D1E1D110BF974A20F21140A (void);
-// 0x000004BA Unity.XR.PXR.ActiveInputDevice Unity.XR.PXR.PXR_Plugin/HandTracking::UPxr_GetHandTrackerActiveInputType()
+// 0x00000508 Unity.XR.PXR.ActiveInputDevice Unity.XR.PXR.PXR_Plugin/HandTracking::UPxr_GetHandTrackerActiveInputType()
 extern void HandTracking_UPxr_GetHandTrackerActiveInputType_mFB1E66D70F79763DC26CFEB3213AD7C40E7ED4FB (void);
-// 0x000004BB System.Boolean Unity.XR.PXR.PXR_Plugin/HandTracking::UPxr_GetHandTrackerAimState(Unity.XR.PXR.HandType,Unity.XR.PXR.HandAimState&)
+// 0x00000509 System.Boolean Unity.XR.PXR.PXR_Plugin/HandTracking::UPxr_GetHandTrackerAimState(Unity.XR.PXR.HandType,Unity.XR.PXR.HandAimState&)
 extern void HandTracking_UPxr_GetHandTrackerAimState_mF1344E144E3B18D483C29ABC571C70A9FB5D71E0 (void);
-// 0x000004BC System.Boolean Unity.XR.PXR.PXR_Plugin/HandTracking::UPxr_GetHandTrackerJointLocations(Unity.XR.PXR.HandType,Unity.XR.PXR.HandJointLocations&)
+// 0x0000050A System.Boolean Unity.XR.PXR.PXR_Plugin/HandTracking::UPxr_GetHandTrackerJointLocations(Unity.XR.PXR.HandType,Unity.XR.PXR.HandJointLocations&)
 extern void HandTracking_UPxr_GetHandTrackerJointLocations_m2A318586EDC1E491F3C9AD106AA1E4BF34F2BEF5 (void);
-// 0x000004BD System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_WantEyeTrackingService()
+// 0x0000050B System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_WantEyeTrackingService()
 extern void MotionTracking_Pxr_WantEyeTrackingService_mDBA5CD970FC8DA409CF49C4512109D36B3550A50 (void);
-// 0x000004BE System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetEyeTrackingSupported(System.Boolean&,System.Int32&,Unity.XR.PXR.EyeTrackingMode&)
+// 0x0000050C System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetEyeTrackingSupported(System.Boolean&,System.Int32&,Unity.XR.PXR.EyeTrackingMode&)
 extern void MotionTracking_Pxr_GetEyeTrackingSupported_mC3D5B624BE4A290653A47255860621365B4E3310 (void);
-// 0x000004BF System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_StartEyeTracking1(Unity.XR.PXR.EyeTrackingStartInfo&)
+// 0x0000050D System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_StartEyeTracking1(Unity.XR.PXR.EyeTrackingStartInfo&)
 extern void MotionTracking_Pxr_StartEyeTracking1_m957C858A7FE49B2CF91792D4B88D7A1F0B265964 (void);
-// 0x000004C0 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_StopEyeTracking1(Unity.XR.PXR.EyeTrackingStopInfo&)
+// 0x0000050E System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_StopEyeTracking1(Unity.XR.PXR.EyeTrackingStopInfo&)
 extern void MotionTracking_Pxr_StopEyeTracking1_m9478BCA0BEE8AE16DD0252601DDCD5916EFAA723 (void);
-// 0x000004C1 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetEyeTrackingState(System.Boolean&,Unity.XR.PXR.EyeTrackingState&)
+// 0x0000050F System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetEyeTrackingState(System.Boolean&,Unity.XR.PXR.EyeTrackingState&)
 extern void MotionTracking_Pxr_GetEyeTrackingState_m6F8E0DE384FAD320857E63A022F6DEC3255840D8 (void);
-// 0x000004C2 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetEyeTrackingData1(Unity.XR.PXR.EyeTrackingDataGetInfo&,Unity.XR.PXR.EyeTrackingData&)
+// 0x00000510 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetEyeTrackingData1(Unity.XR.PXR.EyeTrackingDataGetInfo&,Unity.XR.PXR.EyeTrackingData&)
 extern void MotionTracking_Pxr_GetEyeTrackingData1_m8E9492FAD555FDE245C5BDF466F7256DBB2867B9 (void);
-// 0x000004C3 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetEyeOpenness(System.Single&,System.Single&)
+// 0x00000511 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetEyeOpenness(System.Single&,System.Single&)
 extern void MotionTracking_Pxr_GetEyeOpenness_m9F6E56159D2200BEAB1A9050F442115672EDA6EA (void);
-// 0x000004C4 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetEyePupilInfo(Unity.XR.PXR.EyePupilInfo&)
+// 0x00000512 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetEyePupilInfo(Unity.XR.PXR.EyePupilInfo&)
 extern void MotionTracking_Pxr_GetEyePupilInfo_mE6DA40D8B455C34D5F8E652CCF51D92CC9D7A9CA (void);
-// 0x000004C5 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetPerEyePose(System.Int64&,Unity.XR.PXR.Posef&,Unity.XR.PXR.Posef&)
+// 0x00000513 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetPerEyePose(System.Int64&,Unity.XR.PXR.Posef&,Unity.XR.PXR.Posef&)
 extern void MotionTracking_Pxr_GetPerEyePose_m152682F43245DD81ACC7D4D4F0415EC657847A1C (void);
-// 0x000004C6 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetEyeBlink(System.Int64&,System.Boolean&,System.Boolean&)
+// 0x00000514 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetEyeBlink(System.Int64&,System.Boolean&,System.Boolean&)
 extern void MotionTracking_Pxr_GetEyeBlink_m8A5FA138772E54138EAA45A89C6530A12B29AAC2 (void);
-// 0x000004C7 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_WantEyeTrackingService()
+// 0x00000515 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_WantEyeTrackingService()
 extern void MotionTracking_UPxr_WantEyeTrackingService_mA11A9AF8FD375B3D90801ED12C5BB06918FEFDD0 (void);
-// 0x000004C8 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetEyeTrackingSupported(System.Boolean&,System.Int32&,Unity.XR.PXR.EyeTrackingMode&)
+// 0x00000516 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetEyeTrackingSupported(System.Boolean&,System.Int32&,Unity.XR.PXR.EyeTrackingMode&)
 extern void MotionTracking_UPxr_GetEyeTrackingSupported_m6C7625A213AEAC3905B057ED07636AA5D1636CBF (void);
-// 0x000004C9 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_StartEyeTracking1(Unity.XR.PXR.EyeTrackingStartInfo&)
+// 0x00000517 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_StartEyeTracking1(Unity.XR.PXR.EyeTrackingStartInfo&)
 extern void MotionTracking_UPxr_StartEyeTracking1_m44C7454D9972EAE5C5C534661721A77A6C4D4328 (void);
-// 0x000004CA System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_StopEyeTracking1(Unity.XR.PXR.EyeTrackingStopInfo&)
+// 0x00000518 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_StopEyeTracking1(Unity.XR.PXR.EyeTrackingStopInfo&)
 extern void MotionTracking_UPxr_StopEyeTracking1_mA8769A305057C232B45F3E630410EDC330E65B16 (void);
-// 0x000004CB System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetEyeTrackingState(System.Boolean&,Unity.XR.PXR.EyeTrackingState&)
+// 0x00000519 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetEyeTrackingState(System.Boolean&,Unity.XR.PXR.EyeTrackingState&)
 extern void MotionTracking_UPxr_GetEyeTrackingState_mCABC5AFC13D8B6E50CE698D44C7A758625F9B3D9 (void);
-// 0x000004CC System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetEyeTrackingData1(Unity.XR.PXR.EyeTrackingDataGetInfo&,Unity.XR.PXR.EyeTrackingData&)
+// 0x0000051A System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetEyeTrackingData1(Unity.XR.PXR.EyeTrackingDataGetInfo&,Unity.XR.PXR.EyeTrackingData&)
 extern void MotionTracking_UPxr_GetEyeTrackingData1_m4A7ED4E270025028CCE85907618FDC5158BDB791 (void);
-// 0x000004CD System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetEyeOpenness(System.Single&,System.Single&)
+// 0x0000051B System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetEyeOpenness(System.Single&,System.Single&)
 extern void MotionTracking_UPxr_GetEyeOpenness_m69A2796ECF111B0EE0564ADB40B98D98BBDC49FE (void);
-// 0x000004CE System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetEyePupilInfo(Unity.XR.PXR.EyePupilInfo&)
+// 0x0000051C System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetEyePupilInfo(Unity.XR.PXR.EyePupilInfo&)
 extern void MotionTracking_UPxr_GetEyePupilInfo_m68C4B60983412F3CFD03DD06B7B90A9F89590642 (void);
-// 0x000004CF System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetPerEyePose(System.Int64&,Unity.XR.PXR.Posef&,Unity.XR.PXR.Posef&)
+// 0x0000051D System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetPerEyePose(System.Int64&,Unity.XR.PXR.Posef&,Unity.XR.PXR.Posef&)
 extern void MotionTracking_UPxr_GetPerEyePose_m89F9901997149687C9D230CF7939206A65F2260D (void);
-// 0x000004D0 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetEyeBlink(System.Int64&,System.Boolean&,System.Boolean&)
+// 0x0000051E System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetEyeBlink(System.Int64&,System.Boolean&,System.Boolean&)
 extern void MotionTracking_UPxr_GetEyeBlink_m82D6F15A14572647686C36EE67E1CDD312B44076 (void);
-// 0x000004D1 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_WantFaceTrackingService()
+// 0x0000051F System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_WantFaceTrackingService()
 extern void MotionTracking_Pxr_WantFaceTrackingService_m15D1FD72292F534AABB119DCB9FCF1D64D224604 (void);
-// 0x000004D2 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetFaceTrackingSupported(System.Boolean&,System.Int32&,Unity.XR.PXR.FaceTrackingSupportedMode&)
+// 0x00000520 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetFaceTrackingSupported(System.Boolean&,System.Int32&,Unity.XR.PXR.FaceTrackingSupportedMode&)
 extern void MotionTracking_Pxr_GetFaceTrackingSupported_m303BE5F30ECB6D83E954994DEF718A0CE74043EC (void);
-// 0x000004D3 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_StartFaceTracking(Unity.XR.PXR.FaceTrackingStartInfo&)
+// 0x00000521 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_StartFaceTracking(Unity.XR.PXR.FaceTrackingStartInfo&)
 extern void MotionTracking_Pxr_StartFaceTracking_m3C62302B600800E11CABA79DC8657FFDB334B3EC (void);
-// 0x000004D4 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_StopFaceTracking(Unity.XR.PXR.FaceTrackingStopInfo&)
+// 0x00000522 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_StopFaceTracking(Unity.XR.PXR.FaceTrackingStopInfo&)
 extern void MotionTracking_Pxr_StopFaceTracking_mB231304434E12AF270BF4342A97B032153BCBA3D (void);
-// 0x000004D5 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetFaceTrackingState(System.Boolean&,Unity.XR.PXR.FaceTrackingState&)
+// 0x00000523 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetFaceTrackingState(System.Boolean&,Unity.XR.PXR.FaceTrackingState&)
 extern void MotionTracking_Pxr_GetFaceTrackingState_m8B89EFCCF676DC0476E8EF85C0AFF6C4EC4FBCE4 (void);
-// 0x000004D6 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetFaceTrackingData1(Unity.XR.PXR.FaceTrackingDataGetInfo&,Unity.XR.PXR.FaceTrackingData&)
+// 0x00000524 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::Pxr_GetFaceTrackingData1(Unity.XR.PXR.FaceTrackingDataGetInfo&,Unity.XR.PXR.FaceTrackingData&)
 extern void MotionTracking_Pxr_GetFaceTrackingData1_m1A975797B35CFA1A73E095433405369503D95CA2 (void);
-// 0x000004D7 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_WantFaceTrackingService()
+// 0x00000525 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_WantFaceTrackingService()
 extern void MotionTracking_UPxr_WantFaceTrackingService_m4B3421579E9A92F357688DB89641C05495CA1A85 (void);
-// 0x000004D8 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetFaceTrackingSupported(System.Boolean&,System.Int32&,Unity.XR.PXR.FaceTrackingSupportedMode&)
+// 0x00000526 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetFaceTrackingSupported(System.Boolean&,System.Int32&,Unity.XR.PXR.FaceTrackingSupportedMode&)
 extern void MotionTracking_UPxr_GetFaceTrackingSupported_m464F028E7AA389309F2F7DA7C8CEF96FD81BFCE5 (void);
-// 0x000004D9 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_StartFaceTracking(Unity.XR.PXR.FaceTrackingStartInfo&)
+// 0x00000527 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_StartFaceTracking(Unity.XR.PXR.FaceTrackingStartInfo&)
 extern void MotionTracking_UPxr_StartFaceTracking_m59560237003018F7B08AD96484753BBE3817EED5 (void);
-// 0x000004DA System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_StopFaceTracking(Unity.XR.PXR.FaceTrackingStopInfo&)
+// 0x00000528 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_StopFaceTracking(Unity.XR.PXR.FaceTrackingStopInfo&)
 extern void MotionTracking_UPxr_StopFaceTracking_m72D884E1028BA9F81BACAFB39297813E8D75CFBE (void);
-// 0x000004DB System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetFaceTrackingState(System.Boolean&,Unity.XR.PXR.FaceTrackingState&)
+// 0x00000529 System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetFaceTrackingState(System.Boolean&,Unity.XR.PXR.FaceTrackingState&)
 extern void MotionTracking_UPxr_GetFaceTrackingState_m1FEA69D023E834C1E08D66E53C6A693C4FC08852 (void);
-// 0x000004DC System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetFaceTrackingData1(Unity.XR.PXR.FaceTrackingDataGetInfo&,Unity.XR.PXR.FaceTrackingData&)
+// 0x0000052A System.Int32 Unity.XR.PXR.PXR_Plugin/MotionTracking::UPxr_GetFaceTrackingData1(Unity.XR.PXR.FaceTrackingDataGetInfo&,Unity.XR.PXR.FaceTrackingData&)
 extern void MotionTracking_UPxr_GetFaceTrackingData1_mD0FA8F21EC0C92C9C6F94DB01BE73A6961D45F91 (void);
-// 0x000004DD System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_EnableVideoSeeThroughEffect(System.Boolean)
+// 0x0000052B System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_EnableVideoSeeThroughEffect(System.Boolean)
 extern void MixedReality_UPxr_EnableVideoSeeThroughEffect_m039E6ADC26C53F4CBF894A9370B546309B9820FC (void);
-// 0x000004DE System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_SetVideoSeeThroughEffect(Unity.XR.PXR.PxrLayerEffect,System.Single,System.Single)
+// 0x0000052C System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_SetVideoSeeThroughEffect(Unity.XR.PXR.PxrLayerEffect,System.Single,System.Single)
 extern void MixedReality_UPxr_SetVideoSeeThroughEffect_m855806938841364C472900475F55439E56FB9ED8 (void);
-// 0x000004DF System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_SetVideoSeeThroughLUT(System.Byte[]&,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000052D System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_SetVideoSeeThroughLUT(System.Byte[]&,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void MixedReality_UPxr_SetVideoSeeThroughLUT_m26077E4D4D3C214734153D49F6D906F7992D077F (void);
-// 0x000004E0 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_CreateAnchorEntity(Unity.XR.PXR.PxrAnchorEntityCreateInfo&,System.UInt64&)
+// 0x0000052E Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_CreateAnchorEntity(Unity.XR.PXR.PxrAnchorEntityCreateInfo&,System.UInt64&)
 extern void MixedReality_UPxr_CreateAnchorEntity_m7329E4B6837CC3A3CCB1B22CA278EEDE1698E3AC (void);
-// 0x000004E1 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_DestroyAnchorEntity(Unity.XR.PXR.PxrAnchorEntityDestroyInfo&)
+// 0x0000052F Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_DestroyAnchorEntity(Unity.XR.PXR.PxrAnchorEntityDestroyInfo&)
 extern void MixedReality_UPxr_DestroyAnchorEntity_m4A1512AD450D3BB4F4B5E7FF76487EF56699F8A7 (void);
-// 0x000004E2 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_PersistAnchorEntity(Unity.XR.PXR.PxrAnchorEntityPersistInfo&,System.UInt64&)
+// 0x00000530 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_PersistAnchorEntity(Unity.XR.PXR.PxrAnchorEntityPersistInfo&,System.UInt64&)
 extern void MixedReality_UPxr_PersistAnchorEntity_mEF8195149FCE1C5D3C5CF5AB73D1B549DEA9DC22 (void);
-// 0x000004E3 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_UnpersistAnchorEntity(Unity.XR.PXR.PxrAnchorEntityUnPersistInfo&,System.UInt64&)
+// 0x00000531 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_UnpersistAnchorEntity(Unity.XR.PXR.PxrAnchorEntityUnPersistInfo&,System.UInt64&)
 extern void MixedReality_UPxr_UnpersistAnchorEntity_m529A843BF575BE0E2E3E42FDDBBAAB98A20DAFA0 (void);
-// 0x000004E4 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_ClearPersistedAnchorEntity(Unity.XR.PXR.PxrAnchorEntityClearInfo&,System.UInt64&)
+// 0x00000532 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_ClearPersistedAnchorEntity(Unity.XR.PXR.PxrAnchorEntityClearInfo&,System.UInt64&)
 extern void MixedReality_UPxr_ClearPersistedAnchorEntity_mD47100FE6C9D6D048FE38E002CC5A94A1D90DD8F (void);
-// 0x000004E5 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetAnchorPose(System.UInt64,Unity.XR.PXR.PxrTrackingOrigin,Unity.XR.PXR.PxrPosef&)
+// 0x00000533 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetAnchorPose(System.UInt64,Unity.XR.PXR.PxrTrackingOrigin,Unity.XR.PXR.PxrPosef&)
 extern void MixedReality_UPxr_GetAnchorPose_m1D6FFEA291EED44B1CBF426CAB2CC9433B5BDEF3 (void);
-// 0x000004E6 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetAnchorEntityUuid(System.UInt64,Unity.XR.PXR.PxrUuid&)
+// 0x00000534 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetAnchorEntityUuid(System.UInt64,Unity.XR.PXR.PxrUuid&)
 extern void MixedReality_UPxr_GetAnchorEntityUuid_mCFD631135CBE84CD7FFB340950A3D020895474C2 (void);
-// 0x000004E7 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetAnchorComponentFlags(System.UInt64,System.UInt64&)
+// 0x00000535 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetAnchorComponentFlags(System.UInt64,System.UInt64&)
 extern void MixedReality_UPxr_GetAnchorComponentFlags_m2D8EF597E22947B777A6EEFF2D654FBCE6810A13 (void);
-// 0x000004E8 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_LoadAnchorEntity(Unity.XR.PXR.PxrAnchorEntityLoadInfo&,System.UInt64&)
+// 0x00000536 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_LoadAnchorEntity(Unity.XR.PXR.PxrAnchorEntityLoadInfo&,System.UInt64&)
 extern void MixedReality_UPxr_LoadAnchorEntity_mD8D3CA22512F625D8A09D101DBF08B80944A2C09 (void);
-// 0x000004E9 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetAnchorEntityLoadResults(System.UInt64,Unity.XR.PXR.PxrAnchorEntityLoadResults&)
+// 0x00000537 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetAnchorEntityLoadResults(System.UInt64,Unity.XR.PXR.PxrAnchorEntityLoadResults&)
 extern void MixedReality_UPxr_GetAnchorEntityLoadResults_m99DB8E28F803C8F5B166E0E553DC129A518AA784 (void);
-// 0x000004EA Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_StartSpatialSceneCapture(System.UInt64&)
+// 0x00000538 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_StartSpatialSceneCapture(System.UInt64&)
 extern void MixedReality_UPxr_StartSpatialSceneCapture_m255B73988C36E3060A544E836F571F79C06CEF55 (void);
-// 0x000004EB Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetAnchorVolumeInfo(System.UInt64,Unity.XR.PXR.PxrAnchorVolumeInfo&)
+// 0x00000539 Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetAnchorVolumeInfo(System.UInt64,Unity.XR.PXR.PxrAnchorVolumeInfo&)
 extern void MixedReality_UPxr_GetAnchorVolumeInfo_m58062F773DB19DDCD509663B3EB494D88FBD083A (void);
-// 0x000004EC Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetAnchorPlanePolygonInfo(System.UInt64,Unity.XR.PXR.PxrAnchorPlanePolygonInfo&)
+// 0x0000053A Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetAnchorPlanePolygonInfo(System.UInt64,Unity.XR.PXR.PxrAnchorPlanePolygonInfo&)
 extern void MixedReality_UPxr_GetAnchorPlanePolygonInfo_m88D7FF709B27307F1ABA679DD92E799A0DDE7169 (void);
-// 0x000004ED Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetAnchorPlaneBoundaryInfo(System.UInt64,Unity.XR.PXR.PxrAnchorPlaneBoundaryInfo&)
+// 0x0000053B Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetAnchorPlaneBoundaryInfo(System.UInt64,Unity.XR.PXR.PxrAnchorPlaneBoundaryInfo&)
 extern void MixedReality_UPxr_GetAnchorPlaneBoundaryInfo_m268559E98894710E0324FDE5581D668D0F3955A5 (void);
-// 0x000004EE Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetAnchorSceneLabel(System.UInt64,Unity.XR.PXR.PxrSceneLabel&)
+// 0x0000053C Unity.XR.PXR.PxrResult Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetAnchorSceneLabel(System.UInt64,Unity.XR.PXR.PxrSceneLabel&)
 extern void MixedReality_UPxr_GetAnchorSceneLabel_mF4DF83B9873021878B38061C80BD61B0A678D6DA (void);
-// 0x000004EF System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_StartHumanOcclusion()
+// 0x0000053D System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_StartHumanOcclusion()
 extern void MixedReality_UPxr_StartHumanOcclusion_m97A61E2DCC42BA158727388960F85E85F301EC97 (void);
-// 0x000004F0 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_AcquireMeshingInfo(System.IntPtr,System.IntPtr,System.UInt32&,System.IntPtr,System.UInt32&,System.Boolean&)
+// 0x0000053E System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_AcquireMeshingInfo(System.IntPtr,System.IntPtr,System.UInt32&,System.IntPtr,System.UInt32&,System.Boolean&)
 extern void MixedReality_UPxr_AcquireMeshingInfo_m46BB12A901AD56CC76FE06F7237F4232377970A0 (void);
-// 0x000004F1 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_StopHumanOcclusion()
+// 0x0000053F System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_StopHumanOcclusion()
 extern void MixedReality_UPxr_StopHumanOcclusion_mCE8B454FD857E5B6133DDD5491D30E1CB55EBD75 (void);
-// 0x000004F2 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_CreateSpatialAnchor(Unity.XR.PXR.PxrSpatialAnchorCreateInfo&,System.UInt64&)
+// 0x00000540 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_CreateSpatialAnchor(Unity.XR.PXR.PxrSpatialAnchorCreateInfo&,System.UInt64&)
 extern void MixedReality_UPxr_CreateSpatialAnchor_m6226E70BD25EB281F25D2F42C3B6DA4F52251646 (void);
-// 0x000004F3 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_DestroySpatialAnchor(System.UInt64)
+// 0x00000541 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_DestroySpatialAnchor(System.UInt64)
 extern void MixedReality_UPxr_DestroySpatialAnchor_mA5EC4B551055730680DD96A4A0CFC8ADDAAAFB8E (void);
-// 0x000004F4 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_SaveSpatialAnchor(Unity.XR.PXR.PxrSpatialAnchorSaveInfo&,System.UInt64&)
+// 0x00000542 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_SaveSpatialAnchor(Unity.XR.PXR.PxrSpatialAnchorSaveInfo&,System.UInt64&)
 extern void MixedReality_UPxr_SaveSpatialAnchor_mED42AE0D64645CABB616713C06D9511B97EB50EA (void);
-// 0x000004F5 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_DeleteSpatialAnchor(Unity.XR.PXR.PxrSpatialAnchorDeleteInfo&,System.UInt64&)
+// 0x00000543 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_DeleteSpatialAnchor(Unity.XR.PXR.PxrSpatialAnchorDeleteInfo&,System.UInt64&)
 extern void MixedReality_UPxr_DeleteSpatialAnchor_m25D6AD26F5F662F120ADEF20BE4A6C0CFF8CAE58 (void);
-// 0x000004F6 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_LoadSpatialAnchorById(Unity.XR.PXR.PxrSpatialInstanceLoadByIdInfo&,System.UInt64&)
+// 0x00000544 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_LoadSpatialAnchorById(Unity.XR.PXR.PxrSpatialInstanceLoadByIdInfo&,System.UInt64&)
 extern void MixedReality_UPxr_LoadSpatialAnchorById_m095AE9F631609DF2D43CAE933F00A57C95E31321 (void);
-// 0x000004F7 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetSpatialAnchorLoadResults(System.UInt64,Unity.XR.PXR.PxrSpatialAnchorLoadResults&)
+// 0x00000545 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetSpatialAnchorLoadResults(System.UInt64,Unity.XR.PXR.PxrSpatialAnchorLoadResults&)
 extern void MixedReality_UPxr_GetSpatialAnchorLoadResults_m5D5172684AAE7F7B3515E92C92EE3CCEDFEB3EC7 (void);
-// 0x000004F8 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetSpatialAnchorPose(System.UInt64,System.Double,Unity.XR.PXR.PxrReferenceType,Unity.XR.PXR.PxrPosef&)
+// 0x00000546 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetSpatialAnchorPose(System.UInt64,System.Double,Unity.XR.PXR.PxrReferenceType,Unity.XR.PXR.PxrPosef&)
 extern void MixedReality_UPxr_GetSpatialAnchorPose_m7F4B5BBFB85345FA76F03A2F73AB2C281C67A2FD (void);
-// 0x000004F9 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetSpatialAnchorUuid(System.UInt64,Unity.XR.PXR.PxrSpatialInstanceUuid&)
+// 0x00000547 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetSpatialAnchorUuid(System.UInt64,Unity.XR.PXR.PxrSpatialInstanceUuid&)
 extern void MixedReality_UPxr_GetSpatialAnchorUuid_m8FC9392F6BFB39A957A7815A14501CF3C3B33946 (void);
-// 0x000004FA System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_CreateRoomSceneData(Unity.XR.PXR.PxrSpatialInstanceUuid,System.IntPtr,System.Int32,System.UInt64&)
+// 0x00000548 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_CreateRoomSceneData(Unity.XR.PXR.PxrSpatialInstanceUuid,System.IntPtr,System.Int32,System.UInt64&)
 extern void MixedReality_UPxr_CreateRoomSceneData_mB1EA21C89FED7C425B295B2E08FD7E1C64F62C1F (void);
-// 0x000004FB System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_DestroyRoomSceneData(System.UInt64)
+// 0x00000549 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_DestroyRoomSceneData(System.UInt64)
 extern void MixedReality_UPxr_DestroyRoomSceneData_mA1D150250B5CB0DC025EFC5B2BB0A061A28ECD66 (void);
-// 0x000004FC System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_SaveRoomSceneData(Unity.XR.PXR.PxrRoomSceneDataSaveInfo&,System.UInt64&)
+// 0x0000054A System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_SaveRoomSceneData(Unity.XR.PXR.PxrRoomSceneDataSaveInfo&,System.UInt64&)
 extern void MixedReality_UPxr_SaveRoomSceneData_m8426F509B950D1D5799AEB6F2D3F6ED06D202058 (void);
-// 0x000004FD System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_DeleteRoomSceneData(Unity.XR.PXR.PxrRoomSceneDataDeleteInfo&,System.UInt64&)
+// 0x0000054B System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_DeleteRoomSceneData(Unity.XR.PXR.PxrRoomSceneDataDeleteInfo&,System.UInt64&)
 extern void MixedReality_UPxr_DeleteRoomSceneData_m1F8CB8E04336AD831A30C8D8D256021E5D3773AC (void);
-// 0x000004FE System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_LoadRoomScene(Unity.XR.PXR.PxrRoomSceneLoadInfo&,System.UInt64&)
+// 0x0000054C System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_LoadRoomScene(Unity.XR.PXR.PxrRoomSceneLoadInfo&,System.UInt64&)
 extern void MixedReality_UPxr_LoadRoomScene_m6F4F0D30AC08B7273F529040D3FDE5624FCD7587 (void);
-// 0x000004FF System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetRoomSceneLoadResults(System.UInt64,Unity.XR.PXR.PxrRoomSceneLoadResults&)
+// 0x0000054D System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_GetRoomSceneLoadResults(System.UInt64,Unity.XR.PXR.PxrRoomSceneLoadResults&)
 extern void MixedReality_UPxr_GetRoomSceneLoadResults_m7C52F6692B80911D9708E97CC7805C90E50F763F (void);
-// 0x00000500 System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_StartRoomCapture()
+// 0x0000054E System.Int32 Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_StartRoomCapture()
 extern void MixedReality_UPxr_StartRoomCapture_m86DEEB976250B27CE375629B41C37F9D2A92CF78 (void);
-// 0x00000501 System.Boolean Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_PollEventQueue(System.Collections.Generic.List`1<Unity.XR.PXR.PxrEventDataBuffer>&)
+// 0x0000054F System.Boolean Unity.XR.PXR.PXR_Plugin/MixedReality::UPxr_PollEventQueue(System.Collections.Generic.List`1<Unity.XR.PXR.PxrEventDataBuffer>&)
 extern void MixedReality_UPxr_PollEventQueue_m1C7557B25A748275E14EE3FED32D51DA3BB11AA2 (void);
-// 0x00000502 System.Void Unity.XR.PXR.PXR_Plugin/MixedReality::.cctor()
+// 0x00000550 System.Void Unity.XR.PXR.PXR_Plugin/MixedReality::.cctor()
 extern void MixedReality__cctor_mF8A030FEE834307834F23EC750841376CE479FB9 (void);
-// 0x00000503 Unity.XR.PXR.PXR_ProjectSetting Unity.XR.PXR.PXR_ProjectSetting::GetProjectConfig()
+// 0x00000551 Unity.XR.PXR.PXR_ProjectSetting Unity.XR.PXR.PXR_ProjectSetting::GetProjectConfig()
 extern void PXR_ProjectSetting_GetProjectConfig_m53A30885C21AD62CBF111D44B6BD416E9054E8B3 (void);
-// 0x00000504 System.Void Unity.XR.PXR.PXR_ProjectSetting::.ctor()
+// 0x00000552 System.Void Unity.XR.PXR.PXR_ProjectSetting::.ctor()
 extern void PXR_ProjectSetting__ctor_m786DDD1AC0E54CCEE4C97F031A9B763BF604CAAE (void);
-// 0x00000505 System.UInt16 Unity.XR.PXR.PXR_Settings::GetStereoRenderingMode()
+// 0x00000553 System.UInt16 Unity.XR.PXR.PXR_Settings::GetStereoRenderingMode()
 extern void PXR_Settings_GetStereoRenderingMode_mAEACDEBFBBEE17E1150233BBD16D695853A11217 (void);
-// 0x00000506 System.UInt16 Unity.XR.PXR.PXR_Settings::GetSystemDisplayFrequency()
+// 0x00000554 System.UInt16 Unity.XR.PXR.PXR_Settings::GetSystemDisplayFrequency()
 extern void PXR_Settings_GetSystemDisplayFrequency_m3357CDE04CAD89A4D48A42FCFF1DF353CB2F6B25 (void);
-// 0x00000507 System.UInt16 Unity.XR.PXR.PXR_Settings::GetOptimizeBufferDiscards()
+// 0x00000555 System.UInt16 Unity.XR.PXR.PXR_Settings::GetOptimizeBufferDiscards()
 extern void PXR_Settings_GetOptimizeBufferDiscards_m893B8F7BAD2223880E47468800C7FC997F879DD0 (void);
-// 0x00000508 System.Void Unity.XR.PXR.PXR_Settings::Awake()
+// 0x00000556 System.Void Unity.XR.PXR.PXR_Settings::Awake()
 extern void PXR_Settings_Awake_m56FECEB58FA849D8066F404A4ECD7332A250F4B4 (void);
-// 0x00000509 System.Void Unity.XR.PXR.PXR_Settings::.ctor()
+// 0x00000557 System.Void Unity.XR.PXR.PXR_Settings::.ctor()
 extern void PXR_Settings__ctor_m120FF2025DA78B6788952DACA2F1A77FBB1E23A0 (void);
-// 0x0000050A System.Void Unity.XR.PXR.PXR_Usages::.cctor()
+// 0x00000558 System.Void Unity.XR.PXR.PXR_Usages::.cctor()
 extern void PXR_Usages__cctor_m153BCCB5AB71E963E80BB106F8B51A97D9BD1538 (void);
-// 0x0000050B System.Void Unity.XR.PXR.PLog::v(System.String,System.String)
+// 0x00000559 System.Void Unity.XR.PXR.PLog::v(System.String,System.String)
 extern void PLog_v_m8028BA6E68E70BFB6233682B7D163A3343F4DCAA (void);
-// 0x0000050C System.Void Unity.XR.PXR.PLog::d(System.String,System.String)
+// 0x0000055A System.Void Unity.XR.PXR.PLog::d(System.String,System.String)
 extern void PLog_d_mDBAE85D2552C27BD2D9D519FEEBF6AA52FC85021 (void);
-// 0x0000050D System.Void Unity.XR.PXR.PLog::i(System.String,System.String)
+// 0x0000055B System.Void Unity.XR.PXR.PLog::i(System.String,System.String)
 extern void PLog_i_m14CAE16B2B6DFB48BBC51D0481FE652E740DA39B (void);
-// 0x0000050E System.Void Unity.XR.PXR.PLog::w(System.String,System.String)
+// 0x0000055C System.Void Unity.XR.PXR.PLog::w(System.String,System.String)
 extern void PLog_w_m07CCD5442091E3007DAFC3FD2A2F76124F2BC39B (void);
-// 0x0000050F System.Void Unity.XR.PXR.PLog::e(System.String,System.String)
+// 0x0000055D System.Void Unity.XR.PXR.PLog::e(System.String,System.String)
 extern void PLog_e_m3F3456F302CCAACE68DC5272709D65E4211CA162 (void);
-// 0x00000510 System.Void Unity.XR.PXR.PLog::f(System.String,System.String)
+// 0x0000055E System.Void Unity.XR.PXR.PLog::f(System.String,System.String)
 extern void PLog_f_m402C3E4A63E6DC350FD41E017D083464C2CE0789 (void);
-// 0x00000511 System.Void Unity.XR.PXR.PLog::.ctor()
+// 0x0000055F System.Void Unity.XR.PXR.PLog::.ctor()
 extern void PLog__ctor_m87848FF9DB362C0C5DD8AB54BFC942932312DBAB (void);
-// 0x00000512 System.Void Unity.XR.PXR.PLog::.cctor()
+// 0x00000560 System.Void Unity.XR.PXR.PLog::.cctor()
 extern void PLog__cctor_m3B15943F6BE4F69661FD8A3069610CF99716FC2C (void);
-// 0x00000513 Unity.XR.PXR.PXR_ObjImporter Unity.XR.PXR.PXR_ObjImporter::get_Instance()
+// 0x00000561 Unity.XR.PXR.PXR_ObjImporter Unity.XR.PXR.PXR_ObjImporter::get_Instance()
 extern void PXR_ObjImporter_get_Instance_m3ECC6C9D872287E373F7C2B30D512CECA3A61BB8 (void);
-// 0x00000514 UnityEngine.Mesh Unity.XR.PXR.PXR_ObjImporter::ImportFile(System.String)
+// 0x00000562 UnityEngine.Mesh Unity.XR.PXR.PXR_ObjImporter::ImportFile(System.String)
 extern void PXR_ObjImporter_ImportFile_m6C15884467F6A4C5CE42F2000965A9DF8A5EA38E (void);
-// 0x00000515 System.Void Unity.XR.PXR.PXR_ObjImporter::LoadMeshData(System.String)
+// 0x00000563 System.Void Unity.XR.PXR.PXR_ObjImporter::LoadMeshData(System.String)
 extern void PXR_ObjImporter_LoadMeshData_mE88EFFCDEB752E5008D28C75BACB755FAFDA528D (void);
-// 0x00000516 System.Single Unity.XR.PXR.PXR_ObjImporter::GetFloat(System.Text.StringBuilder,System.Int32&,System.Text.StringBuilder&)
+// 0x00000564 System.Single Unity.XR.PXR.PXR_ObjImporter::GetFloat(System.Text.StringBuilder,System.Int32&,System.Text.StringBuilder&)
 extern void PXR_ObjImporter_GetFloat_m9717DABE161B5CB8E506775F1490EBF2BC27DB1F (void);
-// 0x00000517 System.Int32 Unity.XR.PXR.PXR_ObjImporter::GetInt(System.Text.StringBuilder,System.Int32&,System.Text.StringBuilder&)
+// 0x00000565 System.Int32 Unity.XR.PXR.PXR_ObjImporter::GetInt(System.Text.StringBuilder,System.Int32&,System.Text.StringBuilder&)
 extern void PXR_ObjImporter_GetInt_mFB5B3C2D7D6835F877D419E93D548AFE07BB3117 (void);
-// 0x00000518 System.Single[] Unity.XR.PXR.PXR_ObjImporter::GenerateLookupTable()
+// 0x00000566 System.Single[] Unity.XR.PXR.PXR_ObjImporter::GenerateLookupTable()
 extern void PXR_ObjImporter_GenerateLookupTable_m26DB00237CEFF4098AF1E1048CAF31F8F4AF8AED (void);
-// 0x00000519 System.Single Unity.XR.PXR.PXR_ObjImporter::ParseFloat(System.Text.StringBuilder)
+// 0x00000567 System.Single Unity.XR.PXR.PXR_ObjImporter::ParseFloat(System.Text.StringBuilder)
 extern void PXR_ObjImporter_ParseFloat_m7CE88708DE581C062996831BCAA44AA5BDFB850A (void);
-// 0x0000051A System.Int32 Unity.XR.PXR.PXR_ObjImporter::IntParseFast(System.Text.StringBuilder)
+// 0x00000568 System.Int32 Unity.XR.PXR.PXR_ObjImporter::IntParseFast(System.Text.StringBuilder)
 extern void PXR_ObjImporter_IntParseFast_mCF32359CBB93CEA4CA4648177A9EEBC0BD09D898 (void);
-// 0x0000051B System.Void Unity.XR.PXR.PXR_ObjImporter::.ctor()
+// 0x00000569 System.Void Unity.XR.PXR.PXR_ObjImporter::.ctor()
 extern void PXR_ObjImporter__ctor_mA9D2F86876B8A6E6F285BF2F2D3572F55B45CAD7 (void);
-// 0x0000051C System.Void Unity.XR.PXR.PXR_ObjImporter::.cctor()
+// 0x0000056A System.Void Unity.XR.PXR.PXR_ObjImporter::.cctor()
 extern void PXR_ObjImporter__cctor_mEB22F61ED7E3194460193664066267A6B986F325 (void);
-// 0x0000051D System.Int32 Unity.XR.PXR.PxrVector3Int::get_x()
+// 0x0000056B System.Int32 Unity.XR.PXR.PxrVector3Int::get_x()
 extern void PxrVector3Int_get_x_mA7804133594ECD7A83431D071B044B2FA2985E1C (void);
-// 0x0000051E System.Void Unity.XR.PXR.PxrVector3Int::set_x(System.Int32)
+// 0x0000056C System.Void Unity.XR.PXR.PxrVector3Int::set_x(System.Int32)
 extern void PxrVector3Int_set_x_mB420FB011CDFE1BDFC4DBC1C7F76C130346431F5 (void);
-// 0x0000051F System.Int32 Unity.XR.PXR.PxrVector3Int::get_y()
+// 0x0000056D System.Int32 Unity.XR.PXR.PxrVector3Int::get_y()
 extern void PxrVector3Int_get_y_m4DD1C40A217FBB0D93AA8196D9C776BC263460CA (void);
-// 0x00000520 System.Void Unity.XR.PXR.PxrVector3Int::set_y(System.Int32)
+// 0x0000056E System.Void Unity.XR.PXR.PxrVector3Int::set_y(System.Int32)
 extern void PxrVector3Int_set_y_mC3F025D6E6415CF2A7E538489924A94419EFBF1B (void);
-// 0x00000521 System.Int32 Unity.XR.PXR.PxrVector3Int::get_z()
+// 0x0000056F System.Int32 Unity.XR.PXR.PxrVector3Int::get_z()
 extern void PxrVector3Int_get_z_m970D684A2BFD5EBAFF3DF5E991430294C4ACA2A4 (void);
-// 0x00000522 System.Void Unity.XR.PXR.PxrVector3Int::set_z(System.Int32)
+// 0x00000570 System.Void Unity.XR.PXR.PxrVector3Int::set_z(System.Int32)
 extern void PxrVector3Int_set_z_mF3B2E319044FC119CC9B4C8AA6C10A9C3F0702EB (void);
-// 0x00000523 System.Void Unity.XR.PXR.PxrVector3Int::.ctor()
+// 0x00000571 System.Void Unity.XR.PXR.PxrVector3Int::.ctor()
 extern void PxrVector3Int__ctor_mEA051849F7FFA05251AE6FDE622EC1A57C363613 (void);
-// 0x00000524 System.Void Unity.XR.PXR.PxrVector3Int::.ctor(System.Int32,System.Int32,System.Int32)
+// 0x00000572 System.Void Unity.XR.PXR.PxrVector3Int::.ctor(System.Int32,System.Int32,System.Int32)
 extern void PxrVector3Int__ctor_m6AABED81719D86E31D76D680622D2BF37F0146A3 (void);
-// 0x00000525 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_HMD::get_userPresence()
+// 0x00000573 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_HMD::get_userPresence()
 extern void PXR_HMD_get_userPresence_m41E131A4EF2F872919C0F6774E44A6DCA88C3C4B (void);
-// 0x00000526 System.Void Unity.XR.PXR.Input.PXR_HMD::set_userPresence(UnityEngine.InputSystem.Controls.ButtonControl)
+// 0x00000574 System.Void Unity.XR.PXR.Input.PXR_HMD::set_userPresence(UnityEngine.InputSystem.Controls.ButtonControl)
 extern void PXR_HMD_set_userPresence_m414DE81F06FA47272172162BAB3561BFA5552189 (void);
-// 0x00000527 UnityEngine.InputSystem.Controls.IntegerControl Unity.XR.PXR.Input.PXR_HMD::get_trackingState()
+// 0x00000575 UnityEngine.InputSystem.Controls.IntegerControl Unity.XR.PXR.Input.PXR_HMD::get_trackingState()
 extern void PXR_HMD_get_trackingState_mE5544E90585CE5B291A28217B8EE819889D03571 (void);
-// 0x00000528 System.Void Unity.XR.PXR.Input.PXR_HMD::set_trackingState(UnityEngine.InputSystem.Controls.IntegerControl)
+// 0x00000576 System.Void Unity.XR.PXR.Input.PXR_HMD::set_trackingState(UnityEngine.InputSystem.Controls.IntegerControl)
 extern void PXR_HMD_set_trackingState_m1EF68CA6AD427CD8BF994DD1431A3FE6734304E6 (void);
-// 0x00000529 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_HMD::get_isTracked()
+// 0x00000577 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_HMD::get_isTracked()
 extern void PXR_HMD_get_isTracked_mD564C423D899F04C793E4F9BEA1B9ED6EF8047FF (void);
-// 0x0000052A System.Void Unity.XR.PXR.Input.PXR_HMD::set_isTracked(UnityEngine.InputSystem.Controls.ButtonControl)
+// 0x00000578 System.Void Unity.XR.PXR.Input.PXR_HMD::set_isTracked(UnityEngine.InputSystem.Controls.ButtonControl)
 extern void PXR_HMD_set_isTracked_m1664BA0F9A7D272F69783AB5D493D904B2DB5646 (void);
-// 0x0000052B UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_devicePosition()
+// 0x00000579 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_devicePosition()
 extern void PXR_HMD_get_devicePosition_m6CC8D3B7F092472E7F379F7B98779AB3B80007A4 (void);
-// 0x0000052C System.Void Unity.XR.PXR.Input.PXR_HMD::set_devicePosition(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x0000057A System.Void Unity.XR.PXR.Input.PXR_HMD::set_devicePosition(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_devicePosition_mF577DD804F08B544EA8EABA5E5CE3A4B218E8C25 (void);
-// 0x0000052D UnityEngine.InputSystem.Controls.QuaternionControl Unity.XR.PXR.Input.PXR_HMD::get_deviceRotation()
+// 0x0000057B UnityEngine.InputSystem.Controls.QuaternionControl Unity.XR.PXR.Input.PXR_HMD::get_deviceRotation()
 extern void PXR_HMD_get_deviceRotation_mBB10E7FFCD21BEF49F5105BE1C1BDA73D865A0F0 (void);
-// 0x0000052E System.Void Unity.XR.PXR.Input.PXR_HMD::set_deviceRotation(UnityEngine.InputSystem.Controls.QuaternionControl)
+// 0x0000057C System.Void Unity.XR.PXR.Input.PXR_HMD::set_deviceRotation(UnityEngine.InputSystem.Controls.QuaternionControl)
 extern void PXR_HMD_set_deviceRotation_m9D64900572AD910361B63A5DE3CFD1EBA3A3FE1F (void);
-// 0x0000052F UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_deviceVelocity()
+// 0x0000057D UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_deviceVelocity()
 extern void PXR_HMD_get_deviceVelocity_mAA91AB6D9541EA4016C7CA69CCD4A56CAF680610 (void);
-// 0x00000530 System.Void Unity.XR.PXR.Input.PXR_HMD::set_deviceVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x0000057E System.Void Unity.XR.PXR.Input.PXR_HMD::set_deviceVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_deviceVelocity_mD8289543F6619EC70C8265AC8316D738EE320802 (void);
-// 0x00000531 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_deviceAngularVelocity()
+// 0x0000057F UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_deviceAngularVelocity()
 extern void PXR_HMD_get_deviceAngularVelocity_m42BC3E35346D737D941A0F9B649AEF93C02EF3F3 (void);
-// 0x00000532 System.Void Unity.XR.PXR.Input.PXR_HMD::set_deviceAngularVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x00000580 System.Void Unity.XR.PXR.Input.PXR_HMD::set_deviceAngularVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_deviceAngularVelocity_m231DEB599E24F2DD75A86B1FD6C2D45157EB8697 (void);
-// 0x00000533 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_deviceAcceleration()
+// 0x00000581 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_deviceAcceleration()
 extern void PXR_HMD_get_deviceAcceleration_m3883D8C5FE50578ACC1191DD550D1E7DB3375AA2 (void);
-// 0x00000534 System.Void Unity.XR.PXR.Input.PXR_HMD::set_deviceAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x00000582 System.Void Unity.XR.PXR.Input.PXR_HMD::set_deviceAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_deviceAcceleration_m8A938003F387FEEAD0E06EE796ABF130FE7673C7 (void);
-// 0x00000535 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_deviceAngularAcceleration()
+// 0x00000583 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_deviceAngularAcceleration()
 extern void PXR_HMD_get_deviceAngularAcceleration_m5C164F31E638DA1B9ED08D6F8062269A34BAFB91 (void);
-// 0x00000536 System.Void Unity.XR.PXR.Input.PXR_HMD::set_deviceAngularAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x00000584 System.Void Unity.XR.PXR.Input.PXR_HMD::set_deviceAngularAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_deviceAngularAcceleration_m394F3CE1EA50BD39CD10262CA2C11348F2489423 (void);
-// 0x00000537 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_leftEyePosition()
+// 0x00000585 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_leftEyePosition()
 extern void PXR_HMD_get_leftEyePosition_mAFDEF632F3321B10A7AE1E3B679941EA89182516 (void);
-// 0x00000538 System.Void Unity.XR.PXR.Input.PXR_HMD::set_leftEyePosition(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x00000586 System.Void Unity.XR.PXR.Input.PXR_HMD::set_leftEyePosition(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_leftEyePosition_m5BE291477128B6A584BE3CF36C1E27682DE1B39C (void);
-// 0x00000539 UnityEngine.InputSystem.Controls.QuaternionControl Unity.XR.PXR.Input.PXR_HMD::get_leftEyeRotation()
+// 0x00000587 UnityEngine.InputSystem.Controls.QuaternionControl Unity.XR.PXR.Input.PXR_HMD::get_leftEyeRotation()
 extern void PXR_HMD_get_leftEyeRotation_m1E5F8F3FBFEC9ED5E6DF9620AE598BD3D59B0562 (void);
-// 0x0000053A System.Void Unity.XR.PXR.Input.PXR_HMD::set_leftEyeRotation(UnityEngine.InputSystem.Controls.QuaternionControl)
+// 0x00000588 System.Void Unity.XR.PXR.Input.PXR_HMD::set_leftEyeRotation(UnityEngine.InputSystem.Controls.QuaternionControl)
 extern void PXR_HMD_set_leftEyeRotation_mEFCF1004D7B12C0B59F1A4BB4F0EDE94A811EBA6 (void);
-// 0x0000053B UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_leftEyeVelocity()
+// 0x00000589 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_leftEyeVelocity()
 extern void PXR_HMD_get_leftEyeVelocity_m6C902C89765B9FB4FA1AE2D659D77B47793D785E (void);
-// 0x0000053C System.Void Unity.XR.PXR.Input.PXR_HMD::set_leftEyeVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x0000058A System.Void Unity.XR.PXR.Input.PXR_HMD::set_leftEyeVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_leftEyeVelocity_m9E5840F5C077AA7B622F279165B28C4EAFD88423 (void);
-// 0x0000053D UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_leftEyeAngularVelocity()
+// 0x0000058B UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_leftEyeAngularVelocity()
 extern void PXR_HMD_get_leftEyeAngularVelocity_m08CAAC1559A0F1CC9AE0EA889C8292990D8C1B45 (void);
-// 0x0000053E System.Void Unity.XR.PXR.Input.PXR_HMD::set_leftEyeAngularVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x0000058C System.Void Unity.XR.PXR.Input.PXR_HMD::set_leftEyeAngularVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_leftEyeAngularVelocity_mEEDB5CF59255D9AE383AEF84F312639D0E7A3326 (void);
-// 0x0000053F UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_leftEyeAcceleration()
+// 0x0000058D UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_leftEyeAcceleration()
 extern void PXR_HMD_get_leftEyeAcceleration_m7B7A15E3BA73E1FE062A73B149BB83CDB5164A2E (void);
-// 0x00000540 System.Void Unity.XR.PXR.Input.PXR_HMD::set_leftEyeAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x0000058E System.Void Unity.XR.PXR.Input.PXR_HMD::set_leftEyeAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_leftEyeAcceleration_m655D727945FB0CE5EC3DE5DCC2BA7E72C4D6F95A (void);
-// 0x00000541 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_leftEyeAngularAcceleration()
+// 0x0000058F UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_leftEyeAngularAcceleration()
 extern void PXR_HMD_get_leftEyeAngularAcceleration_m217849A4041674B7CEE21CD1C31E645A2C767DEB (void);
-// 0x00000542 System.Void Unity.XR.PXR.Input.PXR_HMD::set_leftEyeAngularAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x00000590 System.Void Unity.XR.PXR.Input.PXR_HMD::set_leftEyeAngularAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_leftEyeAngularAcceleration_mFCAF98663664B2AEB60D5A2FEE52E29660BE3B15 (void);
-// 0x00000543 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_rightEyePosition()
+// 0x00000591 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_rightEyePosition()
 extern void PXR_HMD_get_rightEyePosition_m032A194B702FCF5A1AE0386E625F8D5A1CE9ADA1 (void);
-// 0x00000544 System.Void Unity.XR.PXR.Input.PXR_HMD::set_rightEyePosition(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x00000592 System.Void Unity.XR.PXR.Input.PXR_HMD::set_rightEyePosition(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_rightEyePosition_m2EEE2D3C207AA29D707FC25E945F4172E534A9BF (void);
-// 0x00000545 UnityEngine.InputSystem.Controls.QuaternionControl Unity.XR.PXR.Input.PXR_HMD::get_rightEyeRotation()
+// 0x00000593 UnityEngine.InputSystem.Controls.QuaternionControl Unity.XR.PXR.Input.PXR_HMD::get_rightEyeRotation()
 extern void PXR_HMD_get_rightEyeRotation_mA9F2A63E5C1F764B9D6389CEF45775679A9994BC (void);
-// 0x00000546 System.Void Unity.XR.PXR.Input.PXR_HMD::set_rightEyeRotation(UnityEngine.InputSystem.Controls.QuaternionControl)
+// 0x00000594 System.Void Unity.XR.PXR.Input.PXR_HMD::set_rightEyeRotation(UnityEngine.InputSystem.Controls.QuaternionControl)
 extern void PXR_HMD_set_rightEyeRotation_mBA7D492B612BC4BA3B9CC8F2AB718FDBF72533F8 (void);
-// 0x00000547 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_rightEyeVelocity()
+// 0x00000595 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_rightEyeVelocity()
 extern void PXR_HMD_get_rightEyeVelocity_m93DEDC5C5D787849AC4683447E4E81FB5A4FD1E9 (void);
-// 0x00000548 System.Void Unity.XR.PXR.Input.PXR_HMD::set_rightEyeVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x00000596 System.Void Unity.XR.PXR.Input.PXR_HMD::set_rightEyeVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_rightEyeVelocity_mAEBEECFCD0EC20CFFFEEACCAA0F7D0AB30DCB382 (void);
-// 0x00000549 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_rightEyeAngularVelocity()
+// 0x00000597 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_rightEyeAngularVelocity()
 extern void PXR_HMD_get_rightEyeAngularVelocity_mC0541AD06752BAD7709C35BCA83B5F18741BA3EA (void);
-// 0x0000054A System.Void Unity.XR.PXR.Input.PXR_HMD::set_rightEyeAngularVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x00000598 System.Void Unity.XR.PXR.Input.PXR_HMD::set_rightEyeAngularVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_rightEyeAngularVelocity_m0448537712FD2BD7EDE4584CA9281C3EFC35A04E (void);
-// 0x0000054B UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_rightEyeAcceleration()
+// 0x00000599 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_rightEyeAcceleration()
 extern void PXR_HMD_get_rightEyeAcceleration_m9B11C1E18BCB2D00F39E7D1B841EC539216B808A (void);
-// 0x0000054C System.Void Unity.XR.PXR.Input.PXR_HMD::set_rightEyeAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x0000059A System.Void Unity.XR.PXR.Input.PXR_HMD::set_rightEyeAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_rightEyeAcceleration_mCF456B9C116288F9262D1D90B8C1047BE4C47367 (void);
-// 0x0000054D UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_rightEyeAngularAcceleration()
+// 0x0000059B UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_rightEyeAngularAcceleration()
 extern void PXR_HMD_get_rightEyeAngularAcceleration_mC1EF740B233EBC36BF53463369D76102FB326A7A (void);
-// 0x0000054E System.Void Unity.XR.PXR.Input.PXR_HMD::set_rightEyeAngularAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x0000059C System.Void Unity.XR.PXR.Input.PXR_HMD::set_rightEyeAngularAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_rightEyeAngularAcceleration_mCDEFAF70476E53106B25461ACE38E98E71C18431 (void);
-// 0x0000054F UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_centerEyePosition()
+// 0x0000059D UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_centerEyePosition()
 extern void PXR_HMD_get_centerEyePosition_m3177BD8A149C50DD7766426E4A9DE50ABD340E0A (void);
-// 0x00000550 System.Void Unity.XR.PXR.Input.PXR_HMD::set_centerEyePosition(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x0000059E System.Void Unity.XR.PXR.Input.PXR_HMD::set_centerEyePosition(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_centerEyePosition_m520734ECCB59263FBF19EFCFF7DACDF2489DC59D (void);
-// 0x00000551 UnityEngine.InputSystem.Controls.QuaternionControl Unity.XR.PXR.Input.PXR_HMD::get_centerEyeRotation()
+// 0x0000059F UnityEngine.InputSystem.Controls.QuaternionControl Unity.XR.PXR.Input.PXR_HMD::get_centerEyeRotation()
 extern void PXR_HMD_get_centerEyeRotation_mFFCD71F4381F02D1AD2E3B60DB0C15F576E48D79 (void);
-// 0x00000552 System.Void Unity.XR.PXR.Input.PXR_HMD::set_centerEyeRotation(UnityEngine.InputSystem.Controls.QuaternionControl)
+// 0x000005A0 System.Void Unity.XR.PXR.Input.PXR_HMD::set_centerEyeRotation(UnityEngine.InputSystem.Controls.QuaternionControl)
 extern void PXR_HMD_set_centerEyeRotation_mE83C1E77F58648F8801F85AAB308F7528F35D55E (void);
-// 0x00000553 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_centerEyeVelocity()
+// 0x000005A1 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_centerEyeVelocity()
 extern void PXR_HMD_get_centerEyeVelocity_m9F429AA2CD25BE365D0DE1956C754DB2DC9C3BCB (void);
-// 0x00000554 System.Void Unity.XR.PXR.Input.PXR_HMD::set_centerEyeVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x000005A2 System.Void Unity.XR.PXR.Input.PXR_HMD::set_centerEyeVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_centerEyeVelocity_mB875CCD96C80C2D0DEF848C90BDF112E8629770F (void);
-// 0x00000555 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_centerEyeAngularVelocity()
+// 0x000005A3 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_centerEyeAngularVelocity()
 extern void PXR_HMD_get_centerEyeAngularVelocity_m968D0374D82B34DC8E8F1D1B413D57F359BFBC4A (void);
-// 0x00000556 System.Void Unity.XR.PXR.Input.PXR_HMD::set_centerEyeAngularVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x000005A4 System.Void Unity.XR.PXR.Input.PXR_HMD::set_centerEyeAngularVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_centerEyeAngularVelocity_m30348161A4E2E6EF2681E5BB6379F73D0C287BCE (void);
-// 0x00000557 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_centerEyeAcceleration()
+// 0x000005A5 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_centerEyeAcceleration()
 extern void PXR_HMD_get_centerEyeAcceleration_m3EFBE8B5DCD9029F04A8539C5B0F794235ABA951 (void);
-// 0x00000558 System.Void Unity.XR.PXR.Input.PXR_HMD::set_centerEyeAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x000005A6 System.Void Unity.XR.PXR.Input.PXR_HMD::set_centerEyeAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_centerEyeAcceleration_m2763146829C3A63EBE98B52305AEF0DFCE88BB69 (void);
-// 0x00000559 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_centerEyeAngularAcceleration()
+// 0x000005A7 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_HMD::get_centerEyeAngularAcceleration()
 extern void PXR_HMD_get_centerEyeAngularAcceleration_m710D70C3418C8F5952D7DD3CC71937A3BAA733F9 (void);
-// 0x0000055A System.Void Unity.XR.PXR.Input.PXR_HMD::set_centerEyeAngularAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x000005A8 System.Void Unity.XR.PXR.Input.PXR_HMD::set_centerEyeAngularAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_HMD_set_centerEyeAngularAcceleration_m907DD47299C51640742027F932825E2469E6A636 (void);
-// 0x0000055B System.Void Unity.XR.PXR.Input.PXR_HMD::FinishSetup()
+// 0x000005A9 System.Void Unity.XR.PXR.Input.PXR_HMD::FinishSetup()
 extern void PXR_HMD_FinishSetup_mE3E31374286D7276CAE3375B90868939A264C806 (void);
-// 0x0000055C System.Void Unity.XR.PXR.Input.PXR_HMD::.ctor()
+// 0x000005AA System.Void Unity.XR.PXR.Input.PXR_HMD::.ctor()
 extern void PXR_HMD__ctor_m556D9EAF20046AE468C921E793E8F88363CF246C (void);
-// 0x0000055D UnityEngine.InputSystem.Controls.Vector2Control Unity.XR.PXR.Input.PXR_Controller::get_thumbstick()
+// 0x000005AB UnityEngine.InputSystem.Controls.Vector2Control Unity.XR.PXR.Input.PXR_Controller::get_thumbstick()
 extern void PXR_Controller_get_thumbstick_mD728C64C0F8E890F2E05DD967FE008592FE007EC (void);
-// 0x0000055E System.Void Unity.XR.PXR.Input.PXR_Controller::set_thumbstick(UnityEngine.InputSystem.Controls.Vector2Control)
+// 0x000005AC System.Void Unity.XR.PXR.Input.PXR_Controller::set_thumbstick(UnityEngine.InputSystem.Controls.Vector2Control)
 extern void PXR_Controller_set_thumbstick_mB05264A7E962AB6A933475079ECAE4784DB7CCDC (void);
-// 0x0000055F UnityEngine.InputSystem.Controls.AxisControl Unity.XR.PXR.Input.PXR_Controller::get_trigger()
+// 0x000005AD UnityEngine.InputSystem.Controls.AxisControl Unity.XR.PXR.Input.PXR_Controller::get_trigger()
 extern void PXR_Controller_get_trigger_m7494587A13374BCF43BBDE00363729476A1AEEBB (void);
-// 0x00000560 System.Void Unity.XR.PXR.Input.PXR_Controller::set_trigger(UnityEngine.InputSystem.Controls.AxisControl)
+// 0x000005AE System.Void Unity.XR.PXR.Input.PXR_Controller::set_trigger(UnityEngine.InputSystem.Controls.AxisControl)
 extern void PXR_Controller_set_trigger_mBBA70BDE9030CEAEBD31DE5510411478FABE76A3 (void);
-// 0x00000561 UnityEngine.InputSystem.Controls.AxisControl Unity.XR.PXR.Input.PXR_Controller::get_grip()
+// 0x000005AF UnityEngine.InputSystem.Controls.AxisControl Unity.XR.PXR.Input.PXR_Controller::get_grip()
 extern void PXR_Controller_get_grip_m7A93B61825C914430C81EA3304967E0F39B5E8B9 (void);
-// 0x00000562 System.Void Unity.XR.PXR.Input.PXR_Controller::set_grip(UnityEngine.InputSystem.Controls.AxisControl)
+// 0x000005B0 System.Void Unity.XR.PXR.Input.PXR_Controller::set_grip(UnityEngine.InputSystem.Controls.AxisControl)
 extern void PXR_Controller_set_grip_m4FACA13F171A5A6CC5222D5D3BEBAAA0884AB84D (void);
-// 0x00000563 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_primaryButton()
+// 0x000005B1 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_primaryButton()
 extern void PXR_Controller_get_primaryButton_mA6404B3BA1C9C539102F80006C62C7A39B818804 (void);
-// 0x00000564 System.Void Unity.XR.PXR.Input.PXR_Controller::set_primaryButton(UnityEngine.InputSystem.Controls.ButtonControl)
+// 0x000005B2 System.Void Unity.XR.PXR.Input.PXR_Controller::set_primaryButton(UnityEngine.InputSystem.Controls.ButtonControl)
 extern void PXR_Controller_set_primaryButton_mDAD1E557D6A8C9634484F2038A33EE5909F9BF75 (void);
-// 0x00000565 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_secondaryButton()
+// 0x000005B3 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_secondaryButton()
 extern void PXR_Controller_get_secondaryButton_m688B430B700CFC460A8D486F13B09AB1933E2E0C (void);
-// 0x00000566 System.Void Unity.XR.PXR.Input.PXR_Controller::set_secondaryButton(UnityEngine.InputSystem.Controls.ButtonControl)
+// 0x000005B4 System.Void Unity.XR.PXR.Input.PXR_Controller::set_secondaryButton(UnityEngine.InputSystem.Controls.ButtonControl)
 extern void PXR_Controller_set_secondaryButton_m28C6A59332CA687CE688D2258FC38DE22D6AC91E (void);
-// 0x00000567 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_gripPressed()
+// 0x000005B5 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_gripPressed()
 extern void PXR_Controller_get_gripPressed_m30362F4FD8EDE9F9123E3CA48BEE136C8C67E6A9 (void);
-// 0x00000568 System.Void Unity.XR.PXR.Input.PXR_Controller::set_gripPressed(UnityEngine.InputSystem.Controls.ButtonControl)
+// 0x000005B6 System.Void Unity.XR.PXR.Input.PXR_Controller::set_gripPressed(UnityEngine.InputSystem.Controls.ButtonControl)
 extern void PXR_Controller_set_gripPressed_m71763CAD884A3B33764170F5F0CFF1D99DFE057A (void);
-// 0x00000569 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_thumbstickClicked()
+// 0x000005B7 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_thumbstickClicked()
 extern void PXR_Controller_get_thumbstickClicked_m83EE3B61CE2CCF17F21933EB7D67EFE9F94573F9 (void);
-// 0x0000056A System.Void Unity.XR.PXR.Input.PXR_Controller::set_thumbstickClicked(UnityEngine.InputSystem.Controls.ButtonControl)
+// 0x000005B8 System.Void Unity.XR.PXR.Input.PXR_Controller::set_thumbstickClicked(UnityEngine.InputSystem.Controls.ButtonControl)
 extern void PXR_Controller_set_thumbstickClicked_m9A8F4EEAE8C6ED0D86286438F966586982ECDAAD (void);
-// 0x0000056B UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_primaryTouched()
+// 0x000005B9 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_primaryTouched()
 extern void PXR_Controller_get_primaryTouched_m8CDA20AF867DDEE648FAF6BC3DF2361053BDBC75 (void);
-// 0x0000056C System.Void Unity.XR.PXR.Input.PXR_Controller::set_primaryTouched(UnityEngine.InputSystem.Controls.ButtonControl)
+// 0x000005BA System.Void Unity.XR.PXR.Input.PXR_Controller::set_primaryTouched(UnityEngine.InputSystem.Controls.ButtonControl)
 extern void PXR_Controller_set_primaryTouched_mFCA66AE2CC06449BA35CF656D90EDE3D966AB51B (void);
-// 0x0000056D UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_secondaryTouched()
+// 0x000005BB UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_secondaryTouched()
 extern void PXR_Controller_get_secondaryTouched_m9F0D1DBF7C43AE9D896C3343CE67A74E87496841 (void);
-// 0x0000056E System.Void Unity.XR.PXR.Input.PXR_Controller::set_secondaryTouched(UnityEngine.InputSystem.Controls.ButtonControl)
+// 0x000005BC System.Void Unity.XR.PXR.Input.PXR_Controller::set_secondaryTouched(UnityEngine.InputSystem.Controls.ButtonControl)
 extern void PXR_Controller_set_secondaryTouched_m0DE2DE20DFD4346683B7DA8BC23AD0E399B29E74 (void);
-// 0x0000056F UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_triggerTouched()
+// 0x000005BD UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_triggerTouched()
 extern void PXR_Controller_get_triggerTouched_m6F1A6F95C7C919659D237CB5C640E25DA8EA96C3 (void);
-// 0x00000570 System.Void Unity.XR.PXR.Input.PXR_Controller::set_triggerTouched(UnityEngine.InputSystem.Controls.ButtonControl)
+// 0x000005BE System.Void Unity.XR.PXR.Input.PXR_Controller::set_triggerTouched(UnityEngine.InputSystem.Controls.ButtonControl)
 extern void PXR_Controller_set_triggerTouched_mA990275EF2E9073F68BBB8ADB5369D95EBF6C87B (void);
-// 0x00000571 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_triggerPressed()
+// 0x000005BF UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_triggerPressed()
 extern void PXR_Controller_get_triggerPressed_m3AE6519DEB998BC6B96850948AF4A276FC7744F4 (void);
-// 0x00000572 System.Void Unity.XR.PXR.Input.PXR_Controller::set_triggerPressed(UnityEngine.InputSystem.Controls.ButtonControl)
+// 0x000005C0 System.Void Unity.XR.PXR.Input.PXR_Controller::set_triggerPressed(UnityEngine.InputSystem.Controls.ButtonControl)
 extern void PXR_Controller_set_triggerPressed_mBA2AE1C11FDC40F9B442A03BF5ABDD4E03CD50F6 (void);
-// 0x00000573 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_menu()
+// 0x000005C1 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_menu()
 extern void PXR_Controller_get_menu_m261B1CB355B142B89E5953A87D3E7556C6462DB2 (void);
-// 0x00000574 System.Void Unity.XR.PXR.Input.PXR_Controller::set_menu(UnityEngine.InputSystem.Controls.ButtonControl)
+// 0x000005C2 System.Void Unity.XR.PXR.Input.PXR_Controller::set_menu(UnityEngine.InputSystem.Controls.ButtonControl)
 extern void PXR_Controller_set_menu_m397FE1BD8E0BF5DBD2EFD8D54B64712FBC8DA3B2 (void);
-// 0x00000575 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_touchpadTouched()
+// 0x000005C3 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_touchpadTouched()
 extern void PXR_Controller_get_touchpadTouched_m81CEF28A725F37E525C6EFFA0A901EC288EEE06A (void);
-// 0x00000576 System.Void Unity.XR.PXR.Input.PXR_Controller::set_touchpadTouched(UnityEngine.InputSystem.Controls.ButtonControl)
+// 0x000005C4 System.Void Unity.XR.PXR.Input.PXR_Controller::set_touchpadTouched(UnityEngine.InputSystem.Controls.ButtonControl)
 extern void PXR_Controller_set_touchpadTouched_mA48BC0A5F85CA7CCE90D674788686FEEA819DB87 (void);
-// 0x00000577 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_thumbstickTouched()
+// 0x000005C5 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_thumbstickTouched()
 extern void PXR_Controller_get_thumbstickTouched_mF6E810E548A841C4079BC33F38DC480935217D29 (void);
-// 0x00000578 System.Void Unity.XR.PXR.Input.PXR_Controller::set_thumbstickTouched(UnityEngine.InputSystem.Controls.ButtonControl)
+// 0x000005C6 System.Void Unity.XR.PXR.Input.PXR_Controller::set_thumbstickTouched(UnityEngine.InputSystem.Controls.ButtonControl)
 extern void PXR_Controller_set_thumbstickTouched_m0B463E7C882BE0BCF3C2EC4184592F4FE2915BCC (void);
-// 0x00000579 UnityEngine.InputSystem.Controls.IntegerControl Unity.XR.PXR.Input.PXR_Controller::get_trackingState()
+// 0x000005C7 UnityEngine.InputSystem.Controls.IntegerControl Unity.XR.PXR.Input.PXR_Controller::get_trackingState()
 extern void PXR_Controller_get_trackingState_m25979BD7D830DA315E63D08C46A5E7576FBB8340 (void);
-// 0x0000057A System.Void Unity.XR.PXR.Input.PXR_Controller::set_trackingState(UnityEngine.InputSystem.Controls.IntegerControl)
+// 0x000005C8 System.Void Unity.XR.PXR.Input.PXR_Controller::set_trackingState(UnityEngine.InputSystem.Controls.IntegerControl)
 extern void PXR_Controller_set_trackingState_mF1EADC2F2370CFE052FE768D0D2153A2E02E7B51 (void);
-// 0x0000057B UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_isTracked()
+// 0x000005C9 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.PXR.Input.PXR_Controller::get_isTracked()
 extern void PXR_Controller_get_isTracked_m37FAD5A192C25ABEBDB2DE479156486ED0987D9F (void);
-// 0x0000057C System.Void Unity.XR.PXR.Input.PXR_Controller::set_isTracked(UnityEngine.InputSystem.Controls.ButtonControl)
+// 0x000005CA System.Void Unity.XR.PXR.Input.PXR_Controller::set_isTracked(UnityEngine.InputSystem.Controls.ButtonControl)
 extern void PXR_Controller_set_isTracked_mF0287B7DB690F5A2B8E25C3BDC1DE16FCCE50AC4 (void);
-// 0x0000057D UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_Controller::get_devicePosition()
+// 0x000005CB UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_Controller::get_devicePosition()
 extern void PXR_Controller_get_devicePosition_mE9EB6AA99A335D39127AB27312334CCC8809801F (void);
-// 0x0000057E System.Void Unity.XR.PXR.Input.PXR_Controller::set_devicePosition(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x000005CC System.Void Unity.XR.PXR.Input.PXR_Controller::set_devicePosition(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_Controller_set_devicePosition_m562E64776C74D7CBDAD7187648CFE4556C3E31DE (void);
-// 0x0000057F UnityEngine.InputSystem.Controls.QuaternionControl Unity.XR.PXR.Input.PXR_Controller::get_deviceRotation()
+// 0x000005CD UnityEngine.InputSystem.Controls.QuaternionControl Unity.XR.PXR.Input.PXR_Controller::get_deviceRotation()
 extern void PXR_Controller_get_deviceRotation_m015B6AAD33E320E9B7A7B127033B52235B8D2D13 (void);
-// 0x00000580 System.Void Unity.XR.PXR.Input.PXR_Controller::set_deviceRotation(UnityEngine.InputSystem.Controls.QuaternionControl)
+// 0x000005CE System.Void Unity.XR.PXR.Input.PXR_Controller::set_deviceRotation(UnityEngine.InputSystem.Controls.QuaternionControl)
 extern void PXR_Controller_set_deviceRotation_m503A649591D2CDD80E63CC554ED5E18C163FEBAF (void);
-// 0x00000581 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_Controller::get_deviceVelocity()
+// 0x000005CF UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_Controller::get_deviceVelocity()
 extern void PXR_Controller_get_deviceVelocity_mC20E37826E2EC3419F8BBCF40B16D822E01D241D (void);
-// 0x00000582 System.Void Unity.XR.PXR.Input.PXR_Controller::set_deviceVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x000005D0 System.Void Unity.XR.PXR.Input.PXR_Controller::set_deviceVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_Controller_set_deviceVelocity_m07B1E60C2E05BAC348337B6CFC707EF396A7CBBD (void);
-// 0x00000583 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_Controller::get_deviceAngularVelocity()
+// 0x000005D1 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_Controller::get_deviceAngularVelocity()
 extern void PXR_Controller_get_deviceAngularVelocity_mC34F8FF82BC94AC7CB666C891BE62CF04A96708C (void);
-// 0x00000584 System.Void Unity.XR.PXR.Input.PXR_Controller::set_deviceAngularVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x000005D2 System.Void Unity.XR.PXR.Input.PXR_Controller::set_deviceAngularVelocity(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_Controller_set_deviceAngularVelocity_mEAA3285BBAE35F305F0A173E0BEA1614215F4DBC (void);
-// 0x00000585 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_Controller::get_deviceAcceleration()
+// 0x000005D3 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_Controller::get_deviceAcceleration()
 extern void PXR_Controller_get_deviceAcceleration_mE872DCF5452932AA2B78E140C1EF68C450BCBEF3 (void);
-// 0x00000586 System.Void Unity.XR.PXR.Input.PXR_Controller::set_deviceAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x000005D4 System.Void Unity.XR.PXR.Input.PXR_Controller::set_deviceAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_Controller_set_deviceAcceleration_m75936935BAFD5B064E3A04040403FBB12EB278C2 (void);
-// 0x00000587 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_Controller::get_deviceAngularAcceleration()
+// 0x000005D5 UnityEngine.InputSystem.Controls.Vector3Control Unity.XR.PXR.Input.PXR_Controller::get_deviceAngularAcceleration()
 extern void PXR_Controller_get_deviceAngularAcceleration_m47A0E759039C9834DDADF974602E341E768D28F9 (void);
-// 0x00000588 System.Void Unity.XR.PXR.Input.PXR_Controller::set_deviceAngularAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
+// 0x000005D6 System.Void Unity.XR.PXR.Input.PXR_Controller::set_deviceAngularAcceleration(UnityEngine.InputSystem.Controls.Vector3Control)
 extern void PXR_Controller_set_deviceAngularAcceleration_m7B9AE9190AC2E9B1FED750D0D31E4F4FA52529D7 (void);
-// 0x00000589 System.Void Unity.XR.PXR.Input.PXR_Controller::FinishSetup()
+// 0x000005D7 System.Void Unity.XR.PXR.Input.PXR_Controller::FinishSetup()
 extern void PXR_Controller_FinishSetup_m1AB2BC938BE1A959E0FCBF95AD688DD29D41CE60 (void);
-// 0x0000058A System.Void Unity.XR.PXR.Input.PXR_Controller::.ctor()
+// 0x000005D8 System.Void Unity.XR.PXR.Input.PXR_Controller::.ctor()
 extern void PXR_Controller__ctor_m975517E0588C558DC467AEC9149789F2FF968A66 (void);
-static Il2CppMethodPointer s_methodPointers[1418] = 
+static Il2CppMethodPointer s_methodPointers[1496] = 
 {
 	PXR_ControllerPower_Start_m4E539BF389F6E310D6E806592C86841546C07389,
 	PXR_ControllerPower_Update_mC7CFEFF351E65A0C5488645967F6993958767FB7,
@@ -3403,6 +3559,7 @@ static Il2CppMethodPointer s_methodPointers[1418] =
 	EyeTrackingState_ToString_m2AD60ACA1567008895C29FF5E4257DB620C041FD,
 	EyeTrackingDataGetInfo_SetVersion_m6B5EBD3774D9D9A646D2A98630FDC901D6D209D6,
 	EyeTrackingDataGetInfo_ToString_mD1D326DD7C712CA8CC2C6E2875917FB1E4853D95,
+	PxrPose_ToString_m56AECB0515509056513D5C79F7E283C82BA2186B,
 	PerEyeData_SetVersion_mAEE3E3ED674ABDDB9837534B487AA754B1413E9C,
 	PerEyeData_ToString_mFAC778B00DA8D40E5380AD5E5EC1DE7B30EC15E8,
 	EyeTrackingData_SetVersion_m8B8172A6534979F56C88D0782416CED9D58D36DE,
@@ -3455,6 +3612,7 @@ static Il2CppMethodPointer s_methodPointers[1418] =
 	PXR_OverLay_GetLayerColorScale_m378D12C17E042C8B5A55246E07E719B78229F10C,
 	PXR_OverLay_GetLayerColorOffset_m93B075FE21B83EB83AA87238BFD5AA9425771E24,
 	PXR_OverLay_getPxrRectiLeft_m0782EB874E96F3CD32E4816379B4699FCF353976,
+	PXR_OverLay_getHDRFlags_m04FC9134612CE447FEC4DF37275DCA5280A15D49,
 	PXR_OverLay__ctor_m54E8D58071E6B0EDD8E7DC94178626427F8723C6,
 	PXR_OverLay__cctor_m43F2836BD8B5C708A7783443EBA95C2B26D0338C,
 	ExternalAndroidSurfaceObjectCreated__ctor_mDE0F32D99A3E8C227CEEF70B9462482A9C7D2F11,
@@ -3520,6 +3678,19 @@ static Il2CppMethodPointer s_methodPointers[1418] =
 	PXR_System_SetFaceTrackingStatus_m9F42BD9AAD3A2260D8CA3EB1070BD317CC8984FE,
 	PXR_System_SetTrackingOrigin_m6919F716DFAE1550E5A14EBCFA7FCF3AE0ED8F15,
 	PXR_System_GetTrackingOrigin_mCFBE84802B211B59B6EB4AE14456382EDDFC3A87,
+	PXR_System_StartBatteryReceiver_m9786ACD35748CFE13B817760838872FB343067CD,
+	PXR_System_StopBatteryReceiver_m3CAD4C568C4B147CD52B209FF9E6C34F30EC5396,
+	PXR_System_SetCommonBrightness_mA2BCF313D6244EF774EACA77E9B1D009E5F3B656,
+	PXR_System_GetCommonBrightness_mB0A7E7D2ABF951AAA928DE3A364FFF50C9C96559,
+	PXR_System_GetScreenBrightnessLevel_m7CF3E55ED554D69819AB06B86916609448E182E1,
+	PXR_System_SetScreenBrightnessLevel_mFAF5908CF88497C372BF65F14E073713653E8C21,
+	PXR_System_StartAudioReceiver_m03D12E6B63CF17DFCE250D38AA3AA69C9DE3E050,
+	PXR_System_StopAudioReceiver_m6FBC6FEF3EF5C0989A9E674F7A91C88C6F10E402,
+	PXR_System_GetMaxVolumeNumber_mD0BD5E5B91EF6BDBE9936FC03458F7BA046F331A,
+	PXR_System_GetCurrentVolumeNumber_m6FC4C2A4BA93C6D51243FD687EFF6F6CE464D851,
+	PXR_System_VolumeUp_mBDCD39362B19E679644888126CD4D378072B76F2,
+	PXR_System_VolumeDown_m601EECB34E9B77045778B40A27A67B772DDDC9F4,
+	PXR_System_SetVolumeNum_mE8A213B853347DCE018811F72CAE8B1D6CCD1946,
 	PXR_System__ctor_m5BB2C4B30A7F07FA438EA6CFDE948C64E61519E3,
 	PXR_HandPose_HandPoseEventCheck_m262169C81FE81DED5086039E5D643D40ACD3A6EE,
 	PXR_HandPose_HoldCheck_m98B6D83AC4B52D2B1AE0B1989EEEAA7B1C7E0E6A,
@@ -3550,6 +3721,39 @@ static Il2CppMethodPointer s_methodPointers[1418] =
 	DisplayOnly__ctor_m63D2B3B912D4E9B4DFCBA1619F625E5087CCA27A,
 	LabelAttribute__ctor_m1A3DF30606885D4AA2FA39257B425E763127F383,
 	PXR_HandPoseGenerator__ctor_m695B12E35762420240E7F3B25C78DCC4535FA649,
+	PXR_HandSubSystem_RegisterDescriptor_m437C57AFFC4FB93C152B493AC331D0925261506B,
+	PXR_HandSubSystem_OnCreate_m3597F5CA4C0F29D044B2B50E1025D34942C57470,
+	PXR_HandSubSystem_OnStart_m6FACE3BBAFCEE0180099C6C59118ADA7B3D1D607,
+	PXR_HandSubSystem_OnStop_m98CE8E44DD08D4F86C89DA0732E9A4EE238FD0FF,
+	PXR_HandSubSystem_OnDestroy_m29876A68EC14EF29DB4755FF3D1C07DA825E7B99,
+	PXR_HandSubSystem__ctor_m21990CAF099BBF12ACD8B5FB0BFD08F5D9DD3C7A,
+	PXRHandSubsystemProvider_Start_m56C23CB71A6602D26CCCDCE8558362DC28076D3D,
+	PXRHandSubsystemProvider_Stop_mF3EFE1BA5F8C880D632F24EA9042CBB65039A498,
+	PXRHandSubsystemProvider_Destroy_m806C56313DE4B29A805D766759E32DF449002E53,
+	PXRHandSubsystemProvider_Initialize_m74DECA890BA80DDEBA5B094C6D962B5B3F4D2048,
+	PXRHandSubsystemProvider_GetHandLayout_m31451EB5879E663D30EAE2A1DAECF631422A6AC4,
+	PXRHandSubsystemProvider_TryUpdateHands_m562A8B4DFC3AA4BAA6798B3803A65F77FC05389B,
+	PXRHandSubsystemProvider_CreateHands_mFDAED51B1FB365D2CE0D01EEA070877AAA48A49C,
+	PXRHandSubsystemProvider_DestroyHands_mF8595FC812AD5ABEF47AA7665C1179F5AF2631C7,
+	PXRHandSubsystemProvider_CreateXRHandJoint_m82CE39B346E4CD2379D3940D11DDBC1ADE032423,
+	PXRHandSubsystemProvider_PXRPosefToUnityPose_m236A0E33B1C75C5D2FC2036E80E8288E110CEF89,
+	PXRHandSubsystemProvider__ctor_m436ADFCA4DDF68C74EC9AEC03F156349ED17769D,
+	PicoAimHand_get_left_mD10BCD85D920B4D10F810A87709A7EA1B7A9439D,
+	PicoAimHand_set_left_m70CA741268C3899235CA93C4ED7DDE107F20241F,
+	PicoAimHand_get_right_mE9ED19957B8BAE6D0CC26696B75536AC37ECA034,
+	PicoAimHand_set_right_m55F9D6680F3AA129C2806192290374B7E41D18F2,
+	PicoAimHand_get_indexPressed_mAECAFB7E64B412B83F70CD98CB4A9DFA9E599566,
+	PicoAimHand_set_indexPressed_m043123C303DD2BA89D534D32FF3D7BDD48EE553C,
+	PicoAimHand_get_aimFlags_m76CB5F51D7D4D3FD655BA0E48B71C84611E98F70,
+	PicoAimHand_set_aimFlags_m40B6FAE731685EE9B5DF47FA6DF6D26A97883360,
+	PicoAimHand_get_pinchStrengthIndex_m13D28DFE38C8D0189445ADAFB4197C5DB3CEDF8F,
+	PicoAimHand_set_pinchStrengthIndex_m67E19AEC54FA954BCFA98C74DBCF881E354C3AED,
+	PicoAimHand_FinishSetup_m3F2E61C9753E8148644D5666780ECF47BB8A1AA8,
+	PicoAimHand_CreateHand_mF3496DE764112AD64E4C19639C0D8C5E23BDFD1B,
+	PicoAimHand_UpdateHand_mD562198578F39CE9178678047F20093194092150,
+	PicoAimHand_UpdateHand_m916826A02C28BD9F77D2B8206F21C09E2E53DFA5,
+	PicoAimHand_RegisterLayout_mF90543A64F427E3E39DEABB0E67DACF956DE9FC7,
+	PicoAimHand__ctor_m13D4282BFE6B2B46C626BC56698B9743DE089491,
 	InputLayoutLoader__cctor_mE38A9646B504861E263CE70F467A5124E53B4564,
 	InputLayoutLoader_RegisterInputLayouts_mB5BA679B6BA79A9F48D505ABB8409E7D957A26ED,
 	PXR_Loader_get_displaySubsystem_m30A10BADE8F305C3C8F9BE87EF844EC7206CF9BF,
@@ -3629,31 +3833,30 @@ static Il2CppMethodPointer s_methodPointers[1418] =
 	PXR_Manager_LoglevelChangedCallback_mCFB549A0C0B4F8C75254FB2C70B004939F6B6E90,
 	PXR_Manager_GetEyeCamera_m3BBC6BE141112F0F3D55240F6EE48655AA58FA6A,
 	PXR_Manager_MRCInitialize_mF1A92C13CD1EF2DED448017B247A9A81370E57EF,
-	PXR_Manager_BeginRendering_m3675A2730D6CBEC8146131A1A82CBC6BC4F20972,
-	PXR_Manager_EndRendering_m86D410CB5F202C35901C1DF546BFBC279AD99956,
-	PXR_Manager_OnPreRenderCallBack_m836BF032F56CFB9FF785D7C85E4CE743F087F8C5,
-	PXR_Manager_OnPostRenderCallBack_mDED6054F939136E034C540A0FC923EADC317E7EA,
+	PXR_Manager_CreateMRCOverlay_m24DC65B159654971F9C7E327341797E21A3C3008,
+	PXR_Manager_CopyAndSubmitMRCLayer_m0D61BF2FF9C918D6167566C025BA58F44D9F91D2,
 	PXR_Manager_UpdateMRCCam_m8F248784C749A9EE0D06014B219C49C32711F6A8,
 	PXR_Manager_CreateMRCCam_mD36CDAF112C76ABCE59B8C005CF4BB11C976B2BA,
 	PXR_Manager_InitBackgroungCam_m8F0DFDE61935D585F4D773F87B1D1DCBC70A82E9,
 	PXR_Manager_InitForegroundCam_mEB13975493B788BA1747161D2D99993C21951EB9,
+	PXR_Manager_CalibrationMRCCamCallback_m4A644C7300746E73AD7F82750C56395B9846177A,
 	PXR_Manager_CalibrationMRCCam_m85224BD3AE217F5A815E1088E316755D7A7F7EEB,
 	PXR_Manager_UPxr_ToVector3_m8469051FDEEB7B383B4B4DF25565F7FFFA2E6F2C,
 	PXR_Manager_UPxr_ToRotation_mE33CAFD1946EC3A07E9D288DAE399EB2F9D3536D,
 	PXR_Manager_Pxr_GetHeight_m5EDA15FAD2B6D228FCE2DDE807B80F417E3330A1,
 	PXR_Manager__ctor_mE906500FB8F9F3CB8853FFC827F8E8405F8F727E,
-	U3CSetFoveationLevelU3Ed__109__ctor_m38585965C858B3EA7564B40417553508671CBB81,
-	U3CSetFoveationLevelU3Ed__109_System_IDisposable_Dispose_m7EBEDA6A162D33BC8CFA958915387F02E9C2D193,
-	U3CSetFoveationLevelU3Ed__109_MoveNext_m581E11644C28F485D4854B5C73BC15DFBD93990E,
-	U3CSetFoveationLevelU3Ed__109_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF70919C15DC1E4E55DBBB1CE4431C3444639ED38,
-	U3CSetFoveationLevelU3Ed__109_System_Collections_IEnumerator_Reset_m08A7AAE743B28E4D002EDDB2FA3B3815712261DE,
-	U3CSetFoveationLevelU3Ed__109_System_Collections_IEnumerator_get_Current_mF7BAE4ACF937DC860783D400A0330C8AF1983CF1,
-	U3CStartXRU3Ed__112__ctor_m38E3AA01E470EE1D315975935FD7E1A0711E2DB7,
-	U3CStartXRU3Ed__112_System_IDisposable_Dispose_mDC05BE29A8AD2A5B1E1FD791132513CF57773A1A,
-	U3CStartXRU3Ed__112_MoveNext_m03C30E56C4688BB4551B773F7C1E6B937DAEE733,
-	U3CStartXRU3Ed__112_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7E3FB482621033E60395A2CC1BEF5FF46027338E,
-	U3CStartXRU3Ed__112_System_Collections_IEnumerator_Reset_m7466D8FACAFDFC935E0C220E6DCCD56E7FD21BE0,
-	U3CStartXRU3Ed__112_System_Collections_IEnumerator_get_Current_m4ADD9DCD081229BAB222A6DBD88C004D03A4C376,
+	U3CSetFoveationLevelU3Ed__111__ctor_m33C6DC9FB2CEEEC7DBA3E649BDFCF4D84B8690F5,
+	U3CSetFoveationLevelU3Ed__111_System_IDisposable_Dispose_m83F335405F37B56BAC2B41F915228703D86ABCF7,
+	U3CSetFoveationLevelU3Ed__111_MoveNext_mDD1CD5FD3B4473A04A17CE054D6D79C3BF7659D6,
+	U3CSetFoveationLevelU3Ed__111_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m91E03184953462DD48144597DF61A13A1E29E996,
+	U3CSetFoveationLevelU3Ed__111_System_Collections_IEnumerator_Reset_m5A0F27CCE7F90FF5F5EC3056731031060FBB2625,
+	U3CSetFoveationLevelU3Ed__111_System_Collections_IEnumerator_get_Current_m5382ABF2BC2F196FAA979182E90CB733EA6ACFCB,
+	U3CStartXRU3Ed__114__ctor_m8A33194E6724F1EA19AD12777F5F9845C05DB295,
+	U3CStartXRU3Ed__114_System_IDisposable_Dispose_m11E03B94479E96EA7B19F0F83FA98F3EF385A8F1,
+	U3CStartXRU3Ed__114_MoveNext_m4B41EE2EC7E2F0D3495D40A0A7EC06BC5081E146,
+	U3CStartXRU3Ed__114_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m774C3BB4D8156F1CDEE578965E2D16E36EE55CB7,
+	U3CStartXRU3Ed__114_System_Collections_IEnumerator_Reset_mD7369F512A182BA77D159654A1E73495900F8940,
+	U3CStartXRU3Ed__114_System_Collections_IEnumerator_get_Current_m855249890D097DED94AFB5C373BF0C814F4C353F,
 	PXR_OverlayManager_OnEnable_m00AB224CEC26B31C55A9AC7585A40CB73A796E43,
 	PXR_OverlayManager_OnDisable_mCC7D4460FDE1A079C7E49B67C362157ADF3AE1EA,
 	PXR_OverlayManager_Start_mA3223BD526874B20EA80B6EB0B24BB893A13EAC5,
@@ -3748,6 +3951,15 @@ static Il2CppMethodPointer s_methodPointers[1418] =
 	PXR_Plugin_Pxr_SubmitLayer_m303E03C20440235A8FE187692C4EA62EE891BA85,
 	PXR_Plugin_Pxr_SubmitLayerQuad_mFAF54480EBD44E1A15CB0637B3F51F93824B7551,
 	PXR_Plugin_Pxr_SubmitLayerQuad2_m3994DF3A403848A98FC6B3B5E53D684180F18F58,
+	PXR_Plugin_Pxr_GetLayerNextImageIndexByRender_mB5EB9CB26C074F0E8F827C9E03EB753FEA476F45,
+	PXR_Plugin_Pxr_SubmitLayerQuadByRender_mF13E4898D522D15D73817B8AEC7C06CDC1FD0BDD,
+	PXR_Plugin_Pxr_SubmitLayerQuad2ByRender_m4051B065AA946E29A687F1DE83E50E3D6F0E7E40,
+	PXR_Plugin_Pxr_SubmitLayerCylinderByRender_mE2661B343F3E7435B8EB660FBBC954AB8564D959,
+	PXR_Plugin_Pxr_SubmitLayerCylinder2ByRender_m8EA52194DA7032B938556F0AA580609B1FC97CE6,
+	PXR_Plugin_Pxr_SubmitLayerEquirectByRender_m03CF43DA5019C6478A736922181A1B7D4199B58D,
+	PXR_Plugin_Pxr_SubmitLayerEquirect2ByRender_m017840676B7AC0D9D05DE7E599DE8F4688D8E96C,
+	PXR_Plugin_Pxr_SubmitLayerCube2ByRender_m64EEE7A28DEA3EBA154A91A13E081AE661F32FA0,
+	PXR_Plugin_Pxr_SubmitLayerEac2ByRender_m41591A990E96599C68C8708838C3FD4E6D996B7C,
 	PXR_Plugin_Pxr_SubmitLayerCylinder_m6F4870B9FE0C16B7013A7EF27A7EB492CD064759,
 	PXR_Plugin_Pxr_SubmitLayerCylinder2_m113A641A9D08477AFCA79EE1BF6CC534FCBABC78,
 	PXR_Plugin_Pxr_SubmitLayerEquirect_m0125DDA1304E600180918A0E414F4A8DD166C60F,
@@ -3889,6 +4101,20 @@ static Il2CppMethodPointer s_methodPointers[1418] =
 	System_UPxr_EnableLipSync_mF7EC2C9F3D4DB5D0FCF62455115F594222E35A6E,
 	System_UPxr_GetFaceTrackingData_m83187817C0505355C810EF5C14F1FBCBDF067089,
 	System_UPxr_SetFaceTrackingStatus_m04A3A3E48AFB0A3D1BA4D63DE5792F15705B6ADD,
+	System_UPxr_StopBatteryReceiver_mC57A3CC4D6E50F6A963EE313892E86F73DEA81C1,
+	System_UPxr_StartBatteryReceiver_m283E2533903639FF2B6B4DFDBE2B45E1C994FF07,
+	System_UPxr_InitAudioDevice_mC5924F7770A87063876055EA6944D8A768D5A261,
+	System_UPxr_SetBrightness_mC29D393E1B86C7A60B13C85B4C9A2FA0560AB9B6,
+	System_UPxr_GetCurrentBrightness_mE848CB39AEBD6D414144BD5A9D3A9DA67C5757F6,
+	System_UPxr_GetScreenBrightnessLevel_mFA5DF92DE639F6E457478008B6A79F2299C9CE45,
+	System_UPxr_SetScreenBrightnessLevel_m417FBC8BA41D4A0544A9D84BC030CE62D67AB57C,
+	System_UPxr_StartAudioReceiver_mB67F5C0AEF7D0B6C32664098AB0F25AC42A7F003,
+	System_UPxr_StopAudioReceiver_m23115EB7BAE3D5479DB96D64E1395BF9DBA80F8C,
+	System_UPxr_GetMaxVolumeNumber_m0FAE8EA5889D5DF69EF9240790F1D47B37F8C23D,
+	System_UPxr_GetCurrentVolumeNumber_m21F49CE07E3B73105A375DA3F2B7550442DCF486,
+	System_UPxr_VolumeUp_mADF045E27D8FD57F514BF6C03EBA577AD070C484,
+	System_UPxr_VolumeDown_mEE043FF7E35F1578954C20DFAA28ED516D85E163,
+	System_UPxr_SetVolumeNum_mF0BCB2F1668FEE3FDCFE83517C2CD089B067F831,
 	System_UPxr_GetDeviceMode_mB7438C8C6D2CBAED4CD05DA980CCF5D6F20D7C78,
 	System_UPxr_GetConfigFloat_mB555532D64ABD5026565381F6893C585D0F7BBDB,
 	System_UPxr_GetConfigInt_mA7A7F397C61982657BAB047927316B5EE3B9F2C0,
@@ -3898,7 +4124,6 @@ static Il2CppMethodPointer s_methodPointers[1418] =
 	System_UPxr_SetSystemDisplayFrequency_m447D590976C5BCCF3619091E41118A0E1D845D0E,
 	System_UPxr_SetPerformanceLevels_m021CF2754DE49CDF314F5FB569F3D4C96554096C,
 	System_UPxr_GetPerformanceLevels_mA529CCC6F11B1CB135A926DF047080B866A5BBD3,
-	System_UPxr_GetDeviceSN_m18DD2B3B8A8E9E70DCE559E0501FB0E9D385BD58,
 	System_UPxr_Sleep_m2177C71BA6AB445F3CB7DC6E8B95EE0B65C05034,
 	System_UPxr_SetSecure_mDE1B999D4775736920490FF97280D0ABC3950249,
 	System_UPxr_GetColorRes_m73159A9BA10679C26AB3D0A5632E59FA001941E4,
@@ -3963,6 +4188,15 @@ static Il2CppMethodPointer s_methodPointers[1418] =
 	Render_UPxr_SubmitLayer_m79AB5F7C8750F259D6CFCA42549EAB537A3AEA3F,
 	Render_UPxr_SubmitLayerQuad_mA0D26063D0F3C323F738C40BD9094AE98588E3D3,
 	Render_UPxr_SubmitLayerQuad2_mAED1DF48B7562F11597A25AEDA9E4583787B7FE7,
+	Render_UPxr_GetLayerNextImageIndexByRender_mFB2C08171D78D6FA190205EDDF9F8153E6878CAC,
+	Render_UPxr_SubmitLayerQuadByRender_mBA2EFA11832440DD1D18D16A9875D1B9C4C9F5BD,
+	Render_UPxr_SubmitLayerQuad2ByRender_m3C24C44274FA518864780EDA6C7539C9C4549529,
+	Render_UPxr_SubmitLayerCylinderByRender_m2B0458B1BD79C735A14876148E414E10B200F1EF,
+	Render_UPxr_SubmitLayerCylinder2ByRender_m9B1B2FB154167C4E8AFC7E226B824D6DEF05E0A5,
+	Render_UPxr_SubmitLayerEquirectByRender_mD4E3EC7CD7C5411784584D9BBBF5F14709F31143,
+	Render_UPxr_SubmitLayerEquirect2ByRender_m708D8FE5C86795A10B9A29E90561B8B62CB06B46,
+	Render_UPxr_SubmitLayerCube2ByRender_mA78DE7CBDB2079D05F293269C539D73EBE3CE2A9,
+	Render_UPxr_SubmitLayerEac2ByRender_m9A7A001CA3622AB15E501D283796FF8631905AEB,
 	Render_UPxr_SubmitLayerCylinder_mA12DCA175B0370A024F2FCBB249EB10421A3D206,
 	Render_UPxr_SubmitLayerCylinder2_m6779FCCD6A2B5D0E699148D1F87605A259C41A56,
 	Render_UPxr_SubmitLayerEquirect_m482116A3C65934296BA4110E8D73CA679E95CE46,
@@ -4261,6 +4495,7 @@ extern void EyeTrackingState_SetVersion_m394F00668E40E4988603A838BBFD6021D6003AB
 extern void EyeTrackingState_ToString_m2AD60ACA1567008895C29FF5E4257DB620C041FD_AdjustorThunk (void);
 extern void EyeTrackingDataGetInfo_SetVersion_m6B5EBD3774D9D9A646D2A98630FDC901D6D209D6_AdjustorThunk (void);
 extern void EyeTrackingDataGetInfo_ToString_mD1D326DD7C712CA8CC2C6E2875917FB1E4853D95_AdjustorThunk (void);
+extern void PxrPose_ToString_m56AECB0515509056513D5C79F7E283C82BA2186B_AdjustorThunk (void);
 extern void PerEyeData_SetVersion_mAEE3E3ED674ABDDB9837534B487AA754B1413E9C_AdjustorThunk (void);
 extern void PerEyeData_ToString_mFAC778B00DA8D40E5380AD5E5EC1DE7B30EC15E8_AdjustorThunk (void);
 extern void EyeTrackingData_SetVersion_m8B8172A6534979F56C88D0782416CED9D58D36DE_AdjustorThunk (void);
@@ -4276,7 +4511,7 @@ extern void FaceTrackingDataGetInfo_SetVersion_m8245C719CB44DCDA768B8F91DF3AC31C
 extern void FaceTrackingDataGetInfo_ToString_m445FFFB222534EC49C8F9793D2F5D7A2827B063D_AdjustorThunk (void);
 extern void FaceTrackingData_SetVersion_m96E3A6E95E8B9B553CD7C69D4E1E5769FAC48DA8_AdjustorThunk (void);
 extern void FaceTrackingData_ToString_m4DA56C409BCB2087944EB74466D959680E40DA3A_AdjustorThunk (void);
-static Il2CppTokenAdjustorThunkPair s_adjustorThunks[38] = 
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[39] = 
 {
 	{ 0x060000A0, ArrayMetadata_get_ElementType_mF535F3F88F717AD441038D96CE16681DB372AFA1_AdjustorThunk },
 	{ 0x060000A1, ArrayMetadata_set_ElementType_mF334F84ACCC54D7E5E75AA4BA45FD61AC8C74434_AdjustorThunk },
@@ -4301,52 +4536,53 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[38] =
 	{ 0x06000246, EyeTrackingState_ToString_m2AD60ACA1567008895C29FF5E4257DB620C041FD_AdjustorThunk },
 	{ 0x06000247, EyeTrackingDataGetInfo_SetVersion_m6B5EBD3774D9D9A646D2A98630FDC901D6D209D6_AdjustorThunk },
 	{ 0x06000248, EyeTrackingDataGetInfo_ToString_mD1D326DD7C712CA8CC2C6E2875917FB1E4853D95_AdjustorThunk },
-	{ 0x06000249, PerEyeData_SetVersion_mAEE3E3ED674ABDDB9837534B487AA754B1413E9C_AdjustorThunk },
-	{ 0x0600024A, PerEyeData_ToString_mFAC778B00DA8D40E5380AD5E5EC1DE7B30EC15E8_AdjustorThunk },
-	{ 0x0600024B, EyeTrackingData_SetVersion_m8B8172A6534979F56C88D0782416CED9D58D36DE_AdjustorThunk },
-	{ 0x0600024C, EyeTrackingData_ToString_m7F366E235B0DE0918783121E519E40386D8C9D4E_AdjustorThunk },
-	{ 0x0600024D, EyePupilInfo_ToString_mA4928B7567ECCED18C192B8D0FE2CEEF550C365F_AdjustorThunk },
-	{ 0x0600024E, FaceTrackingStartInfo_SetVersion_m64D94392915CA7068814AAF14F3A5C307B508471_AdjustorThunk },
-	{ 0x0600024F, FaceTrackingStartInfo_ToString_m9A88D9F9B8379AF23213B7B3C24AD4B3F003101C_AdjustorThunk },
-	{ 0x06000250, FaceTrackingStopInfo_SetVersion_m7A6B9B0C4C2A0B5003E09325EB2E72D3D9929A25_AdjustorThunk },
-	{ 0x06000251, FaceTrackingStopInfo_ToString_mE0C4348A4F1913DCE98F5A86F8AFB2A5756D7D3F_AdjustorThunk },
-	{ 0x06000252, FaceTrackingState_SetVersion_mDBBE3B0B24F4BF74BF8A9885B48E6D86F76E3BE8_AdjustorThunk },
-	{ 0x06000253, FaceTrackingState_ToString_mCBF6961F82A068C82C9BF307EB9396A19AD12186_AdjustorThunk },
-	{ 0x06000254, FaceTrackingDataGetInfo_SetVersion_m8245C719CB44DCDA768B8F91DF3AC31CC2AD8DD8_AdjustorThunk },
-	{ 0x06000255, FaceTrackingDataGetInfo_ToString_m445FFFB222534EC49C8F9793D2F5D7A2827B063D_AdjustorThunk },
-	{ 0x06000256, FaceTrackingData_SetVersion_m96E3A6E95E8B9B553CD7C69D4E1E5769FAC48DA8_AdjustorThunk },
-	{ 0x06000257, FaceTrackingData_ToString_m4DA56C409BCB2087944EB74466D959680E40DA3A_AdjustorThunk },
+	{ 0x06000249, PxrPose_ToString_m56AECB0515509056513D5C79F7E283C82BA2186B_AdjustorThunk },
+	{ 0x0600024A, PerEyeData_SetVersion_mAEE3E3ED674ABDDB9837534B487AA754B1413E9C_AdjustorThunk },
+	{ 0x0600024B, PerEyeData_ToString_mFAC778B00DA8D40E5380AD5E5EC1DE7B30EC15E8_AdjustorThunk },
+	{ 0x0600024C, EyeTrackingData_SetVersion_m8B8172A6534979F56C88D0782416CED9D58D36DE_AdjustorThunk },
+	{ 0x0600024D, EyeTrackingData_ToString_m7F366E235B0DE0918783121E519E40386D8C9D4E_AdjustorThunk },
+	{ 0x0600024E, EyePupilInfo_ToString_mA4928B7567ECCED18C192B8D0FE2CEEF550C365F_AdjustorThunk },
+	{ 0x0600024F, FaceTrackingStartInfo_SetVersion_m64D94392915CA7068814AAF14F3A5C307B508471_AdjustorThunk },
+	{ 0x06000250, FaceTrackingStartInfo_ToString_m9A88D9F9B8379AF23213B7B3C24AD4B3F003101C_AdjustorThunk },
+	{ 0x06000251, FaceTrackingStopInfo_SetVersion_m7A6B9B0C4C2A0B5003E09325EB2E72D3D9929A25_AdjustorThunk },
+	{ 0x06000252, FaceTrackingStopInfo_ToString_mE0C4348A4F1913DCE98F5A86F8AFB2A5756D7D3F_AdjustorThunk },
+	{ 0x06000253, FaceTrackingState_SetVersion_mDBBE3B0B24F4BF74BF8A9885B48E6D86F76E3BE8_AdjustorThunk },
+	{ 0x06000254, FaceTrackingState_ToString_mCBF6961F82A068C82C9BF307EB9396A19AD12186_AdjustorThunk },
+	{ 0x06000255, FaceTrackingDataGetInfo_SetVersion_m8245C719CB44DCDA768B8F91DF3AC31CC2AD8DD8_AdjustorThunk },
+	{ 0x06000256, FaceTrackingDataGetInfo_ToString_m445FFFB222534EC49C8F9793D2F5D7A2827B063D_AdjustorThunk },
+	{ 0x06000257, FaceTrackingData_SetVersion_m96E3A6E95E8B9B553CD7C69D4E1E5769FAC48DA8_AdjustorThunk },
+	{ 0x06000258, FaceTrackingData_ToString_m4DA56C409BCB2087944EB74466D959680E40DA3A_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[1418] = 
+static const int32_t s_InvokerIndices[1496] = 
 {
-	5335,
-	5335,
-	5335,
-	5144,
-	4086,
-	5246,
-	4184,
-	5144,
-	4086,
-	5144,
-	4086,
-	5282,
-	4233,
-	5335,
-	5335,
-	5335,
-	5335,
-	5335,
-	5335,
-	4169,
-	5335,
-	5335,
-	4169,
-	5335,
-	4144,
-	4169,
-	1154,
-	1770,
+	10061,
+	10061,
+	10061,
+	9756,
+	7820,
+	9903,
+	7972,
+	9756,
+	7820,
+	9756,
+	7820,
+	9968,
+	8062,
+	10061,
+	10061,
+	10061,
+	10061,
+	10061,
+	10061,
+	7951,
+	10061,
+	10061,
+	7951,
+	10061,
+	7913,
+	7951,
+	2309,
+	3534,
 	0,
 	0,
 	0,
@@ -4368,1385 +4604,1463 @@ static const int32_t s_InvokerIndices[1418] =
 	0,
 	0,
 	0,
-	5202,
-	5144,
-	5144,
-	5144,
-	5144,
-	5144,
-	5144,
-	5144,
-	5230,
-	2915,
-	5202,
-	5144,
-	5230,
-	5144,
-	5144,
-	5230,
-	5230,
-	5144,
-	5144,
-	5144,
-	5144,
-	5144,
-	5144,
-	5144,
-	5144,
-	5144,
-	3695,
-	2280,
-	3689,
-	2079,
-	3689,
-	2079,
-	3695,
-	2280,
-	3689,
-	2079,
-	5335,
-	4086,
-	4107,
-	4144,
-	4145,
-	4169,
-	4169,
-	8667,
-	8671,
-	8674,
-	8675,
-	8678,
-	8449,
-	8513,
-	8572,
-	8606,
-	8678,
-	2275,
-	2280,
-	5335,
-	2915,
-	5230,
-	4169,
-	5230,
-	5144,
-	5161,
-	5202,
-	5203,
-	5230,
-	4086,
-	4107,
-	4144,
-	4145,
-	4169,
-	5230,
-	4169,
-	3465,
-	5335,
-	2915,
-	3465,
-	2079,
-	4169,
-	4144,
-	5230,
-	1120,
-	4144,
-	5230,
-	5230,
-	5230,
-	3695,
-	7682,
-	3465,
-	2915,
-	5335,
-	2915,
-	5202,
-	4144,
-	5230,
-	4169,
-	5230,
-	5230,
-	5159,
-	5230,
-	5230,
-	4169,
-	5144,
-	5335,
-	5335,
-	4144,
-	2079,
-	4144,
-	2079,
-	4169,
-	2280,
-	5230,
-	4169,
-	5144,
-	4086,
-	5144,
-	4086,
-	5230,
-	4169,
-	5144,
-	4086,
-	5230,
-	4169,
-	2277,
-	2280,
-	668,
-	4169,
-	0,
-	0,
-	0,
-	0,
-	2277,
-	3695,
-	1003,
-	3695,
-	0,
-	0,
-	0,
-	0,
-	2277,
-	5230,
-	1772,
-	3695,
-	9784,
-	8957,
-	8957,
-	8957,
-	7454,
-	7454,
-	7454,
-	8957,
-	9784,
-	9784,
-	6415,
-	6406,
-	8678,
-	7682,
-	8678,
-	8678,
-	8678,
-	0,
-	0,
-	0,
-	7454,
-	7454,
-	7454,
-	0,
-	0,
-	9784,
-	9784,
-	5335,
-	9784,
-	5335,
-	5230,
-	2280,
-	2280,
-	2280,
-	2280,
-	2280,
-	2280,
-	2280,
-	2280,
-	2280,
-	2280,
-	3695,
-	3695,
-	3695,
-	3695,
-	3695,
-	3695,
-	3695,
-	3695,
-	3695,
-	3695,
-	3695,
-	3695,
-	3695,
-	3695,
-	3695,
-	5230,
-	5230,
-	5230,
-	0,
-	0,
-	0,
-	0,
-	5144,
-	5144,
-	5144,
-	5144,
-	5144,
-	5144,
-	5144,
-	5144,
-	5161,
-	5202,
-	5202,
-	5203,
-	5230,
-	4086,
-	4107,
-	4144,
-	4144,
-	4145,
-	4169,
-	5230,
-	4169,
-	5144,
-	5144,
-	3689,
-	2079,
-	3465,
-	5335,
-	2915,
-	3465,
-	2079,
-	4169,
-	4144,
-	5202,
-	5144,
-	5230,
-	2275,
-	5230,
-	5144,
-	5144,
-	5230,
-	5230,
-	3695,
-	2280,
-	2280,
-	5335,
-	2915,
-	4169,
-	5230,
-	3689,
-	2079,
-	5230,
-	1120,
-	4144,
-	5335,
-	5144,
-	4086,
-	5144,
-	4086,
-	5144,
-	4086,
-	5144,
-	5144,
-	5202,
-	5230,
-	9784,
-	4169,
-	4169,
-	2265,
-	9746,
-	6400,
-	7678,
-	4169,
-	5335,
-	5144,
-	5335,
-	5144,
-	5335,
-	5202,
-	4144,
-	5144,
-	4086,
-	5230,
-	5144,
-	4086,
-	5144,
-	4086,
-	9784,
-	5335,
-	4169,
-	4169,
-	4144,
-	5335,
-	7652,
-	5335,
-	4169,
-	5335,
-	4086,
-	4169,
-	5335,
-	5230,
-	5335,
-	4086,
-	4104,
-	4107,
-	4233,
-	4144,
-	4145,
-	4169,
-	4269,
-	5335,
-	5335,
-	5335,
-	5335,
-	4169,
-	5335,
-	5144,
-	4086,
-	5144,
-	4086,
-	5144,
-	5202,
-	5230,
-	9784,
-	4169,
-	8567,
-	7630,
-	8813,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	8449,
-	5144,
-	5202,
-	5144,
-	5335,
-	2277,
-	2915,
-	1003,
-	2915,
-	5335,
-	5335,
-	5335,
-	5335,
-	5335,
-	5335,
-	4144,
-	5335,
-	5335,
-	5335,
-	4144,
-	5335,
-	5335,
-	4144,
-	4144,
-	1171,
-	1767,
-	3695,
-	8946,
-	9716,
-	9716,
-	9716,
-	7489,
-	7490,
-	8674,
-	8931,
-	8946,
-	9738,
-	8946,
-	8946,
-	5335,
-	8438,
-	8438,
-	8438,
-	8438,
-	8438,
-	8438,
-	8438,
-	8438,
-	8438,
-	8438,
-	8438,
-	8438,
-	8438,
-	5335,
-	9746,
-	7196,
-	9738,
-	6432,
-	5335,
-	5328,
-	5257,
-	5230,
-	9716,
-	9738,
-	7195,
-	7195,
-	9738,
-	8953,
-	6990,
-	9738,
-	8446,
-	7655,
-	7491,
-	7594,
-	6249,
-	8567,
-	7364,
-	8583,
-	6159,
-	5586,
-	5795,
-	5545,
-	8567,
-	8567,
-	7347,
-	5780,
-	8567,
-	8567,
-	6139,
-	7349,
-	8555,
-	7350,
-	8555,
-	8567,
-	8557,
-	9784,
-	6384,
-	5776,
-	5544,
-	5777,
-	7351,
-	8567,
-	8567,
-	8567,
-	6139,
-	5871,
-	6632,
-	7354,
-	7350,
-	7350,
-	8567,
-	8567,
-	8567,
-	8723,
-	9784,
-	5983,
-	8945,
-	5335,
-	5335,
-	5335,
-	5335,
-	5335,
-	5335,
-	5335,
-	5335,
-	5335,
-	9784,
-	6673,
-	8587,
-	6670,
-	7383,
-	6647,
-	6647,
-	7350,
-	7383,
-	7339,
-	7361,
-	6672,
-	8555,
-	6670,
-	7383,
-	6670,
-	7383,
-	8558,
-	8558,
-	6640,
+	9843,
+	9756,
+	9756,
+	9756,
+	9756,
+	9756,
+	9756,
+	9756,
+	9883,
+	5700,
+	9843,
+	9756,
+	9883,
+	9756,
+	9756,
+	9883,
+	9883,
+	9756,
+	9756,
+	9756,
+	9756,
+	9756,
+	9756,
+	9756,
+	9756,
+	9756,
+	7084,
+	4494,
+	7076,
+	4110,
+	7076,
+	4110,
+	7084,
+	4494,
+	7076,
+	4110,
+	10061,
+	7820,
+	7858,
+	7913,
+	7914,
+	7951,
+	7951,
+	15482,
+	15490,
+	15497,
+	15498,
+	15501,
+	15153,
+	15247,
+	15321,
+	15363,
+	15501,
+	4484,
+	4494,
+	10061,
+	5700,
+	9883,
+	7951,
+	9883,
+	9756,
+	9785,
+	9843,
+	9844,
+	9883,
+	7820,
+	7858,
+	7913,
+	7914,
+	7951,
+	9883,
+	7951,
 	6649,
-	6252,
-	8587,
-	7372,
-	7371,
-	7373,
-	7383,
-	6671,
-	7383,
-	7370,
-	7383,
-	9738,
-	6245,
-	8587,
-	7369,
-	7368,
-	5335,
-	9784,
-	5335,
-	3632,
-	3632,
-	3686,
-	4144,
-	5230,
-	4144,
-	5230,
-	4144,
-	5230,
-	4144,
-	5230,
-	4144,
-	5230,
-	4144,
-	5230,
-	5230,
-	4144,
-	5230,
-	4144,
-	5230,
-	4144,
-	5230,
-	4144,
-	5230,
-	4144,
-	5230,
-	9738,
-	6616,
-	8555,
-	8555,
-	7334,
-	7334,
-	7334,
-	8555,
-	6616,
-	6616,
-	9738,
-	6616,
-	8555,
-	8555,
-	7334,
-	7334,
-	5335,
-	3465,
-	5335,
-	5335,
-	2280,
-	5335,
-	4169,
-	5335,
-	5144,
-	5144,
-	2265,
-	5335,
-	5335,
-	5335,
-	5335,
-	2356,
-	841,
-	4233,
-	5329,
-	5329,
-	3738,
-	5335,
-	9784,
-	2277,
-	5335,
-	1772,
-	4169,
-	5335,
-	5335,
-	5335,
-	5335,
-	4233,
-	5230,
-	5335,
-	5335,
-	4144,
-	4144,
-	5335,
-	5335,
-	4144,
-	5335,
-	5144,
-	5230,
-	5335,
-	5230,
-	2277,
-	4144,
-	987,
-	4169,
-	2277,
-	4144,
-	987,
-	4169,
-	2277,
-	2059,
-	652,
-	4169,
-	2277,
-	2059,
-	652,
-	4169,
-	2277,
-	2059,
-	652,
-	4169,
-	2277,
-	4144,
-	987,
-	4169,
-	9746,
-	9724,
-	8446,
-	9738,
-	8964,
-	9772,
-	7334,
-	8567,
-	8946,
-	8946,
-	6918,
-	7352,
-	8567,
-	5778,
-	8567,
-	8953,
-	8945,
-	5335,
-	5335,
-	407,
-	5335,
-	5335,
-	421,
-	926,
-	2915,
-	2915,
-	148,
-	932,
-	2889,
-	1827,
-	213,
-	1828,
-	1037,
-	5335,
-	5335,
-	5335,
-	5335,
-	4144,
-	4144,
-	1202,
-	2320,
-	5335,
-	5335,
-	5335,
-	5335,
-	4169,
-	5335,
-	9784,
-	9784,
-	5230,
-	5230,
-	5144,
-	5144,
-	5144,
-	5144,
-	7494,
-	8953,
-	8953,
-	7650,
-	7650,
-	7650,
-	8953,
-	5230,
-	9784,
-	5335,
-	9784,
-	2277,
-	1795,
-	676,
-	3746,
-	9746,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	5335,
-	5230,
-	4086,
-	5335,
-	5230,
-	5335,
-	5335,
-	5335,
-	5335,
-	5335,
-	5335,
-	5335,
-	4086,
-	5335,
-	4144,
-	5230,
-	5335,
-	2316,
-	2316,
-	4169,
-	4169,
-	5335,
-	5335,
-	4169,
-	4169,
-	5335,
-	3856,
-	3856,
-	5335,
-	5335,
-	4144,
-	5335,
-	5144,
-	5230,
-	5335,
-	5230,
-	4144,
-	5335,
-	5144,
-	5230,
-	5335,
-	5230,
-	5335,
-	5335,
-	5335,
-	2316,
-	2316,
-	4169,
-	4169,
-	5335,
-	8558,
-	6640,
-	5773,
-	7334,
-	8555,
-	6671,
-	7383,
-	7383,
-	7383,
-	7383,
-	7383,
-	7383,
-	7334,
-	7334,
-	7334,
-	7334,
-	7383,
-	8555,
-	9738,
-	5634,
-	9738,
-	7334,
-	8587,
-	7334,
-	7334,
-	7334,
-	7383,
-	6250,
-	7383,
-	7161,
-	6245,
-	8587,
-	7334,
-	7334,
-	7334,
-	7383,
-	9738,
-	9738,
-	9738,
-	9738,
-	9740,
-	9784,
-	9784,
-	8567,
-	9738,
-	9738,
-	9738,
-	8446,
-	8446,
-	8946,
-	9716,
-	9784,
-	9716,
-	9784,
-	9716,
-	8967,
-	8957,
-	9772,
-	9716,
-	9716,
-	9738,
-	6376,
-	8959,
-	8953,
-	8946,
-	8946,
-	8946,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8946,
-	8953,
-	8569,
-	7350,
-	6634,
-	6137,
-	6639,
-	6639,
-	6634,
-	8567,
-	8569,
-	8580,
-	8581,
-	8574,
-	8575,
-	8577,
-	8578,
-	8573,
-	8576,
-	7642,
-	9738,
-	8563,
-	5585,
-	5583,
-	7350,
-	7350,
-	7352,
-	7353,
-	7356,
-	8567,
-	8558,
-	8558,
-	7155,
-	8583,
-	8555,
-	8446,
-	8555,
-	8567,
-	8555,
-	8953,
-	6630,
-	7655,
-	6248,
-	8586,
-	8555,
-	6669,
-	7347,
-	8586,
-	5775,
-	8555,
-	6249,
-	7381,
-	8567,
-	7364,
-	8583,
-	8567,
-	8665,
-	6644,
-	8567,
-	8567,
-	6157,
-	8567,
-	8567,
-	7350,
-	5871,
-	6632,
-	7354,
-	7350,
-	7350,
-	8567,
-	8567,
-	8567,
-	8946,
-	9738,
-	8946,
-	6633,
-	6618,
-	6133,
-	7346,
-	9716,
-	9716,
-	8558,
-	8558,
-	9716,
-	9784,
-	9738,
-	8558,
-	9738,
-	9738,
-	9738,
-	9738,
-	9738,
-	9716,
-	8555,
-	8555,
-	8558,
-	8561,
-	6641,
-	8953,
-	6991,
-	6432,
-	7365,
-	7352,
-	7350,
-	7349,
-	8567,
-	8555,
-	7350,
-	8555,
-	8572,
-	7350,
-	7337,
-	8953,
-	8945,
-	9716,
-	9784,
-	8446,
-	9784,
-	9784,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	8957,
-	9716,
-	9716,
-	9784,
-	9784,
-	9746,
-	8572,
-	9772,
-	9772,
-	9724,
-	8446,
-	7337,
-	8967,
-	8957,
-	9716,
-	9784,
-	9716,
-	8587,
-	8587,
-	8587,
-	8587,
-	8438,
-	8438,
-	8946,
-	9716,
-	8946,
-	8946,
-	8946,
-	6641,
-	8567,
-	9746,
-	8765,
-	8567,
-	7352,
-	8567,
-	7353,
-	8583,
-	7352,
-	8567,
-	9746,
-	9784,
-	8946,
-	8572,
-	8572,
-	8678,
-	8678,
-	8572,
-	8678,
-	7451,
-	7364,
-	8768,
-	7451,
-	8572,
-	9772,
-	9746,
-	9738,
-	7334,
-	9738,
-	8946,
-	9784,
-	8957,
-	8957,
-	9784,
-	7489,
-	7490,
-	8674,
-	8931,
-	8946,
-	9716,
-	9716,
-	9716,
-	8558,
-	9738,
-	8946,
-	9784,
-	9738,
-	8558,
-	9738,
-	9738,
-	9738,
-	9738,
-	9738,
-	8446,
-	8446,
-	8946,
-	9738,
-	6247,
-	5583,
-	5585,
-	5778,
-	8955,
-	8959,
-	7350,
-	6634,
-	6137,
-	6376,
-	8572,
-	6639,
-	6634,
-	8567,
-	8953,
-	8569,
-	8580,
-	8456,
-	8574,
-	8453,
-	8454,
-	8455,
-	8573,
-	8576,
-	7642,
-	8946,
-	6991,
-	6432,
-	8946,
-	8567,
-	8558,
-	9784,
-	9738,
-	9784,
-	8558,
-	8558,
-	9784,
-	8678,
-	9784,
-	6669,
-	7347,
-	7349,
-	8567,
-	8555,
-	7350,
-	8555,
-	8567,
-	8557,
-	6249,
-	9738,
-	8567,
-	7364,
-	8583,
-	9738,
-	8665,
-	5545,
-	5518,
-	8567,
-	8567,
-	5635,
-	8567,
-	8567,
-	6139,
-	5871,
-	6632,
-	7354,
-	7350,
-	7350,
-	8567,
-	8567,
-	8567,
-	8586,
-	9738,
-	6248,
-	7655,
-	9784,
-	5983,
-	8945,
-	8555,
-	8555,
-	7350,
-	7350,
-	9716,
-	9738,
-	7195,
-	7195,
-	9738,
-	6616,
-	8555,
-	8555,
-	7334,
-	7334,
-	7334,
-	8555,
-	6616,
-	6616,
-	9738,
-	6616,
-	8555,
-	8555,
-	7334,
-	7334,
-	7334,
-	8555,
-	6616,
-	6616,
-	9738,
-	6616,
-	8555,
-	8555,
-	7334,
-	7334,
-	9738,
-	6616,
-	8555,
-	8555,
-	7334,
-	7334,
-	8558,
-	6640,
-	5773,
-	7334,
-	8555,
-	7334,
-	7334,
-	7334,
-	6671,
-	7383,
-	7383,
-	7334,
-	7383,
-	8555,
-	7383,
-	7383,
-	7383,
-	7383,
-	9738,
-	5634,
-	9738,
-	7334,
-	8587,
-	7334,
-	7334,
-	7334,
-	7383,
-	6250,
-	7383,
-	6245,
-	8587,
-	7334,
-	7334,
-	7334,
-	7383,
-	9738,
-	8438,
-	9784,
-	9746,
-	5335,
-	5322,
-	5322,
-	5322,
-	5335,
-	5335,
-	9784,
-	7682,
-	7682,
-	7682,
-	7682,
-	7682,
-	7682,
-	5335,
-	9784,
-	9746,
-	3695,
-	4169,
-	1022,
-	964,
-	9746,
-	3780,
-	3465,
-	5335,
-	9784,
-	5202,
-	4144,
-	5202,
-	4144,
-	5202,
-	4144,
-	5335,
-	1111,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5335,
-	5335,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5230,
-	4169,
-	5335,
-	5335,
+	10061,
+	5700,
+	6649,
+	4110,
+	7951,
+	7913,
+	9883,
+	2235,
+	7913,
+	9883,
+	9883,
+	9883,
+	7084,
+	14211,
+	6649,
+	5700,
+	10061,
+	5700,
+	9843,
+	7913,
+	9883,
+	7951,
+	9883,
+	9883,
+	9782,
+	9883,
+	9883,
+	7951,
+	9756,
+	10061,
+	10061,
+	7913,
+	4110,
+	7913,
+	4110,
+	7951,
+	4494,
+	9883,
+	7951,
+	9756,
+	7820,
+	9756,
+	7820,
+	9883,
+	7951,
+	9756,
+	7820,
+	9883,
+	7951,
+	4487,
+	4494,
+	1421,
+	7951,
+	0,
+	0,
+	0,
+	0,
+	4487,
+	7084,
+	2044,
+	7084,
+	0,
+	0,
+	0,
+	0,
+	4487,
+	9883,
+	3537,
+	7084,
+	16838,
+	15911,
+	15911,
+	15911,
+	13726,
+	13726,
+	13726,
+	15911,
+	16838,
+	16838,
+	12000,
+	11987,
+	15501,
+	14211,
+	15501,
+	15501,
+	15501,
+	0,
+	0,
+	0,
+	13726,
+	13726,
+	13726,
+	0,
+	0,
+	16838,
+	16838,
+	10061,
+	16838,
+	10061,
+	9883,
+	4494,
+	4494,
+	4494,
+	4494,
+	4494,
+	4494,
+	4494,
+	4494,
+	4494,
+	4494,
+	7084,
+	7084,
+	7084,
+	7084,
+	7084,
+	7084,
+	7084,
+	7084,
+	7084,
+	7084,
+	7084,
+	7084,
+	7084,
+	7084,
+	7084,
+	9883,
+	9883,
+	9883,
+	0,
+	0,
+	0,
+	0,
+	9756,
+	9756,
+	9756,
+	9756,
+	9756,
+	9756,
+	9756,
+	9756,
+	9785,
+	9843,
+	9843,
+	9844,
+	9883,
+	7820,
+	7858,
+	7913,
+	7913,
+	7914,
+	7951,
+	9883,
+	7951,
+	9756,
+	9756,
+	7076,
+	4110,
+	6649,
+	10061,
+	5700,
+	6649,
+	4110,
+	7951,
+	7913,
+	9843,
+	9756,
+	9883,
+	4484,
+	9883,
+	9756,
+	9756,
+	9883,
+	9883,
+	7084,
+	4494,
+	4494,
+	10061,
+	5700,
+	7951,
+	9883,
+	7076,
+	4110,
+	9883,
+	2235,
+	7913,
+	10061,
+	9756,
+	7820,
+	9756,
+	7820,
+	9756,
+	7820,
+	9756,
+	9756,
+	9843,
+	9883,
+	16838,
+	7951,
+	7951,
+	4465,
+	16787,
+	11976,
+	14203,
+	7951,
+	10061,
+	9756,
+	10061,
+	9756,
+	10061,
+	9843,
+	7913,
+	9756,
+	7820,
+	9883,
+	9756,
+	7820,
+	9756,
+	7820,
+	16838,
+	10061,
+	7951,
+	7951,
+	7913,
+	10061,
+	14114,
+	10061,
+	7951,
+	10061,
+	7820,
+	7951,
+	10061,
+	9883,
+	10061,
+	7820,
+	7852,
+	7858,
+	8062,
+	7913,
+	7914,
+	7951,
+	8132,
+	10061,
+	10061,
+	10061,
+	10061,
+	7951,
+	10061,
+	9756,
+	7820,
+	9756,
+	7820,
+	9756,
+	9843,
+	9883,
+	16838,
+	7951,
+	15316,
+	14085,
+	15750,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	15153,
+	9756,
+	9843,
+	9756,
+	10061,
+	4487,
+	5700,
+	2044,
+	5700,
+	10061,
+	10061,
+	10061,
+	10061,
+	10061,
+	10061,
+	7913,
+	10061,
+	10061,
+	10061,
+	7913,
+	10061,
+	10061,
+	7913,
+	7913,
+	2333,
+	3530,
+	7084,
+	15900,
+	16751,
+	16751,
+	16751,
+	13772,
+	13773,
+	15497,
+	15880,
+	15900,
+	16778,
+	15900,
+	15900,
+	10061,
+	15139,
+	15139,
+	15139,
+	15139,
+	15139,
+	15139,
+	15139,
+	15139,
+	15139,
+	15139,
+	15139,
+	15139,
+	15139,
+	10061,
+	16787,
+	13318,
+	16778,
+	12033,
+	10061,
+	10051,
+	9917,
+	9883,
+	16751,
+	16778,
+	13317,
+	13317,
+	16778,
+	15907,
+	12951,
+	16778,
+	15149,
+	14119,
+	13774,
+	13967,
+	11736,
+	15316,
+	13580,
+	15335,
+	11578,
+	10525,
+	10902,
+	10429,
+	15316,
+	15316,
+	13556,
+	10857,
+	15316,
+	15316,
+	11527,
+	13560,
+	15301,
+	13562,
+	15301,
+	15316,
+	15304,
+	16838,
+	11951,
+	10850,
+	10428,
+	10851,
+	13563,
+	15316,
+	15316,
+	15316,
+	11527,
+	11036,
+	12351,
+	13566,
+	13562,
+	13562,
+	15316,
+	15316,
+	15316,
+	15559,
+	16838,
+	11241,
+	15899,
+	10061,
+	10061,
+	10061,
+	10061,
+	10061,
+	10061,
+	10061,
+	10061,
+	10061,
+	16838,
+	12410,
+	15340,
+	12406,
+	13608,
+	12375,
+	12375,
+	13562,
+	13608,
+	13546,
+	13577,
+	12408,
+	15301,
+	12406,
+	13608,
+	12406,
+	13608,
+	15305,
+	15305,
+	12363,
+	12378,
+	11739,
+	15340,
+	13591,
+	13590,
+	13592,
+	13608,
+	12407,
+	13608,
+	13589,
+	13608,
+	16778,
+	11731,
+	15340,
+	13588,
+	13587,
+	10061,
+	16838,
+	10061,
+	6967,
+	6967,
+	7071,
+	7913,
+	9883,
+	7913,
+	9883,
+	7913,
+	9883,
+	7913,
+	9883,
+	9883,
+	7913,
+	9883,
+	7913,
+	9883,
+	9883,
+	7913,
+	9883,
+	7913,
+	9883,
+	7913,
+	9883,
+	7913,
+	9883,
+	7913,
+	9883,
+	16778,
+	12331,
+	15301,
+	15301,
+	13541,
+	13541,
+	13541,
+	15301,
+	12331,
+	12331,
+	16778,
+	12331,
+	15301,
+	15301,
+	13541,
+	13541,
+	10061,
+	6649,
+	10061,
+	10061,
+	4494,
+	10061,
+	7951,
+	10061,
+	9756,
+	9756,
+	4465,
+	10061,
+	10061,
+	10061,
+	10061,
+	4652,
+	1752,
+	8062,
+	10053,
+	10053,
+	7158,
+	10042,
+	10061,
+	16838,
+	4487,
+	10061,
+	3537,
+	7951,
+	10061,
+	10061,
+	10061,
+	10061,
+	8062,
+	9883,
+	10061,
+	10061,
+	7913,
+	7913,
+	10061,
+	10061,
+	7913,
+	10061,
+	9756,
+	9883,
+	10061,
+	9883,
+	4487,
+	7913,
+	2018,
+	7951,
+	4487,
+	7913,
+	2018,
+	7951,
+	4487,
+	4079,
+	1386,
+	7951,
+	4487,
+	4079,
+	1386,
+	7951,
+	4487,
+	4079,
+	1386,
+	7951,
+	4487,
+	7913,
+	2018,
+	7951,
+	16787,
+	16763,
+	15149,
+	16778,
+	15920,
+	16818,
+	13541,
+	15316,
+	15900,
+	15900,
+	12826,
+	13564,
+	15316,
+	10852,
+	15316,
+	15907,
+	15899,
+	15153,
+	16751,
+	15149,
+	16778,
+	16787,
+	14111,
+	15153,
+	16751,
+	16778,
+	16778,
+	16751,
+	16751,
+	15149,
+	10061,
+	10061,
+	907,
+	10061,
+	10061,
+	941,
+	1888,
+	5700,
+	5700,
+	313,
+	1898,
+	5662,
+	3647,
+	473,
+	3648,
+	2098,
+	10061,
+	10061,
+	10061,
+	10061,
+	7913,
+	7913,
+	2438,
+	4587,
+	10061,
+	10061,
+	10061,
+	10061,
+	7951,
+	10061,
+	16838,
+	10061,
+	10061,
+	10061,
+	10061,
+	10061,
+	10061,
+	10061,
+	10061,
+	16838,
+	7613,
+	499,
+	10061,
+	10061,
+	2513,
+	7133,
+	10061,
+	16787,
+	15911,
+	16787,
+	15911,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	10061,
+	15518,
+	1526,
+	4030,
+	16838,
+	10061,
+	16838,
+	16838,
+	9883,
+	9883,
+	9756,
+	9756,
+	9756,
+	9756,
+	13779,
+	15907,
+	15907,
+	14111,
+	14111,
+	14111,
+	15907,
+	9883,
+	16838,
+	10061,
+	16838,
+	4487,
+	3580,
+	1435,
+	7166,
+	16787,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	10061,
+	9883,
+	7820,
+	10061,
+	9883,
+	10061,
+	10061,
+	10061,
+	10061,
+	10061,
+	10061,
+	10061,
+	7820,
+	10061,
+	7913,
+	9883,
+	10061,
+	10061,
+	10061,
+	10061,
+	10061,
+	7951,
+	7951,
+	10061,
+	10061,
+	7380,
+	7380,
+	10061,
+	10061,
+	7913,
+	10061,
+	9756,
+	9883,
+	10061,
+	9883,
+	7913,
+	10061,
+	9756,
+	9883,
+	10061,
+	9883,
+	10061,
+	10061,
+	10061,
+	4581,
+	4581,
+	7951,
+	7951,
+	10061,
+	15305,
+	12363,
+	10846,
+	13541,
+	15301,
+	12407,
+	13608,
+	13608,
+	13608,
+	13608,
+	13608,
+	13608,
+	13541,
+	13541,
+	13541,
+	13541,
+	13608,
+	15301,
+	16778,
+	10629,
+	16778,
+	13541,
+	15340,
+	13541,
+	13541,
+	13541,
+	13608,
+	11737,
+	13608,
+	13262,
+	11731,
+	15340,
+	13541,
+	13541,
+	13541,
+	13608,
+	16778,
+	16778,
+	16778,
+	16778,
+	16780,
+	16838,
+	16838,
+	15316,
+	16778,
+	16778,
+	16778,
+	15149,
+	15149,
+	15900,
+	16751,
+	16838,
+	16751,
+	16838,
+	16751,
+	15924,
+	15911,
+	16818,
+	16751,
+	16751,
+	16778,
+	11939,
+	15914,
+	15907,
+	15900,
+	15900,
+	15900,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15900,
+	15907,
+	15318,
+	13562,
+	12356,
+	11525,
+	12361,
+	12361,
+	12356,
+	15316,
+	15318,
+	15329,
+	15330,
+	13562,
+	15318,
+	15318,
+	15318,
+	15318,
+	15318,
+	15318,
+	15318,
+	15318,
+	15323,
+	15324,
+	15326,
+	15327,
+	15322,
+	15325,
+	14102,
+	16778,
+	15312,
+	10520,
+	10518,
+	13562,
+	13562,
+	13564,
+	13565,
+	13569,
+	15316,
+	15305,
+	15305,
+	13256,
+	15335,
+	15301,
+	15149,
+	15301,
+	15316,
+	15301,
+	15907,
+	12347,
+	14119,
+	11735,
+	15339,
+	15301,
+	12405,
+	13556,
+	15339,
+	10849,
+	15301,
+	11736,
+	13606,
+	15316,
+	13580,
+	15335,
+	15316,
+	15478,
+	12371,
+	15316,
+	15316,
+	11576,
+	15316,
+	15316,
+	13562,
+	11036,
+	12351,
+	13566,
+	13562,
+	13562,
+	15316,
+	15316,
+	15316,
+	15900,
+	16778,
+	15900,
+	12353,
+	12333,
+	11519,
+	13554,
+	16751,
+	16751,
+	15305,
+	15305,
+	16751,
+	16838,
+	16778,
+	15305,
+	16778,
+	16778,
+	16778,
+	16778,
+	16778,
+	16751,
+	15301,
+	15301,
+	15305,
+	15310,
+	12367,
+	15907,
+	12953,
+	12033,
+	13581,
+	13564,
+	13562,
+	13560,
+	15316,
+	15301,
+	13562,
+	15301,
+	15321,
+	13562,
+	13544,
+	15907,
+	15899,
+	16751,
+	16838,
+	15149,
+	16838,
+	16838,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	15911,
+	16751,
+	16751,
+	16838,
+	16838,
+	16787,
+	15321,
+	16818,
+	16818,
+	16763,
+	15149,
+	13544,
+	15924,
+	15911,
+	16751,
+	16838,
+	16751,
+	15340,
+	15340,
+	15340,
+	15340,
+	15139,
+	15139,
+	15900,
+	16751,
+	15900,
+	15900,
+	15900,
+	12367,
+	15316,
+	16751,
+	15153,
+	16751,
+	15149,
+	16778,
+	16787,
+	14111,
+	15153,
+	16751,
+	16778,
+	16778,
+	16751,
+	16751,
+	15149,
+	16787,
+	15623,
+	15316,
+	13564,
+	15316,
+	13565,
+	15335,
+	13564,
+	15316,
+	16838,
+	15900,
+	15321,
+	15321,
+	15501,
+	15501,
+	15321,
+	15501,
+	13720,
+	13580,
+	15626,
+	13720,
+	15321,
+	16818,
+	16787,
+	16778,
+	13541,
+	16778,
+	15900,
+	16838,
+	15911,
+	15911,
+	16838,
+	13772,
+	13773,
+	15497,
+	15880,
+	15900,
+	16751,
+	16751,
+	16751,
+	15305,
+	16778,
+	15900,
+	16838,
+	16778,
+	15305,
+	16778,
+	16778,
+	16778,
+	16778,
+	16778,
+	15149,
+	15149,
+	15900,
+	16778,
+	11733,
+	10518,
+	10520,
+	10852,
+	15909,
+	15914,
+	13562,
+	12356,
+	11525,
+	11939,
+	15321,
+	12361,
+	12356,
+	15316,
+	15907,
+	15318,
+	15329,
+	15161,
+	13317,
+	15151,
+	15151,
+	15151,
+	15151,
+	15151,
+	15151,
+	15151,
+	15151,
+	15323,
+	15158,
+	15159,
+	15160,
+	15322,
+	15325,
+	14102,
+	15900,
+	12953,
+	12033,
+	15900,
+	15316,
+	15305,
+	16838,
+	16778,
+	16838,
+	15305,
+	15305,
+	16838,
+	15501,
+	16838,
+	12405,
+	13556,
+	13560,
+	15316,
+	15301,
+	13562,
+	15301,
+	15316,
+	15304,
+	11736,
+	16778,
+	15316,
+	13580,
+	15335,
+	16778,
+	15478,
+	10429,
+	10384,
+	15316,
+	15316,
+	10633,
+	15316,
+	15316,
+	11527,
+	11036,
+	12351,
+	13566,
+	13562,
+	13562,
+	15316,
+	15316,
+	15316,
+	15339,
+	16778,
+	11735,
+	14119,
+	16838,
+	11241,
+	15899,
+	15301,
+	15301,
+	13562,
+	13562,
+	16751,
+	16778,
+	13317,
+	13317,
+	16778,
+	12331,
+	15301,
+	15301,
+	13541,
+	13541,
+	13541,
+	15301,
+	12331,
+	12331,
+	16778,
+	12331,
+	15301,
+	15301,
+	13541,
+	13541,
+	13541,
+	15301,
+	12331,
+	12331,
+	16778,
+	12331,
+	15301,
+	15301,
+	13541,
+	13541,
+	16778,
+	12331,
+	15301,
+	15301,
+	13541,
+	13541,
+	15305,
+	12363,
+	10846,
+	13541,
+	15301,
+	13541,
+	13541,
+	13541,
+	12407,
+	13608,
+	13608,
+	13541,
+	13608,
+	15301,
+	13608,
+	13608,
+	13608,
+	13608,
+	16778,
+	10629,
+	16778,
+	13541,
+	15340,
+	13541,
+	13541,
+	13541,
+	13608,
+	11737,
+	13608,
+	11731,
+	15340,
+	13541,
+	13541,
+	13541,
+	13608,
+	16778,
+	15139,
+	16838,
+	16787,
+	10061,
+	10041,
+	10041,
+	10041,
+	10061,
+	10061,
+	16838,
+	14211,
+	14211,
+	14211,
+	14211,
+	14211,
+	14211,
+	10061,
+	16838,
+	16787,
+	7084,
+	7951,
+	2075,
+	1969,
+	16787,
+	7254,
+	6649,
+	10061,
+	16838,
+	9843,
+	7913,
+	9843,
+	7913,
+	9843,
+	7913,
+	10061,
+	2221,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	10061,
+	10061,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	9883,
+	7951,
+	10061,
+	10061,
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[7] = 
 {
-	{ 0x060002E4, 2,  (void**)&PXR_Loader_ConvertRotationWith2Vector_mDAD87DDA7800E798BB209776C88E47FC09186F0B_RuntimeMethod_var, 0 },
-	{ 0x060002E5, 6,  (void**)&PXR_Loader_InputDeviceChangedFunction_m88319157AC43A8643A3DD83DD83F6337E191767F_RuntimeMethod_var, 0 },
-	{ 0x060002E6, 8,  (void**)&PXR_Loader_SeethroughStateChangedFunction_m6105E68F3C584031EE244ACA4796D120E8C4AD56_RuntimeMethod_var, 0 },
-	{ 0x060002E7, 5,  (void**)&PXR_Loader_FitnessBandNumberOfConnectionsFunction_m9E484043BF0A161FF3BAF705A582B1FC8612A562_RuntimeMethod_var, 0 },
-	{ 0x060002E8, 4,  (void**)&PXR_Loader_FitnessBandElectricQuantityFunction_mA11D0DD6492D810FF69F8757DB71A2591F653D79_RuntimeMethod_var, 0 },
-	{ 0x060002E9, 3,  (void**)&PXR_Loader_FitnessBandAbnormalCalibrationDataFunction_mE56CCB0EC3CE54A02E262B9FE621393F4A71167F_RuntimeMethod_var, 0 },
-	{ 0x060002EA, 7,  (void**)&PXR_Loader_LoglevelChangedFunction_m93848D4D81037B07D6AF8B6169E45E3389C93AB1_RuntimeMethod_var, 0 },
+	{ 0x06000314, 8,  (void**)&PXR_Loader_ConvertRotationWith2Vector_mDAD87DDA7800E798BB209776C88E47FC09186F0B_RuntimeMethod_var, 0 },
+	{ 0x06000315, 12,  (void**)&PXR_Loader_InputDeviceChangedFunction_m88319157AC43A8643A3DD83DD83F6337E191767F_RuntimeMethod_var, 0 },
+	{ 0x06000316, 14,  (void**)&PXR_Loader_SeethroughStateChangedFunction_m6105E68F3C584031EE244ACA4796D120E8C4AD56_RuntimeMethod_var, 0 },
+	{ 0x06000317, 11,  (void**)&PXR_Loader_FitnessBandNumberOfConnectionsFunction_m9E484043BF0A161FF3BAF705A582B1FC8612A562_RuntimeMethod_var, 0 },
+	{ 0x06000318, 10,  (void**)&PXR_Loader_FitnessBandElectricQuantityFunction_mA11D0DD6492D810FF69F8757DB71A2591F653D79_RuntimeMethod_var, 0 },
+	{ 0x06000319, 9,  (void**)&PXR_Loader_FitnessBandAbnormalCalibrationDataFunction_mE56CCB0EC3CE54A02E262B9FE621393F4A71167F_RuntimeMethod_var, 0 },
+	{ 0x0600031A, 13,  (void**)&PXR_Loader_LoglevelChangedFunction_m93848D4D81037B07D6AF8B6169E45E3389C93AB1_RuntimeMethod_var, 0 },
 };
 static const Il2CppTokenRangePair s_rgctxIndices[7] = 
 {
@@ -5809,9 +6123,9 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_PICO_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_PICO_CodeGenModule = 
 {
 	"Unity.XR.PICO.dll",
-	1418,
+	1496,
 	s_methodPointers,
-	38,
+	39,
 	s_adjustorThunks,
 	s_InvokerIndices,
 	7,

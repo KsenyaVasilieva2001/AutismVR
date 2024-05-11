@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f94d9121e3b38bf4c8b05c14ecc97914, type: 3}
   m_Name: NetworkConfig
   m_EditorClassIdentifier: 
-  <IsServer>k__BackingField: 0
+  <IsServer>k__BackingField: 1

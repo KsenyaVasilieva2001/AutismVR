@@ -31215,7 +31215,7 @@ IL_0074:
 		L_36 = Sprite_get_texture_mEEA6640C1B5D38F84CB64C775B201D7D9F48E045(L_35, NULL);
 		NullCheck(L_36);
 		int32_t L_37;
-		L_37 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_36);
+		L_37 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_36);
 		V_3 = ((float)(((float)il2cpp_codegen_add(L_32, L_34))/((float)L_37)));
 		// float y = (spriteRect.y + local.y) / activeSprite.texture.height;
 		float L_38;
@@ -31229,7 +31229,7 @@ IL_0074:
 		L_42 = Sprite_get_texture_mEEA6640C1B5D38F84CB64C775B201D7D9F48E045(L_41, NULL);
 		NullCheck(L_42);
 		int32_t L_43;
-		L_43 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_42);
+		L_43 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_42);
 		V_4 = ((float)(((float)il2cpp_codegen_add(L_38, L_40))/((float)L_43)));
 	}
 	try

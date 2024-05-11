@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -19,9 +20,23 @@ namespace UI
 
         [SerializeField] private List<GameObject> objToShow;
         [SerializeField] private List<GameObject> objToHide;
+        [SerializeField] private TMP_InputField ipAddress;
         
+        public void AppendText()
+        {
+            ipAddress.text += name;
+        }
 
-
+        public void ClearAll()
+        {
+            ipAddress.text = "";
+        }
+        public void ClearPrev()
+        {
+            ipAddress.text = ipAddress.text.Remove(ipAddress.text.Length - 1);
+        }
+        
+        
         private void Awake()
         {
             _text = GetComponent<Button>().GetComponentInChildren<TextMeshProUGUI>();
@@ -39,22 +54,7 @@ namespace UI
                 obj.SetActive(true);
             }
         }
-
-        public void OnPointerEnter()
-        {
-            _buttonImage.color = _highlightColor;
-            if (_text != null)
-            {
-                _text.color = _highlightTextColor;
-            }
-        }
-        public void OnPointerExit()
-        {
-            _buttonImage.color = _normalColor;
-            if (_text != null)
-            {
-                _text.color = _normalTextColor;
-            }
-        }
+        
+            
     }
 }

@@ -38,7 +38,7 @@ namespace VR
             if (IsMove())
             {
                 _timer.PlayMoveTimer();
-              //  CameraMove();
+                CameraMove();
             }
         }
 
@@ -73,11 +73,10 @@ namespace VR
           var direction = transform.InverseTransformVector(_camera.transform.forward);
           direction.y = 0;
           direction = direction.normalized;
-          if (MoveIsAllowed())
-          {
+       
               xrPlayer.Translate(direction * speed * Time.deltaTime, Space.World);
               CameraMove();
-          }
+         
         }
         public void ThumbLeftMove()
         {
@@ -108,11 +107,10 @@ namespace VR
             var direction = transform.InverseTransformVector(-_camera.transform.forward);
             direction.y = 0;
             direction = direction.normalized;
-            if (MoveIsAllowed())
-            {
+          
                 xrPlayer.Translate(direction * speed * Time.deltaTime, Space.World);
                 CameraMove();
-            }
+            
            // xrPlayer.Translate(direction * speed * Time.deltaTime, Space.World);
         }
 
@@ -155,7 +153,7 @@ namespace VR
                         Vector3 collisionPoint = other.ClosestPoint(transform.position);
                         Vector3 dir = (collisionPoint - xrPlayer.position).normalized;
                         dir.y = 0;
-                        if (MoveIsAllowed()) StartCoroutine(TeleportToPoint(dir));
+                        StartCoroutine(TeleportToPoint(dir));
                     }
                 }
             }

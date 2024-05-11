@@ -4,6 +4,7 @@ using FishNet.Transporting;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using LevelSystem;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,6 +13,9 @@ public class WaitingRoomManager : MonoBehaviour
 {
     [SerializeField] Camera instructorCamera;
     [SerializeField] Button lvlButton;
+    [SerializeField] private LevelManager levelManager;
+    [SerializeField] private GameObject ui;
+    [SerializeField] private GameObject buttons;
 
     private void Start()
     {
@@ -19,13 +23,17 @@ public class WaitingRoomManager : MonoBehaviour
 
         if (isServer)
         {
-            instructorCamera.gameObject.SetActive(true);
             InstanceFinder.ServerManager.StartConnection();
-            lvlButton.gameObject.SetActive(true);
+            
+            instructorCamera.gameObject.SetActive(true);
+            instructorCamera = Camera.main;
+           // lvlButton.gameObject.SetActive(true);
+           ui.SetActive(true);
         }
         else
         {
-            lvlButton.gameObject.SetActive(false);
+            ui.SetActive(false);
+           // lvlButton.gameObject.SetActive(false);
 
             //если клиента тестить в юнити без сервера (всё ниже закомментить)
             //InstanceFinder.ServerManager.StartConnection();
@@ -33,7 +41,8 @@ public class WaitingRoomManager : MonoBehaviour
 
             //тут можно показать заставку, пока грузится
 
-            var ip = PlayerPrefs.GetString("IpAddress");
+           // var ip = PlayerPrefs.GetString("IpAddress");
+           var ip = "127.0.0.1";
             if (string.IsNullOrEmpty(ip))
             {
                 LoadSettingsScene();
@@ -46,6 +55,7 @@ public class WaitingRoomManager : MonoBehaviour
 
     private void OnEnable()
     {
+        Debug.Log("In WR:" + NetworkConfigProvider.Instance!=null);
         if (!NetworkConfigProvider.Instance.Config.IsServer)
         {
             var client = InstanceFinder.ClientManager;
@@ -72,6 +82,7 @@ public class WaitingRoomManager : MonoBehaviour
         if (args.ConnectionState == LocalConnectionState.Started)
         {
             //тут можно убрать заставку
+            buttons.SetActive(true);
             Debug.Log("Connection success");
         }
 
@@ -94,8 +105,10 @@ public class WaitingRoomManager : MonoBehaviour
 
     public void LoadLevel()
     {
-        SceneLoadData sld = new SceneLoadData("DemoLevel");
+        SceneLoadData sld = new SceneLoadData("MainScene");
         sld.ReplaceScenes = ReplaceOption.All;
         InstanceFinder.SceneManager.LoadGlobalScenes(sld);
     }
+    
+    
 }

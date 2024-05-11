@@ -25,11 +25,13 @@ public class NetworkPlayer : NetworkBehaviour
     private void ConfigOwner()
     {
         _camera.SetActive(true);
+        //записывать в demo level камеру, здесь появляется игрок
     }
 
     private void ConfigNonOwner()
     {
         _camera.SetActive(false);
+        //переключение камеры на камеру первого лица
         if (TryGetComponent(out TestPlayerMovement pm))
         {
             pm.enabled = false;

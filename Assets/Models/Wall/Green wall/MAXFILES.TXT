@@ -1,0 +1,8 @@
+﻿D:\t$m$p$$$\Green wall.max
+D:\t$m$p$$$\MAXFILES.TXT
+G:\textures\Archmodels v063\Archmodels63_18_diff.jpg
+G:\textures\Archmodels v063\Archmodels63_18_leaf_diff.jpg
+G:\textures\Archmodels v063\Archmodels63_18_leaf_ref.jpg
+G:\textures\Archmodels v063\Archmodels63_18_leaf_bump.jpg
+G:\textures\Archmodels v063\Archmodels63_18_leaf_tral.jpg
+G:\textures\Archmodels v063\Archmodels63_18_leaf_opacity.jpg
