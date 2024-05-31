@@ -16,8 +16,7 @@ namespace Networking
         private IEnumerator LoadSceneAsync(string sceneName)
         {
             AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
-
-            // Ждем, пока сцена не загрузится
+            
             while (!asyncLoad.isDone)
             {
                 yield return null;

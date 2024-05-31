@@ -11,17 +11,6 @@ namespace Networking
         [SerializeField] private Transform rightHand;
         public Renderer[] meshToDisable;
         
-        void Start () {
-            //if (Instance == null) { 
-            //    Instance = this; 
-            //} else if(Instance == this){ 
-            //    Destroy(gameObject); 
-            //}
-            //DontDestroyOnLoad(gameObject);
-            //Init();
-        }
-       
-
         private void Init()
         {
             //if (IsOwner)
@@ -35,9 +24,9 @@ namespace Networking
                 rightHand.position = RigReference.Singleton.rightHand.position;
                 rightHand.rotation = RigReference.Singleton.rightHand.rotation;
 
-               // GetComponent<RigReference>().gameObject.SetActive(false); //видимо при запуске сцены надо снова вклчючать объект
+               // GetComponent<RigReference>().gameObject.SetActive(false); 
             }
         }
     }
-    // Сделать менеджер DOL с синглтон на network manager и xr origin, unload scene, asunc, создавать самой игрока и ntw mfnager  в ddol
+  
 }

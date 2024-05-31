@@ -6,8 +6,8 @@ namespace TileMapGeneration
     [System.Serializable] //а зачем надо это...
     public class Tile
     {
-        [SerializeField] private GameObject tilePrefab; // префабы для определенного типа тайла - тут не Лист скорее всего, а один префаб
-        [SerializeField] private TileType type = TileType.None; // тип тайла
+        [SerializeField] private GameObject tilePrefab; 
+        [SerializeField] private TileType type = TileType.None; 
         public Vector2Int position;
         public Map map;
         

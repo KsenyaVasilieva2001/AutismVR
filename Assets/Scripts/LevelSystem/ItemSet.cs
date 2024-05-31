@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using VR;
 
 namespace LevelSystem
 {
@@ -7,6 +8,6 @@ namespace LevelSystem
     public class ItemSet
     {
         public string setName;
-        public List<GameObject> items;
+        public List<Pickable> items;
     }
 }

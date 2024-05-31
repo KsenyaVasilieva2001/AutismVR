@@ -16,7 +16,6 @@ namespace VR
         private void Start()
         {
             timerStart = total;
-            //  timerText.text = timerStart.ToString("F2");
         }
 
         private void Update()
@@ -40,7 +39,5 @@ namespace VR
         {
             timeQuestStart += Time.deltaTime;
         }
-        
-        //объединить в метод PlayTimer()
     }
 }

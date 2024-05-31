@@ -38,20 +38,22 @@ namespace HelperSystem
                 level => level.name.Equals("LevelFindObjects")).ToList()[0];
             if (levelManager.GetLevelId() == levelFindObjects.GetLevelIndex())
             {
-                pickedInstance = Instantiate(itemsToPick[0], slot.position, Quaternion.identity);
+                
+               /* pickedInstance = Instantiate(itemsToPick[0], slot.position, Quaternion.identity);
                // Pick(itemsToPick[0]);
                itemsToPick[0] = pickedInstance;
                Pick(pickedInstance);
+               */
             }
           
         }
+        
         
         public void Pick(Pickable item)
         {
             _pickedItem = item;
             item.Rb.isKinematic = true;
             item.transform.SetParent(slot, worldPositionStays: true);
-            item.BeingPick();
         }
 
 
@@ -63,6 +65,7 @@ namespace HelperSystem
            // item.GetComponent<Collider>().isTrigger = true;
             //item.Rb.AddForce(item.transform.forward * 2, ForceMode.VelocityChange);
         }
+        
 
         public List<Pickable> GetItems()
         {

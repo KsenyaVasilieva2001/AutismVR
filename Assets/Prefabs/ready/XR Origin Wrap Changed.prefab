@@ -480,8 +480,6 @@ GameObject:
   - component: {fileID: 1914152942954939411}
   - component: {fileID: 1606760399348439396}
   - component: {fileID: 1606760399348439399}
-  - component: {fileID: 5876915916970078864}
-  - component: {fileID: 1606760398962397784}
   m_Layer: 0
   m_Name: left_thumb_tip
   m_TagString: Finger
@@ -533,35 +531,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &5876915916970078864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876708074461992881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed8e662fdfa9489e8705d8d4a3ab2494, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xrPlayer: {fileID: 1897246418793216430}
-  _timer: {fileID: 0}
-  leftHand: {fileID: 0}
-  rightHand: {fileID: 0}
---- !u!114 &1606760398962397784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876708074461992881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 707a708cd5c345bdbc97c9646619e164, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LevelGesture: {fileID: 0}
 --- !u!1 &923913327208901730
 GameObject:
   m_ObjectHideFlags: 0
@@ -1851,8 +1820,6 @@ GameObject:
   - component: {fileID: 6414079621298791788}
   - component: {fileID: 234679142600782572}
   - component: {fileID: 8241292849302342849}
-  - component: {fileID: 234679142600782573}
-  - component: {fileID: 1606760398250444096}
   m_Layer: 0
   m_Name: right_index_tip
   m_TagString: Finger
@@ -1904,35 +1871,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &234679142600782573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2622724560226813951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed8e662fdfa9489e8705d8d4a3ab2494, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xrPlayer: {fileID: 1897246418793216430}
-  _timer: {fileID: 0}
-  leftHand: {fileID: 0}
-  rightHand: {fileID: 0}
---- !u!114 &1606760398250444096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2622724560226813951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 707a708cd5c345bdbc97c9646619e164, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LevelGesture: {fileID: 0}
 --- !u!1 &2804699768509228081
 GameObject:
   m_ObjectHideFlags: 0
@@ -2300,8 +2238,6 @@ GameObject:
   - component: {fileID: 7514130440856928976}
   - component: {fileID: 8241292850497340246}
   - component: {fileID: 8241292850497340247}
-  - component: {fileID: 4789929406767035354}
-  - component: {fileID: 1606760397785269765}
   m_Layer: 0
   m_Name: left_index_tip
   m_TagString: Finger
@@ -2353,35 +2289,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &4789929406767035354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4692988278799851315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed8e662fdfa9489e8705d8d4a3ab2494, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xrPlayer: {fileID: 1897246418793216430}
-  _timer: {fileID: 0}
-  leftHand: {fileID: 0}
-  rightHand: {fileID: 0}
---- !u!114 &1606760397785269765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4692988278799851315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 707a708cd5c345bdbc97c9646619e164, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LevelGesture: {fileID: 0}
 --- !u!1 &4719999102774897271
 GameObject:
   m_ObjectHideFlags: 0
@@ -2697,8 +2604,6 @@ GameObject:
   - component: {fileID: 7331463285349931072}
   - component: {fileID: 5950897238906401370}
   - component: {fileID: 8241292850049553073}
-  - component: {fileID: 5427171037902693607}
-  - component: {fileID: 6941259047652587427}
   m_Layer: 0
   m_Name: right_thumb_tip
   m_TagString: Finger
@@ -2750,35 +2655,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!114 &5427171037902693607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5427171037902693606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed8e662fdfa9489e8705d8d4a3ab2494, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xrPlayer: {fileID: 1897246418793216430}
-  _timer: {fileID: 0}
-  leftHand: {fileID: 0}
-  rightHand: {fileID: 0}
---- !u!114 &6941259047652587427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5427171037902693606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 707a708cd5c345bdbc97c9646619e164, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LevelGesture: {fileID: 0}
 --- !u!1 &5746964441527462056
 GameObject:
   m_ObjectHideFlags: 0

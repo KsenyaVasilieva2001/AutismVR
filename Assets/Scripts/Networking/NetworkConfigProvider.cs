@@ -23,20 +23,4 @@ public class NetworkConfigProvider : MonoBehaviour
 
     public NetworkConfig Config => networkConfig;
 
-    void Awake()
-    {
-        /*
-        if (Instance != null)
-        {
-            Debug.Log("Instance not null");
-            Destroy(this);
-        }
-        else
-        {
-            Debug.Log("Instance this");
-            Instance = this;
-        }
-        */
-    }
-
 }

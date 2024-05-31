@@ -24,11 +24,8 @@ public class WaitingRoomManager : MonoBehaviour
         if (isServer)
         {
             InstanceFinder.ServerManager.StartConnection();
-            
-            instructorCamera.gameObject.SetActive(true);
             instructorCamera = Camera.main;
-           // lvlButton.gameObject.SetActive(true);
-           ui.SetActive(true);
+            ui.SetActive(true);
         }
         else
         {
@@ -41,8 +38,9 @@ public class WaitingRoomManager : MonoBehaviour
 
             //тут можно показать заставку, пока грузится
 
-           // var ip = PlayerPrefs.GetString("IpAddress");
-           var ip = "127.0.0.1";
+            //var ip = PlayerPrefs.GetString("IpAddress");
+            //var ip = "192.168.0.129";
+            var ip = "127.0.0.1";
             if (string.IsNullOrEmpty(ip))
             {
                 LoadSettingsScene();

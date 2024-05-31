@@ -47,7 +47,6 @@ namespace VR
         {
             bobTimer += Time.deltaTime * bobbingSpeed;
             float bob = Mathf.Sin(bobTimer) * bobbingAmount;
-
             Vector3 newPosition = xrPlayer.position;
             newPosition.y += bob;
             xrPlayer.position = newPosition;
@@ -146,14 +145,17 @@ namespace VR
         {
             if (GetComponent<MovementController>().enabled)
             {
-                if (other.gameObject.CompareTag("Finger"))
+                if (!other.gameObject.GetComponent<Pickable>())
                 {
-                    if (heldObject == null)
+                    if (other.gameObject.CompareTag("Finger"))
                     {
-                        Vector3 collisionPoint = other.ClosestPoint(transform.position);
-                        Vector3 dir = (collisionPoint - xrPlayer.position).normalized;
-                        dir.y = 0;
-                        StartCoroutine(TeleportToPoint(dir));
+                        if (heldObject == null)
+                        {
+                            Vector3 collisionPoint = other.ClosestPoint(transform.position);
+                            Vector3 dir = (collisionPoint - xrPlayer.position).normalized;
+                            dir.y = 0;
+                            StartCoroutine(TeleportToPoint(dir));
+                        }
                     }
                 }
             }

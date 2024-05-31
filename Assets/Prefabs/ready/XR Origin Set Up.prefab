@@ -1120,6 +1120,7 @@ MonoBehaviour:
   _addedNetworkObject: {fileID: 695003639630793959, guid: a36ece36290460e43b390fade3c138e5, type: 3}
   _networkObjectCache: {fileID: 0}
   _camera: {fileID: 6075914359359915951}
+  instructorCamera: {fileID: 0}
 --- !u!114 &117829774507258130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1132,6 +1133,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4345878190bebd4caedff06c1eb5d2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  poses: {fileID: 0}
+  movementSystem: {fileID: 0}
+  fingers: []
 --- !u!1 &269238698824911035
 GameObject:
   m_ObjectHideFlags: 0
@@ -7905,6 +7909,7 @@ GameObject:
   - component: {fileID: 831093482}
   - component: {fileID: 5170875583798333725}
   - component: {fileID: 680325589}
+  - component: {fileID: 7502131828931919669}
   m_Layer: 0
   m_Name: left_thumb_tip
   m_TagString: Finger
@@ -7985,6 +7990,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelGesture: {fileID: 0}
+--- !u!114 &7502131828931919669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902468788484011068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97a64937ca94afda57e410e2ec19348, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSystem: {fileID: 1040431545207396365}
 --- !u!1 &1916237404026664050
 GameObject:
   m_ObjectHideFlags: 0
@@ -13645,6 +13663,7 @@ GameObject:
   - component: {fileID: 7211010943780613964}
   - component: {fileID: 1517118780222001504}
   - component: {fileID: 1933534925}
+  - component: {fileID: 7921174893216355987}
   m_Layer: 0
   m_Name: right_index_tip
   m_TagString: Finger
@@ -13725,6 +13744,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelGesture: {fileID: 0}
+--- !u!114 &7921174893216355987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3614585131540309106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97a64937ca94afda57e410e2ec19348, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSystem: {fileID: 1040431545207396365}
 --- !u!1 &3617100854189611888
 GameObject:
   m_ObjectHideFlags: 0
@@ -23107,6 +23139,7 @@ GameObject:
   - component: {fileID: 7211010942446936282}
   - component: {fileID: 6067865453392728151}
   - component: {fileID: 1458922888}
+  - component: {fileID: 8115525657528876750}
   m_Layer: 0
   m_Name: left_index_tip
   m_TagString: Finger
@@ -23187,6 +23220,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelGesture: {fileID: 0}
+--- !u!114 &8115525657528876750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6299563808796097726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97a64937ca94afda57e410e2ec19348, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSystem: {fileID: 1040431545207396365}
 --- !u!1 &6322375932740295399
 GameObject:
   m_ObjectHideFlags: 0
@@ -25225,6 +25271,7 @@ GameObject:
   - component: {fileID: 7211010942362382652}
   - component: {fileID: 6709645859675899754}
   - component: {fileID: 8509571571106518062}
+  - component: {fileID: 3541786266564537642}
   m_Layer: 0
   m_Name: right_thumb_tip
   m_TagString: Finger
@@ -25305,6 +25352,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelGesture: {fileID: 0}
+--- !u!114 &3541786266564537642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6709645859675899755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97a64937ca94afda57e410e2ec19348, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSystem: {fileID: 1040431545207396365}
 --- !u!1 &6711099476056767825
 GameObject:
   m_ObjectHideFlags: 0

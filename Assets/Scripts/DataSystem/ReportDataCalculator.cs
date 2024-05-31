@@ -14,17 +14,17 @@ using Timer = VR.Timer;
 
 namespace DataSystem
 {
-    public class ReportDataCalculator: MonoBehaviour
+    public class ReportDataCalculator : MonoBehaviour
     {
         private const string PlayerPrefsPath = "Path";
         private static Dictionary<Zone, int> _zones;
         [SerializeField] private PathTracker tracker;
         [SerializeField] private GridSystem gridSystem;
         [SerializeField] private Timer timer;
-        
+
         private Dictionary<string, float> _referenceValues;
         private Dictionary<string, float> _currValues;
-        private Dictionary<float,string> _values; //процент curr values от reference values
+        private Dictionary<float, string> _values; //процент curr values от reference values
         private List<double> _weights;
         private int Result { get; set; }
         public bool IsRated { get; set; }
@@ -34,24 +34,24 @@ namespace DataSystem
         public List<Criteria> LoadCriteriaXML()
         {
             XmlSerializer serializer = new XmlSerializer(typeof(CriteriaList), new XmlRootAttribute("criterias"));
-            var xmlFile = (TextAsset)Resources.Load("Criteria", typeof(TextAsset));
+            var xmlFile = (TextAsset) Resources.Load("Criteria", typeof(TextAsset));
             StringReader reader = new StringReader(xmlFile.text);
-            CriteriaList criteriaList = (CriteriaList)serializer.Deserialize(reader);
+            CriteriaList criteriaList = (CriteriaList) serializer.Deserialize(reader);
             reader.Close();
             return criteriaList.Criteria.ToList();
         }
-        
+
         //XmlDocument doc = new XmlDocument();
         //TextAsset myXmlAsset = Resources.Load<TextAsset>("myXml");
         //doc.LoadXml(myXmlAsset.text);
-        
-        
+
+
         public List<float> GetValues()
         {
             return new List<float>();
         }
-        
-        
+
+
         public static ReportDataCalculator Instance;
 
         private void Awake()
@@ -65,23 +65,23 @@ namespace DataSystem
                 Instance = this;
                 DontDestroyOnLoad(gameObject);
             }
-            
+
             gridSystem = FindObjectOfType<GridSystem>();
             timer = FindObjectOfType<Timer>();
             tracker = FindObjectOfType<PathTracker>();
         }
-        
+
         void Start()
         {
-            if (SceneManager.GetActiveScene().name == "MenuScene")//исправить название
+            if (SceneManager.GetActiveScene().name == "MenuScene") //исправить название
             {
                 _zones = gridSystem.zones.ToDictionary(x => x, x => 0);
             }
 
             //УБРАТЬ ЭТО С СТАРТА ПОТОМ
-            
-          //  SaveToTextFile(Settings.REPORT_FILE_NAME);
-            
+
+            //  SaveToTextFile(Settings.REPORT_FILE_NAME);
+
             /*
             string savedData = LoadTextFile(path);
             Debug.Log(savedData);
@@ -100,7 +100,7 @@ namespace DataSystem
                 .Select(kvp => kvp.Key);
             return zonesList.ToList();
         }
-        
+
         public static List<Zone> GetUnVisitedZones()
         {
             IEnumerable<Zone> zonesList = _zones.Where(kvp => kvp.Value == 0)
@@ -122,12 +122,12 @@ namespace DataSystem
         {
             return Math.Round(timer.total - timer.timerStart - timer.timerMoveStart, 2);
         }
-        
+
         public void SaveToJsonFile()
         {
             string json = JsonUtility.ToJson(GetReportData());
             PlayerPrefs.SetString(PlayerPrefsPath, json);
-            
+
         }
 
         public ReportData GetReportData()
@@ -135,7 +135,7 @@ namespace DataSystem
             ReportData reportData = new ReportData
             {
                 Zones = _zones,
-                PathLength = tracker.GetPathLength(),VisitedZones = GetVisitedZones(),
+                PathLength = tracker.GetPathLength(), VisitedZones = GetVisitedZones(),
                 VisitedZonesCount = GetVisitedZonesCount(),
                 StateTime = GetStateTime(),
                 MoveTime = GetMoveTime()
@@ -148,9 +148,9 @@ namespace DataSystem
         {
             ReferenceData refData = new ReferenceData();
             PropertyInfo[] properties = typeof(ReportData).GetProperties();
-            foreach (PropertyInfo property in properties) 
-            { 
-                if (typeof(ReferenceData).GetProperty(property.ToString())!=null)
+            foreach (PropertyInfo property in properties)
+            {
+                if (typeof(ReferenceData).GetProperty(property.ToString()) != null)
                 {
                     var propertyList = dataList.Select(data => (double) property.GetValue(data)).ToList();
                     var checkedData = RemoveInaccuracy((List<double>) propertyList);
@@ -158,10 +158,11 @@ namespace DataSystem
                 }
                 //Console.WriteLine($"{property.Name}: {value}");
             }
+
             return refData;
         }
-        
-        
+
+
         public static List<double> RemoveInaccuracy(List<double> list)
         {
             if (list.Count <= 3)
@@ -187,10 +188,12 @@ namespace DataSystem
                     {
                         tauCritical = 3.0f;
                     }
+
                     if ((tau1 <= tauCritical) && (tauN <= tauCritical))
                     {
                         return list;
                     }
+
                     if (tau1 >= tauN)
                     {
                         int minIndex = list.IndexOf(min);
@@ -204,7 +207,7 @@ namespace DataSystem
                 }
             }
         }
-        
+
         public static double StdDeviation(double[] data, bool isShifted = false)
         {
             var average = data.Average();
@@ -214,14 +217,16 @@ namespace DataSystem
                 double s = x - average;
                 squaresSum += s * s;
             }
+
             int n = data.Length - 1;
             if (isShifted)
             {
                 n++;
             }
+
             return Math.Sqrt(squaresSum / n);
         }
-        
+
         public void SaveToTextFile()
         {
             var ReportData = GetReportData();
@@ -230,8 +235,63 @@ namespace DataSystem
             Debug.Log(path);
             if (!File.Exists(path))
             {
-                File.WriteAllText(path,JsonConvert.SerializeObject(GetReportData()));
+                File.WriteAllText(path, JsonConvert.SerializeObject(GetReportData()));
             }
         }
+
+        public string CompareLevelTimeData()
+        {
+            /*
+            if (!File.Exists(filePath))
+            {
+                return "No data to compare.";
+            }
+
+            JSONNode data = JSON.Parse(File.ReadAllText(filePath));
+            JSONArray times = data["timeLevel"];
+
+            if (times.Count < 2)
+            {
+                return "No data to compare.";
+            }
+
+            float lastTime = times[times.Count - 1]["time"].AsFloat;
+            float prevTime = times[times.Count - 2]["time"].AsFloat;
+
+            if (lastTime < prevTime)
+            {
+                return $"Time has improved by {(int)(prevTime - lastTime)} seconds.";
+            }
+            else if (lastTime > prevTime)
+            {
+                return $"Time has worsened by {(int)(lastTime - prevTime)} seconds.";
+            }
+            else
+            {
+                return "Time has not changed.";
+            }
+            */
+            return "";
+        }
+
+        /*
+        public float CalculateCriterion(string criterionName)
+        {
+            float total = 0;
+            float weightSum = 0;
+            foreach (Parameter parameter in data.parameters)
+            {
+                if (parameter.name.StartsWith(criterionName))
+                {
+                    float referenceValue = referenceValues[parameter.name];
+                    float value = Mathf.Clamp01(parameter.value / referenceValue);
+                    total += value * parameter.weight;
+                    weightSum += parameter.weight;
+                }
+            }
+
+            return total / weightSum * 4;
+        }
+        */
     }
 }

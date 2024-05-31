@@ -11,7 +11,6 @@ using SceneManager = UnityEngine.SceneManagement.SceneManager;
 
 namespace LevelSystem
 {
-    //вынести логику спавнинга в другой класс
     public class LevelManager : MonoBehaviour
     {
         [SerializeField] private List<Level> levels;
@@ -28,47 +27,38 @@ namespace LevelSystem
         
         private void Awake()
         {
-            //Этот блок для проверки - не удалять!
-            
-            /*
-            _levelId = 0;
+            //Testing block
+            _levelId = 2;
             _currentLevel = levels[_levelId];
             _currentLevel.Init();
-            */
+            _sceneIsLoaded = true;
+            Debug.Log(_currentLevel);
+            //Testing block
             
-            //Этот блок для проверки - не удалять!
-            
-           
             for (int i = 1; i < levels.Count; i++)
             {
                 levels[i].IsLocked = true;
             }
-            
             
             ChangeLevel(0);
         }
 
         private void Update()
         {
-            //тут если что то не заработает вернуть на !=
             if (SceneManager.GetActiveScene().name == "MenuScene" && _sceneIsLoaded)
             {
+                Debug.Log("Why i am here");
                 if (_currentLevel.Pass())
                 {
-                    Debug.Log("Why i am here");
                     if (_currentLevel.LevelIndex == 0)
                     {
                          levels.ForEach(level => level.IsLocked = false);
                     }
 
                     levels[_levelId].IsPassed = true;
-
-                    //_currentLevel.LoadWaitingRoomScene();
                     demoLevelManager.LoadWaitingRoom();
                     
                 }
-
-                
             }
 
             if (AllIsPassed())
@@ -91,7 +81,6 @@ namespace LevelSystem
         {
             return _currentLevel;
         }
-
         
         public List<Level> GetLevels()
         {
@@ -99,31 +88,15 @@ namespace LevelSystem
         }
         public void LoadLevel()
         {
-          //  StartCoroutine(LoadSceneAsync("MainScene"));
-          //  SceneManager.LoadScene("MainScene"); //А ЭТО ЗАЧЕМ
-          
-          uiManager.ui.SetActive(false);
+            uiManager.ui.SetActive(false);
           LoadLevelScene();
-          _currentLevel = levels[_levelId];
-         // _currentLevel.Init();
+          //_currentLevel = levels[_levelId];
+          _currentLevel = levels[2];
+          _currentLevel.Init();
           _sceneIsLoaded = true;
+           Debug.Log(_currentLevel);
         }
         
-        private IEnumerator LoadSceneAsync(string sceneName)
-        {
-            AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
-
-            // Ждем, пока сцена не загрузится
-            while (!asyncLoad.isDone)
-            {
-                yield return null;
-            }
-            _currentLevel = levels[_levelId];
-            _currentLevel.Init();
-            _sceneIsLoaded = true;
-            Debug.Log("Scene '" + sceneName + "' fully loaded.");
-            Debug.Log(_currentLevel);
-        }
        
         
         public void ChangeLevel(int change)
@@ -131,7 +104,6 @@ namespace LevelSystem
             _levelId += change;
             if (_levelId < 0) _levelId = levels.Count - 1;
             else if (_levelId > levels.Count - 1) _levelId = 0;
-            
             if(uiManager != null) uiManager.DisplayLevel(levels[_levelId]);
         }
         

@@ -56,27 +56,6 @@ namespace VR
             lineRenderer.SetPositions(_positionList.ToArray());
         }
 
-        /*
-        void Save()
-        {
-            SavePath savePath = new SavePath
-            {
-                _positionList = _positionList,
-                pathLength = GetPathLength()
-            };
-            string json = JsonUtility.ToJson(savePath);
-            PlayerPrefs.SetString(PlayerPrefsPath, json);
-            
-        }
-
-        void Load()
-        {
-            string json = PlayerPrefs.GetString(PlayerPrefsPath);
-            SavePath savePath = JsonUtility.FromJson<SavePath>(json);
-            _positionList = savePath._positionList;
-            UpdateVisual();
-        }
-        */
 
         public float GetPathLength()
         {

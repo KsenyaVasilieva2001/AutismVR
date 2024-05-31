@@ -10,9 +10,7 @@ namespace VR
         public Grid grid;
         [SerializeField] private float cellSize;
         public List<Zone> zones;
-        
-        
-        //OnCollisionEnter : GetXY Set Value
+
         private void Awake()
         {
             terrain = FindObjectOfType<Terrain>();

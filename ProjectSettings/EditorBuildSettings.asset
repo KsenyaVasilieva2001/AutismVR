@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainScenes/Multiplayer/WaitingRoom.unity
     guid: 832ae0af41d9ec047bd3ebe99e1a50fb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainScenes/Multiplayer/ConnectionSettings.unity
     guid: 7c4318e7af04ece4abf7520609c2f96d
   - enabled: 1

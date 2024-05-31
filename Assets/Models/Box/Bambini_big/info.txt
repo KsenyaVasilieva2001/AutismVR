@@ -1,0 +1,11 @@
+Name: Bambini_big_corona
+Version: 2015
+Preview: Yes
+Units: Millimeters
+Dimension: 1344.3 x 599.83 x 827.6
+Polys: 278 962
+XForm: Yes
+Box Trick: No
+Model Parts: 33
+Render: Corona
+Formats: 3Ds Max 2015, FBX

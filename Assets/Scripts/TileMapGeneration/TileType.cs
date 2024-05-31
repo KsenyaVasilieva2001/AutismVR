@@ -1,16 +1,16 @@
 ﻿namespace TileMapGeneration
 {
-    public enum TileType // типы игровых тайлов - мне нужно наследование??? 
+    public enum TileType 
     {
         RoadStraight,
         RoadCorner,
         RoadFourSides,
         RoadThreeSides,
         RoadEnd,
-        Flora, //дерево или просто трава
+        Flora, 
         Attraction,
-        Bench, //скамья, может быть только вдоль дороги
+        Bench, 
         Houses,
-        None // неопределён
+        None
     }
 }

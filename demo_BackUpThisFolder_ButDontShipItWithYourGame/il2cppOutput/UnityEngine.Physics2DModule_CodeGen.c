@@ -186,7 +186,13 @@ extern void CircleCollider2D_get_radius_m767A7E871FC706A078E903C3A96780884F84444
 extern void BoxCollider2D_get_size_mBB657ADFC58A79CDFDB7478956BBD9032E41D3D1 (void);
 // 0x00000057 System.Void UnityEngine.BoxCollider2D::get_size_Injected(UnityEngine.Vector2&)
 extern void BoxCollider2D_get_size_Injected_m6F9DD21D59E2B6D2B202DA657590DDA51A5B3EBF (void);
-static Il2CppMethodPointer s_methodPointers[87] = 
+// 0x00000058 System.Void UnityEngine.PolygonCollider2D::set_pathCount(System.Int32)
+extern void PolygonCollider2D_set_pathCount_m088370F58AC70DE6D28029AB0F2443D6A9B87721 (void);
+// 0x00000059 System.Void UnityEngine.PolygonCollider2D::SetPath(System.Int32,UnityEngine.Vector2[])
+extern void PolygonCollider2D_SetPath_mDF03B6FDAE81E25C985F9BA6D372D949A6D9A1C1 (void);
+// 0x0000005A System.Void UnityEngine.PolygonCollider2D::SetPath_Internal(System.Int32,UnityEngine.Vector2[])
+extern void PolygonCollider2D_SetPath_Internal_m868D93E9467A88558DD0E5D66797186B9FA82C4D (void);
+static Il2CppMethodPointer s_methodPointers[90] = 
 {
 	PhysicsScene2D_ToString_mACA22EF575F7544176360B16D431F2BB1DEBB307,
 	PhysicsScene2D_op_Inequality_m87F2AA2476AE980B057FE5A31E2432A673107C17,
@@ -275,6 +281,9 @@ static Il2CppMethodPointer s_methodPointers[87] =
 	CircleCollider2D_get_radius_m767A7E871FC706A078E903C3A96780884F844444,
 	BoxCollider2D_get_size_mBB657ADFC58A79CDFDB7478956BBD9032E41D3D1,
 	BoxCollider2D_get_size_Injected_m6F9DD21D59E2B6D2B202DA657590DDA51A5B3EBF,
+	PolygonCollider2D_set_pathCount_m088370F58AC70DE6D28029AB0F2443D6A9B87721,
+	PolygonCollider2D_SetPath_mDF03B6FDAE81E25C985F9BA6D372D949A6D9A1C1,
+	PolygonCollider2D_SetPath_Internal_m868D93E9467A88558DD0E5D66797186B9FA82C4D,
 };
 extern void PhysicsScene2D_ToString_mACA22EF575F7544176360B16D431F2BB1DEBB307_AdjustorThunk (void);
 extern void PhysicsScene2D_GetHashCode_mD45B3437D088C66A35AE20066AD632D1D0858B1E_AdjustorThunk (void);
@@ -317,7 +326,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[19] =
 	{ 0x06000040, RaycastHit2D_get_distance_mD0FE1482E2768CF587AFB65488459697EAB64613_AdjustorThunk },
 	{ 0x06000041, RaycastHit2D_get_collider_mB56DFCD16B708852EEBDBB490BC8665DBF7487FD_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[87] = 
+static const int32_t s_InvokerIndices[90] = 
 {
 	9883,
 	13360,
@@ -406,12 +415,15 @@ static const int32_t s_InvokerIndices[87] =
 	9968,
 	10049,
 	7805,
+	7913,
+	4110,
+	4110,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_Physics2DModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_Physics2DModule_CodeGenModule = 
 {
 	"UnityEngine.Physics2DModule.dll",
-	87,
+	90,
 	s_methodPointers,
 	19,
 	s_adjustorThunks,

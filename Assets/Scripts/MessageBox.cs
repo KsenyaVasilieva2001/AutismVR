@@ -15,14 +15,8 @@ public class MessageBox : MonoBehaviour
       _messageText = GetComponentInChildren<TextMeshPro>();
    }
 
-   private void Start()
-   {
-     // messageObj.SetActive(false);
-   }
-
    public void ShowMessage(string text)
    {
-     // messageObj.SetActive(true);
       _messageText.text = text;
    }
 }

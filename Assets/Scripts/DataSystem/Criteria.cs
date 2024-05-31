@@ -39,43 +39,6 @@ namespace DataSystem
         [XmlElement("value")]
         public int ScoreValue { get; set; }
     }
-    
-    
-    /*
-    [System.Serializable]
-    [XmlRoot("criterias")]
-    public class CriteriaList
-    {
-        [XmlArrayItem("criteria")]
-        public Criteria[] Criteria { get; set; }
-    }
-    
-    
-    [System.Serializable]
-    public class Criteria
-    {
-        [XmlElement("name")] public string Name { get; set; }
-
-        [XmlElement("rated")] public bool IsRated { get; set; }
-
-        [XmlArray("params")]
-        [XmlArrayItem("param")]
-        public string[] ParamsName { get; set; }
-        
-        [XmlArray("scores")]
-        [XmlArrayItem("score")]
-        public CriteriaScore[] CriteriaScores { get; set; }
-    }
-
-    [System.Serializable]
-    public class CriteriaScore
-    {
-        [XmlElement("description")] public string Description { get; set; }
-
-        [XmlElement("score")] public int ScoreValue { get; set; }
-    }
-    */
-    
 }
 
 /*

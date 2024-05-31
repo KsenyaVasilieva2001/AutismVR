@@ -9,6 +9,7 @@ TagManager:
   - Text
   - TextPro
   - TargetBox
+  - InstructorCamera
   layers:
   - Default
   - TransparentFX

@@ -18,6 +18,9 @@ namespace LevelSystem
         [SerializeField] private GameObject helper;
         [SerializeField] private GameObject player;
         [SerializeField] private GameObject cubeDetector;
+        
+        double startTime = 0;
+        private int attemptCount = 0;
 
         public AudioSource audioSource;
         public AudioClip[] gestureAudios;
@@ -52,30 +55,6 @@ namespace LevelSystem
             Debug.Log(poses[0].name);
         }
 
-        /*
-        private void PassMove()
-        {
-            float distance = Vector3.Distance(player.transform.position, helper.transform.position);
-
-            //if (distance <= activationDistance && !isAudioPlaying)
-            if (distance <= activationDistance)
-            {
-              //  StartCoroutine(PlayAudio());
-                cubeDetector.GetComponent<Renderer>().sharedMaterial.color = Color.yellow;
-                player.GetComponentInChildren<MovementController>().enabled = false;
-                ShowNextGesture();
-            }
-            /*
-            else if (distance > activationDistance && isAudioPlaying)
-            {
-                audioSource.Stop();
-                isAudioPlaying = false;
-            }
-            
-        }
-        */
-
-
         IEnumerator PlayAudio()
         {
             audioSource.Play();
@@ -100,13 +79,6 @@ namespace LevelSystem
         
         public void PoseCheck()
         {
-            
-            /*
-            if (!isResponding)
-            {
-                isResponding = true;
-            }
-            */
             StartCoroutine(RespondToGesture());
         }
         
@@ -130,18 +102,14 @@ namespace LevelSystem
                     isPassed = true;
                 }
             }
-            //poseIsInvoke = false;
             if (!poseIsPassed)
             {
-              //  cubeDetector.GetComponent<Renderer>().sharedMaterial.color = Color.red;
+                cubeDetector.GetComponent<Renderer>().sharedMaterial.color = Color.red;
             }
-            //poseIsInvoke = false;
 
-            /*
-            responseTime = Time.time - startTime;
+            var responseTime = Time.time - startTime;
             attemptCount++;
             isResponding = false;
-            */
         }
 
         public void HandleHandStartInvoked()

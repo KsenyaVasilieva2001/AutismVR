@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 namespace LevelSystem
 {
-    public class Level : MonoBehaviour
+    public  class Level : MonoBehaviour
     {
         [SerializeField] private string levelDescription;
         [SerializeField] private Sprite levelImage;
@@ -22,15 +22,6 @@ namespace LevelSystem
         public string LevelTitle => levelTitle;
 
         public int LevelIndex => levelIndex;
-
-
-        /*
-        public int MyVariable
-        {
-            get { return myVariable; }
-            set { myVariable = value; }
-        }
-        */
 
 
         public int GetLevelIndex()
@@ -51,7 +42,6 @@ namespace LevelSystem
         {
             SceneManager.LoadScene("MenuScene"); 
         }
-        
-        //Load Scene
+ 
     }
 }

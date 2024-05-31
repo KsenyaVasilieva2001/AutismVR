@@ -14,21 +14,22 @@ namespace LevelSystem
     {
         [SerializeField] private Terrain location;
         [SerializeField] private GameObject helper;
+        private HelperMoveController helperMove;
         [SerializeField] private Pickable box;
         private Vector3 _spawnCenter;
         private float _radiusX;
         private float _radiusZ;
         
         public List<ItemSet> itemSets;
-        private List<GameObject> _items;
-        private List<Vector3> _itemsPosition;
+        private List<Pickable> _items;
+        private List<Pickable> _itemsInstances;
+        private Dictionary<Pickable, Vector3> _itemsPositionDict;
         private int _pickUpCount;
 
         private TextMeshProUGUI text;
         public void OnItemSetSelected(int index)
         {
             //здесь выбирать по кнопке
-            
             _items = itemSets[index].items;
         }
         
@@ -42,31 +43,32 @@ namespace LevelSystem
 
             FindObjectOfType<GridSystem>().enabled = false;
             FindObjectOfType<PoseDetection>().enabled = false;
+            
             OnItemSetSelected(0);
-           //text = GameObject.FindWithTag("TextPro").GetComponent<TextMeshProUGUI>();
+          
             helper.GetComponent<HelperMoveController>().enabled = true;
             helper.GetComponent<HelperGrabController>().enabled = true;
+            helper.GetComponent<HelperMoveController>().HelperPath = new Dictionary<Pickable, Vector3>();
             List<Pickable> items = new List<Pickable>();
-            items.Add(box);
-            helper.GetComponent<HelperGrabController>().SetItemsToPick(items);
+            //items.Add(box);
+            //helper.GetComponent<HelperGrabController>().SetItemsToPick(items);
             InitSpawnParams();
-            Vector3 helperInitPos = new Vector3(45, 2, 20);
+            //Vector3 helperInitPos = new Vector3(45, 2, 20);
+           Vector3 helperInitPos = new Vector3(45, 2, 20);
             SpawnItems(_items);
-            helper.GetComponent<HelperMoveController>()._minPath = GetItemPositions();
             Instantiate(helper, helperInitPos, Quaternion.identity);
         }
         
         public override bool Pass()
         {
-            Debug.Log(_items[0].GetComponent<Pickable>().IsPicked);
-            Debug.Log(_items.Count(p => p.GetComponent<Pickable>().IsPicked));
-            //text.text = _items.Count(p => p.GetComponent<Pickable>().IsPicked()).ToString();
-            return _items.All(p => p.GetComponent<Pickable>().IsPicked);
+            Debug.Log("In pass:" + _itemsInstances.Count(p => p.GetComponent<Pickable>().GetIsPicked()));
+            return _itemsInstances.All(p => p.GetComponent<Pickable>().GetIsPicked());
         }
         
-        private void SpawnItems(List<GameObject> itemList)
+        private void SpawnItems(List<Pickable> itemList)
         {
-            _itemsPosition = new List<Vector3>();
+            _itemsPositionDict = new Dictionary<Pickable, Vector3>();
+            _itemsInstances = new List<Pickable>();
             foreach (var item in itemList)
             {
                 bool isSpawn = false;
@@ -78,8 +80,10 @@ namespace LevelSystem
                     colliders.Remove(GetComponent<TerrainCollider>());
                     if (colliders.All(obj => obj.GetComponent<Zone>()))
                     {
-                        Instantiate(item, pos, Quaternion.identity);
-                        _itemsPosition.Add(new Vector3(pos.x, 0, pos.z));
+                        var item_instance = Instantiate(item, pos, Quaternion.identity);
+                        
+                        _itemsPositionDict[item_instance] = new Vector3(pos.x, 0, pos.z);
+                        _itemsInstances.Add(item_instance);
                         isSpawn = true;
                     }
                 }
@@ -105,9 +109,9 @@ namespace LevelSystem
             _radiusZ = .75f * sizeZ / 2;
         }
 
-        public List<Vector3> GetItemPositions()
+        public Dictionary<Pickable, Vector3> GetItemPositions()
         {
-            return _itemsPosition;
+            return _itemsPositionDict;
         }
 
     }

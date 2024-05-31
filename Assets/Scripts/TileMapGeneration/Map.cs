@@ -11,17 +11,16 @@ namespace TileMapGeneration
         public Tile[,] tileMatrix;
         public GameObject startTile; //где инстанциируется игрок
 
-        //еще записать места, где можно спавнить объекты для квеста
         public Vector3 startMapPos;
         //TODO: переместить эту переменную в другой класс - выбирается рандомный тайл с дорогой 
         public int size_x;
-        public int size_y; //сторона квадратной карты - сколько тайлов умещается в одну сторону
+        public int size_y; 
 
 
         void Init()
         {
             tileMatrix = new Tile[size_x, size_y];
-            for (int i = 0; i < size_x; i++) //тут ограничить, не задавать тем клеткам, где дома по бокам
+            for (int i = 0; i < size_x; i++) 
             {
                 for (int j = 0; j < size_y; j++)
                 {

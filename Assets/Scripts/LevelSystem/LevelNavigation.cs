@@ -12,8 +12,6 @@ namespace LevelSystem
         [SerializeField] private CameraController cameraTop;
         private bool _isPassed;
         
-        
-        
         public override void Init()
         {
             Debug.Log("Init!");
@@ -28,7 +26,6 @@ namespace LevelSystem
                 cameraTop.TakeScreenshot();
                 _isPassed = true;
             }
-
             return _isPassed;
         }
     }
